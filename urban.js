@@ -25,12 +25,6 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Una Vela",
-        artist: "Bad Bunny",
-        image: "badpic1111.jpg",
-        path: "BAD BUNNY - Una Velita.mp3"
-    },
-    {
         name: "BACK TO BACK",
         artist: "BRAULIO FOGON X LUIS BROWN",
         image: "fogobackPic.jpg",

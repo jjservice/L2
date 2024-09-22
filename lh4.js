@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Loca Con El Capo",
-        artist: "Darell",
+        name: "Somos Iguales",
+        artist: "Darell, The Rudeboyz",
         image: "DARELLOCAPIC.jpg",
-        path: "Darell - Loca Con El Capo.mp3"
+        path: "Darell, The Rudeboyz - Somos Iguales.mp3"
     },
 ];
 

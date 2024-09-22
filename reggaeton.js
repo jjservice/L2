@@ -31,22 +31,22 @@ let track_list = [
         path: "Darell, The Rudeboyz - Somos Iguales.mp3"
     },
     {
-        name: "Amantes y Amigos",
-        artist: "Arcangel x Sech",
-        image: "arcangelsechpicc.jpg",
-        path: "Arcangel x Sech-Amantes y Amigos.mp3"
-    },
-    {
-        name: "Loca Con El Capo",
-        artist: "Darell",
-        image: "DARELLOCAPIC.jpg",
-        path: "Darell - Loca Con El Capo.mp3"
+        name: "Bellakita",
+        artist: "Conep & Anuel AA",
+        image: "anuelconebellPic.jpg",
+        path: "Conep & Anuel AA - Bellakita.mp3"
     },
     {
         name: "Fiel",
         artist: "Wisin x  Jhay Cortez",
         image: "jhaycowisinfielpic.jpg",
         path: "Wisin x  Jhay Cortez - Fiel.mp3"
+    },
+    {
+        name: "Amantes y Amigos",
+        artist: "Arcangel x Sech",
+        image: "arcangelsechpicc.jpg",
+        path: "Arcangel x Sech-Amantes y Amigos.mp3"
     },
     {
         name: "Pierdo La Cabeza",

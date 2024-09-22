@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Somos Iguales",
-        artist: "Darell, The Rudeboyz",
-        image: "DARELLOCAPIC.jpg",
-        path: "Darell, The Rudeboyz - Somos Iguales.mp3"
+        name: "Lo Caro y Lo Bueno",
+        artist: "Chencho Corleone",
+        image: "chnchocaroybuenopic.jpg",
+        path: "Chencho Corleone - Lo Caro y Lo Bueno.mp3"
     },
     {
         name: "La Chancleta",
@@ -41,24 +41,6 @@ let track_list = [
         artist: "Christian Nodal",
         image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - Aquí Abajo.mp3"
-    },
-    {
-        name: "Drip",
-        artist: "Luar La L & Sinfonico",
-        image: "LUALLPICCC1111.jpg",
-        path: "Luar La L & Sinfonico - Drip.mp3"
-    },
-    {
-        name: "El Final",
-        artist: "Baby Rasta y Gringo",
-        image: "babygringopic2.jpg",
-        path: "Baby Rasta y Gringo - El Final.mp3"
-    },
-    {
-        name: "Lo Caro y Lo Bueno",
-        artist: "Chencho Corleone",
-        image: "chnchocaroybuenopic.jpg",
-        path: "Chencho Corleone - Lo Caro y Lo Bueno.mp3"
     },
     {
         name: "ADIVINO",
