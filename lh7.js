@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "El Final",
-        artist: "Baby Rasta y Gringo",
-        image: "babygringopic2.jpg",
-        path: "Baby Rasta y Gringo - El Final.mp3"
+        name: "Una Velita",
+        artist: "BAD BUNNY",
+        image: "badvelitaYoPic.jpg",
+        path: "BAD BUNNY - Una Velita.mp3"
     },
 ];
 
