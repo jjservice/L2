@@ -57,7 +57,7 @@ let track_list = [
     {
         name: "CON SONIDO",
         artist: "BULIN 47 X CEKY VICINY",
-        image: "CONSONIDOPIC.jpg",
+        image: "BULINCEKYPIC.jpg",
         path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
     {
