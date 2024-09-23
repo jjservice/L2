@@ -37,6 +37,12 @@ let track_list = [
         path: "BigXThaPlug _Mr.Trouble.mp3"
     },
     {
+        name: "Million Dollar Baby",
+        artist: "Tommy Richman",
+        image: "milliondollarpic.jpg",
+        path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
+    },
+    {
         name: "Whip It",
         artist: "BigXThaPlug",
         image: "BigXactivePic.jpg",

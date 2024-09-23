@@ -229,30 +229,6 @@ let track_list = [
         path: "Darell, Ñengo Flow - Rest in Peace (Official Video).mp3"
     },
     {
-        name: "Active",
-        artist: "BigXthaPlug",
-        image: "BigXactivePic.jpg",
-        path: "BigXthaPlug - Active (Official Music Video).mp3"
-    },
-    {
-        name: "Mr.Trouble",
-        artist: "BigXThaPlug",
-        image: "BIGXPICC.jpg",
-        path: "BigXThaPlug _Mr.Trouble.mp3"
-    },
-    {
-        name: "Whip It",
-        artist: "BigXThaPlug",
-        image: "BigXactivePic.jpg",
-        path: "BigXthaPlug - Whip It (Official Audio).mp3"
-    },
-    {
-        name: "Back on my Bs",
-        artist: "BigXthaPlug",
-        image: "backbspic.jpg",
-        path: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
-    },
-    {
         name: "TA TO SALDO",
         artist: "Miky Woodz ft Myke Towers",
         image: "TATOSALDOPIC.jpg",
@@ -287,12 +263,6 @@ let track_list = [
         artist: "Lapiz Conciente",
         image: "lapizPi.jpg",
         path: "Lapiz Conciente - La Música No Miente.mp3"
-    },
-    {
-        name: "Million Dollar Baby",
-        artist: "Tommy Richman",
-        image: "milliondollarpic.jpg",
-        path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
     },
     {
         name: "Respeten o Respeten",
