@@ -25,24 +25,6 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Active",
-        artist: "BigXthaPlug",
-        image: "BigXactivePic.jpg",
-        path: "BigXthaPlug - Active (Official Music Video).mp3"
-    },
-    {
-        name: "Mr.Trouble",
-        artist: "BigXThaPlug",
-        image: "BIGXPICC.jpg",
-        path: "BigXThaPlug _Mr.Trouble.mp3"
-    },
-    {
-        name: "Million Dollar Baby",
-        artist: "Tommy Richman",
-        image: "milliondollarpic.jpg",
-        path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
-    },
-    {
         name: "Whip It",
         artist: "BigXThaPlug",
         image: "BigXactivePic.jpg",
@@ -53,6 +35,30 @@ let track_list = [
         artist: "BigXthaPlug",
         image: "backbspic.jpg",
         path: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
+    },
+    {
+        name: "Million Dollar Baby",
+        artist: "Tommy Richman",
+        image: "milliondollarpic.jpg",
+        path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
+    },
+    {
+        name: "TOO FAST",
+        artist: "Future",
+        image: "futuretoofastpic.jpg",
+        path: "Future - TOO FAST.mp3"
+    },
+    {
+        name: "Active",
+        artist: "BigXthaPlug",
+        image: "BigXactivePic.jpg",
+        path: "BigXthaPlug - Active (Official Music Video).mp3"
+    },
+    {
+        name: "Mr.Trouble",
+        artist: "BigXThaPlug",
+        image: "BIGXPICC.jpg",
+        path: "BigXThaPlug _Mr.Trouble.mp3"
     },
 ];
 

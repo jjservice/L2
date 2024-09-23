@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Aquí Abajo",
-        artist: "Christian Nodal",
-        image: "chrisaquiabajopic.jpg",
-        path: "Christian Nodal - Aquí Abajo.mp3"
+        name: "TOO FAST",
+        artist: "Future",
+        image: "futuretoofastpic.jpg",
+        path: "Future - TOO FAST.mp3"
     },
 ];
 
