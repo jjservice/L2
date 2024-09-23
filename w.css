@@ -1,19 +1,18 @@
 body {
-
+    box-shadow: 2px 2px 4px darkmagenta;
     color: darkmagenta;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 20px;
     background-image: url(DANCINGGIF.gif);
     background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    height: 100dvh;
-   
+    height: 110dvh;
+    max-width: 100dvh;
+    margin: 0 auto;
     transition: background-color 0.3s ease;
     background-position: center;
-    box-shadow: 2px 4px 6px darkmagenta;
     
     }
   
