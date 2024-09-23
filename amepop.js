@@ -25,10 +25,28 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "No Me Llores",
-        artist: "Carin Leon x Manuel Carrasco",
-        image: "carinmanuepic.jpg",
-        path: "Carin León, Manuel Carrasco - No Me Llores.mp3"
+        name: "Active",
+        artist: "BigXthaPlug",
+        image: "BigXactivePic.jpg",
+        path: "BigXthaPlug - Active (Official Music Video).mp3"
+    },
+    {
+        name: "Mr.Trouble",
+        artist: "BigXThaPlug",
+        image: "BIGXPICC.jpg",
+        path: "BigXThaPlug _Mr.Trouble.mp3"
+    },
+    {
+        name: "Whip It",
+        artist: "BigXThaPlug",
+        image: "BigXactivePic.jpg",
+        path: "BigXthaPlug - Whip It (Official Audio).mp3"
+    },
+    {
+        name: "Back on my Bs",
+        artist: "BigXthaPlug",
+        image: "backbspic.jpg",
+        path: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
     },
 ];
 
@@ -57,7 +75,7 @@ function loadTrack(track_index) {
     // Move to the next track if the current finishes playing
     // using the 'ended' event
     curr_track.addEventListener("ended", nextTrack);
-
+    
     // Apply a random background color
     random_bg_color();
     }
