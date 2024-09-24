@@ -27,7 +27,7 @@ let track_list = [
     {
         name: "Whip It",
         artist: "BigXThaPlug",
-        image: "BigXactivePic.jpg",
+        image: "BigXThatPlug11111.jpg",
         path: "BigXthaPlug - Whip It (Official Audio).mp3"
     },
     {
