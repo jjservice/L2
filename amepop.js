@@ -43,6 +43,54 @@ let track_list = [
         path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
     },
     {
+        name: "Back Then",
+        artist: "Mike Jones",
+        image: "MikeJonesPic.jpg",
+        path: "Mike Jones-Back Then.mp3"
+    },
+    {
+        name: "I Get The Bag",
+        artist: "Gucci Mane ft Migos",
+        image: "IgetThebagPic.jpg",
+        path: "Gucci Mane ft Migos - I Get The Bag [Audio].mp3"
+    },
+    {
+        name: "Good Drank",
+        artist: "2 Chainz ft Quavo, Gucci Mane",
+        image: "2chainGodDrunkPic.jpg",
+        path: "2 Chainz - Good Drank ft. Quavo, Gucci Mane.mp3"
+    },
+    {
+        name: "Shorty Wanna Ride",
+        artist: "Young Buck",
+        image: "YoungBuckPic.jpg",
+        path: "Young Buck -  Shorty Wanna Ride.mp3"
+    },
+    {
+        name: "HOTEL LOBBY",
+        artist: "Quavo & Takeoff",
+        image: "MigosHotelPic.jpg",
+        path: "Quavo & Takeoff - HOTEL LOBBY.mp3"
+    },
+    {
+        name: "Mr.Trouble",
+        artist: "BigXThaPlug",
+        image: "BIGXPICC.jpg",
+        path: "BigXThaPlug _Mr.Trouble.mp3"
+    },
+    {
+        name: "Ric Flair Drip",
+        artist: "Offset & Metro Boomin",
+        image: "Ricflarsonpic.jpg",
+        path: "Offset & Metro Boomin  - Ric Flair Drip.mp3"
+    },
+    {
+        name: "Straightenin",
+        artist: "Migos",
+        image: "MigosCulturPic.jpg",
+        path: "Migos - Straightenin (Audio).mp3"
+    },
+    {
         name: "TOO FAST",
         artist: "Future",
         image: "futuretoofastpic.jpg",
@@ -55,10 +103,16 @@ let track_list = [
         path: "BigXthaPlug - Active (Official Music Video).mp3"
     },
     {
-        name: "Mr.Trouble",
-        artist: "BigXThaPlug",
-        image: "BIGXPICC.jpg",
-        path: "BigXThaPlug _Mr.Trouble.mp3"
+        name: "Still Tippin",
+        artist: "Miike Jones ft. Slim Thug and Paul Wall",
+        image: "MikeJonesPic.jpg",
+        path: "Still Tippin' (feat. Slim Thug and Paul Wall).mp3"
+    },
+    {
+        name: "Sippin On Some Syrup",
+        artist: "3Six Mafia",
+        image: "3SixMafia-Sippin.jpg",
+        path: "3SixMafia-Sippin On Some Syrup.mp3"
     },
 ];
 
