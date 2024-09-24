@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "ADIVINO",
-        artist: "Myke Towers, Bad Bunny",
-        image: "mykebadadivinopic.jpg",
-        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
+        name: "DINERO y FAMA",
+        artist: "Myke Towers & Omar Montes ",
+        image: "MykeDineroYfamaPic.jpg",
+        path: "Myke Towers & Omar Montes - DINERO y FAMA.mp3"
     },
 ];
 
