@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "DINERO y FAMA",
+        artist: "Myke Towers & Omar Montes ",
+        image: "MykeDineroYfamaPic.jpg",
+        path: "Myke Towers & Omar Montes - DINERO y FAMA.mp3"
+    },
+    {
         name: "Somos Iguales",
         artist: "Darell, The Rudeboyz",
         image: "DARELLOCAPIC.jpg",
