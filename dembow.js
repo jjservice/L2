@@ -25,6 +25,60 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "PALO AJENO",
+        artist: "Chimbala x Mestizo Is Back",
+        image: "MestizoChimbalaPaloPic.jpg",
+        path: "Chimbala - Mestizo Is Back - PALO AJENO.mp3"
+    },
+    {
+        name: "Gare",
+        artist: "Flow 28",
+        image: "Flow28GarePic.jpg",
+        path: "Flow 28 ft. Leo RD - Gare.mp3"
+    },
+    {
+        name: "MI BANDA",
+        artist: "Mestizo Is Back",
+        image: "MezMiBandaPic.jpg",
+        path: "Mestizo Is Back  Mi Banda.mp3"
+    },
+    {
+        name: "PISA PISA",
+        artist: "EL SICOKARIO FT FLOW 28",
+        image: "Flow28PisaPic.jpg",
+        path: "EL SICOKARIO FT FLOW 28 - PISA PISA.mp3"
+    },
+    {
+        name: "AY BEBE",
+        artist: "Yasiel LM Ft. Lomiiel",
+        image: "yasielLomiPic.jpg",
+        path: "Yaisel LM - Ay Bebe ft Lomiiel.mp3"
+    },
+    {
+        name: "MARON",
+        artist: "Mestizo Is Back",
+        image: "MestizoMaronPic.jpg",
+        path: "Mestizo Is Back - Maron.mp3"
+    },
+    {
+        name: "DANDOLE",
+        artist: "Donaty",
+        image: "DonDanPic.jpg",
+        path: "DONATY - DAN2LE.mp3"
+    },
+    {
+        name: "DEJENME RULAY",
+        artist: "ROCHY RD X DONATY",
+        image: "RochyDonDrulayPic.jpg",
+        path: "ROCHY RD X DONATY - DEJENME RULAY.mp3"
+    },
+    {
+        name: "AGUANTALA",
+        artist: "ROCHY RD , DONATY",
+        image: "RocDONAGPIC.jpg",
+        path: "ROCHY RD , DONATY  - AGUANTALA.mp3"
+    },
+    {
         name: "Me libere",
         artist: "La Insuperable",
         image: "lainsumeliberePic.jpg",
@@ -35,6 +89,12 @@ let track_list = [
         artist: "LOMIIEL",
         image: "lomielpiccc.jpg",
         path: "LOMIIEL - HAY LUPITA.mp3"
+    },
+    {
+        name: "Se Puede Repeti",
+        artist: "Mestizo Is Back",
+        image: "MestizoSepuedePic.jpg",
+        path: "Mestizo Is Back - Se Puede Repetí.mp3"
     },
     {
         name: "PARARARARA",
