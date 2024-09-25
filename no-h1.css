@@ -7,11 +7,15 @@ h1{
     box-shadow: 5px 15px 15px darkmagenta;
     margin-top: 5px;
 }
+footer{
+    bottom: 0;
+    
+}
 .navbar1{
-    top: 0;
+    margin-top: auto;
 }
 .navbar2{
-    top: 0;
+    margin-top: auto;
 }
 
 
