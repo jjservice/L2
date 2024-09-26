@@ -25,16 +25,88 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Con Quién Te Olvido",
+        artist: "Ala Jaza",
+        image: "ALAJAPICCCC.jpg",
+        path: "Ala Jaza - Con Quién Te Olvido.mp3"
+    },
+    {
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        image: "MECUROPIC.jpg",
+        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+    },
+    {
+        name: "Tu Mayimbe",
+        artist: "Sujeto Oro 24 ",
+        image: "SUJETOPIC3333.jpg",
+        path: "sujeto Oro 24 - Tu Mayimbe.mp3"
+    },
+    {
+        name: "A CUALTA MI GATA",
+        artist: "Omega El Fuerte",
+        image: "omegapic.jpg",
+        path: "Omega-A Cualta Mi Gata.mp3"
+    },
+    {
+        name: "Vieja Dale Dale",
+        artist: "Toño Rosario",
+        image: "TonoRosariPic.jpg",
+        path: "Toño Rosario - Vieja Dale Dale.mp3"
+    },
+    {
+        name: "PEPAS",
+        artist: "Ala Jaza",
+        image: "ALAJAZApIC3333.jpg",
+        path: "ALAJAZA-PEPAS.mp3"
+    },
+    {
         name: "To' la Mujeres Rapan",
         artist: "Amarfis Y la banda de Atakke",
         image: "AmarfisPic1.jpg",
         path: "Amarfis Y la banda de Atakke-To' la Mujeres Rapan.mp3"
     },
     {
+        name: "Mi Forma De Ser",
+        artist: "Ala Jaza",
+        image: "ALAJAPICCCC.jpg",
+        path: "Ala Jaza - Mi Forma De Ser.mp3"
+    },
+    {
+        name: "No me hable de Gente",
+        artist: "Sujeto Oro 24 ",
+        image: "SUJETOPIC3333.jpg",
+        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
+    },
+    {
+        name: "Simplemente Gracias",
+        artist: "Ala Jaza",
+        image: "ALAJAPICCCC.jpg",
+        path: "Ala Jaza - Simplemente Gracias.mp3"
+    },
+    {
+        name: "HEAVY",
+        artist: "Sujeto Oro 24",
+        image: "SUJETOPICCCC222222.jpg",
+        path: "Sujeto oro 24 - Heavy.mp3"
+    },
+    {
+        name: "Yo Quiero Un Vacilon",
+        artist: "Toño Rosario",
+        image: "TonoRosariPic.jpg",
+        path: "Yo Quiero Un Vacilon.mp3"
+    },
+    {
         name: "El Guayo",
         artist: "Amarfis y la banda de Atakke",
         image: "amarfispic222.jpg",
         path: "Amarfis y la banda de Atakke-El Guayo.mp3"
+    },
+    {
+        name: "Mi Mundo Lo Controlo Yo",
+        artist: "Sujeto Oro 24",
+        image: "SujetoMimundoPic.jpg",
+        path: "Sujeto Oro 24  -  Mi Mundo Lo Controlo Yo.mp3"
     },
     {
         name: "Ando En La Versace",
@@ -53,6 +125,18 @@ let track_list = [
         artist: "Ala Jaza",
         image: "ALAJAPICCCC.jpg",
         path: "Ala Jaza - Nadie Se Meta.mp3"
+    },
+    {
+        name: "Toma Lo Que Te Mandé",
+        artist: "Toño Rosario",
+        image: "TonoRosariPic.jpg",
+        path: "Toño Rosario - Toma Lo Que Te Mandé.mp3"
+    },
+    {
+        name: "El Vecino",
+        artist: "Sujeto oro 24",
+        image: "SUJETOPICCCC222222.jpg",
+        path: "Sujeto oro 24-El Vecino.mp3"
     },
     {
         name: "Fariseo",
@@ -79,28 +163,16 @@ let track_list = [
         path: "SUJETO 0R0 24 - NO ME HABLEN DE ELLA.mp3"
     },
     {
-        name: "No me hable de Gente",
-        artist: "Sujeto Oro 24 ",
-        image: "SUJETOPIC3333.jpg",
-        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
-    },
-    {
         name: "Yemaya",
         artist: "Amarfis Y la banda de Atakke",
         image: "amarfispic333.jpg",
         path: "Amarfis Y la banda de Atakke-Yemaya.mp3"
     },
     {
-        name: "El Vecino",
-        artist: "Sujeto oro 24",
+        name: "No me hable de Gente",
+        artist: "Sujeto Oro 24",
         image: "SUJETOPICCCC222222.jpg",
-        path: "Sujeto oro 24-El Vecino.mp3"
-    },
-    {
-        name: "Si antes te hubiera conocido",
-        artist: "Karol G",
-        image: "MECUROPIC.jpg",
-        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
     },
     {
         name: "TU NO CORRE",
@@ -109,16 +181,10 @@ let track_list = [
         path: "TU NO CORRE - SUJETO ORO 24.mp3"
     },
     {
-        name: "Con Quién Te Olvido",
-        artist: "Ala Jaza",
-        image: "ALAJAPICCCC.jpg",
-        path: "Ala Jaza - Con Quién Te Olvido.mp3"
-    },
-    {
-        name: "Tu Mayimbe",
-        artist: "Sujeto Oro 24 ",
-        image: "SUJETOPIC3333.jpg",
-        path: "sujeto Oro 24 - Tu Mayimbe.mp3"
+        name: "ME VOY PAL PUEBLO",
+        artist: "Toño Rosario",
+        image: "TONOPIC2222.jpg",
+        path: "Toño Rosario - ME VOY PAL PUEBLO.mp3"
     },
     {
         name: "Misericordia",
@@ -127,22 +193,52 @@ let track_list = [
         path: "Ala Jaza - Misericordia.mp3"
     },
     {
+        name: "Weje Weje",
+        artist: "Sujeto Oro 24",
+        image: "sujetoPic.jpg",
+        path: "Sujeto Oro 24 - Weje Weje.mp3"
+    },
+    {
         name: "Tattoo",
         artist: "Ala Jaza",
         image: "alajazapic44444.jpg",
         path: "Ala Jaza - Tattoo.mp3"
     },
     {
-        name: "No me hable de Gente",
-        artist: "Sujeto Oro 24",
-        image: "SUJETOPICCCC222222.jpg",
-        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
+        name: "FUEGO",
+        artist: "Tito Swing",
+        image: "TitoPic.jpg",
+        path: "Tito Swing - Fuego.mp3"
     },
     {
-        name: "Weje Weje",
+        name: "Tabaco y Ron",
+        artist: "Ala Jaza",
+        image: "ALAJAZApIC3333.jpg",
+        path: "Ala Jaza - Tabaco y Ron.mp3"
+    },
+    {
+        name: "Beso A Beso",
+        artist: "Toño Rosario",
+        image: "TONOPIC2222.jpg",
+        path: "Toño Rosario - Beso A Beso.mp3"
+    },
+    {
+        name: "Quiero Volver A Empezar",
+        artist: "Toño Rosario",
+        image: "TonoRosariPic.jpg",
+        path: "Toño Rosario - Quiero Volver A Empezar.mp3"
+    },
+    {
+        name: "Alegria",
+        artist: "Toño Rosario",
+        image: "TONOPIC2222.jpg",
+        path: "Toño Rosario - Alegria.mp3"
+    },
+    {
+        name: "MI Mamá Me Apunto En la Escuela",
         artist: "Sujeto Oro 24",
-        image: "sujetoPic.jpg",
-        path: "Sujeto Oro 24 - Weje Weje.mp3"
+        image: "SUJETOPIC3333.jpg",
+        path: "Sujeto Oro 24  -  MI Mamá Me Apunto En la Escuela.mp3"
     },
 ];
 
