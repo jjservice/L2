@@ -25,10 +25,64 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Pacas De Billetes",
+        artist: "Natanael Cano",
+        image: "NatanaelPic.jpg",
+        path: "Natanael Cano - Pacas De Billetes.mp3"
+    },
+    {
+        name: "MENTE POSITIVA",
+        artist: "Junior H",
+        image: "JuniorMentePosPic.jpg",
+        path: "Junior H - MENTE POSITIVA.mp3"
+    },
+    {
+        name: "No te contaron mal",
+        artist: "Christian Nodal",
+        image: "notecontaronmal.jpg",
+        path: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
+    },
+    {
+        name: "Igualito A Mi Apá",
+        artist: "Fuerza Regida X Peso Pluma",
+        image: "PesoFuerzaPIc.jpg",
+        path: "Fuerza Regida X Peso Pluma - Igualito A Mi Apá.mp3"
+    },
+    {
+        name: "Aquí Abajo",
+        artist: "Christian Nodal",
+        image: "CHRISTIANNODALPIC.jpg",
+        path: "Christian Nodal - Aquí Abajo.mp3"
+    },
+    {
+        name: "AMG",
+        artist: "Natanael Cano x Gabito Ballesteros x Peso Pluma",
+        image: "PesoNatAmgPic.jpg",
+        path: "Natanael Cano x Gabito Ballesteros x Peso Pluma - AMG.mp3"
+    },
+    {
+        name: "Cuando La Vida Sea Trago",
+        artist: "Carin León",
+        image: "CARINLEONCUANLAVIDASEAPIC.jpg",
+        path: "Carin León - Cuando La Vida Sea Trago.mp3"
+    },
+    {
+        name: "PRC",
+        artist: "Peso Pluma x Natanael Cano",
+        image: "PesoNatPic.jpg",
+        path: "Peso Pluma, Natanael Cano - PRC.mp3"
+    },
+    {
         name: "No Me Llores",
         artist: "Carin Leon x Manuel Carrasco",
         image: "carinmanuepic.jpg",
         path: "Carin León, Manuel Carrasco - No Me Llores.mp3"
+    },
+    {
+        name: "Nace Un Borracho",
+        artist: "Christian Nodal",
+        image: "CHRISTIANNODALPIC.jpg",
+        path: "Christian Nodal - Nace Un Borracho.mp3"
     },
     {
         name: "No Es Por Acá",
@@ -65,6 +119,12 @@ let track_list = [
         artist: "Christian Nodal",
         image: "chrispic33.jpg",
         path: "Christian Nodal - La Bachatita.mp3"
+    },
+    {
+        name: "Y LLORO",
+        artist: "Junior H",
+        image: "jUNIORhpIC.jpg",
+        path: "Junior H - Y LLORO.mp3"
     },
     {
         name: "Confieso",
@@ -121,18 +181,6 @@ let track_list = [
         path: "Christian Nodal-Te Fallé.mp3"
     },
     {
-        name: "No te contaron mal",
-        artist: "Christian Nodal",
-        image: "notecontaronmal.jpg",
-        path: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
-    },
-    {
-        name: "Aquí Abajo",
-        artist: "Christian Nodal",
-        image: "CHRISTIANNODALPIC.jpg",
-        path: "Christian Nodal - Aquí Abajo.mp3"
-    },
-    {
         name: "De Los Besos Que Te Di",
         artist: "Christian Nodal",
         image: "CHRISTIANNODALPIC.jpg",
@@ -145,10 +193,10 @@ let track_list = [
         path: "Christian Nodal-Probablemente.mp3"
     },
     {
-        name: "Nace Un Borracho",
-        artist: "Christian Nodal",
-        image: "CHRISTIANNODALPIC.jpg",
-        path: "Christian Nodal - Nace Un Borracho.mp3"
+        name: "La Intención",
+        artist: "Christian Nodal x Peso Pluma ",
+        image: "PespoChrisPic.jpg",
+        path: "Christian Nodal, Peso Pluma - La Intención.mp3"
     },
     {
         name: "Ya No Somos Ni Seremos",
