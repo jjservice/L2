@@ -653,11 +653,13 @@ body{
     
     .home-btn{
     margin: 2%;
-    min-height: 30%;
+    min-height: 10%;
     background-color: rgba(139, 0, 139, 0.589);
     border-radius: 100%;
     background-image: url(dancinGif2222.gif);
-    background-position: top;
+    background-position: center;
+    background-size: 100px;
+    
    
     
      
