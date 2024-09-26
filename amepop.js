@@ -37,10 +37,10 @@ let track_list = [
         path: "BigXthaPlug - Whip It (Official Audio).mp3"
     },
     {
-        name: "Close Friends",
-        artist: "Lil Baby x Gunna",
-        image: "LilCloseFPic.jpg",
-        path: "Lil Baby, Gunna - Close Friends.mp3"
+        name: "Fight Night",
+        artist: "Migos",
+        image: "MigosPic1.jpg",
+        path: "Migos - Fight Night.mp3"
     },
     {
         name: "Back on my Bs",
@@ -53,6 +53,30 @@ let track_list = [
         artist: "Tommy Richman",
         image: "milliondollarpic.jpg",
         path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
+    },
+    {
+        name: "Back On",
+        artist: "Quality Control x Lil Baby",
+        image: "LilBabyPic.jpg",
+        path: "Quality Control, Lil Baby - Back On.mp3"
+    },
+    {
+        name: "OFFICER RICKY",
+        artist: "50 Cent",
+        image: "50centPic.jpg",
+        path: "50 Cent - Officer Ricky.mp3"
+    },
+    {
+        name: "Get Buck",
+        artist: "Young Buck",
+        image: "YoungBuckPic.jpg",
+        path: "Young Buck-Get Buck.mp3"
+    },
+    {
+        name: "Need It",
+        artist: "Migos ft. YoungBoy Never Broke Again",
+        image: "MigosIneedItPic.jpg",
+        path: "Migos  ft. YoungBoy Never Broke Again- Need It.mp3"
     },
     {
         name: "Big Stepper",
@@ -83,6 +107,12 @@ let track_list = [
         artist: "Gucci Mane ft Migos",
         image: "IgetThebagPic.jpg",
         path: "Gucci Mane ft Migos - I Get The Bag [Audio].mp3"
+    },
+    {
+        name: "TOO FAST",
+        artist: "Future",
+        image: "futuretoofastpic.jpg",
+        path: "Future - TOO FAST.mp3"
     },
     {
         name: "Lakers",
@@ -151,10 +181,10 @@ let track_list = [
         path: "Migos - Straightenin (Audio).mp3"
     },
     {
-        name: "TOO FAST",
-        artist: "Future",
-        image: "futuretoofastpic.jpg",
-        path: "Future - TOO FAST.mp3"
+        name: "Close Friends",
+        artist: "Lil Baby x Gunna",
+        image: "LilCloseFPic.jpg",
+        path: "Lil Baby, Gunna - Close Friends.mp3"
     },
     {
         name: "Active",
