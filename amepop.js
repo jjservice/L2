@@ -25,10 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "The Largest",
+        artist: "BigXThaPlug",
+        image: "BigXTheLargestPic.jpg",
+        path: "BigXthaPlug - The Largest.mp3"
+    },
+    {
         name: "Whip It",
         artist: "BigXThaPlug",
         image: "BigXThatPlug11111.jpg",
         path: "BigXthaPlug - Whip It (Official Audio).mp3"
+    },
+    {
+        name: "Close Friends",
+        artist: "Lil Baby x Gunna",
+        image: "LilCloseFPic.jpg",
+        path: "Lil Baby, Gunna - Close Friends.mp3"
     },
     {
         name: "Back on my Bs",
@@ -43,10 +55,28 @@ let track_list = [
         path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
     },
     {
+        name: "Big Stepper",
+        artist: "BigXThaPlug",
+        image: "BigXThatPlug11111.jpg",
+        path: "BigXThaPlug - Big Stepper.mp3"
+    },
+    {
         name: "Back Then",
         artist: "Mike Jones",
         image: "MikeJonesPic.jpg",
         path: "Mike Jones-Back Then.mp3"
+    },
+    {
+        name: "Emotionally Scarred",
+        artist: "Lil Baby",
+        image: "LilBbayPic2.webp",
+        path: "Lil Baby - Emotionally Scarred.mp3"
+    },
+    {
+        name: "Rap Niggas",
+        artist: "BigXthaPlug ",
+        image: "BigXThatPlug11111.jpg",
+        path: "BigXthaPlug - Rap Niggas.mp3"
     },
     {
         name: "I Get The Bag",
@@ -55,10 +85,40 @@ let track_list = [
         path: "Gucci Mane ft Migos - I Get The Bag [Audio].mp3"
     },
     {
+        name: "Lakers",
+        artist: "BigXThaPlug ft. Ro$ama",
+        image: "BixLakersPic.jpg",
+        path: "BigXthaPlug  - '02 Lakers feat  Ro$ama.mp3"
+    },
+    {
+        name: "HOTEL LOBBY",
+        artist: "Quavo & Takeoff",
+        image: "MigosHotelPic.jpg",
+        path: "Quavo & Takeoff - HOTEL LOBBY.mp3"
+    },
+    {
+        name: "California Breeze",
+        artist: "Lil Baby",
+        image: "LilBabyPic.jpg",
+        path: "Lil Baby - California Breeze.mp3"
+    },
+    {
+        name: "Climate",
+        artist: "BigXthaPlug Ft Offset",
+        image: "BigOffClimPic.jpg",
+        path: "BigXthaPlug Ft Offset - Climate.mp3"
+    },
+    {
         name: "Good Drank",
         artist: "2 Chainz ft Quavo, Gucci Mane",
         image: "2chainGodDrunkPic.jpg",
         path: "2 Chainz - Good Drank ft. Quavo, Gucci Mane.mp3"
+    },
+    {
+        name: "PRIMETIME",
+        artist: "BigXThaPlug",
+        image: "BIGXPICC.jpg",
+        path: "BigXthaPlug - Primetime.mp3"
     },
     {
         name: "Shorty Wanna Ride",
@@ -67,10 +127,10 @@ let track_list = [
         path: "Young Buck -  Shorty Wanna Ride.mp3"
     },
     {
-        name: "HOTEL LOBBY",
-        artist: "Quavo & Takeoff",
-        image: "MigosHotelPic.jpg",
-        path: "Quavo & Takeoff - HOTEL LOBBY.mp3"
+        name: "Badu Flow",
+        artist: "BigXthaPlug",
+        image: "bigxpicccccc.png",
+        path: "BigXthaPlug - Badu Flow.mp3"
     },
     {
         name: "Mr.Trouble",

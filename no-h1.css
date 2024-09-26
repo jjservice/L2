@@ -1,5 +1,6 @@
-
-
+body{
+    margin: 5px;
+}
 h1{
     background-image: none;
     border-radius: 100%;
@@ -7,8 +8,9 @@ h1{
     box-shadow: 5px 15px 15px darkmagenta;
     margin-top: 5px;
 }
-footer img{
-    bottom: 0;
+footer{
+    position: sticky;
+    top: 0;
 }
 
 

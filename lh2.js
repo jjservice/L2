@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "La Chancleta",
-        artist: "Carin León, Carlos Vives, Chimbala",
-        image: "carinleonchimbacarlospic.jpg",
-        path: "Carin León, Carlos Vives, Chimbala - La Chancleta.mp3"
+        name: "The Largest",
+        artist: "BigXThaPlug",
+        image: "BigXTheLargestPic.jpg",
+        path: "BigXthaPlug - The Largest.mp3"
     },
 ];
 
