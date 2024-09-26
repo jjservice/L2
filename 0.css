@@ -125,6 +125,7 @@ body{
        .hits-title2{
         color: gold;
         text-shadow: 3px 3px 3px blue;
+        margin-bottom: 5%;
        }
 
     /* Using flex with the column direction to
@@ -656,16 +657,12 @@ body{
     
     .home-btn{
     margin: 2%;
-    min-height: 10%;
+    min-height: 5%;
     background-color: rgba(139, 0, 139, 0.589);
     border-radius: 100%;
-    background-image: url(dancinGif2222.gif);
+    background-image: url(MusicGig.gif);
     background-position: center;
-    background-size: 100px;
-    
-   
-    
-     
+    background-size: 100px; 
    
     }
     .li11 a{
