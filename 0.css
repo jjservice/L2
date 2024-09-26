@@ -2,7 +2,22 @@
   margin: 0%;
   padding: 0%;
 }
+footer{
+  bottom: 0;
+  
+}
+html{
+  height: 100%;
+   }
+
+   .jj2{
+    margin-bottom: 5%;
+    }
+ 
 body{
+    min-height: 100%;
+    flex-direction: column;
+
     height: 100dvh;
     position: center;
     background-color: #151618;
@@ -94,10 +109,6 @@ body{
         background-size: cover;
         padding: 5px;
         margin: 5px;
-
-        
-       
-       
        }
        .hits-title ion-icon:hover{
         color: darkmagenta;

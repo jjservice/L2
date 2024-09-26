@@ -1,15 +1,4 @@
-html{
-    height: 100%;
-}
-body{
-    height: 100%;
-    min-height: 100%;
-    flex-direction: column;
-}
-footer{
-   bottom: 0;
-   
- }
+
 h1{
     background-image: none;
     border-radius: 100%;
@@ -22,11 +11,6 @@ h1:hover{
     color: white;
     text-shadow: 2px 2px 4px gold;
 }
-
-.now-playing{
-    margin-bottom: 3%;
-}
-
 
 .genre{
     background-image: url(MusicGig.gif);
@@ -45,9 +29,10 @@ h1:hover{
     background-repeat: no-repeat;
     background-color: transparent;
 }
-.jj2{
-    margin-bottom: 5%;
-}
+.now-playing {    
+    margin-bottom: 3%;
+    }
+
 
 
 
