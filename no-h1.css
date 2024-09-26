@@ -16,7 +16,11 @@ h1{
     border: 4px solid gold;
     box-shadow: 5px 15px 15px darkmagenta;
     margin-top: 5px;
-   
+}
+h1:hover{
+    background-color: darkmagenta;
+    color: white;
+    text-shadow: 2px 2px 4px gold;
 }
 
 .now-playing{

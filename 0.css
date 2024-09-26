@@ -21,33 +21,7 @@ body{
     align-content: center;
     font-family:'Times New Roman', Times, serif
     }
-    h6{
-        font-size: 25px;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        color: white;
-        text-shadow: 2px 2px 4px gold;
-        transition: background-color .5s;
-       }
-       h6 .icon{
-        color: gold;
-       
-       }
-       h1 ion-icon:hover{
-        color: darkmagenta;
-        text-shadow: 2px 2px 4px gold;
-       }
-      h1 ion-icon{
-        color: rgb(255, 253, 222);
-        border-bottom: 2px solid gold;
-        box-shadow: 2px 4px 6px darkmagenta;
-        border-radius: 50px;
-        background-image: url(lollipop_3GIF.gif);
-        background-size: cover;
-        background-color: transparent;
- 
-      }
-
+    
        h1{
         margin-bottom: 5%;
         background-image: url(lollipop_4444GIF.gif);
@@ -64,9 +38,27 @@ body{
         border-radius: 100%;
         
        }
-       h1:hover{
-        color: darkmagenta;
+      h1 ion-icon{
+        color: rgb(255, 253, 222);
+        border-bottom: 2px solid gold;
+        box-shadow: 2px 4px 6px darkmagenta;
+        border-radius: 50px;
+        background-image: url(lollipop_3GIF.gif);
+        background-size: cover;
+        background-color: transparent;
+ 
+      }
+      h6{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
         text-shadow: 2px 2px 4px gold;
+        transition: background-color .5s;
+       }
+       h6 .icon{
+        color: gold;
+       
        }
         h6:hover{
         background-color: darkmagenta;
