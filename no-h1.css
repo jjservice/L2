@@ -4,20 +4,47 @@ html{
 body{
     height: 100%;
     min-height: 100%;
-    display: flex;
     flex-direction: column;
 }
+footer{
+   bottom: 0;
+   
+ }
 h1{
     background-image: none;
     border-radius: 100%;
     border: 4px solid gold;
     box-shadow: 5px 15px 15px darkmagenta;
     margin-top: 5px;
+   
 }
-footer{
-   margin-top: auto;
-   background-color: #151515;
-   margin-top: auto;
+
+.now-playing{
+    margin-bottom: 3%;
 }
+
+
+.genre{
+    background-image: url(MusicGig.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.genre ion-icon{
+    font-size: 40px;
+    color: gold;
+    border: 1px solid darkmagenta;
+    border-radius: 50px;
+    background-image: url(DANCINGGIF.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.jj2{
+    margin-bottom: 5%;
+}
+
+
 
 
