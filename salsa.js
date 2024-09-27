@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Ella Me Busca",
+        artist: "Yiyo Sarante",
+        image: "YiyoMeBuscaPic.jpg",
+        path: "Yiyo Sarante - Ella Me Busca.mp3"
+    },
+    {
         name: "Qué Precio Tiene el Cielo",
         artist: "Marc Anthony",
         image: "markpic1.jpg",

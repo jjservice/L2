@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "DIME TU",
+        artist: "J one x El Mayor Clasico",
+        image: "JoneMayorDimetuPic.jpg",
+        path: "J one x El Mayor Clasico-DIME TU.mp3"
+    },
+    {
         name: "PALO AJENO",
         artist: "Chimbala x Mestizo Is Back",
         image: "MestizoChimbalaPaloPic.jpg",

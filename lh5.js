@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "No Me Llores",
-        artist: "Carin Leon x Manuel Carrasco",
-        image: "carinmanuepic.jpg",
-        path: "Carin León, Manuel Carrasco - No Me Llores.mp3"
+        name: "Ella Me Busca",
+        artist: "Yiyo Sarante",
+        image: "YiyoMeBuscaPic.jpg",
+        path: "Yiyo Sarante - Ella Me Busca.mp3"
     },
 ];
 

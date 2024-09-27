@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Me libere",
-        artist: "La Insuperable",
-        image: "lainsumeliberePic.jpg",
-        path: "La Insuperable - Me libere(mp3).mp3"
+        name: "DIME TU",
+        artist: "J one x El Mayor Clasico",
+        image: "JoneMayorDimetuPic.jpg",
+        path: "J one x El Mayor Clasico-DIME TU.mp3"
     },
 ];
 
