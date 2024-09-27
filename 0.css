@@ -17,7 +17,6 @@ html{
 body{
     min-height: 100%;
     flex-direction: column;
-
     height: 100dvh;
     position: center;
     background-color: #151618;

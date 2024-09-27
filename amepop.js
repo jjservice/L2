@@ -31,6 +31,12 @@ let track_list = [
         path: "BigXthaPlug - The Largest.mp3"
     },
     {
+        name: "PLAIN JANE",
+        artist: "A$AP Ferg",
+        image: "AsaFergPic.jpg",
+        path: "A$AP Ferg - Plain Jane.mp3"
+    },
+    {
         name: "Whip It",
         artist: "BigXThaPlug",
         image: "BigXThatPlug11111.jpg",
@@ -53,24 +59,6 @@ let track_list = [
         artist: "Tommy Richman",
         image: "milliondollarpic.jpg",
         path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
-    },
-    {
-        name: "Back On",
-        artist: "Quality Control x Lil Baby",
-        image: "LilBabyPic.jpg",
-        path: "Quality Control, Lil Baby - Back On.mp3"
-    },
-    {
-        name: "OFFICER RICKY",
-        artist: "50 Cent",
-        image: "50centPic.jpg",
-        path: "50 Cent - Officer Ricky.mp3"
-    },
-    {
-        name: "Get Buck",
-        artist: "Young Buck",
-        image: "YoungBuckPic.jpg",
-        path: "Young Buck-Get Buck.mp3"
     },
     {
         name: "Need It",
@@ -181,16 +169,52 @@ let track_list = [
         path: "Migos - Straightenin (Audio).mp3"
     },
     {
-        name: "Close Friends",
-        artist: "Lil Baby x Gunna",
-        image: "LilCloseFPic.jpg",
-        path: "Lil Baby, Gunna - Close Friends.mp3"
+        name: "Back On",
+        artist: "Quality Control x Lil Baby",
+        image: "LilBabyPic.jpg",
+        path: "Quality Control, Lil Baby - Back On.mp3"
+    },
+    {
+        name: "PESO",
+        artist: "A$AP Rocky",
+        image: "ASAPPIC222.jpg",
+        path: "A$AP Rocky - Peso.mp3"
+    },
+    {
+        name: "OOOUUU",
+        artist: "Young MA",
+        image: "YounOUUUPIC.jpg",
+        path: "Young MA-OOOUUU.mp3"
+    },
+    {
+        name: "Praise The Lord",
+        artist: "A$AP Rocky Ft. Skepta",
+        image: "ASAPPIC1.jpg",
+        path: "A$AP Rocky Ft. Skepta- Praise The Lord.mp3"
     },
     {
         name: "Active",
         artist: "BigXthaPlug",
         image: "BigXactivePic.jpg",
         path: "BigXthaPlug - Active (Official Music Video).mp3"
+    },
+    {
+        name: "OFFICER RICKY",
+        artist: "50 Cent",
+        image: "50centPic.jpg",
+        path: "50 Cent - Officer Ricky.mp3"
+    },
+    {
+        name: "Get Buck",
+        artist: "Young Buck",
+        image: "YoungBuckPic.jpg",
+        path: "Young Buck-Get Buck.mp3"
+    },
+    {
+        name: "Close Friends",
+        artist: "Lil Baby x Gunna",
+        image: "LilCloseFPic.jpg",
+        path: "Lil Baby, Gunna - Close Friends.mp3"
     },
     {
         name: "Still Tippin",
