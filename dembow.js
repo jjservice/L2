@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "KIKIA",
+        artist: "Mestizo Is Back X Braulio Fogon",
+        image: "MEZTIBRAULIOKIKIAPIC.jpg",
+        path: "Mestizo Is Back, Braulio Fogon  KIKIA.mp3"
+    },
+    {
         name: "DIME TU",
         artist: "J one x El Mayor Clasico",
         image: "JoneMayorDimetuPic.jpg",
