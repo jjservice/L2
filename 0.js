@@ -25,10 +25,34 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Lo Caro y Lo Bueno",
-        artist: "Chencho Corleone",
-        image: "chnchocaroybuenopic.jpg",
-        path: "Chencho Corleone - Lo Caro y Lo Bueno.mp3"
+        name: "DINERO y FAMA",
+        artist: "Myke Towers & Omar Montes ",
+        image: "MykeDineroYfamaPic.jpg",
+        path: "Myke Towers & Omar Montes - DINERO y FAMA.mp3"
+    },
+    {
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        image: "MECUROPIC.jpg",
+        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+    },
+    {
+        name: "CON SONIDO",
+        artist: "BULIN 47 X CEKY VICINY",
+        image: "BULINCEKYPIC.jpg",
+        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
+    },
+    {
+        name: "Somos Iguales",
+        artist: "Darell, The Rudeboyz",
+        image: "DARELLOCAPIC.jpg",
+        path: "Darell, The Rudeboyz - Somos Iguales.mp3"
+    },
+    {
+        name: "Bellakita",
+        artist: "Conep & Anuel AA",
+        image: "anuelconebellPic.jpg",
+        path: "Conep & Anuel AA - Bellakita.mp3"
     },
     {
         name: "La Chancleta",
@@ -47,18 +71,6 @@ let track_list = [
         artist: "Myke Towers x Bad Bunny",
         image: "mykebadadivinopic.jpg",
         path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
-    },
-    {
-        name: "Si antes te hubiera conocido",
-        artist: "Karol G",
-        image: "MECUROPIC.jpg",
-        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
-    },
-    {
-        name: "CON SONIDO",
-        artist: "BULIN 47 X CEKY VICINY",
-        image: "BULINCEKYPIC.jpg",
-        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
     {
         name: "Gallery Dept",

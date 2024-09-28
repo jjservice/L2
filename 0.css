@@ -340,7 +340,7 @@ body{
         
       }
       li a{
-        color: beige;
+        color: rgba(255, 255, 0, 0.616);
         text-shadow: 6px 6px 10px darkmagenta;
         transition: color 0.5s ease;
         background-image: url(lollipop_4444GIF.gif);
@@ -516,8 +516,11 @@ body{
       
     }
     li i:hover{
-      color: darkmagenta;
+      color: gold;
       transition: 0.5s;
+      background-color: darkmagenta;
+      border-radius: 100%;
+      box-shadow: 2px 6px 10px gold;
 
     }
     .li a:hover{
@@ -553,13 +556,13 @@ body{
     }
     .logo-tiktok{
       font-size: 32px;
-      color:beige;
+      color: rgba(255, 255, 0, 0.616);
       box-shadow: 2px 3px 10px gold;
       border-radius: 50%;
     }
     .logo-tiktok:hover{
-      background-color: gold;
-      color: darkmagenta;
+      background-color: darkmagenta;
+      color: gold;
       text-shadow: 2px 2px 10px goldenrod;
     }
     .li5 a{
@@ -1644,3 +1647,16 @@ body{
       text-shadow: 2px 2px 4px gold;
      }
      
+     .player:hover{
+      box-shadow: 2px 6px 10px gold;
+      border-radius: 50px;
+      transform: scale(1.05);
+      background-color: #15161850;
+      transition: box-shadow.5s, transform.5s;
+      cursor: pointer;
+      box-sizing: content-box;
+      align-content: center;
+     }
+   
+     
+    
