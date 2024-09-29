@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "BACK TO BACK",
-        artist: "BRAULIO FOGON X LUIS BROWN",
-        image: "fogobackPic.jpg",
-        path: "BRAULIO FOGON X LUIS BROWN - BACK TO BACK.mp3"
+        name: "Que Loquera",
+        artist: "Nino Freestyle x Yomel El Meloso",
+        image: "ninoyomelPic.jpg",
+        path: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
         name: "Pana Mío",
@@ -37,16 +37,22 @@ let track_list = [
         path: "Polakan Ft. Melymel - Pana Mío.mp3"
     },
     {
+        name: "KINGDOM",
+        artist: "Tali Goya",
+        image: "TALIGOYAkINDOMPIC.jpg",
+        path: "Tali Goya - Kingdom.mp3"
+    },
+    {
+        name: "BACK TO BACK",
+        artist: "BRAULIO FOGON X LUIS BROWN",
+        image: "fogobackPic.jpg",
+        path: "BRAULIO FOGON X LUIS BROWN - BACK TO BACK.mp3"
+    },
+    {
         name: "ASEGURAO",
         artist: "Shadow Blow X Lapiz Conciente",
         image: "SHADOWLAPIS5555.jpg",
         path: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
-    },
-    {
-        name: "Que Loquera",
-        artist: "Nino Freestyle x Yomel El Meloso",
-        image: "ninoyomelPic.jpg",
-        path: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
         name: "CRYPTO",
