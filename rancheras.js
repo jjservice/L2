@@ -25,16 +25,28 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Pacas De Billetes",
-        artist: "Natanael Cano",
-        image: "NatanaelPic.jpg",
-        path: "Natanael Cano - Pacas De Billetes.mp3"
-    },
-    {
         name: "MENTE POSITIVA",
         artist: "Junior H",
         image: "JuniorMentePosPic.jpg",
         path: "Junior H - MENTE POSITIVA.mp3"
+    },
+    {
+        name: "Mas Altas Que Bajadas",
+        artist: "Natanael Cano",
+        image: "NatanaelPic22222.jpg",
+        path: "Natanael Cano - Mas Altas Que Bajadas.mp3"
+    },
+    {
+        name: "Nace Un Borracho",
+        artist: "Christian Nodal",
+        image: "CHRISTIANNODALPIC.jpg",
+        path: "Christian Nodal - Nace Un Borracho.mp3"
+    },
+    {
+        name: "NUEVA VIDA",
+        artist: "Peso Pluma",
+        image: "PesoPlumaPic1111.jpg",
+        path: "NUEVA VIDA - Peso Pluma.mp3"
     },
     {
         name: "No te contaron mal",
@@ -43,16 +55,64 @@ let track_list = [
         path: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
     },
     {
-        name: "Igualito A Mi Apá",
-        artist: "Fuerza Regida X Peso Pluma",
-        image: "PesoFuerzaPIc.jpg",
-        path: "Fuerza Regida X Peso Pluma - Igualito A Mi Apá.mp3"
+        name: "Pacas De Billetes",
+        artist: "Natanael Cano",
+        image: "NatanaelPic.jpg",
+        path: "Natanael Cano - Pacas De Billetes.mp3"
+    },
+    {
+        name: "CARNAL",
+        artist: "Peso Pluma x Natanael Cano",
+        image: "PESONATAPIC22222.jpg",
+        path: "CARNAL - Peso Pluma, Natanael Cano.mp3"
+    },
+    {
+        name: "ANDO SOLTERO",
+        artist: "Natanael Cano",
+        image: "NataAndoSolteroPic.jpg",
+        path: "Ando Soltero - Natanael.mp3"
+    },
+    {
+        name: "Por el Resto de Tu Vida",
+        artist: "Christian Nodal x TINI",
+        image: "chrisporelrestopicc.jpg",
+        path: "Christian Nodal x TINI - Por el Resto de Tu Vida.mp3"
+    },
+    {
+        name: "Según Quién",
+        artist: "Maluma x Carin Leon ",
+        image: "malumacaripic.jpg",
+        path: "Maluma, Carin Leon - Según Quién.mp3"
+    },
+    {
+        name: "POR LAS NOCHES",
+        artist: "Peso Pluma",
+        image: "PesoPlumaPic1111.jpg",
+        path: "Peso Pluma - Por Las Noches.mp3"
+    },
+    {
+        name: "MORRITAS",
+        artist: "Natanael Cano",
+        image: "NataMorritaPicx.jpg",
+        path: "Natanael Cano - Morritas.mp3"
+    },
+    {
+        name: "BYE",
+        artist: "Peso Pluma",
+        image: "PESOPLUMABYE.jpg",
+        path: "BYE - Peso Pluma.mp3"
     },
     {
         name: "Aquí Abajo",
         artist: "Christian Nodal",
         image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - Aquí Abajo.mp3"
+    },
+    {
+        name: "BIPOLAR",
+        artist: "Peso Pluma, Jasiel Nuñez, Junior H",
+        image: "PesoJaieslJunirHPIC.jpg",
+        path: "Peso Pluma, Jasiel Nuñez, Junior H-bipolar.mp3"
     },
     {
         name: "AMG",
@@ -79,28 +139,10 @@ let track_list = [
         path: "Carin León, Manuel Carrasco - No Me Llores.mp3"
     },
     {
-        name: "Nace Un Borracho",
-        artist: "Christian Nodal",
-        image: "CHRISTIANNODALPIC.jpg",
-        path: "Christian Nodal - Nace Un Borracho.mp3"
-    },
-    {
         name: "No Es Por Acá",
         artist: "Carin Leon",
         image: "noesporacapic.jpg",
         path: "Carin Leon - No Es Por Acá.mp3"
-    },
-    {
-        name: "Por el Resto de Tu Vida",
-        artist: "Christian Nodal x TINI",
-        image: "chrisporelrestopicc.jpg",
-        path: "Christian Nodal x TINI - Por el Resto de Tu Vida.mp3"
-    },
-    {
-        name: "Según Quién",
-        artist: "Maluma x Carin Leon ",
-        image: "malumacaripic.jpg",
-        path: "Maluma, Carin Leon - Según Quién.mp3"
     },
     {
         name: "Kbron y Medio",
@@ -119,6 +161,12 @@ let track_list = [
         artist: "Christian Nodal",
         image: "chrispic33.jpg",
         path: "Christian Nodal - La Bachatita.mp3"
+    },
+    {
+        name: "Igualito A Mi Apá",
+        artist: "Fuerza Regida X Peso Pluma",
+        image: "PesoFuerzaPIc.jpg",
+        path: "Fuerza Regida X Peso Pluma - Igualito A Mi Apá.mp3"
     },
     {
         name: "Y LLORO",

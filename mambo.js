@@ -169,12 +169,6 @@ let track_list = [
         path: "Amarfis Y la banda de Atakke-Yemaya.mp3"
     },
     {
-        name: "No me hable de Gente",
-        artist: "Sujeto Oro 24",
-        image: "SUJETOPICCCC222222.jpg",
-        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
-    },
-    {
         name: "TU NO CORRE",
         artist: "SUJETO ORO 24",
         image: "SUJETOPICCCC222222.jpg",
