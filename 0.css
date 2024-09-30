@@ -24,7 +24,7 @@ body{
     align-items: center;
     text-align: center;
     border: 20px solid #151618;
-    box-shadow: 2px 2pc 4px gold;
+    box-shadow: 2px 2px 4px gold;
     border-radius: 50px;
     font-size: 100%;
     background-image: url(lollipop_4444GIF.gif);
@@ -1556,6 +1556,29 @@ body{
       margin: 5px;
      }
      .hits-title4 ion-icon:hover{
+      color: darkmagenta;
+      text-shadow: 2px 2px 4px gold;
+     }
+     
+     .hits-title5{
+        font-size: 35px;
+        background-image: url(MusicGig.gif);
+        background-position: center;
+        background-size: 25%;
+     }
+     .hits-title5 ion-icon{
+      font-size: 30px;
+      color: gold;
+      text-shadow: 2px 2px 4px gold;
+      transition: color.5s;
+      box-shadow: 2px 2px 4px gold;
+      border-radius: 100%;
+      background-image: url(lollipop_4444GIF.gif);
+      background-position: center;
+      background-size: cover;
+      
+     }
+     .hits-title5 ion-icon:hover{
       color: darkmagenta;
       text-shadow: 2px 2px 4px gold;
      }

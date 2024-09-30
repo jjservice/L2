@@ -13,9 +13,8 @@ footer{
     overflow-x: scroll;
     border-radius: 10px;
     box-shadow: 2px 4px 10px gold;
-    background-image: url(MAGENTAFIREGIF.webp);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to right, darkmagenta, darkblue,darkorange, magenta, crimson);
+    
 
   }
   
@@ -27,6 +26,7 @@ footer{
   }
   .navigation3::-webkit-scrollbar{
     width: 0%;
+   
   }
   .navigation3::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -61,6 +61,7 @@ footer{
   }
   .navigation3::-webkit-scrollbar-thumb{
     transition: background-color 0.5s ease;
+    border-radius: 20px;
   }
   .navigation3::-webkit-scrollbar-thumb{
     background: linear-gradient(darkmagenta,black,blue);
@@ -100,7 +101,78 @@ footer{
   
   .navigation3 ion-icon:hover{
     color: darkmagenta;
+    background-color: gold;
+    border-radius: 50px;
   }
+
+  .lit4{
+    background-image: url(BlackPhonePic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .lit5{
+    background-image: url(DoraSepPic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .lit6{
+    background-image: url(JokerPic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .lit7{
+      background-image: url(FlyMetoTheMoonPic.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }    
+    .lit8{
+        background-image: url(TransformerPic.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    .lit9{
+      background-image: url(1992moviePic.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+          } 
+    .lit10{
+      background-image: url(VenonMPic.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+            } 
+            
+    .lit11{
+      background-image: url(RedOneMPIC.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      } 
+                    
+  .lit12{
+           background-image: url(SONI3LOGOPIC.webp);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+         } 
+  .lit13{
+      background-image: url(DespicMoPic.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+  .lit14{
+      background-image: url(ImaginaMPic.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
 
   .lit15{
       background-image: url(USOPENGIF.webp);
