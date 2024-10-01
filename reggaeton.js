@@ -61,24 +61,6 @@ let track_list = [
         path: "Zion & Lennox - Pierdo La Cabeza.mp3"
     },
     {
-        name: "El Final",
-        artist: "Baby Rasta y Gringo",
-        image: "babygringopic2.jpg",
-        path: "Baby Rasta y Gringo - El Final.mp3"
-    },
-    {
-        name: "Lo Caro y Lo Bueno",
-        artist: "Chencho Corleone",
-        image: "chnchocaroybuenopic.jpg",
-        path: "Chencho Corleone - Lo Caro y Lo Bueno.mp3"
-    },
-    {
-        name: "ADIVINO",
-        artist: "Myke Towers x Bad Bunny",
-        image: "mykebadadivinopic.jpg",
-        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
-    },
-    {
         name: "La Llevo Al Cielo",
         artist: "Chencho Corleone, Chris Jedi, Anuel AA , Ñengo Flow ",
         image: "LALLEVOALCIELOPICC.jpg",

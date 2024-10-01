@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Rapidito",
-        artist: "Vitaly Sanchez",
-        image: "VITALYPIC.jpg",
-        path: "Vitaly Sanchez - Rapidito.mp3"
+        name: "No sabía qué ponerme me puse contento",
+        artist: "Mozart La Para x Vakero",
+        image: "MozartVakeroNosabiqueponermePic.jpg",
+        path: "No sabía qué ponerme me puse contento - Mozart La Para X Vakero.mp3"
     },
 ];
 
