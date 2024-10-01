@@ -5,6 +5,7 @@ footer{
    bottom: 0;
 }
 .navigation3{
+    text-decoration: none;
     align-content: center;
     text-align: center;
     max-width: 100%;
@@ -301,6 +302,12 @@ footer{
   }
   .li38{
     background-image: url(UtopiaRomeoPic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .li39{
+    background-image: url(MykeTowersPosterPic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
