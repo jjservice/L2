@@ -271,6 +271,12 @@ let track_list = [
         path: "Kany García - Confieso.mp3"
     },
     {
+        name: "Vamos Para Arriba",
+        artist: "Junior H Ft. Gabito Ballesteros",
+        image: "JunioGabitoPic.jpg",
+        path: "Vamos Para Arriba - Junior H Ft. Gabito Ballesteros.mp3"
+    },
+    {
         name: "Ojalá",
         artist: "Christian Nodal",
         image: "chrispic44.jpg",

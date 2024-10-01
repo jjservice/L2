@@ -346,6 +346,13 @@ body{
         left: -300px;
         transition: .4s;
       }
+      #sidebar .toggle-btn {
+        position: absolute;
+        left: 330px;
+      }
+      #sidebar.active {
+        left: 0%;
+      }
 
       #sidebar ul li{
         color: beige;
@@ -355,11 +362,6 @@ body{
         padding: 10px;   
         
       }
-      
-      #sidebar .toggle-btn {
-        position: absolute;
-        left: 330px;
-      }
       .toggle-btn:hover{
           color: darkmagenta;
           text-shadow: 2px 2px 4px gold;
@@ -368,9 +370,6 @@ body{
           transition: 0s;
           border-radius: 20px;
         }
-      #sidebar.active {
-        left: 0%;
-      }
       
       .span1{
         font-size: 50px;

@@ -37,6 +37,24 @@ let track_list = [
         path: "Polakan Ft. Melymel - Pana Mío.mp3"
     },
     {
+        name: "Astronauto",
+        artist: "Almighty",
+        image: "AlmightyPicx.jpg",
+        path: "Almighty- Astronauto.mp3"
+    },
+    {
+        name: "BAJA Y SUBE",
+        artist: "Rokero x Luar La L",
+        image: "LualLSubeBajPic.jpg",
+        path: "Rokero x Luar La L - Baja y Sube.mp3"
+    },
+    {
+        name: "SOLITA",
+        artist: "Ozuna, Bad Bunny, Wisin, Almighty",
+        image: "SolitaRemmixPic.jpg",
+        path: "Ozuna, DJ Luian, Mambo Kingz - Solita (Audio) ft. Bad Bunny, Wisin, Almighty.mp3"
+    },
+    {
         name: "KINGDOM",
         artist: "Tali Goya",
         image: "TALIGOYAkINDOMPIC.jpg",
