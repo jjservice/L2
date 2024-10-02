@@ -491,10 +491,11 @@
         border-radius: 20px;
       }
       .li2 a{
-        background-image: url(NBC2pic.png);
+        background-image: url(NewsPic222.gif);
         background-position: center;
         background-size: cover;
         border-radius: 20px;
+        background-color: black;
         
       }
       .li3 a{
