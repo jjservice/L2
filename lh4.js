@@ -25,7 +25,7 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "No sabía qué ponerme me puse contento",
+        name: "Me Puse Contento",
         artist: "Mozart La Para x Vakero",
         image: "MozartVakeroNosabiqueponermePic.jpg",
         path: "No sabía qué ponerme me puse contento - Mozart La Para X Vakero.mp3"
