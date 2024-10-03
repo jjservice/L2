@@ -31,6 +31,12 @@ let track_list = [
         path: "Mestizo Is Back, Braulio Fogon  KIKIA.mp3"
     },
     {
+        name: "FRENAME TU",
+        artist: "Donaty",
+        image: "DonatyFrenametuPic.jpg",
+        path: "Donaty-Frename Tu.mp3"
+    },
+    {
         name: "DIME TU",
         artist: "J one x El Mayor Clasico",
         image: "JoneMayorDimetuPic.jpg",
