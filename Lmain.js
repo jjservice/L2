@@ -37,6 +37,12 @@ let track_list = [
         path: "Mestizo Is Back, Braulio Fogon  KIKIA.mp3"
     },
     {
+        name: "ME PUSE CONTENTO",
+        artist: "Mozart La Para X Vakero",
+        image: "MozartVakeroNosabiqueponermePic.jpg",
+        path: "No sabía qué ponerme me puse contento - Mozart La Para X Vakero.mp3"
+    },
+    {
         name: "CON SONIDO",
         artist: "BULIN 47 X CEKY VICINY",
         image: "BULINCEKYPIC.jpg",
@@ -139,18 +145,6 @@ let track_list = [
         path: "Myke Towers - Joven Leyenda.mp3"
     },
     {
-        name: "Mi Santa",
-        artist: "Romeo Santos",
-        image: "ROMEOPICCCCCC.jpg",
-        path: "Romeo Santos - Mi Santa.mp3"
-    },
-    {
-        name: "Soberbio",
-        artist: "Romeo Santos",
-        image: "ROMEO222PICCC.jpg",
-        path: "Romeo Santos - Soberbio.mp3"
-    },
-    {
         name: "Dígitos",
         artist: "Arcangel X Myke Towers",
         image: "MIKEARCPICCC.jpg",
@@ -167,24 +161,6 @@ let track_list = [
         artist: "Ala Jaza",
         image: "ALAJAPICCCC.jpg",
         path: "Ala Jaza - Nadie Se Meta.mp3"
-    },
-    {
-        name: "Los Últimos",
-        artist: "Romeo Santos X Luis Vargas",
-        image: "VARGASROMEOOOPICCCCC.jpg",
-        path: "Romeo Santos, Luis Vargas - Los Últimos.mp3"
-    },
-    {
-        name: "Amor  A Medio Tiempo",
-        artist: "Yoskar Sarante",
-        image: "YOSKARPICG.jpg",
-        path: "Amor  A Medio TIEMPO  - Yoskar Sarante.mp3"
-    },
-    {
-        name: "El Fracaso",
-        artist: "Richie Ortega",
-        image: "RICHIORTEGAPICCC.jpg",
-        path: "Richie Ortega - El Fracaso.mp3"
     },
     {
         name: "Algo Facil De Olvidar",
@@ -259,78 +235,6 @@ let track_list = [
         path: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi (LetraLyrics) Remix.mp3"
     },
     {
-        name: "La Diabla",
-        artist: "Romeo Santos",
-        image: "ROMEOPICCCCCC.jpg",
-        path: "Romeo Santos - La Diabla (Audio).mp3"
-    },
-    {
-        name: "Yo Quisiera Amarla",
-        artist: "Romeo Santos",
-        image: "ROMEOPICCCCCC.jpg",
-        path: "Aventura - Yo Quisiera Amarla.mp3"
-    },
-    {
-        name: "Guitarra",
-        artist: "Yoskar Sarante",
-        image: "YoskarPIC.jpg",
-        path: "Guitarra - Yoskar Sarante [Video Oficial].mp3"
-    },
-    {
-        name: "Probablemente",
-        artist: "Yiyo Sarante",
-        image: "YiyoPic.jpg",
-        path: "Yiyo Sarante - Probablemente (Audio Oficial).mp3"
-    },
-    {
-        name: "Me Hubieras Dicho",
-        artist: "Yiyo Sarante",
-        image: "YIYOPIC2222.jpg",
-        path: "Yiyo Sarante - Me Hubieras Dicho (Video Oficial).mp3"
-    },
-    {
-        name: "Quizás Si, Quizás No",
-        artist: "Hector Acosta(Torito)",
-        image: "TORITOPIC.jpg",
-        path: "Quizás Si, Quizás No.mp3"
-    },
-    {
-        name: "Perdóname la Vida",
-        artist: "Hector Acosta(Torito)",
-        image: "TORITOPIC.jpg",
-        path: "Perdóname la Vida.mp3"
-    },
-    {
-        name: "Amorcito Enfermito",
-        artist: "Hector Acosta(Torito)",
-        image: "TORITOPIC.jpg",
-        path: "Hector Acosta - Amorcito Enfermito (Official Video).mp3"
-    },
-    {
-        name: "Asi te Amo",
-        artist: "Elvis Martinez",
-        image: "ELVISMODAPIC.jpg",
-        path: "Elvis Martinez Así te Amo 2003  Audio (1).mp3"
-    },
-    {
-        name: "Si no te tengo",
-        artist: "Raulin Rodriguez",
-        image: "RAULINPIC.jpg",
-        path: "Raulin Rodriguez-Si No Te Tengo.mp3"
-    },
-    {
-        name: "Tu sabes bien",
-        artist: "Elvis Martinez",
-        image: "ELVISMODAPIC.jpg",
-        path: "Tu Sabes.mp3"
-    },
-    {
-        name: "Maestra",
-        artist: "Elvis Martinez",
-        image: "ELVISMODAPIC.jpg",
-        path: "Elvis martinez Maestra.mp3"
-    },
-    {
         name: "No podras escapar",
         artist: "Willie Gonzalez",
         image: "WILLIE2PIC.jpg",
@@ -341,24 +245,6 @@ let track_list = [
         artist: "Grupo Niche",
         image: "NICHEPIC.jpg",
         path: "Se Pareció Tanto a Ti.mp3"
-    },
-    {
-        name: "Carta de Verano",
-        artist: "Joe Veraz",
-        image: "JOEPIC.jpg",
-        path: "Joe Veras - Carta De Verano.mp3"
-    },
-    {
-        name: "Tres Veces",
-        artist: "Yoskar Sarante",
-        image: "YoskarPIC.jpg",
-        path: "Tres Veces - Yoskar Sarante (Audio Bachata).mp3"
-    },
-    {
-        name: "Que voy hacer",
-        artist: "Raulin Rosendo",
-        image: "ROSENDOPIC.jpg",
-        path: "Que Voy Hacer.mp3"
     },
     {
         name: "Como da vuelta la vida",
