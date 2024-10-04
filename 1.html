@@ -144,48 +144,19 @@
         }
       </script>
 	  
-<div class="player">
+	  <details class="details-body">
+        <summary class="artist-name">WHAT IS TODAY?...</summary>
+        <p class="song-details">"World Animal Day"<br>This special day, dedicated to raising awareness about the protection and care of animals, encourages people to take action in safeguarding the creatures we share this planet with.
+			 It is a reminder of the vital role animals play in our world and our responsibility to ensure their safety and well-being.
+        </p>
+     </details>
 
-	<!-- Define the section for displaying details -->
-	<div class="details">
-	<div class="now-playing"></div>
-	<div class="track-art"></div>
-	<div class="track-name">.!.PLAY NEXT.!.<br><span><ion-icon name="arrow-down-circle"></ion-icon></span></div>
-	<div class="track-artist"></div>
-	</div>
-
-	<!-- Define the section for displaying track buttons -->
-	<div class="buttons">
-	<div class="prev-track" onclick="prevTrack()">
-		<i class="fa fa-step-backward fa-2x"></i>
-	</div>
-	<div class="playpause-track" onclick="playpauseTrack()">
-		<i class="fa fa-play-circle fa-5x"></i>
-	</div>
-	<div class="next-track" onclick="nextTrack()">
-		<i class="fa fa-step-forward fa-2x"></i>
-	</div>
-	</div>
-
-	<!-- Define the section for displaying the seek slider-->
-	<div class="slider_container">
-	<div class="current-time">00:00</div>
-	<input type="range" min="1" max="100"
-		value="0" class="seek_slider" onchange="seekTo()">
-	<div class="total-duration">00:00</div>
-	</div>
-
-	<!-- Define the section for displaying the volume slider-->
-	<div class="slider_container">
-	<i class="fa fa-volume-down"></i>
-	<input type="range" min="1" max="100"
-		value="99" class="volume_slider" onchange="setVolume()">
-	<i class="fa fa-volume-up"></i>
-	</div>
-</div>
-<br>
-   
-<!-- Footer section -->
+      <div class="post-section">
+		<ul class="image-post">
+			<img src="WorldAnimalDayPic.avif" alt="">
+		</ul>
+	  </div>
+	  <br>
     
    <header>
 	<li><a href="https://jjservice.github.io/LW/w.html"><ion-icon name="power"></ion-icon></a></li>
@@ -223,7 +194,7 @@
 	
 
 <!-- Load the main script for the player -->
-<script src="Lmain.js"></script>
+
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

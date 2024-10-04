@@ -1748,7 +1748,35 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
-    
+      .details-body{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: gold;
+        text-shadow: 2px 4px 2px black;
+        border-radius: 20px;
+        
+      }
+      .song-details{
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        align-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+        background-color: black;
+        border-radius: 20px;
+        border: 2px solid gold;
+      }
+      .image-post img{
+        border: 2px solid magenta;
+        box-shadow: 2px 6px 10px gold;
+        border-radius: 100px;
+        
+
+      }
       
    
      
