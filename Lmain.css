@@ -684,7 +684,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image: url(panamiopic.jpg);
+        background-image: url(ANUELLAMAFIAPICCC.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -802,7 +802,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(JoneMayorDimetuPic.jpg);
+        background-image:url(MestizoFotheOtraVezrPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1525,12 +1525,17 @@
         border: 3px solid gold;
         border-radius: 50px;
         
+        
+        
       }
       .image-post img{
         border: 2px solid magenta;
-        box-shadow: 2px 4px 10px gold;
+        box-shadow: 2px 6px 10px gold;
         border-radius: 100px;
         margin-bottom: 2px;
+        width: 70%;
+        height: 70vh;
+        
       }
      .form{
       background-color: black;
@@ -1538,6 +1543,12 @@
       border: 2px solid orangered;
       margin-bottom: 5px;
       box-shadow: 2px 6px 10px magenta;
+     }
+     .dropdown{
+      margin-right: 5px;
+     }
+     #sidebar{
+      top: 104.4%;
      }
       
    

@@ -37,6 +37,12 @@ let track_list = [
         path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
+        name: "EL MERENGUE",
+        artist: "Marshmello x Manuel Turizo ",
+        image: "ManuelTurizoMerenguwPic.jpg",
+        path: "Marshmello, Manuel Turizo - El Merengue.mp3"
+    },
+    {
         name: "Tu Mayimbe",
         artist: "Sujeto Oro 24 ",
         image: "SUJETOPIC3333.jpg",

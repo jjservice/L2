@@ -25,6 +25,18 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Otra Vez",
+        artist: "El Fother , Mestizo Is Back",
+        image: "MestizoFotheOtraVezrPic.jpg",
+        path: "El Fother , Mestizo Is Back - Otra Vez.mp3"
+    },
+    {
+        name: "LA MAFIA",
+        artist: "Anuel AA",
+        image: "ANUELLAMAFIAPICCC.jpg",
+        path: "ANUEL AA - LA MAFIA.mp3"
+    },
+    {
         name: "Que Loquera",
         artist: "Nino Freestyle x Yomel El Meloso",
         image: "ninoyomelPic.jpg",
@@ -41,6 +53,12 @@ let track_list = [
         artist: "Almighty",
         image: "AlmightyPicx.jpg",
         path: "Almighty- Astronauto.mp3"
+    },
+    {
+        name: "Where You At",
+        artist: "Lito Kirino",
+        image: "LitoKirinoWhereuatPic.jpg",
+        path: "Lito Kirino - Where You At.mp3"
     },
     {
         name: "BAJA Y SUBE",

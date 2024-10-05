@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Pana Mío",
-        artist: "Polakan Ft. Melymel",
-        image: "panamiopic.jpg",
-        path: "Polakan Ft. Melymel - Pana Mío.mp3"
+        name: "LA MAFIA",
+        artist: "Anuel AA",
+        image: "ANUELLAMAFIAPICCC.jpg",
+        path: "ANUEL AA - LA MAFIA.mp3"
     },
 ];
 
