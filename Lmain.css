@@ -125,6 +125,7 @@
           border-radius: 30px;
           left: -300px;
           transition: .4s;
+          cursor: pointer;
         }
   
         #sidebar ul li{
