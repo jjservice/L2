@@ -88,13 +88,18 @@
           color: gold;
           box-shadow: 2px 6px 10px magenta;
           border-radius: 100%;
-          background-color: transparent;
-          padding: 5px;
-          margin: 5px;
+          background-image: url(lollipop_4444GIF.gif);
+          background-position: center;
+          background-size: cover;
+          border: 10px solid goldenrod;
+          
          }
          .hits-title2 ion-icon{
           font-size: 25px;
           color: gold; 
+          background-image: url(lollipop_4444GIF.gif);
+          background-position: center;
+          background-size: cover;
          }
          .hits-title2{
           color: gold;
@@ -1140,9 +1145,12 @@
         transition: color.5s;
         box-shadow: 2px 6px 10px magenta;
         border-radius: 100%;
-        background-color: transparent;
-        padding: 5px;
-        margin: 5px;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        border: 10px solid goldenrod;
+        
+        
        }
       
       .hits-title4{
@@ -1167,8 +1175,9 @@
         background-image: url(lollipop_4444GIF.gif);
         background-position: center;
         background-size: cover;
+        border: 10px solid goldenrod;
         padding: 5px;
-        margin: 5px;
+        
        }
        
        
@@ -1179,11 +1188,14 @@
           background-size: 25%;
        }
        .hits-title5 ion-icon{
-        font-size: 35px;
+        font-size: 30px;
         color: gold;
         box-shadow: 2px 6px 10px magenta;
         border-radius: 100%;
-        background-color: transparent;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        border: 10px solid goldenrod;
         
        }
        
@@ -1492,9 +1504,13 @@
         font-size: 30px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
-        color: gold;
-        text-shadow: 2px 4px 2px black;
-        border-radius: 20px;
+        color: white;
+        text-shadow: 2px 2px 4px magenta;
+        border-radius: 100%;
+        border-bottom: 2px solid gold;
+        box-shadow: 2px 6px 10px magenta;
+        box-sizing: border-box;
+       
         
       }
       .song-details{
@@ -1507,7 +1523,7 @@
         text-shadow: 2px 2px 4px black;
         background-color: magenta;
         border: 3px solid gold;
-        border-radius: 100px;
+        border-radius: 50px;
         
       }
       .image-post img{
@@ -1516,6 +1532,13 @@
         border-radius: 100px;
         margin-bottom: 2px;
       }
+     .form{
+      background-color: black;
+      border-radius: 50px;
+      border: 2px solid orangered;
+      margin-bottom: 5px;
+      box-shadow: 2px 6px 10px magenta;
+     }
       
    
      
