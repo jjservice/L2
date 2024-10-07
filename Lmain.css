@@ -584,11 +584,10 @@
         overflow-x: scroll;
         border-radius: 10px;
         box-shadow: 2px 4px 10px gold;
-        background-image: url(MAGENTAFIREGIF.webp);
-        background-position: center;
-        background-size: cover;
+        background: linear-gradient(to top,maroon,lightgreen,darkblue);
   
       }
+     
       
       .navigation .item{
         color: beige;
@@ -642,7 +641,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(karolgsiantePIC.jpg);
+        background-image:url(QUEPECAOTURIZOCAPOPIC.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -760,7 +759,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(badvelitaYoPic.jpg);
+        background-image:url(rochyInjusticiaPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -799,7 +798,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(MestizoFotheOtraVezrPic.jpg);
+        background-image:url(GABRIELOMEGAPIC.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1208,7 +1207,7 @@
         overflow-x: scroll;
         border-radius: 10px;
         box-shadow: 2px 4px 10px gold;
-        background: linear-gradient(to right, darkmagenta, darkblue,darkorange, magenta, crimson);
+        background: linear-gradient(to top, maroon,lightgreen,darkblue);
       }
       
       .navigation3 .item{
@@ -1257,30 +1256,28 @@
         border-radius: 20px;
       }
       .navigation3::-webkit-scrollbar-thumb{
-        background: linear-gradient(darkmagenta,black,blue);
+        background: linear-gradient(black,gold,black,);
         border: 2px solid gold;    
       }
       .navigation3 li{
         text-decoration: none;
         padding: 25px 25px;
-        border: 2px solid gold;
+        border: 4px solid maroon;
         margin-bottom: 1%;
         margin-top: 1%;
-        border-radius: 10px;
+        border-radius: 20px;
         margin-inline: 5px;    
       }
-      .navigation3 ion-icon:hover{
-        background-color: darkmagenta;
-        color: white;
-        text-shadow: 2px 2px 4px gold;
-        border: 2px solid gold;
-        border-radius: 50px;
+      .navigation3 li:hover{
+        color: maroon;
+        box-shadow: 2px 2px 4px gold;
+        transform: scale(1.10);
+        transition: 0.5s;
       }
 
       .navigation3 a{
         color: gold;
         text-decoration: none;
-        transition: color 0.5s ease;
         background-image: none;
         box-shadow: none;
         

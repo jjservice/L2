@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Si Antes Te Hubiera Conocido",
-        artist: "KAROL G ",
-        image: "karolgsiantePIC.jpg",
-        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+        name: "Qué Pecao",
+        artist: "Manuel Turizo x Kapo",
+        image: "QUEPECAOTURIZOCAPOPIC.jpg",
+        path: "Qué Pecao - Manuel Turizo x Kapo.mp3"
     },
 ];
 

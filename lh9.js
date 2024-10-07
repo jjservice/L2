@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Otra Vez",
-        artist: "El Fother , Mestizo Is Back",
-        image: "MestizoFotheOtraVezrPic.jpg",
-        path: "El Fother , Mestizo Is Back - Otra Vez.mp3"
+        name: "LA NOTA",
+        artist: "GABRIEL PAGAN x OMEGA",
+        image: "GABRIELOMEGAPIC.jpg",
+        path: "GABRIEL PAGAN  OMEGA - LA NOTA.mp3"
     },
 ];
 

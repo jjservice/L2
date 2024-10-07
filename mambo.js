@@ -25,10 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "A CUALTA MI GATA",
+        artist: "Omega El Fuerte",
+        image: "omegapic.jpg",
+        path: "Omega-A Cualta Mi Gata.mp3"
+    },
+    {
         name: "Con Quién Te Olvido",
         artist: "Ala Jaza",
         image: "ALAJAPICCCC.jpg",
         path: "Ala Jaza - Con Quién Te Olvido.mp3"
+    },
+    {
+        name: "LA NOTA",
+        artist: "GABRIEL PAGAN x OMEGA",
+        image: "GABRIELOMEGAPIC.jpg",
+        path: "GABRIEL PAGAN  OMEGA - LA NOTA.mp3"
     },
     {
         name: "Si antes te hubiera conocido",
@@ -47,12 +59,6 @@ let track_list = [
         artist: "Sujeto Oro 24 ",
         image: "SUJETOPIC3333.jpg",
         path: "sujeto Oro 24 - Tu Mayimbe.mp3"
-    },
-    {
-        name: "A CUALTA MI GATA",
-        artist: "Omega El Fuerte",
-        image: "omegapic.jpg",
-        path: "Omega-A Cualta Mi Gata.mp3"
     },
     {
         name: "Vieja Dale Dale",
