@@ -1514,7 +1514,7 @@
         align-items: center;
         color: white;
         text-shadow: 2px 2px 4px black;
-        background-color: magenta;
+        background:linear-gradient(to left,maroon,lightgreen,darkblue);
         border: 3px solid gold;
         border-radius: 50px;
         
