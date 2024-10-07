@@ -32,10 +32,7 @@
       
          h1{
           margin-bottom: 3%;
-          background-image: url(lollipop_4444GIF.gif);
-          background-position: center;
-          background-size: cover;
-          font-weight: bold;
+          background: linear-gradient(to left,maroon,lightgreen,blue); 
           font-size: 80px;
           color: white;
           text-shadow: 2px 2px 10px gold;
@@ -48,7 +45,7 @@
         h1 ion-icon{
           color: rgba(255, 217, 0, 0.801);
           border-bottom: 2px solid gold;
-          box-shadow: 2px 4px 6px darkmagenta;
+          box-shadow: 2px 4px 6px maroon;
           border-radius: 50px;
           background-image: url(lollipop_3GIF.gif);
           background-size: cover;
@@ -77,29 +74,29 @@
           font-size: 40px;
           box-shadow: 2px 2px 4px gold;
         }
+        .hits-title ion-icon{
+          font-size: 30px;
+          color: rgba(255, 217, 0, 0.767);
+          box-shadow: 2px 6px 10px maroon;
+          border-radius: 100%;
+          background-image: url(lollipop_3GIF.gif);
+          background-position: center;
+          background-size: cover;
+          background-color: black;
+          border: 10px solid goldenrod;
+          
+         }
         
          .hits-title2{
           background-image: url(GUITARGIF1.gif);
           background-position: center;
           background-size: cover;
          }
-         .hits-title ion-icon{
-          font-size: 30px;
-          color: gold;
-          box-shadow: 2px 6px 10px magenta;
-          border-radius: 100%;
-          background-image: url(lollipop_4444GIF.gif);
-          background-position: center;
-          background-size: cover;
-          border: 10px solid goldenrod;
-          
-         }
+      
          .hits-title2 ion-icon{
           font-size: 25px;
           color: gold; 
-          background-image: url(lollipop_4444GIF.gif);
-          background-position: center;
-          background-size: cover;
+          background-color: transparent;
          }
          .hits-title2{
           color: gold;
@@ -148,7 +145,7 @@
 
         }
           li i:hover{
-          color: magenta;
+          color: blue;
           transition: 0.5s;
           background-color: black;
           border-radius: 100%;
@@ -160,7 +157,7 @@
           background: black;
           font-size: 25px;
           font-weight: bold;
-          box-shadow: 2px 6px 6px magenta;
+          box-shadow: 2px 6px 6px maroon;
           border-radius: 100%;
           padding: 10px;
           font-family: Georgia, 'Times New Roman', Times, serif;
@@ -169,7 +166,7 @@
 
         }
         li i:hover{
-          color: magenta;
+          color: maroon;
           transition: 0.5s;
           background-color: black;
           border-radius: 100%;
@@ -181,9 +178,9 @@
           left: 330px;
         }
         .toggle-btn:hover{
-            color: darkmagenta;
+            color: blue;
             text-shadow: 2px 2px 4px gold;
-            box-shadow: 3px 3px 10px darkmagenta;
+            box-shadow: 3px 3px 10px gold;
             transform: scale(1.10);
             transition: 0s;
             border-radius: 20px;
@@ -196,31 +193,32 @@
           font-size: 50px;
           position: relative;
           color: gold;
-          box-shadow:2px 3px 4px darkmagenta;
+          box-shadow:2px 3px 10px maroon;
           border: 4px solid goldenrod;
           border-radius: 20px;
-          background-image: url(lollipop_4444GIF.gif);
-          background-position: center;
-          background-size: cover;
+          background: linear-gradient(to left, maroon,lightgreen,darkblue);
+          
         }
         .span1:hover{
-          color: darkmagenta;
+          color: maroon;
           text-shadow: 2px 2px 4px gold;
-          box-shadow: 3px 3px 10px darkmagenta;
+          box-shadow: 3px 3px 10px  gold;
           transform: scale(1.05);
           transition: 0s;
         }
         h6{
           color: white;
-          box-shadow: 2px 6px 10px magenta;
+          box-shadow: 2px 6px 10px maroon;
           border-radius: 25px;
-          background-image: url(lollipop_4444GIF.gif);
-          background-size: cover;
-          background-position: center;
+          background: linear-gradient(to top,black,gold,black);
         }
         .icon{
-          box-shadow: 2px 6px 10px magenta;
+          background-color: black;
+          box-shadow: 2px 6px 10px maroon;
           border-radius: 100px;
+          background-image: url(lollipop_3GIF.gif);
+          background-size: cover;
+          background-position: center;
         }
   
         .dropdown{
@@ -236,9 +234,7 @@
           box-shadow: 2px 4px 6px darkmagenta;
           font-size: 30px;
           font-weight:bolder;
-          background-image: url(lollipop_4444GIF.gif);
-          background-position: center;
-          background-size: cover;
+          background: linear-gradient(to left,maroon,lightgreen,blue);
           color: gold;
           padding: 10px 15px;
           border: 4px solid goldenrod;
@@ -265,21 +261,21 @@
           width: 100%;
           border: 2px solid gold;
           border-radius: 10px;
-          box-shadow: 4px 4px 10px darkmagenta;
+          box-shadow: 4px 4px 10px maroon;
       }
       .dropdown:hover .content{
           display: block;
       }
       .dropdown:hover button{
-        color: darkmagenta;
+        color: maroon;
         text-shadow: 2px 2px 4px gold;
-        box-shadow: 3px 3px 10px darkmagenta;
+        box-shadow: 3px 3px 10px maroon;
         transform: scale(1.10);
         transition: 0s;
       }
       .dropdown a:hover{
-          color: darkmagenta;
-          text-shadow: 3px 3px 10px darkmagenta;
+          color: gold;
+          text-shadow: 3px 3px 10px gold;
           transition: 0.5s;
       }
       .g-btn:hover{
@@ -679,7 +675,7 @@
       .navigation .mlb:hover{
         color: darkmagenta;
         text-shadow: 2px 2px 10px gold;
-        box-shadow: 2px 2px 10px darkmagenta;
+        box-shadow: 2px 2px 10px  darkmagenta;      
       }
       .navigation .team1{
         font-weight: bold;
@@ -1129,10 +1125,7 @@
       }
   
       .hits-title3{
-        background-image: url(ideasinspirationGif.gif);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: linear-gradient(to top, black,gold,black);
         color: white;
         text-shadow: 2px 3px 2px gold;
         font-weight: bold;
@@ -1141,24 +1134,21 @@
       }
        .hits-title3 ion-icon{
         font-size: 30px;
-        color: gold;
+        color: rgba(255, 217, 0, 0.767);
         text-shadow: 2px 2px 4px gold;
         transition: color.5s;
-        box-shadow: 2px 6px 10px magenta;
+        box-shadow: 2px 6px 10px blue;
         border-radius: 100%;
-        background-image: url(lollipop_4444GIF.gif);
+        background-image: url(lollipop_3GIF.gif);
         background-position: center;
         background-size: cover;
+        background-color: black;
         border: 10px solid goldenrod;
-        
         
        }
       
       .hits-title4{
-        background-image: url(SPORTSGIF.gif);
-        background-position: center;
-        background-size: 37%;
-        background-color: #151618;
+        background: linear-gradient(to top,black,gold,black);
         color: white;
         text-shadow: 3px 3px 2px gold;
         font-weight: bold;
@@ -1169,13 +1159,14 @@
       
        .hits-title4 ion-icon{
         font-size: 30px;
-        color: gold;
+        color: rgba(255, 217, 0, 0.767);
         transition: color.5s;
-        box-shadow: 2px 6px 10px magenta;
+        box-shadow: 2px 6px 10px maroon;
         border-radius: 100%;
-        background-image: url(lollipop_4444GIF.gif);
+        background-image: url(lollipop_3GIF.gif);
         background-position: center;
         background-size: cover;
+        background-color: black;
         border: 10px solid goldenrod;
         padding: 5px;
         
@@ -1190,12 +1181,13 @@
        }
        .hits-title5 ion-icon{
         font-size: 30px;
-        color: gold;
-        box-shadow: 2px 6px 10px magenta;
+        color: rgba(255, 217, 0, 0.767);
+        box-shadow: 2px 6px 10px maroon;
         border-radius: 100%;
-        background-image: url(lollipop_4444GIF.gif);
+        background-image: url(lollipop_3GIF.gif);
         background-position: center;
         background-size: cover;
+        background-color: black;
         border: 10px solid goldenrod;
         
        }
@@ -1534,20 +1526,29 @@
         box-shadow: 2px 6px 10px gold;
         border-radius: 100px;
         margin-bottom: 2px;
-        width: 70%;
+        width: 50%;
+        height: auto;
         
       }
      .form{
-      background-color: black;
+      background: linear-gradient(to left, maroon,lightgreen,darkblue);
       border-radius: 50px;
-      border: 2px solid orangered;
+      border: 2px solid gold;
       margin-bottom: 5px;
       box-shadow: 2px 6px 10px magenta;
      }
      .dropdown{
       margin-right: 5px;
      }
-      
+     .dropbuttons{
+      border: 2px solid goldenrod;
+      border-radius: 100px;
+      box-shadow: 2px 6px 10px gold;
+      background: linear-gradient(to top, black,lightgreen,black);
+     }
+     .title6{
+      font-size: 18px;
+     } 
    
      
        
