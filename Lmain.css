@@ -68,6 +68,14 @@
           font-weight: bold;
           font-size: 16px;
           background-color: #151618;
+          border-radius: 10px;
+         }
+         .error-msg ion-icon{
+          color: red;
+          border: 2px solid red;
+          background-color: gold;
+          border-radius: 50px;
+          padding: 5px 10px;
          }
          
          .hits-title{
@@ -1567,6 +1575,8 @@
      }
      .title6{
       font-size: 18px;
+      border-radius: 0;
+      border-radius: 5px;
      } 
    
      
