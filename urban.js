@@ -25,6 +25,24 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "EL MEJOR",
+        artist: "Nino Freestyle",
+        image: "NinoFreeElMejorPic.jpg",
+        path: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
+    },
+    {
+        name: "ORGANICO",
+        artist: "Jamby El Favo",
+        image: "Jamby El Favo - Orgánico.mp3",
+        path: "Jamby El Favo - Orgánico.mp3"
+    },
+    {
+        name: "PASSOA",
+        artist: "Jhayco x Kapo",
+        image: "JhayKapoPassoaPic.jpg",
+        path: "JHAYCO, Kapo - Passoa.mp3"
+    },
+    {
         name: "Otra Vez",
         artist: "El Fother , Mestizo Is Back",
         image: "MestizoFotheOtraVezrPic.jpg",

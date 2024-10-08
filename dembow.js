@@ -31,16 +31,10 @@ let track_list = [
         path: "Mestizo Is Back, Braulio Fogon  KIKIA.mp3"
     },
     {
-        name: "FRENAME TU",
-        artist: "Donaty",
-        image: "DonatyFrenametuPic.jpg",
-        path: "Donaty-Frename Tu.mp3"
-    },
-    {
-        name: "DIME TU",
-        artist: "J one x El Mayor Clasico",
-        image: "JoneMayorDimetuPic.jpg",
-        path: "J one x El Mayor Clasico-DIME TU.mp3"
+        name: "UN MUAH",
+        artist: "Angel Dior",
+        image: "ANGELDIORUNMUAHPIC.jpg",
+        path: "Angel Dior - Un Muah.mp3"
     },
     {
         name: "PALO AJENO",
@@ -49,10 +43,34 @@ let track_list = [
         path: "Chimbala - Mestizo Is Back - PALO AJENO.mp3"
     },
     {
+        name: "FRENAME TU",
+        artist: "Donaty",
+        image: "DonatyFrenametuPic.jpg",
+        path: "Donaty-Frename Tu.mp3"
+    },
+    {
+        name: "MARON",
+        artist: "Mestizo Is Back",
+        image: "MestizoMaronPic.jpg",
+        path: "Mestizo Is Back - Maron.mp3"
+    },
+    {
         name: "Gare",
         artist: "Flow 28",
         image: "Flow28GarePic.jpg",
         path: "Flow 28 ft. Leo RD - Gare.mp3"
+    },
+    {
+        name: "DANDOLE",
+        artist: "Donaty",
+        image: "DonDanPic.jpg",
+        path: "DONATY - DAN2LE.mp3"
+    },
+    {
+        name: "DIME TU",
+        artist: "J one x El Mayor Clasico",
+        image: "JoneMayorDimetuPic.jpg",
+        path: "J one x El Mayor Clasico-DIME TU.mp3"
     },
     {
         name: "MI BANDA",
@@ -71,18 +89,6 @@ let track_list = [
         artist: "Yasiel LM Ft. Lomiiel",
         image: "yasielLomiPic.jpg",
         path: "Yaisel LM - Ay Bebe ft Lomiiel.mp3"
-    },
-    {
-        name: "MARON",
-        artist: "Mestizo Is Back",
-        image: "MestizoMaronPic.jpg",
-        path: "Mestizo Is Back - Maron.mp3"
-    },
-    {
-        name: "DANDOLE",
-        artist: "Donaty",
-        image: "DonDanPic.jpg",
-        path: "DONATY - DAN2LE.mp3"
     },
     {
         name: "DEJENME RULAY",
