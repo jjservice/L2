@@ -511,6 +511,21 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+      .li50 a{
+        font-size: 30px;
+        text-align: center;
+        background-image: url(Bar.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .li50 a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
   
       .content{
         height: 30%;
@@ -700,7 +715,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(DonatyFrenametuPic.jpg);
+        background-image:url(Domfrenametupic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1107,7 +1122,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(DoraSepPic.jpg);
+        background-image:url(DoraPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

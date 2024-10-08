@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+}
+
+h1 {
+    border: 2px solid gold;
+    border-radius: 100%;
+    box-shadow: 2px 6px 10px maroon;
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+}
+h1 ion-icon{
+    color: rgba(255, 217, 0, 0.589);
+    background-image: url(lollipop_3GIF.gif);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid gold;
+    box-shadow: 2px 3px 3px lightblue;
+    border-radius: 50px;
+}
+
+#container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: transparent;
+   
+    
+}
+
+#search {
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(to left,maroon, lightgreen,darkblue);
+    border-radius:40px;
+}
+
+#search label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#searchInput {
+    display: inherit;
+    width: 100%;
+    padding: 1em 1em;
+    border-radius: 50px;
+}
+#searchInput:focus {
+    background-color: lightblue;
+}
+
+
+#results {
+    display: block;
+    padding: 10px;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#results .name {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 10px;
+    list-style-type: none;
+    
+}
+#results{
+    overflow-y: auto;
+    height: 18vh;
+    background-color: transparent;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+#results li {
+    border: 2px solid gold;
+    padding: 10px;
+    border-radius: 20px;   
+}
+
+#results li:hover {
+    
+    background-color: lightblue;
+}
+#results li a{
+     color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px gold;
+    
+}
+#results li a:hover{
+   color: black;
+   text-decoration: none;
+   text-shadow: 2px 2px 4px gold;
+   
+}
+#results::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+    
+}
+
+details{
+    display: inherit;
+    width: 100%;
+    padding: 1em 1em;
+    border-radius: 100%;
+}
+
+details summary{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+
+}
+
+

@@ -26,8 +26,8 @@ let curr_track = document.createElement('audio');
 let track_list = [
     {
         name: "FRENAME TU",
-        artist: "Donaty",
-        image: "DonatyFrenametuPic.jpg",
+        artist: "DONATY",
+        image: "Domfrenametupic.jpg",
         path: "Donaty-Frename Tu.mp3"
     },
 ];
