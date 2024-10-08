@@ -62,6 +62,13 @@
          h6 .icon{
           color: gold;
          }
+         .error-msg{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: red;
+          font-weight: bold;
+          font-size: 16px;
+          background-color: #151618;
+         }
          
          .hits-title{
           background-image: url(MAGENTAFIREGIF.webp);
