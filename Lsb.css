@@ -112,7 +112,7 @@ label ion-icon{
 }
 #results{
     overflow-y: auto;
-    height: 100px;
+    max-height: 102px;
     background-color: transparent;
     width: 100px;
     justify-content: center;
@@ -157,7 +157,7 @@ label ion-icon{
     justify-content: center;
     align-items: center;
     align-content: center;
-    top: 145px;
+    top: 135px;
     box-shadow: 2px 6px 10px maroon;
    
 }
