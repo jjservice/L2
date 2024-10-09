@@ -1520,11 +1520,10 @@
         background-size: cover;
       }
       .details-body{
-        text-decoration: none;
-        font-size: 30px;
+        text-decoration: none;    
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
-        color: white;
+        color: yellow;
         text-shadow: 2px 2px 4px maroon;
         border-radius: 100%;
         border-bottom: 2px solid gold;
@@ -1533,17 +1532,31 @@
        
         
       }
-      .song-details{
-        text-decoration: none;
+      .artist-name{
         font-size: 25px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .summary-title{
+        box-sizing: content-box;
+        font-size: 20px;
+        color: maroon;
+        text-shadow: 2px 2px 4px gold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+     
+      .song-details{
+        box-sizing: content-box;
+        text-decoration: none;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         align-content: center;
         align-items: center;
         color: white;
-        text-shadow: 2px 2px 4px black;
+        text-shadow: 2px 2px 4px maroon;
         background:linear-gradient(to left,maroon,lightgreen,darkblue);
         border: 3px solid gold;
-        border-radius: 50px;
+        border-radius: 20px;
+        text-align: center;
         
         
         
@@ -1578,8 +1591,140 @@
       border-radius: 0;
       border-radius: 5px;
      } 
-   
-     
        
+     #container {
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 20px;
+      border-radius: 50px;
+      background: transparent;
+      border: 20px solid rgba(255, 217, 0, 0.527);
+     
       
+  }
+  
+  #search {
+      display: flex;
+      padding: 20px;
+      background: linear-gradient(to left,maroon, lightgreen,darkblue);
+      border-radius:40px;
+      box-shadow: 2px 4px 10px lightblue;
+  
+  
+  }
+  
+  #search label {
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: rgba(117, 117, 2, 0.719);
+      text-shadow: 1px 2px 1px gold;
+      font-weight: bold;
+      margin-right: 5px;
+      cursor: pointer;
+  }
+  
+  #searchInput {
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 15px;
+      display: inherit;
+      width: 100%;
+      border-radius: 50px;
+      box-shadow: 2px 3px 3px black;
+      border: 2px solid gold;
+  }
+  #searchInput:focus {
+      background-color: lightblue;
+  }
+  label ion-icon{
+      font-size: 40px;
+      color: rgba(128, 0, 0, 0.63);
+      background-image: url(lollipop_3GIF.gif);
+      background-size: cover;
+      background-position: center;
+      background-color: transparent;
+      border-bottom: 1px solid goldenrod;
+      box-shadow: 2px 3px 2px black;
+      border-radius: 50px;
+      
+  }
+  
+  #results {
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+      transition: 0.5s;
+  }
+  
+  #results .name {
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+      background:linear-gradient(to right,black,darkblue,maroon,black);
+      margin-bottom: 10px;
+      list-style-type: none;
+   
+      
+  }
+
+  #results{
+      overflow-y: auto;
+      max-height: 102px;
+      background-color: transparent;
+      width: 100px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      display: -webkit-flex;
+      flex-direction: column;
+  }
+  
+  
+  #results li{
+      margin-right: 10px;
+      padding: 15px 20px;
+      border: 2px solid gold; 
+      border-radius: 20px;  
+      box-shadow: 2px 5px 2px rgb(100, 100, 100);
+  }
+  
+  #results li:hover {
+      transform: scale(1.10);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+      border-radius: 20px;
+  }
+  #results li a{
+       color: white;
+      text-decoration: none;
+      text-shadow: 2px 2px 4px gold;   
+  }
+  #results li a:hover{
+     color: orange;
+     text-decoration: none;
+     
+  }
+  #results li ion-icon{
+    color: gold;
+    box-shadow: 1px 2px 3px lightgreen;
+    border-radius: 100%;
+  }
+  #results::-webkit-scrollbar {
+      width: 0;
+      background-color: transparent;
+      
+  }
+  
+  #results{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+     }
+  
+  
+
+  
+  
   
