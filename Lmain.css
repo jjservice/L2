@@ -1607,6 +1607,7 @@
       background: linear-gradient(to left,maroon, lightgreen,darkblue);
       border-radius:40px;
       box-shadow: 2px 4px 10px lightblue;
+      border: 2px solid lightblue;
   
   
   }
@@ -1658,7 +1659,6 @@
       width: 100%;
       padding: 20px 0;
       text-align: center;
-      background:linear-gradient(to right,black,darkblue,maroon,black);
       margin-bottom: 10px;
       list-style-type: none;
    
@@ -1679,11 +1679,12 @@
   
   
   #results li{
-      margin-right: 10px;
+      margin-right: 30px;
       padding: 15px 20px;
       border: 2px solid gold; 
       border-radius: 20px;  
       box-shadow: 2px 5px 2px rgb(100, 100, 100);
+      background: linear-gradient(to left, black,darkblue,lightgreen,maroon,black);
   }
   
   #results li:hover {
@@ -1693,9 +1694,8 @@
       border-radius: 20px;
   }
   #results li a{
-       color: white;
-      text-decoration: none;
-      text-shadow: 2px 2px 4px gold;   
+      color: none;
+      text-decoration: none;  
   }
   #results li a:hover{
      color: orange;
@@ -1714,15 +1714,15 @@
   }
   
   #results{
-      display: flex;
+      margin-top: 10px; 
       flex-wrap: wrap;
+      display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      border-radius: 25px;
      }
-  
-  
-
-  
-  
-  
