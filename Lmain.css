@@ -808,7 +808,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(futuretoofastpic.jpg);
+        background-image:url(ElAlfaRikitanPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1684,7 +1684,7 @@
       border: 2px solid gold; 
       border-radius: 20px;  
       box-shadow: 2px 5px 2px rgb(100, 100, 100);
-      background: linear-gradient(to left, black,darkblue,lightgreen,maroon,black);
+      background: linear-gradient(to right, black,darkblue,lightgreen,maroon,black);
   }
   
   #results li:hover {

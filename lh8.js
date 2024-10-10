@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "TOO FAST",
-        artist: "Future",
-        image: "futuretoofastpic.jpg",
-        path: "Future - TOO FAST.mp3"
+        name: "RIKITAN",
+        artist: "El Alfa El Jefe",
+        image: "ElAlfaRikitanPic.jpg",
+        path: "El Alfa El Jefe - RIKITAN.mp3"
     },
 ];
 
