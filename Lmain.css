@@ -1316,6 +1316,14 @@
         transform: scale(1.10);
         transition: 0.5s;
       }
+      .navigation3 li ion-icon{
+        color: transparent;
+      }
+      .navigation3 li ion-icon:hover{
+        color: gold;
+        background-color: rgba(0, 0, 0, 0.432);
+        border-radius: 10px;
+      }
 
       .navigation3 a{
         color: gold;
