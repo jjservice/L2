@@ -25,16 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Change Me",
+        name: "Lost The Love",
         artist: "BigXthaPlug",
-        image: "BigXcHangeMePic.jpg",
-        path: "BigXthaPlug - Change Me.mp3"
+        image: "BigxLastPic.jpg",
+        path: "BigXthaPlug - Lost The Love.mp3"
     },
     {
         name: "Dope Boy",
         artist: "Young Thug x Nigo",
         image: "YoungThughNigoDopeBoyPic.jpg",
         path: "Young Thug, Nigo - Dope Boy.mp3"
+    },
+    {
+        name: "Take Care",
+        artist: "BigXthaPlug",
+        image: "BigxLastPic.jpg",
+        path: "BigXthaPlug - Take Care.mp3"
     },
     {
         name: "Luv Again",
@@ -49,10 +55,10 @@ let track_list = [
         path: "BigXthaPlug - The Largest.mp3"
     },
     {
-        name: "PLAIN JANE",
-        artist: "A$AP Ferg",
-        image: "AsaFergPic.jpg",
-        path: "A$AP Ferg - Plain Jane.mp3"
+        name: "Change Me",
+        artist: "BigXthaPlug",
+        image: "BigXcHangeMePic.jpg",
+        path: "BigXthaPlug - Change Me.mp3"
     },
     {
         name: "Whip It",
@@ -95,6 +101,12 @@ let track_list = [
         artist: "Mike Jones",
         image: "MikeJonesPic.jpg",
         path: "Mike Jones-Back Then.mp3"
+    },
+    {
+        name: "PLAIN JANE",
+        artist: "A$AP Ferg",
+        image: "AsaFergPic.jpg",
+        path: "A$AP Ferg - Plain Jane.mp3"
     },
     {
         name: "Emotionally Scarred",

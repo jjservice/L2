@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "INJUSTICIA",
+        name: "MODO FORTY",
         artist: "ROCHY RD",
-        image: "rochyInjusticiaPic.jpg",
-        path: "ROCHY RD - INJUSTICIA.mp3"
+        image: "RochyModo40Pic.jpg",
+        path: "ROCHY RD - MODO FORTY.mp3"
     },
 ];
 

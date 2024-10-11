@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "The Largest",
-        artist: "BigXThaPlug",
-        image: "BigXTheLargestPic.jpg",
-        path: "BigXthaPlug - The Largest.mp3"
+        name: "Lost The Love",
+        artist: "BigXthaPlug",
+        image: "BigxLastPic.jpg",
+        path: "BigXthaPlug - Lost The Love.mp3"
     },
 ];
 
