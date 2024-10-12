@@ -1546,7 +1546,7 @@
         color: yellow;
         text-shadow: 2px 2px 4px maroon;
         border-radius: 100%;
-        border: 4px solid gold;
+        border: 2px solid darkblue;
         box-shadow: 2px 6px 10px lightgreen;
         box-sizing: border-box;
         
@@ -1571,14 +1571,19 @@
         align-content: center;
         align-items: center;
         color: white;
-        text-shadow: 2px 2px 4px maroon;
+        text-shadow: 2px 2px 4px gold;
         background:linear-gradient(to left,maroon,lightgreen,darkblue);
-        border: 3px solid gold;
+        border: 2px solid gold;
         border-radius: 20px;
         text-align: center;
-        
-        
-        
+        background-image: url(ColumbusDayPic.jpg);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        padding: 140px;
+        transition: background-color 0.5s;
+        cursor: pointer;
+
       }
       .image-post img{
         border: 2px solid lightblue;
