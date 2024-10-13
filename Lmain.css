@@ -1156,7 +1156,7 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(DoraPic.jpg);
+        background-image:url(monstersummerPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1334,76 +1334,6 @@
         background-image: none;
         box-shadow: none;   
       }
-      
-    
-      .lit4{
-        background-image: url(BlackPhonePic.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-      .lit5{
-        background-image: url(DoraSepPic.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-      .lit6{
-        background-image: url(JokerPic.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-        .lit7{
-          background-image: url(FlyMetoTheMoonPic.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          }    
-        .lit8{
-            background-image: url(TransformerPic.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            }
-        .lit9{
-          background-image: url(1992moviePic.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-              } 
-        .lit10{
-          background-image: url(VenonMPic.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-                } 
-                
-        .lit11{
-          background-image: url(RedOneMPIC.webp);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          } 
-                        
-      .lit12{
-               background-image: url(SONI3LOGOPIC.webp);
-               background-position: center;
-               background-repeat: no-repeat;
-               background-size: cover;
-             } 
-      .lit13{
-          background-image: url(DespicMoPic.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          }
-      .lit14{
-          background-image: url(ImaginaMPic.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          }
     
       .lit15{
           background-image: url(USOPENGIF.webp);
@@ -1495,7 +1425,7 @@
         background-size: cover;
       }
       .li32{
-        background-image: url(RANCHERASPIC1.jpg);
+        background-image: url(Corridos2024Pic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1507,7 +1437,7 @@
         background-size: cover;
       }
       .li34{
-        background-image: url(mambopic.jpg);
+        background-image: url(MerengueMmboPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1519,13 +1449,13 @@
         background-size: cover;
       }
       .li36{
-        background-image: url(UrbanHipHopPic.webp);
+        background-image: url(HipHopLatinoPic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .li37{
-        background-image: url(americanhiohopPic.jpg);
+        background-image: url(HipHopUsaPic.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

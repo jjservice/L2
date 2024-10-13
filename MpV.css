@@ -254,27 +254,14 @@
     cursor: pointer;
 
   }
-  .genre-ran{
+  .genre-name{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: tomato;
     text-shadow: 2px 2px 4px blue;
     justify-content: center;
   }
-  .genre-ran ion-icon{
-    color: rgba(255, 217, 0, 0.719);
-    display: flex;
-    margin: 0% auto;
-    justify-content: center;
-  }
-  .genre-hiphop{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: tomato;
-    text-shadow: 2px 2px 4px blue;
-    justify-content: center;
-  }
-  .genre-hiphop ion-icon{
+  .genre-name ion-icon{
     color: rgba(255, 217, 0, 0.719);
     display: flex;
     margin: 0% auto;
