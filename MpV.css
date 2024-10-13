@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background:linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .player {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .wrapper {
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 0px 5px 20px gold;
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .track-art {
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgba(255, 217, 0, 0.63);
+    box-shadow: 2px 2px 10px black;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+  .now-playing {
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 1px blue;
+  }
+  .track-name {
+    font-size: 2.1rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px darkblue;
+  }
+  .track-artist {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px gold;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 10px blue;
+    border: 1px solid gold;
+    border-radius: 100%;
+  }
+  .active {
+    color: #000;
+  }
+  .repeat-track,
+  .next-track,
+  .playpause-track,
+  .prev-track,
+  .random-track {
+    padding: 15px;
+    color: gold;
+  }
+  .slider_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seek_slider,
+  .volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: blue;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+  .seek_slider::-webkit-slider-thumb,
+  .volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: lightblue;
+    border: 4px solid rgba(128, 0, 0, 0.774);
+    cursor: grab;
+    border-radius: 100%;
+  }
+  .seek_slider:hover,
+  .volume_slider:hover {
+    opacity: 1;
+  }
+  .seek_slider {
+    width: 60%;
+  }
+  .volume_slider {
+    width: 30%;
+  }
+  .current-time,
+  .total-duration {
+    padding: 10px;
+    color: #fff;
+  }
+  i.fa-volume-down,
+  i.fa-volume-up {
+    padding: 10px;
+  }
+  i,
+  i.fa-play-circle,
+  i.fa-pause-circle,
+  i.fa-step-forward,
+  i.fa-step-backward,
+  p {
+    cursor: pointer;
+    color: maroon;
+    text-shadow: 2px 2px 4px gold;
+  }
+  .randomActive {
+    cursor: pointer;
+    color: maroon;
+    text-shadow: 2px 2px 4px gold;
+  }
+  .randomActive:hover{
+    color: gold;
+  }
+   .rotate {
+    animation: rotation 8s infinite linear;
+  }
+  .loader {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader .stroke {
+    background: lightgreen;
+    height: 100%;
+    width: 10px;
+    border-radius: 50px;
+    margin: 0 5px;
+    animation: animate 1.4s linear infinite;
+  }
+  @keyframes animate {
+    50% {
+      height: 20%;
+      background-color: blue;
+    }
+    100% {
+      height: 100%;
+      background: maroon;
+    }
+  }
+  .stroke:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .stroke:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  .stroke:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .stroke:nth-child(4) {
+    animation-delay: 0.9s;
+  }
+  .stroke:nth-child(5) {
+    animation-delay: 0.6s;
+  }
+  .stroke:nth-child(6) {
+    animation-delay: 0.3s;
+  }
+  .stroke:nth-child(7) {
+    animation-delay: 0s;
+  }
+  .lolli-title{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .lolli-title ion-icon{
+    color: rgba(255, 217, 0, 0.644);
+    border-bottom: 1px solid gold;
+    box-shadow: 2px 2px 10px blue;
+    border-radius: 50px;
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+  }
+  .homebtn{
+    border-bottom: 3px solid gold;
+    box-shadow: 0px 2px 6px lightgreen;
+    background-image: url(MusicGig.gif);
+    background-position: center;
+    background-size: 50%;
+    border-radius: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+    padding: 3px 10px;
+
+  }
+  .homebtn ion-icon{
+    color: rgba(255, 217, 0, 0.568);
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0% auto;
+  }
+  .homebtn ion-icon:hover{
+    color: gold;
+  }
+  .homebtn:hover{
+    color: gold;
+    transition: color 0.5s ease;
+    box-shadow: 2px 2px 20px gold;
+    transform: scale(1.10);
+    transition: 0.5s;
+    cursor: pointer;
+
+  }
+ 
+  
