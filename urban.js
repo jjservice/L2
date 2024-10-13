@@ -33,7 +33,7 @@ let track_list = [
     {
         name: "ORGANICO",
         artist: "Jamby El Favo",
-        image: "Jamby El Favo - Orgánico.mp3",
+        image: "JambyOrganicoPic.jpg",
         path: "Jamby El Favo - Orgánico.mp3"
     },
     {
