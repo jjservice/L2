@@ -56,15 +56,17 @@
     text-shadow: 1px 1px 1px blue;
   }
   .track-name {
-    font-size: 2.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     color: #fff;
     text-shadow: 2px 2px 4px darkblue;
   }
   .track-artist {
     margin-top: 5px;
-    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     text-shadow: 2px 2px 4px gold;
+    font-size: 18px;
   }
   .buttons {
     display: flex;
@@ -74,7 +76,9 @@
     box-shadow: 2px 2px 10px blue;
     border: 1px solid gold;
     border-radius: 100%;
-  }
+    background: linear-gradient(to right,black,black,darkblue,lightgreen,maroon,black,black);
+    opacity: 80%;
+  } 
   .active {
     color: #000;
   }
@@ -127,6 +131,7 @@
   .total-duration {
     padding: 10px;
     color: #fff;
+    text-shadow: 2px 2px 4px blue;
   }
   i.fa-volume-down,
   i.fa-volume-up {
@@ -139,8 +144,9 @@
   i.fa-step-backward,
   p {
     cursor: pointer;
-    color: maroon;
-    text-shadow: 2px 2px 4px gold;
+    color: tomato;
+    text-shadow: 2px 2px 4px blue;
+   
   }
   .randomActive {
     cursor: pointer;
@@ -199,7 +205,7 @@
     animation-delay: 0s;
   }
   .lolli-title{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     text-shadow: 2px 2px 4px gold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -247,6 +253,47 @@
     transition: 0.5s;
     cursor: pointer;
 
+  }
+  .genre-ran{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: tomato;
+    text-shadow: 2px 2px 4px blue;
+    justify-content: center;
+  }
+  .genre-ran ion-icon{
+    color: rgba(255, 217, 0, 0.719);
+    display: flex;
+    margin: 0% auto;
+    justify-content: center;
+  }
+  .genre-hiphop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: tomato;
+    text-shadow: 2px 2px 4px blue;
+    justify-content: center;
+  }
+  .genre-hiphop ion-icon{
+    color: rgba(255, 217, 0, 0.719);
+    display: flex;
+    margin: 0% auto;
+    justify-content: center;
+  }
+  .jj-title{
+    display: flex;
+    margin: 0% auto;
+    justify-content: center;
+    color: darkgray;
+    text-shadow: 2px 2px 4px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  .jj-title ion-icon{
+    color: rgba(255, 217, 0, 0.466);
+    box-shadow: 2px 2px 10px lightblue;
+    border-bottom: 1px solid gold;
+    border-radius: 50px;
   }
  
   
