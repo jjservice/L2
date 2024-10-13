@@ -1796,3 +1796,22 @@
       text-decoration: none;
       text-shadow: none;
     }
+    #name3{
+      background-image: url(lollipop_3GIF.gif);
+      background-position: center;
+      background-size: cover;
+      background-color: darkblue;
+      border: 2px solid gold;
+      border-radius: 20px;
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+      padding: 10px 15px;
+    }
+    #name3 a{
+      text-decoration: none;
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+    }
