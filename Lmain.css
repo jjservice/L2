@@ -1579,11 +1579,11 @@
         border: 2px solid gold;
         border-radius: 20px;
         text-align: center;
-        background-image: url(ColumbusDayPic.jpg);
+        background-image: url(WorldOctober13.png);
         background-position: center;
-        background-size: 50%;
+        background-size: 300px;
         background-repeat: no-repeat;
-        padding: 250px;
+        padding: 200px;
         transition: background-color 0.5s;
         cursor: pointer;
 
