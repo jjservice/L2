@@ -21,6 +21,12 @@ let isRandom = false;
 let updateTimer;
 
 const music_list = [
+   {
+        name: "Law & Order",
+        artist: "BigXthaPlug",
+        img: "BigXLawOrderPic.jpg",
+        music: "BigXthaPlug - Law & Order.mp3"
+    },
     {
         name: "Lost The Love",
         artist: "BigXthaPlug",
