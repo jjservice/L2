@@ -27,8 +27,8 @@ let track_list = [
     {
         name: "SEDA",
         artist: "Bad Bunny x Bryant Myers",
-        img: "BadBunnyBryinSedaPic.jpg",
-        music: "Bad Bunny, Bryant Myers - Seda.mp3"
+        image: "BadBunnyBryinSedaPic.jpg",
+        path: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
 ];
 
