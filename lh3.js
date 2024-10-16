@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "LA MAFIA",
-        artist: "Anuel AA",
-        image: "ANUELLAMAFIAPICCC.jpg",
-        path: "ANUEL AA - LA MAFIA.mp3"
+        name: "SEDA",
+        artist: "Bad Bunny x Bryant Myers",
+        img: "BadBunnyBryinSedaPic.jpg",
+        music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
 ];
 

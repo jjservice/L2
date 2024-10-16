@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "KIKIA",
-        artist: "Mestizo Is Back X Braulio Fogon",
-        image: "MEZTIBRAULIOKIKIAPIC.jpg",
-        path: "Mestizo Is Back, Braulio Fogon  KIKIA.mp3"
+        name: "EL BOOMERANG",
+        artist: "Mestizo Is Back",
+        image: "MestizoBoomeranPic.jpg",
+        path: "Mestizo Is Back  El Boomerang.mp3"
     },
 ];
 

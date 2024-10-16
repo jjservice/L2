@@ -22,6 +22,12 @@ let updateTimer;
 
 const music_list = [
     {
+        name: "SEDA",
+        artist: "Bad Bunny x Bryant Myers",
+        img: "BadBunnyBryinSedaPic.jpg",
+        music: "Bad Bunny, Bryant Myers - Seda.mp3"
+    },
+    {
         name: "EL MEJOR",
         artist: "Nino Freestyle",
         img: "NinoFreeElMejorPic.jpg",
