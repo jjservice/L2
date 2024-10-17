@@ -1512,6 +1512,7 @@
       }
       .artist-name{
         font-size: 25px;
+        color: gold;
       }
       .summary-title{
         box-sizing: content-box;
@@ -1522,6 +1523,7 @@
       }
       .details-body{
         background-color: rgba(0, 0, 0, 0.418);
+        color: transparent;    
       }
      
       .song-details{
