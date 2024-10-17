@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Lost The Love",
+        name: "Law & Order",
         artist: "BigXthaPlug",
-        image: "BigxLastPic.jpg",
-        path: "BigXthaPlug - Lost The Love.mp3"
+        image: "BigXLawOrderPic.jpg",
+        path: "BigXthaPlug - Law & Order.mp3"
     },
 ];
 
