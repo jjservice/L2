@@ -1520,6 +1520,9 @@
         text-shadow: 2px 2px 4px gold;
         font-family: Georgia, 'Times New Roman', Times, serif;
       }
+      .details-body{
+        background-color: rgba(0, 0, 0, 0.418);
+      }
      
       .song-details{
         box-sizing: content-box;
