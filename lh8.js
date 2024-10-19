@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "RIKITAN",
-        artist: "El Alfa El Jefe",
-        image: "ElAlfaRikitanPic.jpg",
-        path: "El Alfa El Jefe - RIKITAN.mp3"
+        name: "BALA",
+        artist: "Ceky Viciny x Yaisel LM",
+        image: "CekyYasielBalaPic.jpg",
+        path: "Ceky Viciny x Yaisel LM - Bala.mp3"
     },
 ];
 
