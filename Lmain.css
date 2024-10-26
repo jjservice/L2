@@ -132,13 +132,29 @@
         #sidebar{
           font-weight: bold;
           position: absolute;
-          width: 300px;
+          width: 189px;
           height: 60%;
-          border-radius: 30px;
-          left: -300px;
+          border-radius: 20px;
+          left: -130px;
           transition: .4s;
           cursor: pointer;
         }
+        #sidebar .toggle-btn {
+          position: absolute;
+          left: 160px;
+        }
+        .toggle-btn:hover{
+            color: blue;
+            text-shadow: 2px 2px 4px gold;
+            box-shadow: 3px 3px 10px gold;
+            transform: scale(1.10);
+            transition: 0s;
+            border-radius: 20px;
+          }
+        #sidebar.active {
+          left: 0%;
+        }
+        
   
         #sidebar ul li{
           color: beige;
@@ -188,22 +204,6 @@
           box-shadow: 2px 6px 10px white;
     
         }
-        #sidebar .toggle-btn {
-          position: absolute;
-          left: 330px;
-        }
-        .toggle-btn:hover{
-            color: blue;
-            text-shadow: 2px 2px 4px gold;
-            box-shadow: 3px 3px 10px gold;
-            transform: scale(1.10);
-            transition: 0s;
-            border-radius: 20px;
-          }
-        #sidebar.active {
-          left: 0%;
-        }
-        
         .span1{
           font-size: 50px;
           position: relative;
