@@ -1579,13 +1579,16 @@
       font-size: 18px;
       border-radius: 0;
       border-radius: 5px;
+      border: 2px solid black;
      }  
      #ClockDisplay{
       font-family: monospace;
       font-weight: bold;
       width: 100%;
+      border: 4px solid rgba(0, 0, 139, 0.575);
       border-radius: 20px;
-      font-size: 25px;
+      font-size: 40px;
+      letter-spacing: 1px;
       color: white;
       text-shadow: 0px 1px 4px gold;
       background: linear-gradient(to right,darkblue,black,black,maroon);
