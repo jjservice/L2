@@ -1,34 +1,18 @@
-*{
-    margin: 0%;
-    padding: 0%;
-  }
-  footer{
-    bottom: 0;
-    
-  }
-  html{
-    height: 100%;
-     }
-  
-     .jj2{
-      margin-bottom: 5%;
+
+      *{
+        margin: 0%;
+        padding: 0%;
       }
-   
-  body{
-      min-height: 100%;
-      flex-direction: column;
-      height: 100dvh;
-      position: center;
-      background-color: whitesmoke;
-      align-items: center;
-      text-align: center;
-      border: 10px solid #151618;
-      box-shadow: 2px 2px 4px gold;
-      border-radius: 50px;
-      font-size: 100%;
-      align-content: center;
-      font-family: 'Times New Roman', Times, serif;
-      }
+      body{
+          flex-direction: column;
+          box-sizing: border-box;
+          height: auto;
+          text-align: center;
+          align-content: center;
+          border: 10px solid #151618;
+          border-radius: 50px;
+          background-color: whitesmoke;
+          }
       
          h1{
           margin-bottom: 5px;
