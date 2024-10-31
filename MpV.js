@@ -28,10 +28,22 @@ const music_list = [
         music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
     {
-        name: "EL MEJOR",
-        artist: "Nino Freestyle",
-        img: "NinoFreeElMejorPic.jpg",
-        music: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
+        name: "Astronauto",
+        artist: "Almighty",
+        img: "AlmightyPicx.jpg",
+        music: "Almighty- Astronauto.mp3"
+    },
+    {
+        name: "Pila De Cotorra",
+        artist: "El Fother x Darlyn Nay",
+        img: "FotherDarlinPilaDeCotorraPic.jpg",
+        music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
+    },
+    {
+        name: "Que Loquera",
+        artist: "Nino Freestyle x Yomel El Meloso",
+        img: "ninoyomelPic.jpg",
+        music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
         name: "ORGANICO",
@@ -40,10 +52,46 @@ const music_list = [
         music: "Jamby El Favo - Orgánico.mp3"
     },
     {
+        name: "Pana Mío",
+        artist: "Polakan Ft. Melymel",
+        img: "panamiopic.jpg",
+        music: "Polakan Ft. Melymel - Pana Mío.mp3"
+    },
+    {
+        name: "EL MEJOR",
+        artist: "Nino Freestyle",
+        img: "NinoFreeElMejorPic.jpg",
+        music: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
+    },
+    {
         name: "PASSOA",
         artist: "Jhayco x Kapo",
         img: "JhayKapoPassoaPic.jpg",
         music: "JHAYCO, Kapo - Passoa.mp3"
+    },
+    {
+        name: "CRYPTO",
+        artist: "Miky Woodz",
+        img: "mikypic5555.jpg",
+        music: "Miky Woodz - CRYPTO.mp3"
+    },
+    {
+        name: "Mujeres Como Tu",
+        artist: "Lapiz Conciente X Shadow Blow",
+        img: "LAPIZSHADOWPIC.jpg",
+        music: "Lapiz Conciente ft. Shadow Blow - Mujeres Como Tu.mp3"
+    },
+    {
+        name: "Por Mi Lau",
+        artist: "Miky Woodz",
+        img: "MIKYWOODSPIC111.jpg",
+        music: "Miky Woodz - Por Mi Lau.mp3"
+    },
+    {
+        name: "27 Mensajes",
+        artist: "Shadow Blow X Lapiz Conciente",
+        img: "LAPIZSHADOWPIC.jpg",
+        music: "Shadow Blow  Lapiz Conciente  27 Mensajes.mp3"
     },
     {
         name: "Otra Vez",
@@ -56,24 +104,6 @@ const music_list = [
         artist: "Anuel AA",
         img: "ANUELLAMAFIAPICCC.jpg",
         music: "ANUEL AA - LA MAFIA.mp3"
-    },
-    {
-        name: "Que Loquera",
-        artist: "Nino Freestyle x Yomel El Meloso",
-        img: "ninoyomelPic.jpg",
-        music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
-    },
-    {
-        name: "Pana Mío",
-        artist: "Polakan Ft. Melymel",
-        img: "panamiopic.jpg",
-        music: "Polakan Ft. Melymel - Pana Mío.mp3"
-    },
-    {
-        name: "Astronauto",
-        artist: "Almighty",
-        img: "AlmightyPicx.jpg",
-        music: "Almighty- Astronauto.mp3"
     },
     {
         name: "Where You At",
@@ -110,30 +140,6 @@ const music_list = [
         artist: "Shadow Blow X Lapiz Conciente",
         img: "SHADOWLAPIS5555.jpg",
         music: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
-    },
-    {
-        name: "CRYPTO",
-        artist: "Miky Woodz",
-        img: "mikypic5555.jpg",
-        music: "Miky Woodz - CRYPTO.mp3"
-    },
-    {
-        name: "Por Mi Lau",
-        artist: "Miky Woodz",
-        img: "MIKYWOODSPIC111.jpg",
-        music: "Miky Woodz - Por Mi Lau.mp3"
-    },
-    {
-        name: "Mujeres Como Tu",
-        artist: "Lapiz Conciente X Shadow Blow",
-        img: "LAPIZSHADOWPIC.jpg",
-        music: "Lapiz Conciente ft. Shadow Blow - Mujeres Como Tu.mp3"
-    },
-    {
-        name: "27 Mensajes",
-        artist: "Shadow Blow X Lapiz Conciente",
-        img: "LAPIZSHADOWPIC.jpg",
-        music: "Shadow Blow  Lapiz Conciente  27 Mensajes.mp3"
     },
     {
         name: "Solo $exo",
