@@ -28,11 +28,78 @@ const music_list = [
         music: "BigXthaPlug - Law & Order.mp3"
     },
     {
-        name: "Lost The Love",
-        artist: "BigXthaPlug",
-        img: "BigxLastPic.jpg",
-        music: "BigXthaPlug - Lost The Love.mp3"
+      name: "Pack Ya Bags",
+      artist: "Rick Ross x Meek Mill x Wale",
+      img: "RickMeekTooGoodTobeTruePic.jpg",
+      music: "Rick Ross & 2 Chainz - Pack Ya Bags ft. Wale 2024.mp3"
+     },
+     {
+      name: "Lost The Love",
+      artist: "BigXthaPlug",
+      img: "BigxLastPic.jpg",
+      music: "BigXthaPlug - Lost The Love.mp3"
     },
+    {
+      name: "They Don't Really Love You",
+      artist: "Rick Ross x Meek Mill",
+      img: "RickMeekTooGoodTobeTruePic.jpg",
+      music: "Rick Ross, Meek Mill - They Don't Really Love You.mp3"
+     },
+     {
+      name: "The Largest",
+      artist: "BigXThaPlug",
+      img: "BigXTheLargestPic.jpg",
+      music: "BigXthaPlug - The Largest.mp3"
+    },
+     {
+      name: "Iconic",
+      artist: "Rick Ross x Meek Mill",
+      img: "RickMeekTooGoodTobeTruePic.jpg",
+      music: "Rick Ross, Meek Mill - Iconic.mp3"
+     },
+     {
+      name: "Whip It",
+      artist: "BigXThaPlug",
+      img: "BigXThatPlug11111.jpg",
+      music: "BigXthaPlug - Whip It (Official Audio).mp3"
+  },
+  {
+      name: "Fight Night",
+      artist: "Migos",
+      img: "MigosPic1.jpg",
+      music: "Migos - Fight Night.mp3"
+  },
+  {
+      name: "Back on my Bs",
+      artist: "BigXthaPlug",
+      img: "backbspic.jpg",
+      music: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
+  },
+  {
+      name: "Million Dollar Baby",
+      artist: "Tommy Richman",
+      img: "milliondollarpic.jpg",
+      music: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
+  },
+  {
+    name: "800 Karats",
+    artist: "Rick Ross x Meek Mill",
+    img: "RickMeekTooGoodTobeTruePic.jpg",
+    music: "Rick Ross, Meek Mill - 800 Karats.mp3"
+   },
+  {
+      name: "Need It",
+      artist: "Migos ft. YoungBoy Never Broke Again",
+      img: "MigosIneedItPic.jpg",
+      music: "Migos  ft. YoungBoy Never Broke Again- Need It.mp3"
+  },
+    
+     {
+      name: "Lyrical Eazy",
+      artist: "Rick Ross x Meek Mill",
+      img: "RickMeekTooGoodTobeTruePic.jpg",
+      music: "Rick Ross & Meek Mill - Lyrical Eazy.mp3"
+     },
     {
         name: "Dope Boy",
         artist: "Young Thug x Nigo",
@@ -46,52 +113,22 @@ const music_list = [
         music: "BigXthaPlug - Take Care.mp3"
     },
     {
+      name: "Star Island",
+      artist: "Rick Ross x Meek Mill",
+      img: "RickMeekTooGoodTobeTruePic.jpg",
+      music: "Rick Ross, Meek Mill - Star Island.mp3"
+     },
+    {
         name: "Luv Again",
         artist: "Ruger",
         img: "RugerLuvAgainPic.jpg",
         music: "Ruger - Luv Again.mp3"
     },
     {
-        name: "The Largest",
-        artist: "BigXThaPlug",
-        img: "BigXTheLargestPic.jpg",
-        music: "BigXthaPlug - The Largest.mp3"
-    },
-    {
         name: "Change Me",
         artist: "BigXthaPlug",
         img: "BigXcHangeMePic.jpg",
         music: "BigXthaPlug - Change Me.mp3"
-    },
-    {
-        name: "Whip It",
-        artist: "BigXThaPlug",
-        img: "BigXThatPlug11111.jpg",
-        music: "BigXthaPlug - Whip It (Official Audio).mp3"
-    },
-    {
-        name: "Fight Night",
-        artist: "Migos",
-        img: "MigosPic1.jpg",
-        music: "Migos - Fight Night.mp3"
-    },
-    {
-        name: "Back on my Bs",
-        artist: "BigXthaPlug",
-        img: "backbspic.jpg",
-        music: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
-    },
-    {
-        name: "Million Dollar Baby",
-        artist: "Tommy Richman",
-        img: "milliondollarpic.jpg",
-        music: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
-    },
-    {
-        name: "Need It",
-        artist: "Migos ft. YoungBoy Never Broke Again",
-        img: "MigosIneedItPic.jpg",
-        music: "Migos  ft. YoungBoy Never Broke Again- Need It.mp3"
     },
     {
         name: "Big Stepper",
