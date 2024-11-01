@@ -28,10 +28,22 @@ const music_list = [
         music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
     {
+        name: "No Soy Mujeriego",
+        artist: "Nino Freestyle",
+        img: "NinoFreestylePic.avif",
+        music: "Nino Freestyle - No Soy Mujeriego.mp3"
+    },
+    {
         name: "Astronauto",
         artist: "Almighty",
         img: "AlmightyPicx.jpg",
         music: "Almighty- Astronauto.mp3"
+    },
+    {
+        name: "ORGANICO",
+        artist: "Jamby El Favo",
+        img: "JambyOrganicoPic.jpg",
+        music: "Jamby El Favo - Orgánico.mp3"
     },
     {
         name: "Pila De Cotorra",
@@ -46,10 +58,10 @@ const music_list = [
         music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
-        name: "ORGANICO",
-        artist: "Jamby El Favo",
-        img: "JambyOrganicoPic.jpg",
-        music: "Jamby El Favo - Orgánico.mp3"
+        name: "KIANA",
+        artist: "Tali Goya",
+        img: "TALIPIC.jpg",
+        music: "Tali Goya - Kianna (Tiradera a Lito Kirino).mp3"
     },
     {
         name: "Pana Mío",
