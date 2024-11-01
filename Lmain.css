@@ -528,6 +528,76 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+      .liW1 a{
+        text-align: center;
+        background-image: url(WeatherGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .liW1 a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
+      .liSTOP1 a{
+        text-align: center;
+        background-image: url(StopWatchPic.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .liSTOP1 a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
+      .VoiceRecorder a{
+        text-align: center;
+        background-image: url(VoiceRecorderGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .VoiceRecorder a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
+      .ClassicWatch a{
+        text-align: center;
+        background-image: url(ClassicWatchGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .ClassicWatch a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
+      .liNOTES a{
+        text-align: center;
+        background-image: url(NotesGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .liNOTES a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
       .li14 a{
         font-size: 30px;
         text-align: center;
