@@ -1785,6 +1785,52 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #C-watch{
+      background-image: url(ClassicWatchGif.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #C-watch a{
+    color: transparent;
+    }
+    #C-watch a:hover{
+      color: black;
+      text-shadow: 2px 2px 4px gold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    #C-watch:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Cal-S{
+      background-image: url(CalculatorGif11.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Cal-S a{
+    color: transparent;
+    }
+    #Cal-S:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #name1 a{
       color: gold;
       text-shadow: 2px 2px 4px blue;
@@ -1841,11 +1887,7 @@
       
     }
     #name4 a{
-      text-decoration: 2px solid blue underline;
-      color: gold;
-      text-shadow: 2px 2px 4px maroon;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-weight: bold;
+      color: transparent;
     }
     #name4 ion-icon{
       color: rgba(255, 217, 0, 0.685);
@@ -1860,8 +1902,6 @@
       color: white;
       text-shadow: 2px 2px 4px gold;
     }
-
-
     #name5{
       background-image: url(StopWatchPic.gif);
       background-position: center;
@@ -1878,17 +1918,7 @@
       justify-content: center;
     }
     #name5 a{
-      text-decoration: none;
-      color: crimson;
-      text-shadow: 1px 2px 1px beige;
-      font-family: cursive;
-      font-weight: bold;
-      text-align: center;
-      align-items: center;
-      flex-direction: column;
-      box-sizing: border-box;
-      justify-content: center;
-      font-size: 14px;
+      color:transparent;
     }
     #name5 ion-icon{
       font-size: 20px;
@@ -1963,22 +1993,22 @@
       border-bottom: 2px solid gold;
       border-radius: 10px;
   }
-  .toggleClass ion-icon{
-      color: rgba(255, 217, 0, 0.747);
-      font-size: 30px;
-      transition: background-color 0.5s ease, color 0.5s ease;
-  }
-  body.light .toggleClass ion-icon{
-      color: red;
-      font-weight: bold;
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: 65%;
-      background-repeat: no-repeat;
-  }
   .toggleClass::after{
       content: '';
       white-space: nowrap;
       transition: background-color 0.5s ease, color 0.5s ease;  
+  }
+  body.light .toggleClass ion-icon{
+    color: red;
+    font-weight: bold;
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+}
+  .toggleClass ion-icon{
+      color: rgba(255, 217, 0, 0.747);
+      font-size: 30px;
+      transition: background-color 0.5s ease, color 0.5s ease;
   }
 
