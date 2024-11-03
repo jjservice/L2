@@ -1812,6 +1812,33 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #L-weather{
+      background-image: url(WeatherGif.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #L-weather a{
+    color: transparent;
+    }
+    #L-weather a:hover{
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    #L-weather:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #Cal-S{
       background-image: url(CalculatorGif11.gif);
       background-position: center;
