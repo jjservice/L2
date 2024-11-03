@@ -140,8 +140,6 @@
         #sidebar.active {
           left: 0%;
         }
-        
-  
         #sidebar ul li{
           color: beige;
           text-shadow: 2px 2px 4px gold;
@@ -149,6 +147,7 @@
           margin: 10px;
           padding: 10px;  
         }
+
         .navigation3 li a{
           color: gold;
           background: transparent;
@@ -401,7 +400,7 @@
       .li-news a{
         background-image: url(NewsStreetGif.gif);
         background-position: center;
-        background-size: cover;
+        background-size: 80%;
         border-radius: 20px;
         
       }
@@ -1956,7 +1955,6 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
   }
   body.light .toggleClass{
       background: radial-gradient(circle,lightgreen,black,darkblue);
