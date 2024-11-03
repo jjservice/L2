@@ -28,6 +28,12 @@ const music_list = [
         music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
     {
+        name: "SASA O DINERO",
+        artist: "BRAULIO FOGON",
+        img: "BraulioFogonPic.jpg",
+        music: "BRAULIO FOGON - SASA O DINERO.mp3"
+    },
+    {
         name: "No Soy Mujeriego",
         artist: "Nino Freestyle",
         img: "NinoFreestylePic.avif",
