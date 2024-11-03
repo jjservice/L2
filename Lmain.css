@@ -13,7 +13,7 @@
           border-radius: 20px;
           border: 10px solid #151618;
           border-radius: 50px;
-          background-color: whitesmoke;
+          background-color: #151618;
           }
       
          h1{
@@ -1640,7 +1640,7 @@
      #ClockDisplay{
       font-family: monospace;
       font-weight: bold;
-      width: 350px;
+      width: 300px;
       text-align: center;
       margin: 0% auto;
       border: 4px solid rgba(255, 217, 0, 0.849);
@@ -1915,3 +1915,78 @@
       text-shadow: 2px 2px 4px gold;
     }
 
+
+
+    body.light{
+      background: whitesmoke;
+  }
+
+  body.light::before{
+    background: #008eff;
+   }
+    .toggle{
+      position: absolute;
+      right: 150px;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      border-radius:50%;
+      background: whitesmoke;
+      color: whitesmoke;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      cursor: pointer;
+      left: 20px;
+      white-space: nowrap;
+  }
+  .toggleClass{
+      position: absolute;
+      padding: 10px 10px;
+      top: 126px;
+      left: 12px;
+      cursor: pointer;
+      border-radius: 10px;
+      background: rgba(245, 245, 245, 0.582);
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      transition: background-color 0.5s ease, color 0.5s ease;
+      box-shadow: 0px 2px 20px gold;
+      border-bottom: 2px solid orangered;
+      background-image: url(light-bulbGif.gif);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+  }
+  body.light .toggleClass{
+      background: radial-gradient(circle,lightgreen,black,darkblue);
+      transition: background-color 0.5s ease, color 0.5s ease;
+      box-shadow: 0px 5px 10px maroon;
+      border-bottom: 2px solid gold;
+      border-radius: 10px;
+    
+  }
+  .toggleClass ion-icon{
+      color: rgba(255, 217, 0, 0.747);
+      font-size: 30px;
+      transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  body.light .toggleClass ion-icon{
+      color: red;
+      font-weight: bold;
+      background-image: url(lollipop_3GIF.gif);
+      background-position: center;
+      background-size: 65%;
+      background-repeat: no-repeat;
+  }
+  .toggleClass::after{
+      content: '';
+      white-space: nowrap;
+      transition: background-color 0.5s ease, color 0.5s ease;  
+  }

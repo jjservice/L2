@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="X-UA-Compatible" content="IE=7">
-<title>LOLLIPOP MAIN</title>
-<!-- Load FontAwesome icons -->
-<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-<!-- Load the custom CSS style file -->
+<title>LOLLIPOP MAIN</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet" type="text/css" href="Lmain.css">
 
-<body>
+<body class="light">
 	<h1>LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</h1>
 
 	<div id="ClockDisplay" onload="showTime()"></div>
+
+	<div class="toggleClass" onclick="toggleClass()"><ion-icon name="bulb-outline"></ion-icon></div>
     
 	
 	<h6 class="title6"><i><ion-icon name="bonfire" class="icon" id="icon"></ion-icon></i></h6>
@@ -272,9 +272,7 @@
 	  text-align: center;
 	  position: relative;
 	  align-content: center;
-	  display: inline-block;
-	  
-	 
+	  display: inline-block;	 
  }
 	</style>   
 	<script src="Lsb.js"></script>
@@ -282,7 +280,7 @@
 	  <details class="details-body">
         <summary class="artist-name">WHAT IS TODAY?...</summary>
 		<summary class="summary-title"></summary>
-		<a href="https://jjservice.github.io/NewsLoliJJ/New.html">
+		<a href="#">
 			<img src="November3.jpg" class="image2">
 		</a>
        <p class="song-details"></p>
