@@ -35,21 +35,3 @@ function toggleClass(){
     body.classList.toggle('light');
     
     }
-
-    let LoggedIn = false;
-    let username;
-    let password;
-    
-    while(!LoggedIn){
-        username = window.prompt('WRITE: LOLLITA');
-        password = window.prompt(`WRITE: IS THE POP`);
-    
-        if(username === "LOLLITA" && password === "IS THE POP"){
-            LoggedIn = true; 
-            console.log("Login successful");
-               } 
-        else {
-            console.log("Incorrect username or password");
-        }
-    
-    }
