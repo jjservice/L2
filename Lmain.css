@@ -15,19 +15,34 @@
           border-radius: 50px;
           background-color: black;
           }
-      
+          .form{
+            background: linear-gradient(to right,darkblue,maroon);
+            border-radius: 50px;
+            border: 2px solid gold;
+            margin-bottom: 5px;
+            box-shadow: 2px 2px 10px blue;
+           }
+           body.light .form{
+            background: linear-gradient(to left, maroon,lightgreen,darkblue);
+           }
          h1{
           margin-bottom: 5px;
-          background: linear-gradient(to left, black,maroon,lightgreen,blue,black); 
+          background: linear-gradient(to right,darkblue,maroon);
           font-size: 80px;
           color: white;
-          text-shadow: 2px 2px 10px gold;
+          text-shadow: 2px 2px 4px darkblue;
           border: 4px solid gold;
           letter-spacing: 2px;
-          box-shadow: 5px 15px 15px darkblue;
+          box-shadow: 5px 15px 15px maroon;
           border-radius: 100%;
           
          }
+         body.light h1{
+          color: white;
+          text-shadow: 2px 2px 10px gold;
+          box-shadow: 5px 15px 15px darkblue;
+          background: linear-gradient(to left, black,maroon,lightgreen,blue,black); 
+        }
         h1 ion-icon{
           color: rgba(255, 217, 0, 0.801);
           border-bottom: 2px solid gold;
@@ -43,6 +58,9 @@
           font-weight: bold;
           font-family: 'Times New Roman', Times, serif;
           color: white;
+          text-shadow: 2px 2px 4px darkblue;
+         }
+         body.light h6{
           text-shadow: 2px 2px 4px gold;
          }
          h6 .icon{
@@ -65,15 +83,20 @@
          }
          
          .hits-title{
+          background: linear-gradient(to right,darkblue,maroon);
+          color: white;
+          text-shadow: 2px 2px 4px darkblue;
+          
+          font-weight: bold;
+          font-size: 40px;
+          box-shadow: 2px 2px 4px gold;
+        }
+        body.light .hits-title{
           background-image: url(MAGENTAFIREGIF.webp);
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
-          color: white;
           text-shadow: 2px 2px 4px gold;
-          font-weight: bold;
-          font-size: 40px;
-          box-shadow: 2px 2px 4px gold;
         }
         .hits-title ion-icon{
           font-size: 30px;
@@ -122,12 +145,14 @@
           height: 60%;
           border-radius: 20px;
           left: -130px;
-          transition: .4s;
+          transition: 1s;
           cursor: pointer;
+         
         }
         #sidebar .toggle-btn {
           position: absolute;
           left: 160px;
+         
         }
         .toggle-btn:hover{
             color: blue;
@@ -193,11 +218,15 @@
           font-size: 50px;
           position: relative;
           color: gold;
-          box-shadow:2px 3px 10px maroon;
+          box-shadow: 0px 2px 10px lightblue;
           border: 4px solid goldenrod;
           border-radius: 20px;
-          background: linear-gradient(to left, black,maroon,lightgreen,darkblue,black);
+          background: linear-gradient(to right,rgba(0, 0, 139, 0.596),rgba(128, 0, 0, 0.596));
           
+        }
+        body.light .span1{
+          box-shadow:2px 3px 10px maroon;
+          background: linear-gradient(to left, black,maroon,lightgreen,darkblue,black); 
         }
         .span1:hover{
           color: maroon;
@@ -231,15 +260,19 @@
       }
       .dropdown button{
           object-position: left;
-          box-shadow: 2px 4px 6px blue;
+          box-shadow: 0px 2px 10px lightblue;
           font-size: 30px;
           font-weight:bolder;
-          background: linear-gradient(to left, black,maroon,lightgreen,darkblue,black);
+          background: rgba(0, 0, 59, 0.589);
           padding: 10px 15px;
           border: 4px solid goldenrod;
           border-radius: 20px;
           cursor: pointer;
           transition: 0s;
+      }
+      body.light .dropdown button{
+        box-shadow: 0px 2px 10px blue;
+        background: linear-gradient(to left, black,maroon,lightgreen,darkblue,black);
       }
       .dropdown a{
           box-shadow: 2px 3px 10px gold;
@@ -1268,12 +1301,16 @@
       }
   
       .hits-title3{
-        background: linear-gradient(to top, black,gold,black);
+        background: linear-gradient(to right, darkblue,maroon);
         color: white;
-        text-shadow: 2px 3px 2px gold;
+        text-shadow: 3px 3px 2px darkblue;
         font-weight: bold;
         font-size: 40px;
         box-shadow: 2px 2px 4px gold;
+      }
+      body.light .hits-title3{
+        text-shadow: 2px 3px 2px gold;
+        background: linear-gradient(to top, black,gold,black);
       }
        .hits-title3 ion-icon{
         font-size: 30px;
@@ -1291,13 +1328,16 @@
        }
       
       .hits-title4{
-        background: linear-gradient(to top,black,gold,black);
+        background: linear-gradient(to right,darkblue,maroon);
         color: white;
-        text-shadow: 3px 3px 2px gold;
+        text-shadow: 3px 3px 2px darkblue;
         font-weight: bold;
         font-size: 40px;
         box-shadow: 2px 2px 4px gold;
-      
+      }
+      body.light .hits-title4{
+        text-shadow: 3px 3px 2px gold;
+        background: linear-gradient(to top,black,gold,black); 
       }
       
        .hits-title4 ion-icon{
@@ -1314,13 +1354,15 @@
         padding: 5px;
         
        }
-       
-       
+    
        .hits-title5{
-          font-size: 40px;
-          background-image: url(MusicGig.gif);
-          background-position: center;
-          background-size: 25%;
+        font-size: 40px;
+        background:linear-gradient(to right,darkblue,maroon);
+       }
+       body.light .hits-title5{
+        background-image: url(MusicGig.gif);
+        background-position: center;
+        background-size: 25%;
        }
        .hits-title5 ion-icon{
         font-size: 30px;
@@ -1334,7 +1376,14 @@
         border: 10px solid goldenrod;
         
        }
-       
+       .hits-title0{
+        background: linear-gradient(to right, darkblue,maroon);
+       }
+      body.light .hits-title0{
+        background: linear-gradient(to top, black,gold,black);
+         }
+      
+      
        .hits-title2{
         margin: 0;
     }
@@ -1604,7 +1653,6 @@
         border-radius: 50px;
         
       }
-
       .image2{
         justify-content: center;
         align-items: center;
@@ -1614,13 +1662,6 @@
         padding: 30px;
         cursor: pointer;
       }
-     .form{
-      background: linear-gradient(to left, maroon,lightgreen,darkblue);
-      border-radius: 50px;
-      border: 2px solid gold;
-      margin-bottom: 5px;
-      box-shadow: 2px 2px 10px blue;
-     }
      .dropdown{
       margin-right: 5px;
      }
@@ -1628,6 +1669,10 @@
       border: 2px solid goldenrod;
       border-radius: 100px;
       box-shadow: 2px 6px 10px gold;
+      background: linear-gradient(to right, darkblue,maroon);
+      cursor: pointer;
+     }
+     body.light .dropbuttons{
       background: linear-gradient(to top, black,goldenrod,black);
      }
      .title6{
@@ -1644,9 +1689,13 @@
       font-size: 40px;
       letter-spacing: 1px;
       color: white;
+      text-shadow: 2px 2px 4px maroon;
+      background: radial-gradient(circle,maroon,black);
+      
+     }
+     body.light #ClockDisplay{
       text-shadow: 2px 2px 4px gold;
-      background: radial-gradient(circle,darkblue,maroon,black);
-
+      background: radial-gradient(circle,darkblue,black);
      }
      
      #container {
@@ -1654,15 +1703,23 @@
       margin: 0 auto;
       margin-top: 5px;
       border-radius: 50px;
-      border: 20px solid rgba(255, 217, 0, 0.527); 
+      border: 20px solid rgba(255, 217, 0, 0.527);
+      background-color: rgba(0, 0, 0, 0.603); 
      }
+     body.light #container{
+      background: transparent;
+    }
   #search {
       display: flex;
       padding: 20px;
-      background: linear-gradient(to left,maroon, lightgreen,darkblue);
+      background: radial-gradient(circle,darkblue,maroon,black);
+    
       border-radius:40px;
       box-shadow: 2px 4px 10px lightblue;
       border: 2px solid lightblue;
+  }
+  body.light #search{
+    background: linear-gradient(to right,darkblue,lightgreen,maroon);
   }
   #search label {
       font-size: 20px;
@@ -1683,6 +1740,7 @@
       box-shadow: 2px 3px 3px black;
       border: 2px solid gold;
   }
+  
   #searchInput:focus {
       background-color: lightblue;
   }
@@ -1966,8 +2024,6 @@
       text-shadow: 2px 2px 4px gold;
     }
 
-
-
     body.light{
       background: whitesmoke;
   }
@@ -1975,20 +2031,7 @@
   body.light::before{
     background: #008eff;
    }
-    .toggle{
-      position: absolute;
-      right: 150px;
-      width: 20px;
-      height: 20px;
-      font-size: 20px;
-      border-radius:50%;
-      background: whitesmoke;
-      color: whitesmoke;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      cursor: pointer;
-      left: 20px;
-      white-space: nowrap;
-  }
+
   .toggleClass{
       position: absolute;
       padding: 8px 15px;
@@ -2006,7 +2049,7 @@
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-weight: bold;
       transition: background-color 0.5s ease, color 0.5s ease;
-      box-shadow: 0px 2px 20px gold;
+      box-shadow: 0px 2px 10px lightsalmon;
       border: 2px solid orangered;
       background-image: url(light-bulbGif.gif);
       background-position: center;
@@ -2016,7 +2059,7 @@
   body.light .toggleClass{
       background: radial-gradient(circle,lightgreen,black,darkblue);
       transition: background-color 0.5s ease, color 0.5s ease;
-      box-shadow: 0px 5px 10px maroon;
+      box-shadow: 0px 2px 10px gold;
       border-bottom: 2px solid gold;
       border-radius: 10px;
   }
@@ -2038,4 +2081,6 @@
       font-size: 30px;
       transition: background-color 0.5s ease, color 0.5s ease;
   }
+
+
 
