@@ -7,13 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background:linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
-    height: 110vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: center;
   }
   .player {
-    height: 90vh;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,14 +23,15 @@
   }
   .wrapper {
     background-image: url(lollipop_3GIF.gif);
-    background-position: center;
-    background-size: cover;
-    border: 4px solid darkblue;
-    padding: 10px;
-    border-radius: 20px;
+    background-position: bottom;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: 6px solid rgba(139, 0, 69, 0.514);
+    padding: 15px;
+    border-radius: 50px;
     backdrop-filter: blur(30px);
     background-color: rgba(0, 0, 0, 0.588);
-    box-shadow: 0px 5px 20px gold;
+    box-shadow: 0px 2px 20px lightcoral;
   }
   .details {
     display: flex;
@@ -38,14 +40,14 @@
     justify-content: center;
   }
   .track-art {
-    margin: 25px;
+    margin: 20px;
     height: 200px;
     width: 200px;
     border: 2px solid rgba(255, 217, 0, 0.63);
-    box-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 10px lightcoral;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-bottom: 5px;
   }
   .now-playing {
@@ -72,12 +74,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
-    box-shadow: 2px 2px 10px blue;
-    border: 1px solid gold;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 10px lightcoral;
+    border: 2px solid rgba(255, 217, 0, 0.582);
     border-radius: 100%;
-    background: linear-gradient(to right,black,black,darkblue,lightgreen,maroon,black,black);
-    opacity: 80%;
+    background: rgba(0, 0, 0, 0.726);
+    
   } 
   .active {
     color: #000;
@@ -206,6 +208,7 @@
   }
   .lolli-title{
     font-size: 40px;
+    letter-spacing: 2px;
     color: white;
     text-shadow: 2px 2px 4px gold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -221,8 +224,8 @@
     background-color: transparent;
   }
   .homebtn{
-    border-bottom: 3px solid gold;
-    box-shadow: 0px 2px 6px lightgreen;
+    border-bottom: 2px solid gold;
+    box-shadow: 0px 2px 6px blue;
     background-image: url(MusicGig.gif);
     background-position: center;
     background-size: 50%;
@@ -275,6 +278,7 @@
     text-shadow: 2px 2px 4px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    
   }
   .jj-title ion-icon{
     color: rgba(255, 217, 0, 0.466);
