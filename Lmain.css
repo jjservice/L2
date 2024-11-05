@@ -1912,6 +1912,26 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #itunes-p{
+      background-image: url(itunespic222.gif);
+      background-position: center;
+      background-size: cover;
+      border: 2px solid #008eff;
+      box-shadow: 0px 2px 0px black;
+      border-radius: 20px;
+      margin-right: 30px;
+    }
+    #itunes-p a{
+      text-decoration: none;
+      color: transparent;
+    }
+    #itunes-p:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 0px 6px 10px gold;
+      border-radius: 20px;
+    }
+
     #name1 a{
       color: gold;
       text-shadow: 2px 2px 4px blue;
