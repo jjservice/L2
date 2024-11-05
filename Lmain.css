@@ -61,10 +61,11 @@
           text-shadow: 2px 2px 4px darkblue;
          }
          body.light h6{
-          text-shadow: 2px 2px 4px gold;
+            color: white;
+            text-shadow: 2px 2px 4px gold;
          }
          h6 .icon{
-          color: gold;
+          color: rgba(255, 217, 0, 0.575);
          }
          .error-msg{
           font-family: Georgia, 'Times New Roman', Times, serif;
@@ -115,18 +116,13 @@
           background-image: url(GUITARGIF1.gif);
           background-position: center;
           background-size: cover;
+          
          }
-      
          .hits-title2 ion-icon{
           font-size: 25px;
           color: gold; 
           background-color: transparent;
-         }
-         .hits-title2{
-          color: gold;
-          text-shadow: 3px 3px 3px blue;
-          margin-bottom: 5%;
-         }       
+         }      
       .navbar3{
         background-image: url(RedBull-Monster-Brand-Colour-Swap.webp);
         background-position: center;
