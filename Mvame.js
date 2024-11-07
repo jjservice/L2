@@ -21,6 +21,48 @@ let isRandom = false;
 let updateTimer;
 
 const music_list = [
+    {
+       name: "Lost The Love",
+       artist: "BigXthaPlug",
+       img: "BigxLastPic.jpg",
+       music: "BigXthaPlug - Lost The Love.mp3"
+    },   
+    {
+      name: "We Set The Trends",
+      artist: "Jim Jones x Migos",
+      img: "MiigosJimTrendPic.jpg",
+      music: "Jim Jones, Migos - We Set The Trends.mp3"
+    },
+    {
+      name: "Good Drank",
+      artist: "2 Chainz ft Quavo, Gucci Mane",
+      img: "2chainGodDrunkPic.jpg",
+      music: "2 Chainz - Good Drank ft. Quavo, Gucci Mane.mp3"
+    },
+    {
+      name: "Sacrifices",
+      artist: "Big Sean x Migos",
+      img: "SacrificesmigosBIgseanPic.jpg",
+      music: "Big Sean - Sacrifices ft. Migos.mp3"
+    },
+    {
+      name: "Diet Coke",
+      artist: "Pusha T",
+      img: "PushaTPic.jpg",
+      music: "Pusha T - Diet Coke.mp3"
+    },
+    {
+      name: "Mama Told Me",
+      artist: "Tory Lanez",
+      img: "ToryLanezPic.jpg",
+      music: "Tory Lanez - Mama Told Me.mp3"
+    },
+    {
+      name: "Quality Control",
+      artist: "Migos x Eurielle",
+      img: "MigosPic1.jpg",
+      music: "Quality Control - Too Hotty by Migos featuring Eurielle.mp3"
+    },
    {
         name: "Law & Order",
         artist: "BigXthaPlug",
@@ -33,18 +75,18 @@ const music_list = [
       img: "RickMeekTooGoodTobeTruePic.jpg",
       music: "Rick Ross & 2 Chainz - Pack Ya Bags ft. Wale 2024.mp3"
      },
-     {
-      name: "Lost The Love",
-      artist: "BigXthaPlug",
-      img: "BigxLastPic.jpg",
-      music: "BigXthaPlug - Lost The Love.mp3"
-    },
     {
       name: "They Don't Really Love You",
       artist: "Rick Ross x Meek Mill",
       img: "RickMeekTooGoodTobeTruePic.jpg",
       music: "Rick Ross, Meek Mill - They Don't Really Love You.mp3"
      },
+     {
+      name: "The Godfather",
+      artist: "Tory Lanez",
+      img: "ToryLanezPic.jpg",
+      music: "Tory Lanez - The Godfather.mp3"
+    },
      {
       name: "The Largest",
       artist: "BigXThaPlug",
@@ -197,12 +239,6 @@ const music_list = [
         music: "BigXthaPlug Ft Offset - Climate.mp3"
     },
     {
-        name: "Good Drank",
-        artist: "2 Chainz ft Quavo, Gucci Mane",
-        img: "2chainGodDrunkPic.jpg",
-        music: "2 Chainz - Good Drank ft. Quavo, Gucci Mane.mp3"
-    },
-    {
         name: "PRIMETIME",
         artist: "BigXThaPlug",
         img: "BIGXPICC.jpg",
@@ -343,7 +379,6 @@ function repeatTrack() {
 function playpauseTrack() {
   isPlaying ? pauseTrack() : playTrack();
 }
-
 function playTrack() {
   curr_track.play();
   isPlaying = true;
