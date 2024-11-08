@@ -1936,7 +1936,46 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #Puzzle-cal{
+      background-image: url(CalculatorGif11.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Puzzle-cal a{
+    color: transparent;
+    }
+    #Puzzle-cal:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #L-videos{
+      background-image: url(videocampicc2222.jpg);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #L-videos a{
+    color: transparent;
+    }
+    #L-videos:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #itunes-p{
+      color: transparent;
       background-image: url(itunespic222.gif);
       background-position: center;
       background-size: cover;
@@ -1955,6 +1994,116 @@
       box-shadow: 0px 6px 10px gold;
       border-radius: 20px;
     }
+    #Mta-train{
+      background-image: url(MtaGIF.gif);
+      background-position: center;
+      background-size: 90%;
+      background-repeat: no-repeat;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Mta-train a{
+    color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    }
+    #Mta-train:hover{
+      font-size: 16px;
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Voice-Re{
+      background-image: url(VoiceRecorderGif.gif);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Voice-Re a{
+    color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    }
+    #Voice-Re:hover{
+      font-size: 16px;
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+
+    #L-lyrics{
+      background-image: url(lyricsimage.gif);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #L-lyrics a{
+      color: orange;
+      text-shadow: 2px 2px 4px darkblue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    #L-lyrics:hover{
+      
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #L-notes{
+      background-image: url(NotesGif.gif);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #L-notes a{
+      color: transparent;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    #L-notes:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
 
     #name1 a{
       color: gold;
@@ -1965,7 +2114,7 @@
       color: red;
       text-shadow: 1px 1px 1px gold;
     }
-    #name2{
+    #google{
       background-image: url(googlelog.gif);
       background-position: center;
       background-size: cover;
@@ -1976,7 +2125,7 @@
       margin-right: 20px;
       padding: 10px 15px;
     }
-    #name2 a{
+    #google a{
       color: transparent;
       text-decoration: none;
       text-shadow: none;
