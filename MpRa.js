@@ -22,6 +22,12 @@ let updateTimer;
 
 const music_list = [
     {
+       name: "En Mi Mundo",
+       artist: "Jasiel Nuñez x Peso Pluma",
+       img: "JasielPesoplumaEnmiMundoPIc.jpg",
+       music: "En Mi Mundo - Jasiel Nuñez, Peso Pluma.mp3"
+    },
+    {
         name: "NO ME PESA",
         artist: "Junior H",
         img: "jUNIORhpIC.jpg",

@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Si Preguntan Por Mi",
-        artist: "Chris Lebron, Manuel Turizo",
-        image: "ChrisManuturizoSiPreguntaPorMiPic.jpg",
-        path: "Chris Lebron, Manuel Turizo - Si Preguntan Por Mi.mp3"
+        name: "En Mi Mundo",
+        artist: "Jasiel Nuñez x Peso Pluma",
+        image: "JasielPesoplumaEnmiMundoPIc.jpg",
+        path: "En Mi Mundo - Jasiel Nuñez, Peso Pluma.mp3"
     },
 ];
 
