@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Si Preguntan Por Mi",
+        artist: "Chris Lebron x Manuel Turizo",
+        image: "ChrisManuturizoSiPreguntaPorMiPic.jpg",
+        path: "Chris Lebron, Manuel Turizo - Si Preguntan Por Mi.mp3"
+    },
+    {
         name: "NO ME PESA",
         artist: "Junior H",
         image: "jUNIORhpIC.jpg",

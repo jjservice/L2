@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "SOLTERA",
-        artist: "Shakira",
-        image: "ShakiraSolteraPic.jpg",
-        path: "Shakira - Soltera.mp3"
+        name: "BING BONG",
+        artist: "Yailin La Mas Viral",
+        image: "YailinBingBongPic.jpg",
+        path: "Yailin La Mas Viral - Bing Bong.mp3"
     },
 ];
 

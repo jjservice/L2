@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "EL BOOMERANG",
-        artist: "Mestizo Is Back",
-        image: "MestizoBoomeranPic.jpg",
-        path: "Mestizo Is Back  El Boomerang.mp3"
+        name: "BAILALO",
+        artist: "Yaisel LM x Nfasis",
+        image: "NfasisYasielBailaloPic.jpg",
+        path: "Yaisel LM, Nfasis - Báilalo.mp3"
     },
 ];
 

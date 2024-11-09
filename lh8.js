@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "BALA",
-        artist: "Ceky Viciny x Yaisel LM",
-        image: "CekyYasielBalaPic.jpg",
-        path: "Ceky Viciny x Yaisel LM - Bala.mp3"
+        name: "DETUTANE",
+        artist: "Secreto El Famoso Biberon x Ceky Viciny",
+        image: "SecretoCekyDetutanePic.jpg",
+        path: "Secreto El Famoso Biberon, Ceky Viciny- DETUTANE.mp3"
     },
 ];
 
