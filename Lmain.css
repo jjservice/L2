@@ -1995,6 +1995,10 @@
       background-image: url(SqfeetFotoLogoGif.gif);
       background-position: center;
       background-size: cover;
+      background-color: rgba(41, 3, 71, 0.589);
+      background-blend-mode: color-dodge;
+      transition: background-color 0.5s;
+      opacity: 80%;
       border: 3px solid gold;
       border-radius: 20px;
       box-shadow: 2px 3px 2px darkblue;
