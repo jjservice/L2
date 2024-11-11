@@ -1909,7 +1909,7 @@
       box-shadow: 1px 6px 1px lightgreen;
     }
     #Cal-S{
-      background-image: url(CalculatorGif33.gif);
+      background-image: url(CalculatorGif11.gif);
       background-position: center;
       background-size: cover;
       border: 3px solid gold;
@@ -1929,7 +1929,7 @@
     }
     
     #Comp-Cal{
-      background-image: url(CalculatorGif22.gif);
+      background-image: url(CalculatorCompIntGif4.gif);
       background-position: center;
       background-size: cover;
       border: 3px solid gold;
@@ -1940,8 +1940,8 @@
       margin-right: 20px;
     }
     #Comp-Cal a{
-    color: rgba(0, 0, 0, 0.61);
-    text-shadow: 1px 1px 2px rgba(139, 0, 120, 0.596);
+      font-size: 16px;
+    color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-decoration: none;
@@ -1949,7 +1949,6 @@
     opacity: 90%;
     }
     #Comp-Cal:hover{
-      font-size: 16px;
       transform: scale(1.05);
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
