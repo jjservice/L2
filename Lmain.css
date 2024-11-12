@@ -2063,6 +2063,44 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #Youtube-SearchB{
+      background-image: url(YoutubeLogoGig.gif);
+      background-position: center;
+      background-size: 100%;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Youtube-SearchB a{
+    color: transparent;
+    }
+    #Youtube-SearchB:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Instagram-SearchB{
+      background-image: url(InstagramGif.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Instagram-SearchB a{
+    color: transparent;
+    }
+    #Instagram-SearchB:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #itunes-p{
       color: transparent;
       background-image: url(itunespic222.gif);
