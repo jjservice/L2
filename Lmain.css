@@ -1954,7 +1954,7 @@
       box-shadow: 1px 6px 1px lightgreen;
     }
     #Puzzle-cal{
-      background-image: url(CalculatorGif11.gif);
+      background-image: url(CalculatorGreenGif.gif);
       background-position: center;
       background-size: cover;
       border: 3px solid gold;
@@ -1987,6 +1987,25 @@
     color: transparent;
     }
     #L-videos:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #FinCal{
+      background-image: url(CalculatorGif33.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #FinCal a{
+    color: transparent;
+    }
+    #FinCal:hover{
       transform: scale(1.05);
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
