@@ -381,6 +381,7 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+ 
       .li a:hover{
         background-color: gold;
         color: beige;
@@ -459,6 +460,19 @@
         
       }
       .li-wanted a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
+      .li-FinCal a{
+        background-image: url(CalculatorCompIntGif4.gif);
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+        
+      }
+      .li-FinCal a:hover{
         background-color: gold;
         color: beige;
         text-shadow: 2px 2px 10px goldenrod;
@@ -647,6 +661,22 @@
         border-radius: 20px;
       }
       .liNOTES a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
+      .Ftg-Cal a{
+        text-align: center;
+        background-image: url(SqfeetFotoLogoGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: color-dodge;
+        background-color: rgba(139, 0, 127, 0.342);
+        border-radius: 20px;
+      }
+      .Ftg-Cal a:hover{
         background-color: gold;
         color: beige;
         text-shadow: 2px 2px 10px goldenrod;
@@ -1929,7 +1959,7 @@
     }
     
     #Comp-Cal{
-      background-image: url(CalculatorCompIntGif4.gif);
+      background-image: url(CalculatorGif33.gif);
       background-position: center;
       background-size: cover;
       border: 3px solid gold;
@@ -1992,7 +2022,7 @@
       box-shadow: 1px 6px 1px lightgreen;
     }
     #FinCal{
-      background-image: url(CalculatorGif33.gif);
+      background-image: url(CalculatorCompIntGif4.gif);
       background-position: center;
       background-size: cover;
       border: 3px solid gold;
