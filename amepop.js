@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "It Is What It Is",
+        artist: "Big Sean  x Gunna",
+        image: "BigSeanGunnaItisWhatItIsPic.jpg",
+        path: "Big Sean  x Gunna - It Is What It Is.mp3"
+    },
+    {
         name: "Lost The Love",
         artist: "BigXthaPlug",
         image: "BigxLastPic.jpg",
