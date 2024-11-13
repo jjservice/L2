@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "NO PUEDEN",
-        artist: "Mozart La Para X Shelow Shaq",
-        image: "MozartShelowNopuedenPic.jpg",
-        path: "Mozart La Para X Shelow Shaq - No Pueden.mp3"
+        name: "Domingo De Circuito",
+        artist: "Yomel El Meloso X Leandro Panamera ",
+        image: "YomelDomingoDecicuitoPic.jpg",
+        path: "Yomel El Meloso X El Panamera X La Greña - Domingo De Circuito.mp3"
     },
 ];
 

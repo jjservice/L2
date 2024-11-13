@@ -28,18 +28,6 @@ const music_list = [
         music: "El Poeta, @CarlosCoins - Curiana.mp3"
     },
     {
-        name: "",
-        artist: "",
-        img: "",
-        music: ""
-    },
-    {
-        name: "",
-        artist: "",
-        img: "",
-        music: ""
-    },
-    {
         name: "SEDA",
         artist: "Bad Bunny x Bryant Myers",
         img: "BadBunnyBryinSedaPic.jpg",
