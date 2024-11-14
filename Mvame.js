@@ -22,6 +22,12 @@ let updateTimer;
 
 const music_list = [
     {
+      name: "It Is What It Is",
+      artist: "Big Sean  x Gunna",
+      img: "BigSeanGunnaItisWhatItIsPic.jpg",
+      music: "Big Sean  x Gunna - It Is What It Is.mp3"
+    },  
+    {
        name: "Lost The Love",
        artist: "BigXthaPlug",
        img: "BigxLastPic.jpg",

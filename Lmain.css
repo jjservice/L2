@@ -1983,6 +1983,25 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #Exp-Tracker-SearchB{
+      background-image: url(ExpenseTrackerGif.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Exp-Tracker-SearchB a{
+    color: transparent;
+    }
+    #Exp-Tracker-SearchB:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #Puzzle-cal{
       background-image: url(CalculatorGreenGif.gif);
       background-position: center;
