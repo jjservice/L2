@@ -682,6 +682,20 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+      .Exp-Tracker-Drop a{
+        text-align: center;
+        background-image: url(ExpenseTrackerGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .Exp-Tracker-Drop a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
       .li14 a{
         font-size: 30px;
         text-align: center;
