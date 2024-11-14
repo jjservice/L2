@@ -22,10 +22,34 @@ let updateTimer;
 
 const music_list = [
     {
+        name: "Na Conmigo",
+        artist: "Lapiz Conciente",
+        img: "LapizNaConmigoPic.jpg",
+        music: "Lapiz Conciente - Na Conmigo.mp3"
+    },
+    {
         name: "CURIANA",
         artist: "El Poeta x CarlosCoins",
         img: "PoetaCarlosCurianaPic.jpg",
         music: "El Poeta, @CarlosCoins - Curiana.mp3"
+    },
+    {
+        name: "Pila De Cotorra",
+        artist: "El Fother x Darlyn Nay",
+        img: "FotherDarlinPilaDeCotorraPic.jpg",
+        music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
+    },
+    {
+        name: "Astronauto",
+        artist: "Almighty",
+        img: "AlmightyPicx.jpg",
+        music: "Almighty- Astronauto.mp3"
+    },
+    {
+        name: "Que Loquera",
+        artist: "Nino Freestyle x Yomel El Meloso",
+        img: "ninoyomelPic.jpg",
+        music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
         name: "SEDA",
@@ -46,28 +70,10 @@ const music_list = [
         music: "Nino Freestyle - No Soy Mujeriego.mp3"
     },
     {
-        name: "Astronauto",
-        artist: "Almighty",
-        img: "AlmightyPicx.jpg",
-        music: "Almighty- Astronauto.mp3"
-    },
-    {
         name: "ORGANICO",
         artist: "Jamby El Favo",
         img: "JambyOrganicoPic.jpg",
         music: "Jamby El Favo - Orgánico.mp3"
-    },
-    {
-        name: "Pila De Cotorra",
-        artist: "El Fother x Darlyn Nay",
-        img: "FotherDarlinPilaDeCotorraPic.jpg",
-        music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
-    },
-    {
-        name: "Que Loquera",
-        artist: "Nino Freestyle x Yomel El Meloso",
-        img: "ninoyomelPic.jpg",
-        music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
         name: "KIANA",
@@ -308,12 +314,6 @@ const music_list = [
         artist: "QUIMICO ULTRA MEGA",
         img: "QUIMICOPIC.jpg",
         music: "Quimico Ultra Mega - Demasiado Yagala (Official Music Video).mp3"
-    },
-    {
-        name: "Living Life",
-        artist: "Miky Woodz",
-        img: "MIKYWOODS.jpg",
-        music: "Miky Woodz  - Living Life (Video Oficial).mp3"
     },
     {
         name: "Rest in Peace",

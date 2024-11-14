@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "DETUTANE",
-        artist: "Secreto El Famoso Biberon x Ceky Viciny",
-        image: "SecretoCekyDetutanePic.jpg",
-        path: "Secreto El Famoso Biberon, Ceky Viciny- DETUTANE.mp3"
+        name: "Na Conmigo",
+        artist: "Lapiz Conciente",
+        image: "LapizNaConmigoPic.jpg",
+        path: "Lapiz Conciente - Na Conmigo.mp3"
     },
 ];
 
