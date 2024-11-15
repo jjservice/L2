@@ -26,7 +26,8 @@
             background: linear-gradient(to left, maroon,lightgreen,darkblue);
            }
          h1{
-          margin-bottom: 5px;
+          margin-top: 5px;
+          margin-bottom: 15px;
           background: linear-gradient(to right,darkblue,maroon);
           font-size: 80px;
           color: white;
@@ -2416,8 +2417,8 @@
 
   .toggleClass{
       position: absolute;
-      padding: 8px 15px;
-      top: 150px;
+      padding: 7px 14px;
+      top: 165px;
       left: 15px;
       cursor: pointer;
       border-radius: 10px;
