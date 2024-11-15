@@ -596,6 +596,20 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+      .TextToVoice-Drop a{
+        text-align: center;
+        background-image: url(TextToVoiceGIGG.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .TextToVoice-Drop a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      }
       .liSTOP1 a{
         text-align: center;
         background-image: url(StopWatchPic.gif);
@@ -2031,6 +2045,25 @@
     color: transparent;
     }
     #Puzzle-cal:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #TextToVoice-SearchB{
+      background-image: url(TextToVoiceGIGG.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #TextToVoice-SearchB a{
+    color: transparent;
+    }
+    #TextToVoice-SearchB:hover{
       transform: scale(1.05);
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
