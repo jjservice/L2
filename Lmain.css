@@ -1708,6 +1708,7 @@
       .details-body{
         background-color: rgba(0, 0, 0, 0.418);
         color: transparent;    
+        margin-bottom: 5px;
       }
      
       .image-post img{
@@ -1715,11 +1716,11 @@
         width: 250px;
         height: 250px;
         border-top: 2px solid gold;
-        box-shadow: 0px 2px 20px lightgreen;
+        box-shadow: 0px 2px 20px orangered;
         border-radius: 50px;
       }
       body.light .image-post img{
-         box-shadow: 0px 2px 20px darkgray;
+         box-shadow: 0px 2px 20px lightskyblue;
       }
       .image2{
         justify-content: center;
