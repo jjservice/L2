@@ -1727,7 +1727,7 @@
      
       .image-post img{
         margin-bottom: 2px;
-        width: 300px;
+        width: 250px;
         height: 250px;
         border-top: 2px solid gold;
         box-shadow: 0px 2px 20px orangered;
@@ -1742,8 +1742,21 @@
         text-align: center;
         width: 250px;
         height: 250px;
-        padding: 30px;
+        box-shadow: 0px 2px 6px gold;
+        border: 2px solid orangered;
+        border-radius: 10px;
         cursor: pointer;
+        background: transparent;
+      }
+      .details-body button{
+        padding: 20px;
+        border: none;
+        background: transparent;
+      }
+      .image2:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+        box-shadow: 0px 2px 15px gold;
       }
      .dropdown{
       margin-right: 5px;

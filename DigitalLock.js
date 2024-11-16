@@ -1,3 +1,4 @@
+// Watch Section ///////////////////////////
 function showTime(){
     var date = new Date();
     var h = date.getHours(); // 0 - 23
@@ -28,10 +29,23 @@ function showTime(){
 
 showTime();
 
-
+// Lights Section //////////////////////////////////
 function toggleClass(){
 
     const body = document.querySelector('body');
     body.classList.toggle('light');
     
+    }
+
+// Sound Click Effect Section /////////////////////////
+    
+    // Get the audio element
+    var audio = document.getElementById("BoxingBell");
+    // Set the volume to 0.20 //
+    audio.volume = 0.20;
+    // Set the loop to false to play the sound, only when clicking //
+    audio.loop = false;
+    // Function to play the audio when the Btn is clicked //
+    function bleepAudio() {
+        audio.play();
     }
