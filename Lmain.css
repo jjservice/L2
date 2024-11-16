@@ -2049,6 +2049,25 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #Translator-SearchB{
+      background-image: url(TranslatorAppGif.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Translator-SearchB a{
+    color: transparent;
+    }
+    #Translator-SearchB:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #TextToVoice-SearchB{
       background-image: url(TextToVoiceGIGG.gif);
       background-position: center;
