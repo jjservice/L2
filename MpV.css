@@ -19,7 +19,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 30px;
+
   }
   .wrapper {
     background-image: url(lollipop_3GIF.gif);
@@ -27,13 +27,14 @@
     background-size: 80%;
     background-repeat: no-repeat;
     border: 6px solid rgba(139, 0, 69, 0.514);
-    padding: 15px;
+    padding: 5px 10px;
     border-radius: 50px;
     backdrop-filter: blur(30px);
     background-color: rgba(0, 0, 0, 0.588);
     box-shadow: 0px 2px 20px lightcoral;
     margin: 0% auto;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .details {
     display: flex;
@@ -42,18 +43,20 @@
     justify-content: center;
   }
   .track-art {
-    margin: 20px;
-    height: 200px;
+    margin: 0% auto;
+    margin: 10px;
+    height: 180px;
     width: 200px;
     border: 2px solid rgba(255, 217, 0, 0.63);
     box-shadow: 2px 2px 10px lightcoral;
     background-size: cover;
     background-position: center;
-    border-radius: 50px;
+    border-radius: 15%;
     margin-bottom: 5px;
+    margin-top: 20px;
   }
   .now-playing {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: -20px;
     font-size: 15px;
     color: #fff;
@@ -214,6 +217,7 @@
     color: white;
     text-shadow: 2px 2px 4px gold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
   }
   .lolli-title ion-icon{
     color: rgba(255, 217, 0, 0.644);
@@ -226,17 +230,18 @@
     background-color: transparent;
   }
   .homebtn{
+    margin: 0% auto;
     border-bottom: 2px solid gold;
     box-shadow: 0px 2px 6px blue;
     background-image: url(MusicGig.gif);
     background-position: center;
-    background-size: 50%;
-    border-radius: 10px;
-    width: 25%;
+    background-size: 100%;
+    border-radius: 7px;
+    width: 50px;
     display: flex;
     justify-content: center;
-    margin: 0% auto;
-    padding: 3px 10px;
+    padding: 2px 0px;
+    opacity: 80%;
 
   }
   .homebtn ion-icon{
@@ -267,9 +272,9 @@
     justify-content: center;
   }
   .genre-name ion-icon{
+    margin: 0% auto;
     color: rgba(255, 217, 0, 0.719);
     display: flex;
-    margin: 0% auto;
     justify-content: center;
   }
   .jj-title{
@@ -280,6 +285,7 @@
     text-shadow: 2px 2px 4px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    margin-bottom: 1px;
     
   }
   .jj-title ion-icon{
