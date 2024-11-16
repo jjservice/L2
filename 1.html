@@ -321,15 +321,14 @@
 
 
 	<script src="Lsb.js"></script>
-	  <audio id="BoxingBell" src="BoxingBellSoundEffect.mp3"></audio>
+	
 	  <details class="details-body">
-        <summary class="artist-name">WHAT IS GOING ON?...</summary>
+		<audio id="BoxingBell" src="BoxingBellSoundEffect.mp3"></audio>
+        <summary class="artist-name" onmousedown="BoxingBell.play()">WHAT IS GOING ON?...</summary>
 		<summary class="summary-title"></summary>
-	    <a href="https://jjservice.github.io/NewsLoliJJ/New.html">
-		<button onmousedown="BoxingBell.play()">
+	    <a oncanplay="BoxingBell.play()" href="https://jjservice.github.io/NewsLoliJJ/New.html">
 			<img src="MykeTysonSlapJakePaulPic.jpg" class="image2">
 		</a>
-	   </button>
        <p class="song-details"></p>
        </details>
 	   

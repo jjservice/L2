@@ -39,13 +39,12 @@ function toggleClass(){
 
 // Sound Click Effect Section /////////////////////////
     
-    // Get the audio element
-    var audio = document.getElementById("BoxingBell");
-    // Set the volume to 0.20 //
-    audio.volume = 0.20;
-    // Set the loop to false to play the sound, only when clicking //
-    audio.loop = false;
-    // Function to play the audio when the Btn is clicked //
-    function bleepAudio() {
-        audio.play();
-    }
+var audio = document.getElementById("BoxingBell");
+// Set the volume to 0.20 //
+audio.volume = 0.20;
+// Set the loop to false to play the sound, only when clicking //
+audio.loop = false;
+// Function to play the audio when the Btn is clicked //
+function bleepAudio() {
+    audio.play();
+} 

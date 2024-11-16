@@ -1723,15 +1723,17 @@
         background-color: rgba(0, 0, 0, 0.418);
         color: transparent;    
         margin-bottom: 5px;
+        padding: auto;
       }
      
       .image-post img{
+        margin: 0 auto;
         margin-bottom: 2px;
         width: 250px;
         height: 250px;
         border-top: 2px solid gold;
         box-shadow: 0px 2px 20px orangered;
-        border-radius: 50px;
+        border-radius: 40px;
       }
       body.light .image-post img{
          box-shadow: 0px 2px 20px lightskyblue;
@@ -1746,12 +1748,9 @@
         border: 2px solid orangered;
         border-radius: 10px;
         cursor: pointer;
-        background: transparent;
-      }
-      .details-body button{
-        padding: 20px;
-        border: none;
-        background: transparent;
+        background: rgba(24, 182, 156, 0.527);
+        transition: 0.5s;
+        padding: 10px;
       }
       .image2:hover{
         transform: scale(1.05);
