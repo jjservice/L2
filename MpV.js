@@ -28,6 +28,12 @@ const music_list = [
         music: "Lapiz Conciente - Na Conmigo.mp3"
     },
     {
+        name: "TOUCHDOWN",
+        artist: "Messiah x Myke Towers",
+        img: "MessiahMikeTouchDownPic.jpg",
+        music: "Messiah, Myke Towers - TOUCHDOWN.mp3"
+    },
+    {
         name: "CURIANA",
         artist: "El Poeta x CarlosCoins",
         img: "PoetaCarlosCurianaPic.jpg",
@@ -344,12 +350,6 @@ const music_list = [
         artist: "Myke Towers",
         img: "MykeObvioPIC.jpg",
         music: "Myke Towers - OBVIO (Visualizer).mp3"
-    },
-    {
-        name: "Trending",
-        artist: "Dei V ft Myke Towers",
-        img: "TrendiDeiviTowerPic.jpg",
-        music: "Dei V, Myke Towers - Trending Remix (LetraLyrics).mp3"
     },
     {
         name: "La Música No Miente",
