@@ -13,7 +13,7 @@
     justify-content: center;
     align-content: center;
   }
-  body.light{
+  body.lightPlayer{
     background:linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
     transition: 0.5s;
   }
@@ -36,7 +36,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  body.light .wrapper{
+  body.lightPlayer .wrapper{
     background-image: url(lollipop_3GIF.gif);
     background-position: bottom;
     background-size: 68%;
@@ -63,7 +63,7 @@
     margin-bottom: 5px;
     margin-top: 20px;
   }
-  body.light .track-art{
+  body.lightPlayer .track-art{
     box-shadow: 2px 2px 10px yellowgreen;
   }
   .now-playing {
@@ -79,7 +79,7 @@
     color: #fff;
     text-shadow: 2px 2px 4px darkblue;
   }
-  body.light .track-name{
+  body.lightPlayer .track-name{
     color: darkgray;
     text-shadow: 2px 2px 4px darkblue;
   }
@@ -91,7 +91,7 @@
     
     font-size: 18px;
   }
-  body.light .track-artist{
+  body.lightPlayer .track-artist{
     color: white;
     text-shadow: 1px 1px 2px gold;
   }
@@ -99,15 +99,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px;
-    box-shadow: 0px 2px 10px lightcoral;
+    margin-bottom: 5px;
+    box-shadow: 0px 2px 10px darkblue;
     border: 2px solid rgba(0, 9, 139, 0.705);
     border-radius: 100%;
-    background: rgba(0, 0, 0, 0.726);
+    background: rgba(255, 192, 203, 0.096);
   } 
-  body.light .buttons{
+  body.lightPlayer .buttons{
     border: 2px solid rgba(255, 217, 0, 0.582);
-    background: rgba(0, 0, 0, 0.329);
+    background: rgba(0, 0, 0, 0.726);
   }
   .active {
     color: #000;
@@ -242,7 +242,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     
   }
-  body.light .lolli-title{
+  body.lightPlayer .lolli-title{
     color: white;
     text-shadow: 2px 2px 4px gold;
   }
@@ -254,10 +254,10 @@
     background-image: url(lollipop_3GIF.gif);
     background-position: center;
     background-size: cover;
-    background-color: rgba(15, 15, 153, 0.459);
+    background-color: rgba(255, 192, 203, 0.096);
     cursor: pointer;
   }
-  body.light .lolli-title ion-icon{
+  body.lightPlayer .lolli-title ion-icon{
     color: rgba(255, 73, 109, 0.438);
     text-shadow: 2px 2px 4px gold;
     border-bottom: 2px solid blue;
@@ -306,7 +306,7 @@
     text-shadow: 2px 2px 4px blue;
     justify-content: center;
   }
-  body.light .genre-name{
+  body.lightPlayer .genre-name{
     color: darkgray;
     text-shadow: 2px 2px 4px darkblue;
   }
@@ -317,25 +317,26 @@
     display: flex;
     justify-content: center;
   }
-  body.light .genre-name ion-icon{
-    color: rgba(255, 217, 0, 0.719);
+  body.lightPlayer .genre-name ion-icon{
+    color: rgba(255, 217, 0, 0.493);
   }
   .jj-title{
     display: flex;
     margin: 0% auto;
     justify-content: center;
     color: darkgray;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px darkblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     margin-bottom: 1px;
     
   }
   .jj-title ion-icon{
-    color: rgba(255, 217, 0, 0.466);
-    box-shadow: 2px 2px 10px lightblue;
-    border-bottom: 1px solid gold;
+    color: wheat;
     border-radius: 50px;
+  }
+  body.lightPlayer .jj-title ion-icon{
+    color: rgba(255, 217, 0, 0.466);
   }
 
   @media (min-width: 768px){
@@ -349,7 +350,7 @@
       width: 600px;
       height: auto;
     }
-    body.light .wrapper{
+    body.lightPlayer .wrapper{
       background-image: url(lollipop_3GIF.gif);
       background-position: bottom;
       background-size: 40%;
@@ -363,6 +364,7 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
+      margin-bottom: 10px;
       width: 80%;
     }
     .track-art{

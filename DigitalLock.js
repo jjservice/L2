@@ -29,7 +29,7 @@ function showTime(){
 
 showTime();
 
-// Lights Section //////////////////////////////////
+// Lights Section Main//////////////////////////////////
 function toggleClass(){
 
     const body = document.querySelector('body');
@@ -48,3 +48,11 @@ audio.loop = false;
 function bleepAudio() {
     audio.play();
 } 
+
+// Lights Section //////////////////////////////////
+function toggleClassPlayer(){
+
+    const body = document.querySelector('body');
+    body.classList.toggle('lightPlayer');
+    
+    }
