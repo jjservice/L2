@@ -14,13 +14,12 @@
     <title>LOLLIPOP</title>
     <link rel="stylesheet" href="MpV.css" />
   </head>
-  <body>
+  <body class="light">
     <div class="player">
       <div class="wrapper">
         <div class="details">
-          <div class="lolli-title">LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</div>
-          <div class="genre-name">HIP HOP(LATINO)<br>
-            <ion-icon name="radio"></ion-icon></div>
+          <div class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClass()"></ion-icon>P</div>
+          <div class="genre-name"><ion-icon name="radio"></ion-icon>HIP HOP (LATINO)</div>
           <div class="now-playing">Playing x OF y</div>
           <div class="track-art"></div>
           <div class="track-name">Track Name</div>
@@ -83,6 +82,7 @@
       </div>
     </div>
     <script src="MpV.js"></script>
+    <script src="DigitalLock.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
