@@ -280,7 +280,7 @@ const songs = [
   {
       name: "Praise The Lord",
       artist: "A$AP Rocky Ft. Skepta",
-      image: "ASAPPIC1.jpg",
+      img: "ASAPPIC1.jpg",
       music: "A$AP Rocky Ft. Skepta- Praise The Lord.mp3"
   },
   {
@@ -552,12 +552,6 @@ const songs = [
     artist: "Myke Towers",
     img: "MYKEPIC3333.jpg",
     music: "Myke Towers - Joven Leyenda.mp3"
-},
-{
-    name: "Dígitos",
-    artist: "Arcangel X Myke Towers",
-    img: "MIKEARCPICCC.jpg",
-    music: "Arcangel, Myke Towers -Dígitos.mp3"
 },
 {
     name: "Los Angeles",
@@ -1292,9 +1286,7 @@ const songs = [
      music: "Christian Nodal - Ya No Somos Ni Seremos.mp3"
  },
 
-];
-
-  
+];  
   // Get DOM elements
   const searchInput = document.getElementById("search-input");
   const songList = document.getElementById("song-list");
@@ -1312,7 +1304,7 @@ const songs = [
       songItem.innerHTML = `
         <img src="${song.img}" alt="${song.music}">
         <span>${song.name}-</br>${song.artist}</span>
-        <button class="play-button">Play</button>
+        <button class="play-button"><i><ion-icon name="play"></ion-icon></i></button>
       `;
       
       songItem.querySelector(".play-button").addEventListener("click", () => {

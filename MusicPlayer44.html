@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MusicSearch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body class="lightPlayer">
+    <div class="music-player">
+      <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for a song" oninput="searchSongs()" />
+      </div>
+      <div class="song-list" id="song-list">
+        <!-- Songs will be displayed here -->
+      </div>
+      <div class="player">
+        <!-- Audio player without default controls -->
+        <audio id="audio-player" onended="playNextSong()">
+          <source id="audio-source" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <div class="track-info">
+          <img id="track-image" src="" alt="Track Image" />
+          <div id="track-title">No Song Playing</div>
+        </div>
+        
+        <div class="audio-controls">
+          <!-- Play/Pause Button -->
+          <button id="play-pause-btn" onclick="togglePlayPause()">
+            <i class="fas fa-play"></i>
+          </button>
+          
+          <!-- Volume Control -->
+          <button id="volume-btn" onclick="toggleMute()">
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <input type="range" id="volume-range" min="0" max="1" step="0.01" value="1" onchange="changeVolume()" />
+          
+          <!-- Skip Forward and Backward Buttons -->
+          <button id="skip-backward-btn" onclick="skipBackward()">
+            <i class="fas fa-backward"></i>
+          </button>
+          <button id="skip-forward-btn" onclick="skipForward()">
+            <i class="fas fa-forward"></i>
+          </button>
+  
+          <!-- Mute/Unmute Button -->
+          <button id="mute-btn" onclick="toggleMute()">
+            <i class="fas fa-volume-mute"></i>
+          </button>
+        </div>
+  
+        <div class="jj-title">JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></div>
+        <div class="homebtn"><a href="https://jjservice.github.io/L2/1.html">
+          <ion-icon name="home"></ion-icon></a></div>
+      </div>
+    </div>
+  
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      // Music playlist data with images
+      const musicLibrary = [
+        { title: "Song 1", url: "song1.mp3", image: "song1.jpg" },
+        { title: "Song 3", url: "song3.mp3", image: "song3.jpg" }
+      ];
+      
+      let currentSongIndex = 0;
+      const audioPlayer = document.getElementById('audio-player');
+      const playPauseBtn = document.getElementById('play-pause-btn');
+      const volumeBtn = document.getElementById('volume-btn');
+      const muteBtn = document.getElementById('mute-btn');
+      const volumeRange = document.getElementById('volume-range');
+      const songList = document.getElementById('song-list');
+      const trackImage = document.getElementById('track-image');
+      const trackTitle = document.getElementById('track-title');
+      
+      function togglePlayPause() {
+        if (audioPlayer.paused) {
+          audioPlayer.play();
+          playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; // Change icon to pause
+        } else {
+          audioPlayer.pause();
+          playPauseBtn.innerHTML = '<i class="fas fa-play"></i>'; // Change icon to play
+        }
+      }
+
+      function toggleMute() {
+        if (audioPlayer.muted) {
+          audioPlayer.muted = false;
+          muteBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+        } else {
+          audioPlayer.muted = true;
+          muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+        }
+      }
+
+      function changeVolume() {
+        audioPlayer.volume = volumeRange.value;
+      }
+
+      function skipBackward() {
+        audioPlayer.currentTime -= 10;
+      }
+
+      function skipForward() {
+        audioPlayer.currentTime += 10;
+      }
+
+      function searchSongs() {
+        const query = document.getElementById('search-input').value.toLowerCase();
+        const filteredSongs = musicLibrary.filter(song => song.title.toLowerCase().includes(query));
+
+        // Display the filtered songs in the song list
+        songList.innerHTML = '';
+        filteredSongs.forEach(song => {
+          const songElement = document.createElement('div');
+          songElement.classList.add('song');
+          songElement.innerHTML = `
+            <img src="${song.image}" alt="${song.title}" class="song-image" />
+            <span>${song.title}</span>
+          `;
+          songElement.onclick = () => playSong(song);
+          songList.appendChild(songElement);
+        });
+      }
+
+      function playSong(song) {
+        audioPlayer.src = song.url;
+        audioPlayer.play();
+        playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; // Change icon to pause
+        trackImage.src = song.image;  // Set track image
+        trackTitle.innerText = song.title;  // Set track title
+      }
+
+      function playNextSong() {
+        currentSongIndex = (currentSongIndex + 1) % musicLibrary.length;
+        const nextSong = musicLibrary[currentSongIndex];
+        playSong(nextSong);
+      }
+    </script>
+     <script src="MusicSearch.js"></script>
+  </body>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
