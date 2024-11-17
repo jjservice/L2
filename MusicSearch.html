@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player with Search Bar</title>
+  <link rel="stylesheet" href="MusicSearch.css">
+</head>
+<body class="lightPlayer">
+  <div class="music-player">
+    <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder=".;.LOLLITA.;." />
+    </div>
+    <div class="song-list" id="song-list">
+      <img>
+      <!-- Songs will be displayed here -->
+    </div>
+    <div class="player">
+      <audio id="audio-player" controls>
+        <source id="audio-source" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="jj-title">JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></div>
+      <div class="homebtn"><a href="https://jjservice.github.io/L2/1.html">
+        <ion-icon name="home"></ion-icon></a></div>
+    </div>
+  </div>
+
+</body>
+  
+<script src="MusicSearch.js"></script>
+<script src="DigitalLock.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
