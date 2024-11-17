@@ -89,7 +89,7 @@ const songs = [
     artist: "BigXThaPlug",
     img: "BigXThatPlug11111.jpg",
     music: "BigXthaPlug - Whip It (Official Audio).mp3"
-},
+   },
 {
     name: "Fight Night",
     artist: "Migos",
