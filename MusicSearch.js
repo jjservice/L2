@@ -49,17 +49,17 @@ const songs = [
     music: "Quality Control - Too Hotty by Migos featuring Eurielle.mp3"
   },
   {
-      name: "Law & Order",
-      artist: "BigXthaPlug",
-      img: "BigXLawOrderPic.jpg",
-      music: "BigXthaPlug - Law & Order.mp3"
+    name: "Law & Order",
+    artist: "BigXthaPlug",
+    img: "BigXLawOrderPic.jpg",
+    music: "BigXthaPlug - Law & Order.mp3"
   },
   {
     name: "Pack Ya Bags",
     artist: "Rick Ross x Meek Mill x Wale",
     img: "RickMeekTooGoodTobeTruePic.jpg",
     music: "Rick Ross & 2 Chainz - Pack Ya Bags ft. Wale 2024.mp3"
-   },
+  },
   {
     name: "They Don't Really Love You",
     artist: "Rick Ross x Meek Mill",
@@ -71,7 +71,7 @@ const songs = [
     artist: "Tory Lanez",
     img: "ToryLanezPic.jpg",
     music: "Tory Lanez - The Godfather.mp3"
-  },
+   },
    {
     name: "The Largest",
     artist: "BigXThaPlug",
@@ -109,11 +109,11 @@ const songs = [
     music: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
 },
 {
-  name: "800 Karats",
-  artist: "Rick Ross x Meek Mill",
-  img: "RickMeekTooGoodTobeTruePic.jpg",
-  music: "Rick Ross, Meek Mill - 800 Karats.mp3"
- },
+    name: "800 Karats",
+    artist: "Rick Ross x Meek Mill",
+    img: "RickMeekTooGoodTobeTruePic.jpg",
+    music: "Rick Ross, Meek Mill - 800 Karats.mp3"
+},
 {
     name: "Need It",
     artist: "Migos ft. YoungBoy Never Broke Again",
@@ -121,30 +121,30 @@ const songs = [
     music: "Migos  ft. YoungBoy Never Broke Again- Need It.mp3"
 },
   
-   {
+{
     name: "Lyrical Eazy",
     artist: "Rick Ross x Meek Mill",
     img: "RickMeekTooGoodTobeTruePic.jpg",
     music: "Rick Ross & Meek Mill - Lyrical Eazy.mp3"
-   },
-  {
-      name: "Dope Boy",
-      artist: "Young Thug x Nigo",
-      img: "YoungThughNigoDopeBoyPic.jpg",
-      music: "Young Thug, Nigo - Dope Boy.mp3"
-  },
-  {
-      name: "Take Care",
-      artist: "BigXthaPlug",
-      img: "BigxLastPic.jpg",
-      music: "BigXthaPlug - Take Care.mp3"
-  },
-  {
+},
+{
+    name: "Dope Boy",
+    artist: "Young Thug x Nigo",
+    img: "YoungThughNigoDopeBoyPic.jpg",
+    music: "Young Thug, Nigo - Dope Boy.mp3"
+},
+{
+    name: "Take Care",
+    artist: "BigXthaPlug",
+    img: "BigxLastPic.jpg",
+    music: "BigXthaPlug - Take Care.mp3"
+},
+{
     name: "Star Island",
     artist: "Rick Ross x Meek Mill",
     img: "RickMeekTooGoodTobeTruePic.jpg",
     music: "Rick Ross, Meek Mill - Star Island.mp3"
-   },
+},
   {
       name: "Luv Again",
       artist: "Ruger",

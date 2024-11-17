@@ -105,7 +105,7 @@ body {
     text-shadow: 1px 1px 2px darkblue;
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     cursor: pointer;
   }
   .song-list img {
@@ -198,8 +198,9 @@ body {
       margin: 0% auto;
       min-width: 250px;
       min-height: 250px;
-
-      
+    }
+    .song-item{
+      margin-bottom: 100px;
     }
   
     #audio-source{
