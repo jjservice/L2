@@ -8,6 +8,7 @@ body {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: linear-gradient(to right,black,black,darkblue,maroon,black,black);
+    padding: 10px;
   }
   body.lightPlayer{
     background:linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
@@ -29,9 +30,7 @@ body {
   .search-bar {
     margin-bottom: 20px;
   }
-   audio{
-    margin-bottom: 10px;
-   }
+
   h1{
     margin: 0% auto;
     margin-top: 5px;
@@ -57,10 +56,10 @@ body {
   }
   
   .song-list {
-    list-style: none;
     height: 40vh;
+    list-style: none;
     overflow-y: scroll;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
    
   }
   .song-list::-webkit-scrollbar{
