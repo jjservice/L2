@@ -8,37 +8,34 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     /* Basic styles for the audio player */
-   
-    .song-item img {
-      width: 150px;
-      height: 150px;
-      margin: 10px;
-      border-radius: 20px;
-    }
+
   
   </style>
 </head>
 <body class="lightPlayer">
-  <div class="music-payer">
+  <ul class="music-player">
       <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
     <input type="text" id="search-input" placeholder=".;.LOLLITA.;." oninput="searchSongs()">
-    <div id="song-list"></div>
-    <audio id="audio-player" controls>
+    <div class="song-list" id="song-list"></div>
+    <audio id="audio-player" controls style="display: none;">
       <source id="audio-source" src="" type="audio/mp3">
+      <img>
     </audio>
-    
+ 
+    <div class="playerBtns">
     <button onclick="prevSong()">&#8592;</button>
     <!-- Combined Play/Pause button -->
     <button id="play-pause-btn" onclick="togglePlayPause()">&#9654;</button>
     <button onclick="nextSong()">&#8594;</button>
     <!-- New Random Play button -->
     <button onclick="randomPlay()">&#x1F3B5;</button> <!-- 🎵 -->
-    
+  </div>
+
     <div class="jj-title">JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></div>
       <div class="homebtn"><a href="https://jjservice.github.io/L2/1.html">
         <ion-icon name="home"></ion-icon></a></div>
   </div>
-  </div>
+</ul> 
   
 </body>
 <script src="MusicS3.js"></script>
