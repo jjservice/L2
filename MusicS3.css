@@ -248,12 +248,7 @@ body {
       min-height: 250px;
     }
     .song-item{
-      margin-bottom: 100px;
-    }
-  
-    #audio-source{
-      margin: 0% auto;
-      margin-bottom: 0px;
+      margin-bottom: 50px;
     }
     #search-input {
       width: 100%;
