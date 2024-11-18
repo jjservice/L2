@@ -12,7 +12,7 @@ body {
   }
   body.lightPlayer{
     background:linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
-    transition: 0.5s;
+    transition: 1s;
   }  
   .music-player {
     margin: 0% auto;
@@ -25,6 +25,7 @@ body {
     border-radius: 40px;
     box-shadow: 0px 2px 15px lightskyblue;
     height: auto;
+    transition: 0.5s;
   }
   body.lightPlayer .music-player{
     box-shadow: 0px 2px 15px yellowgreen;
@@ -233,6 +234,14 @@ body {
       box-shadow: 0px 2px 15px yellowgreen;
     
     }
+    body.lightPlayer .music-player{
+      box-shadow: 0px 2px 15px yellowgreen;
+      background-image: url(lollipop_3GIF.gif);
+      background-position: bottom;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      transition: 4s;
+    }
     .song-list{
       margin: 0% auto;
       font-size: 25px;
@@ -316,10 +325,11 @@ body {
     border-bottom: 2px solid gold;
     box-shadow: 0px 4px 6px blue;
     border-radius: 12px;
-    background-image: url(lollipop_3GIF.gif);
+    background-image: url(light-bulbBlackGif.gif);
     background-position: center;
     background-size: cover;
     background-color: rgba(255, 192, 203, 0.096);
+    transition: 0.5s;
     cursor: pointer;
   }
   body.lightPlayer .lolli-title ion-icon{
@@ -328,6 +338,12 @@ body {
     border-bottom: 2px solid blue;
     box-shadow: 0px 3px 6px yellowgreen;
     background-color: rgba(0, 0, 0, 0.247);
+    background-image: url(light-bulbBLUEGif.gif);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 192, 203, 0.096);
+    
+    cursor: pointer;
   }
   
   .jj-title{
