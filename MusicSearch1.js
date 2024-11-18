@@ -354,6 +354,278 @@ const songs = [
         img: "quieneson.jpg",
         music: "QUIENES SON- CDOBLETA.mp3"
     },
+     { 
+        id: 60, 
+        name: "En Mi Mundo",
+        artist: "Jasiel Nuñez x Peso Pluma",
+        img: "JasielPesoplumaEnmiMundoPIc.jpg",
+        music: "En Mi Mundo - Jasiel Nuñez, Peso Pluma.mp3"
+     },
+     {
+        id: 61,
+        name: "NO ME PESA",
+        artist: "Junior H",
+        img: "jUNIORhpIC.jpg",
+        music: "Junior H-No Me Pesa.mp3"
+     },
+     {
+        id: 62,
+        name: "CORAZON FRIO",
+        artist: "Jasiel Nuñez x DannyLux",
+        img: "CorazonFrionJasielNuPic.jpg",
+        music: "Jasielcorazonfriomp3.mp3"
+     },
+     {   id: 62,
+         name: "Qué Tal",
+         artist: "Christian Nodal",
+         img: "chrispic44.jpg",
+         music: "Christian Nodal - Qué Tal.mp3"
+     },
+        {   
+            id: 63,
+            name: "MENTE POSITIVA",
+            artist: "Junior H",
+            img: "JuniorMentePosPic.jpg",
+            music: "Junior H - MENTE POSITIVA.mp3"
+        },
+        {   
+            id: 64,
+            name: "Probablemente",
+            artist: "Christian Nodal",
+            img: "CHRISTIANNODALPIC.jpg",
+            music: "Christian Nodal-Probablemente.mp3"
+        },
+        {   
+            id: 65,
+            name: "Mas Altas Que Bajadas",
+            artist: "Natanael Cano",
+            img: "NatanaelPic22222.jpg",
+            music: "Natanael Cano - Mas Altas Que Bajadas.mp3"
+        },
+        {
+            id: 66,
+            name: "Nace Un Borracho",
+            artist: "Christian Nodal",
+            img: "CHRISTIANNODALPIC.jpg",
+            music: "Christian Nodal - Nace Un Borracho.mp3"
+        },
+        {
+            id: 67,
+            name: "MORRITAS",
+            artist: "Natanael Cano",
+            img: "NataMorritaPicx.jpg",
+            music: "Natanael Cano - Morritas.mp3"
+        },
+        {
+            id: 68,
+            name: "NUEVA VIDA",
+            artist: "Peso Pluma",
+            img: "PesoPlumaPic1111.jpg",
+            music: "NUEVA VIDA - Peso Pluma.mp3"
+        },
+        {
+            id: 69,
+            name: "No te contaron mal",
+            artist: "Christian Nodal",
+            img: "notecontaronmal.jpg",
+            music: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
+        },
+        {
+            id: 70,
+            name: "Pacas De Billetes",
+            artist: "Natanael Cano",
+            img: "NatanaelPic.jpg",
+            music: "Natanael Cano - Pacas De Billetes.mp3"
+        },
+        {
+            id: 71,
+            name: "De Los Besos Que Te Di",
+            artist: "Christian Nodal",
+            img: "CHRISTIANNODALPIC.jpg",
+            music: "Christian Nodal - De Los Besos Que Te Di.mp3"
+        },
+        {
+            id: 72,
+            name: "CARNAL",
+            artist: "Peso Pluma x Natanael Cano",
+            img: "PESONATAPIC22222.jpg",
+            music: "CARNAL - Peso Pluma, Natanael Cano.mp3"
+        },
+        {
+            id: 73,
+            name: "Por el Resto de Tu Vida",
+            artist: "Christian Nodal x TINI",
+            img: "chrisporelrestopicc.jpg",
+            music: "Christian Nodal x TINI - Por el Resto de Tu Vida.mp3"
+        },
+        {
+            id: 74,
+            name: "Según Quién",
+            artist: "Maluma x Carin Leon ",
+            img: "malumacaripic.jpg",
+            music: "Maluma, Carin Leon - Según Quién.mp3"
+        },
+        {
+            id: 75,
+            name: "POR LAS NOCHES",
+            artist: "Peso Pluma",
+            img: "PesoPlumaPic1111.jpg",
+            music: "Peso Pluma - Por Las Noches.mp3"
+        },
+        {
+            id: 76,
+            name: "Te Fallé",
+            artist: "Christian Nodal",
+            img: "chrispic33.jpg",
+            music: "Christian Nodal-Te Fallé.mp3"
+        },
+        {
+            id: 77,
+            name: "BYE",
+            artist: "Peso Pluma",
+            img: "PESOPLUMABYE.jpg",
+            music: "BYE - Peso Pluma.mp3"
+        },
+        {
+            id: 78,
+            name: "SE AMERITA",
+            artist: "Junior H",
+            img: "JuniorHPic2222.jpg",
+            music: "Junior H-Se Amerita.mp3"
+        },
+        {
+            id: 79,
+            name: "ANDO SOLTERO",
+            artist: "Natanael Cano",
+            img: "NataAndoSolteroPic.jpg",
+            music: "Ando Soltero - Natanael.mp3"
+        },
+        {
+            id: 80,
+            name: "ADRENALINA",
+            artist: "Natanael Cano x Dan Sanchez",
+            img: "NatAdrenalinaPic.jpg",
+            music: "Natanael Cano-ADRENALINA.mp3"
+        },
+        {
+            id: 81,
+            name: "TENGO MOTIVOS",
+            artist: "Junior H",
+            img: "JunioHPic33333.png",
+            music: "Junior H - Tengo Motivos.mp3"
+        },
+        {
+            id: 82,
+            name: "AFS",
+            artist: "Natanael Cano",
+            img: "NatanaelPic.jpg",
+            music: "Natanael Cano-AFS-MP3.mp3"
+        },
+        {
+            id: 83,
+            name: "LAGUNAS",
+            artist: "Peso Pluma X Jasiel Nuñez",
+            img: "PESOJASLAGUNASPIC.jpeg",
+            music: "Peso Pluma, Jasiel Nuñez - LAGUNAS-MP3.mp3"
+        },
+        {
+            id: 84,
+            name: "CIELO ETERNO",
+            artist: "Jasiel Núñez x ",
+            img: "JASIELNUPICCC.jpg",
+            music: "cielo-eterno-jasiel-nunez-dannyluxMP33.mp3"
+        },
+        {
+            id: 85,
+            name: "BACCARAT",
+            artist: "Natanael Cano & Peso Pluma",
+            img: "PESONATAPIC22222.jpg",
+            music: "Baccarat - Natanael Cano & Peso Pluma.mp3"
+        },
+        {
+            id: 86,
+            name: "ROSA PASTEL",
+            artist: "Peso Pluma x Jasiel Nuñez",
+            img: "PesoJasiel-RossaPaPic.jpg",
+            music: "ROSA PASTEL - Peso Pluma, Jasiel Nuñez.mp3"
+        },
+        {
+            id: 87,
+            name: "Aquí Abajo",
+            artist: "Christian Nodal",
+            img: "CHRISTIANNODALPIC.jpg",
+            music: "Christian Nodal - Aquí Abajo.mp3"
+        },
+        {
+            id: 88,
+            name: "BIPOLAR",
+            artist: "Peso Pluma, Jasiel Nuñez, Junior H",
+            img: "PesoJaieslJunirHPIC.jpg",
+            music: "Peso Pluma, Jasiel Nuñez, Junior H-bipolar.mp3"
+        },
+        {
+            id: 89,
+            name: "Cuando La Vida Sea Trago",
+            artist: "Carin León",
+            img: "CARINLEONCUANLAVIDASEAPIC.jpg",
+            music: "Carin León - Cuando La Vida Sea Trago.mp3"
+        },
+        {
+            id: 90,
+            name: "AMG",
+            artist: "Natanael Cano x Gabito Ballesteros x Peso Pluma",
+            img: "PesoNatAmgPic.jpg",
+            music: "Natanael Cano x Gabito Ballesteros x Peso Pluma - AMG.mp3"
+        },
+        {
+            id: 91,
+            name: "No Me Llores",
+            artist: "Carin Leon x Manuel Carrasco",
+            img: "carinmanuepic.jpg",
+            music: "Carin León, Manuel Carrasco - No Me Llores.mp3"
+        },
+        {
+            id: 92,
+            name: "PRC",
+            artist: "Peso Pluma x Natanael Cano",
+            img: "PesoNatPic.jpg",
+            music: "Peso Pluma, Natanael Cano - PRC.mp3"
+        },
+        {
+            id: 93,
+            name: "No Es Por Acá",
+            artist: "Carin Leon",
+            img: "noesporacapic.jpg",
+            music: "Carin Leon - No Es Por Acá.mp3"
+        },
+        {
+            id: 94,
+            name: "Kbron y Medio",
+            artist: "Christian Nodal",
+            img: "chrispic11.jpg",
+            music: "Christian Nodal - Kbron y Medio.mp3"
+        },
+        {
+            id: 95,
+            name: "La Siguiente",
+            artist: "Kany García x Christian Nodal",
+            img: "lasiguientepic.jpg",
+            music: "Kany García, Christian Nodal - La Siguiente.mp3"
+        },
+        {
+            id: 96,
+            name: "La Bachatita",
+            artist: "Christian Nodal",
+            img: "chrispic33.jpg",
+            music: "Christian Nodal - La Bachatita.mp3"
+        },
+        {
+            id: 97,
+            name: "Igualito A Mi Apá",
+            artist: "Fuerza Regida X Peso Pluma",
+            img: "PesoFuerzaPIc.jpg",
+           
+        }    
   ];
   
   const searchInput = document.getElementById("search-input");
