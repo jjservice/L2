@@ -1,5 +1,227 @@
 // Sample song data
 const songs = [
+    {
+        name: "A CUALTA MI GATA",
+        artist: "Omega El Fuerte",
+        img: "omegapic.jpg",
+        music: "Omega-A Cualta Mi Gata.mp3"
+    },
+    {
+        name: "Con Quién Te Olvido",
+        artist: "Ala Jaza",
+        img: "ALAJAPICCCC.jpg",
+        music: "Ala Jaza - Con Quién Te Olvido.mp3"
+    },
+    {
+        name: "LA NOTA",
+        artist: "GABRIEL PAGAN x OMEGA",
+        img: "GABRIELOMEGAPIC.jpg",
+        music: "GABRIEL PAGAN  OMEGA - LA NOTA.mp3"
+    },
+    {
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        img: "MECUROPIC.jpg",
+        music: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+    },
+    {
+        name: "EL MERENGUE",
+        artist: "Marshmello x Manuel Turizo ",
+        img: "ManuelTurizoMerenguwPic.jpg",
+        music: "Marshmello, Manuel Turizo - El Merengue.mp3"
+    },
+    {
+        name: "Tu Mayimbe",
+        artist: "Sujeto Oro 24 ",
+        img: "SUJETOPIC3333.jpg",
+        music: "sujeto Oro 24 - Tu Mayimbe.mp3"
+    },
+    {
+        name: "Vieja Dale Dale",
+        artist: "Toño Rosario",
+        img: "TonoRosariPic.jpg",
+        music: "Toño Rosario - Vieja Dale Dale.mp3"
+    },
+    {
+        name: "PEPAS",
+        artist: "Ala Jaza",
+        img: "ALAJAZApIC3333.jpg",
+        music: "ALAJAZA-PEPAS.mp3"
+    },
+    {
+        name: "To' la Mujeres Rapan",
+        artist: "Amarfis Y la banda de Atakke",
+        img: "AmarfisPic1.jpg",
+        music: "Amarfis Y la banda de Atakke-To' la Mujeres Rapan.mp3"
+    },
+    {
+        name: "Mi Forma De Ser",
+        artist: "Ala Jaza",
+        img: "ALAJAPICCCC.jpg",
+        music: "Ala Jaza - Mi Forma De Ser.mp3"
+    },
+    {
+        name: "No me hable de Gente",
+        artist: "Sujeto Oro 24 ",
+        img: "SUJETOPIC3333.jpg",
+        music: "Sujeto Oro 24 - No me hable de Gente.mp3"
+    },
+    {
+        name: "Simplemente Gracias",
+        artist: "Ala Jaza",
+        img: "ALAJAPICCCC.jpg",
+        music: "Ala Jaza - Simplemente Gracias.mp3"
+    },
+    {
+        name: "HEAVY",
+        artist: "Sujeto Oro 24",
+        img: "SUJETOPICCCC222222.jpg",
+        music: "Sujeto oro 24 - Heavy.mp3"
+    },
+    {
+        name: "Yo Quiero Un Vacilon",
+        artist: "Toño Rosario",
+        img: "TonoRosariPic.jpg",
+        music: "Yo Quiero Un Vacilon.mp3"
+    },
+    {
+        name: "El Guayo",
+        artist: "Amarfis y la banda de Atakke",
+        img: "amarfispic222.jpg",
+        music: "Amarfis y la banda de Atakke-El Guayo.mp3"
+    },
+    {
+        name: "Mi Mundo Lo Controlo Yo",
+        artist: "Sujeto Oro 24",
+        img: "SujetoMimundoPic.jpg",
+        music: "Sujeto Oro 24  -  Mi Mundo Lo Controlo Yo.mp3"
+    },
+    {
+        name: "Ando En La Versace",
+        artist: "Omega El Fuerte",
+        img: "omegapic.jpg",
+        music: "Omega El  Fuerte-Ando En La Versace.mp3"
+    },
+    {
+        name: "BOBO",
+        artist: "Sujeto",
+        img: "sujetoPic.jpg",
+        music: "SUJETO ORO 24 - BOBO.mp3"
+    },
+    {
+        name: "Nadie Se Meta",
+        artist: "Ala Jaza",
+        img: "ALAJAPICCCC.jpg",
+        music: "Ala Jaza - Nadie Se Meta.mp3"
+    },
+    {
+        name: "Toma Lo Que Te Mandé",
+        artist: "Toño Rosario",
+        img: "TonoRosariPic.jpg",
+        music: "Toño Rosario - Toma Lo Que Te Mandé.mp3"
+    },
+    {
+        name: "El Vecino",
+        artist: "Sujeto oro 24",
+        img: "SUJETOPICCCC222222.jpg",
+        music: "Sujeto oro 24-El Vecino.mp3"
+    },
+    {
+        name: "Fariseo",
+        artist: "Omega El Fuerte",
+        img: "omegapic2.jpg",
+        music: "Omaga El Fuerte-Fariseo.mp3"
+    },
+    {
+        name: "SUJETO ORO 24",
+        artist: "CUIDATE",
+        img: "sujetocuidatepiiccc.jpg",
+        music: "SUJETO ORO 24 - CUIDATE.mp3"
+    },
+    {
+        name: "El Pollo",
+        artist: "Amarfis y la banda de Atakke",
+        img: "AmarfisPic1.jpg",
+        music: "Amarfis y la banda de Atakee-El Pollo.mp3"
+    },
+    {
+        name: "NO ME HABLEN DE ELLA",
+        artist: "SUJETO 0R0 24",
+        img: "SUJETOPIC3333.jpg",
+        music: "SUJETO 0R0 24 - NO ME HABLEN DE ELLA.mp3"
+    },
+    {
+        name: "Yemaya",
+        artist: "Amarfis Y la banda de Atakke",
+        img: "amarfispic333.jpg",
+        music: "Amarfis Y la banda de Atakke-Yemaya.mp3"
+    },
+    {
+        name: "TU NO CORRE",
+        artist: "SUJETO ORO 24",
+        img: "SUJETOPICCCC222222.jpg",
+        music: "TU NO CORRE - SUJETO ORO 24.mp3"
+    },
+    {
+        name: "ME VOY PAL PUEBLO",
+        artist: "Toño Rosario",
+        img: "TONOPIC2222.jpg",
+        music: "Toño Rosario - ME VOY PAL PUEBLO.mp3"
+    },
+    {
+        name: "Misericordia",
+        artist: "Ala Jaza",
+        img: "alajazapic222.jpg",
+        music: "Ala Jaza - Misericordia.mp3"
+    },
+    {
+        name: "Weje Weje",
+        artist: "Sujeto Oro 24",
+        img: "sujetoPic.jpg",
+        music: "Sujeto Oro 24 - Weje Weje.mp3"
+    },
+    {
+        name: "Tattoo",
+        artist: "Ala Jaza",
+        img: "alajazapic44444.jpg",
+        music: "Ala Jaza - Tattoo.mp3"
+    },
+    {
+        name: "FUEGO",
+        artist: "Tito Swing",
+        img: "TitoPic.jpg",
+        music: "Tito Swing - Fuego.mp3"
+    },
+    {
+        name: "Tabaco y Ron",
+        artist: "Ala Jaza",
+        img: "ALAJAZApIC3333.jpg",
+        music: "Ala Jaza - Tabaco y Ron.mp3"
+    },
+    {
+        name: "Beso A Beso",
+        artist: "Toño Rosario",
+        img: "TONOPIC2222.jpg",
+        music: "Toño Rosario - Beso A Beso.mp3"
+    },
+    {
+        name: "Quiero Volver A Empezar",
+        artist: "Toño Rosario",
+        img: "TonoRosariPic.jpg",
+        music: "Toño Rosario - Quiero Volver A Empezar.mp3"
+    },
+    {
+        name: "Alegria",
+        artist: "Toño Rosario",
+        img: "TONOPIC2222.jpg",
+        music: "Toño Rosario - Alegria.mp3"
+    },
+    {
+        name: "MI Mamá Me Apunto En la Escuela",
+        artist: "Sujeto Oro 24",
+        img: "SUJETOPIC3333.jpg",
+        music: "Sujeto Oro 24  -  MI Mamá Me Apunto En la Escuela.mp3"
+    },
   {
     name: "It Is What It Is",
     artist: "Big Sean  x Gunna",
