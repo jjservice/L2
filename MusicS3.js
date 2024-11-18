@@ -7,7 +7,7 @@ const songs = [
         music: "Lapiz Conciente - Na Conmigo.mp3"
     },
     {
-        name: "TOUCHDOWN",
+        name: "Touch Down",
         artist: "Messiah x Myke Towers",
         img: "MessiahMikeTouchDownPic.jpg",
         music: "Messiah, Myke Towers - TOUCHDOWN.mp3"
