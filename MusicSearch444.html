@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MusicSearch.css">
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Basic styles for the audio player */
+    .song-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .song-item img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    .song-item button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <input type="text" id="search-input" placeholder="Search for songs..." oninput="searchSongs()">
+    <div id="song-list"></div>
+    <audio id="audio-player" controls>
+      <source id="audio-source" src="" type="audio/mp3">
+    </audio>
+    <button onclick="prevSong()">&#8592;</button>
+    <button onclick="playSong()">&#9654;</button>
+    <button onclick="pausedSong()">&#10074;&#10074;</button>
+    <button onclick="nextSong()">&#8594;</button>
+  </div>
+
+  <script src="MusicS3.js"></script>
+  <script>
+    // Initialize a list of songs with local image paths
+    const songs = [
+      { name: "Na Conmigo", artist: "Lapiz", url: "Lapiz Conciente - Na Conmigo.mp3", image: "LapizNaConmigoPic.jpg" },
+      { name: "Ajedrez", artist: "Myke Towers", url: "Myke Towers - Ajedréz (Lyric Video) (1).mp3", image: "mykepic4.jpg" },
+      { name: "Alto Riesgo", artist: "Myke towers", url: "Myke Towers - Alto Riesgo.mp3", image: "MYKEPIC3333.jpg" },
+      // Add more songs as needed with corresponding image paths
+    ];
+
+    let currentSongIndex = 0; // Index of the current song playing
+
+    // Get the elements
+    const audioPlayer = document.getElementById('audio-player');
+    const audioSource = document.getElementById('audio-source');
+    const songListContainer = document.getElementById('song-list');
+
+    // Function to load the current song into the player
+    function loadSong(song) {
+      audioSource.src = song.url;
+      audioPlayer.load();  // Reload the audio source
+      playSong();  // Automatically start playing when a song is loaded
+    }
+
+    // Function to display the song list
+    function displaySongs(songs) {
+      songListContainer.innerHTML = "";  // Clear current list
+      songs.forEach((song, index) => {
+        const songItem = document.createElement('div');
+        songItem.classList.add('song-item');
+        songItem.innerHTML = `
+          <img src="${song.image}" alt="${song.name}">  <!-- Local image path -->
+          <div>
+            <strong>${song.name}</strong><br>
+            <small>${song.artist}</small>
+          </div>
+          <button onclick="selectSong(${index})">&#9654;</button>
+        `;
+        songListContainer.appendChild(songItem);
+      });
+    }
+
+    // Function to select a song
+    function selectSong(index) {
+      currentSongIndex = index;
+      loadSong(songs[index]);
+    }
+
+    // Search functionality
+    function searchSongs() {
+      const searchTerm = document.getElementById('search-input').value.toLowerCase();
+      const filteredSongs = songs.filter(song => 
+        song.name.toLowerCase().includes(searchTerm) || song.artist.toLowerCase().includes(searchTerm)
+      );
+      displaySongs(filteredSongs);
+    }
+
+    // Play the current song
+    function playSong() {
+      audioPlayer.play();
+    }
+
+    // Pause the current song
+    function pausedSong() {
+      audioPlayer.pause();
+    }
+
+    // Play the previous song
+    function prevSong() {
+      currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;  // Wrap around
+      loadSong(songs[currentSongIndex]);
+    }
+
+    // Play the next song
+    function nextSong() {
+      currentSongIndex = (currentSongIndex + 1) % songs.length;  // Wrap around
+      loadSong(songs[currentSongIndex]);
+    }
+
+    // Initial display of all songs
+    displaySongs(songs);
+  </script>
+</body>
+</html>
