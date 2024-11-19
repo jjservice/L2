@@ -116,13 +116,13 @@ body.lightPlayer #search-input{
 
 
 .song-list {
-  height: 45vh;
+  height: 40vh;
   list-style: none;
   overflow-y: scroll;
-  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
 }
 .song-list::-webkit-scrollbar{
   background: transparent;
@@ -165,11 +165,13 @@ body.lightPlayer .song-list::-webkit-scrollbar-thumb:hover{
   justify-content: center;
   color: darkgray;
   text-shadow: 1px 1px 2px darkblue;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid yellowgreen;
   margin-bottom: 10px;
   cursor: pointer;
+  background-color: rgba(255, 0, 255, 0.089);
+  border-radius: 20px;
 }
 
    
@@ -281,11 +283,14 @@ body.lightPlayer .song-item button:hover{
   }
   #search-input {
     width: 100%;
-    padding: 10px;
-    background-image: url(DancinGif555.gif);
-    background-position: bottom;
-    background-size: 10%;
-    background-repeat: no-repeat;
+  }
+  .volume-controls{
+    min-width: 200px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 54, 0.534);
+    border: 2px solid rgba(255, 166, 0, 0.712);
+    box-shadow: 0px 2px 6px yellowgreen;
   }
 }
 
@@ -343,7 +348,7 @@ body.lightPlayer .lolli-title{
 .lolli-title ion-icon{
   color: rgba(255, 217, 0, 0.527);
   border-bottom: 2px solid gold;
-  box-shadow: 0px 4px 6px blue;
+  box-shadow: 0px 4px 6px rgb(66, 66, 238);
   border-radius: 12px;
   background-image: url(light-bulbBlackGif.gif);
   background-position: center;
@@ -355,14 +360,13 @@ body.lightPlayer .lolli-title{
 body.lightPlayer .lolli-title ion-icon{
   color: rgba(255, 73, 109, 0.438);
   text-shadow: 2px 2px 4px gold;
-  border-bottom: 2px solid blue;
-  box-shadow: 0px 3px 6px yellowgreen;
+  border-bottom: 2px solid yellowgreen;
+  box-shadow: 0px 3px 6px palevioletred;
   background-color: rgba(0, 0, 0, 0.247);
   background-image: url(light-bulbBLUEGif.gif);
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 192, 203, 0.096);
-  
   cursor: pointer;
 }
 
@@ -388,20 +392,22 @@ body.lightPlayer .jj-title ion-icon{
 #audio-controls{
   margin: 0% auto;
   display: flex;
+  gap: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;
   background: rgba(245, 245, 245, 0.096);
   box-shadow: 0px 2px 10px rgba(135, 206, 250, 0.322);
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 50px;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 #audio-controls button{
   margin: 0 auto;
-  font-size: 30px;
-  padding: 7px 10px;
-  width: 70px;
+  font-size: 25px;
+  padding: 10px 10px;
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -410,10 +416,24 @@ body.lightPlayer .jj-title ion-icon{
   background: rgba(20, 91, 172, 0.397);
   border: 1px solid yellowgreen;
   box-shadow: 0px 1px 4px lightsalmon;
-  border-radius: 15px;
+  border-radius: 30px;
   cursor: pointer;
 }
-
+#play-pause-button i{
+  margin: 0% auto;
+  font-size: 35px;
+ 
+  
+}
+#play-pause-button{
+  font-size: 45px;
+}
+body.lightPlayer #audio-controls button{
+  color: crimson;
+  background: rgba(0, 0, 0, 0.548);
+  border: 1px solid yellowgreen;
+  box-shadow: 0px 1.5px 1px lightsalmon;
+}
 
 body.lightPlayer #audio-controls{
   background: linear-gradient(to right,rgba(0, 0, 139, 0.486),rgba(228, 117, 136, 0.39),rgba(128, 0, 0, 0.479));
@@ -421,12 +441,8 @@ body.lightPlayer #audio-controls{
 }
 
 
-body.lightPlayer #audio-controls button{
-  color: crimson;
-  background: rgba(0, 0, 0, 0.548);
-  border: 1px solid yellowgreen;
-  box-shadow: 0px 1.5px 1px lightsalmon;
-}
+
+
 
 
 .song-item span {
@@ -471,10 +487,25 @@ body.lightPlayer progress::-webkit-progress-value{
   width: 140px;
   height: 30px;
   border-radius: 100%;
-  box-shadow: 0px 2px 3px lightblue;
-  
+  box-shadow: 0px 4px 6px rgba(173, 216, 230, 0.541);
+  opacity: 80%;  
+}
+.volume-controls{
+  margin: 0% auto;
+  display: flex;
+  width: 140px;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: rgba(1, 1, 59, 0.548);
+  border: 2px solid rgba(255, 166, 0, 0.712);
+  box-shadow: 0px 5px 2px rgba(5, 5, 172, 0.74);
 }
 body.lightPlayer #volume-slider{
-  box-shadow: 0px 3px 6px palevioletred;
+  box-shadow: 0px 4px 6px palevioletred;
+  border: 2px solid rgba(153, 205, 50, 0.781);
+  
+}
+body.lightPlayer .volume-controls{
+  box-shadow: 0px 5px 2px rgba(128, 0, 0, 0.5);
 }
 
