@@ -621,11 +621,636 @@ const songs = [
         },
         {
             id: 97,
-            name: "Igualito A Mi Apá",
-            artist: "Fuerza Regida X Peso Pluma",
-            img: "PesoFuerzaPIc.jpg",
-           
-        }    
+            name: "It Is What It Is",
+            artist: "Big Sean  x Gunna",
+            img: "BigSeanGunnaItisWhatItIsPic.jpg",
+            music: "Big Sean  x Gunna - It Is What It Is.mp3"
+        },  
+        {
+            id: 98,
+            name: "Lost The Love",
+            artist: "BigXthaPlug",
+            img: "BigxLastPic.jpg",
+            music: "BigXthaPlug - Lost The Love.mp3"
+        },   
+        {
+            id: 99,
+            name: "We Set The Trends",
+            artist: "Jim Jones x Migos",
+            img: "MiigosJimTrendPic.jpg",
+            music: "Jim Jones, Migos - We Set The Trends.mp3"
+        },
+        {
+            id: 100,
+            name: "Good Drank",
+            artist: "2 Chainz ft Quavo, Gucci Mane",
+            img: "2chainGodDrunkPic.jpg",
+            music: "2 Chainz - Good Drank ft. Quavo, Gucci Mane.mp3"
+        },
+        {
+            id: 101,
+            name: "Sacrifices",
+            artist: "Big Sean x Migos",
+            img: "SacrificesmigosBIgseanPic.jpg",
+            music: "Big Sean - Sacrifices ft. Migos.mp3"
+        },
+        {
+            id: 102,
+            name: "Diet Coke",
+            artist: "Pusha T",
+            img: "PushaTPic.jpg",
+            music: "Pusha T - Diet Coke.mp3"
+        },
+        {
+            id: 103,
+            name: "Mama Told Me",
+            artist: "Tory Lanez",
+            img: "ToryLanezPic.jpg",
+            music: "Tory Lanez - Mama Told Me.mp3"
+        },
+        {
+            id: 104,
+            name: "Quality Control",
+            artist: "Migos x Eurielle",
+            img: "MigosPic1.jpg",
+            music: "Quality Control - Too Hotty by Migos featuring Eurielle.mp3"
+        },
+        {
+            id: 105,
+            name: "Law & Order",
+            artist: "BigXthaPlug",
+            img: "BigXLawOrderPic.jpg",
+            music: "BigXthaPlug - Law & Order.mp3"
+        },
+        {
+            id: 106,
+            name: "Pack Ya Bags",
+            artist: "Rick Ross x Meek Mill x Wale",
+            img: "RickMeekTooGoodTobeTruePic.jpg",
+            music: "Rick Ross & 2 Chainz - Pack Ya Bags ft. Wale 2024.mp3"
+        },
+        {
+            id: 107,
+            name: "They Don't Really Love You",
+            artist: "Rick Ross x Meek Mill",
+            img: "RickMeekTooGoodTobeTruePic.jpg",
+            music: "Rick Ross, Meek Mill - They Don't Really Love You.mp3"
+        },
+        {
+            id: 108,
+            name: "The Godfather",
+            artist: "Tory Lanez",
+            img: "ToryLanezPic.jpg",
+            music: "Tory Lanez - The Godfather.mp3"
+        },
+        {
+            id: 109,
+            name: "The Largest",
+            artist: "BigXThaPlug",
+            img: "BigXTheLargestPic.jpg",
+            music: "BigXthaPlug - The Largest.mp3"
+        },
+        {
+            id: 110,
+            name: "Iconic",
+            artist: "Rick Ross x Meek Mill",
+            img: "RickMeekTooGoodTobeTruePic.jpg",
+            music: "Rick Ross, Meek Mill - Iconic.mp3"
+        },
+        {
+            id: 111,
+            name: "Whip It",
+            artist: "BigXThaPlug",
+            img: "BigXThatPlug11111.jpg",
+            music: "BigXthaPlug - Whip It (Official Audio).mp3"
+        },
+        {
+            id: 112,
+            name: "Fight Night",
+            artist: "Migos",
+            img: "MigosPic1.jpg",
+            music: "Migos - Fight Night.mp3"
+        },
+        {
+            id: 113,
+            name: "Back on my Bs",
+            artist: "BigXthaPlug",
+            img: "backbspic.jpg",
+            music: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
+        },
+        {
+            id: 114,
+            name: "Million Dollar Baby",
+            artist: "Tommy Richman",
+            img: "milliondollarpic.jpg",
+            music: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
+        },
+        {
+            id: 115,
+            name: "800 Karats",
+            artist: "Rick Ross x Meek Mill",
+            img: "RickMeekTooGoodTobeTruePic.jpg",
+            music: "Rick Ross, Meek Mill - 800 Karats.mp3"
+        },
+        {
+            id: 116,
+            name: "Need It",
+            artist: "Migos ft. YoungBoy Never Broke Again",
+            img: "MigosIneedItPic.jpg",
+            music: "Migos  ft. YoungBoy Never Broke Again- Need It.mp3"
+        },
+        {
+            id: 117,
+            name: "Lyrical Eazy",
+            artist: "Rick Ross x Meek Mill",
+            img: "RickMeekTooGoodTobeTruePic.jpg",
+            music: "Rick Ross & Meek Mill - Lyrical Eazy.mp3"
+        },
+        {
+            id: 118,
+            name: "Dope Boy",
+            artist: "Young Thug x Nigo",
+            img: "YoungThughNigoDopeBoyPic.jpg",
+            music: "Young Thug, Nigo - Dope Boy.mp3"
+        },
+        {
+            id: 119,
+            name: "Take Care",
+            artist: "BigXthaPlug",
+            img: "BigxLastPic.jpg",
+            music: "BigXthaPlug - Take Care.mp3"
+        },
+        {
+            id: 120,
+            name: "Star Island",
+            artist: "Rick Ross x Meek Mill",
+            img: "RickMeekTooGoodTobeTruePic.jpg",
+            music: "Rick Ross, Meek Mill - Star Island.mp3"
+        },
+        {
+            id: 121,
+            name: "Luv Again",
+            artist: "Ruger",
+            img: "RugerLuvAgainPic.jpg",
+            music: "Ruger - Luv Again.mp3"
+        },
+        {
+            id: 122,
+            name: "Change Me",
+            artist: "BigXthaPlug",
+            img: "BigXcHangeMePic.jpg",
+            music: "BigXthaPlug - Change Me.mp3"
+        },
+        {
+            id: 123,
+            name: "Big Stepper",
+            artist: "BigXThaPlug",
+            img: "BigXThatPlug11111.jpg",
+            music: "BigXThaPlug - Big Stepper.mp3"
+        },
+        {
+            id: 124,
+            name: "Back Then",
+            artist: "Mike Jones",
+            img: "MikeJonesPic.jpg",
+            music: "Mike Jones-Back Then.mp3"
+        },
+        {
+            id: 125,
+            name: "PLAIN JANE",
+            artist: "A$AP Ferg",
+            img: "AsaFergPic.jpg",
+            music: "A$AP Ferg - Plain Jane.mp3"
+        },
+        {
+            id: 126,
+            name: "Emotionally Scarred",
+            artist: "Lil Baby",
+            img: "LilBbayPic2.webp",
+            music: "Lil Baby - Emotionally Scarred.mp3"
+        },
+        {
+            id: 127,
+            name: "Rap Niggas",
+            artist: "BigXthaPlug ",
+            img: "BigXThatPlug11111.jpg",
+            music: "BigXthaPlug - Rap Niggas.mp3"
+        },
+        {
+            id: 128,
+            name: "I Get The Bag",
+            artist: "Gucci Mane ft Migos",
+            img: "IgetThebagPic.jpg",
+            music: "Gucci Mane ft Migos - I Get The Bag [Audio].mp3"
+        },
+        {
+            id: 129,
+            name: "TOO FAST",
+            artist: "Future",
+            img: "futuretoofastpic.jpg",
+            music: "Future - TOO FAST.mp3"
+        },
+        {
+            id: 130,
+            name: "Lakers",
+            artist: "BigXThaPlug ft. Ro$ama",
+            img: "BixLakersPic.jpg",
+            music: "BigXthaPlug  - '02 Lakers feat  Ro$ama.mp3"
+        },
+        {
+            id: 131,
+            name: "HOTEL LOBBY",
+            artist: "Quavo & Takeoff",
+            img: "MigosHotelPic.jpg",
+            music: "Quavo & Takeoff - HOTEL LOBBY.mp3"
+        },
+        {
+            id: 132,
+            name: "California Breeze",
+            artist: "Lil Baby",
+            img: "LilBabyPic.jpg",
+            music: "Lil Baby - California Breeze.mp3"
+        },
+        {
+            id: 133,
+            name: "Climate",
+            artist: "BigXthaPlug Ft Offset",
+            img: "BigOffClimPic.jpg",
+            music: "BigXthaPlug Ft Offset - Climate.mp3"
+        },
+        {
+            id: 134,
+            name: "PRIMETIME",
+            artist: "BigXThaPlug",
+            img: "BIGXPICC.jpg",
+            music: "BigXthaPlug - Primetime.mp3"
+        },
+        {
+            id: 135,
+            name: "Shorty Wanna Ride",
+            artist: "Young Buck",
+            img: "YoungBuckPic.jpg",
+            music: "Young Buck -  Shorty Wanna Ride.mp3"
+        },
+        {
+            id: 136,
+            name: "Badu Flow",
+            artist: "BigXthaPlug",
+            img: "bigxpicccccc.png",
+            music: "BigXthaPlug - Badu Flow.mp3"
+        },
+        {
+            id: 137,
+            name: "Mr.Trouble",
+            artist: "BigXThaPlug",
+            img: "BIGXPICC.jpg",
+            music: "BigXThaPlug _Mr.Trouble.mp3"
+        },
+        {
+            id: 138,
+            name: "Ric Flair Drip",
+            artist: "Offset & Metro Boomin",
+            img: "Ricflarsonpic.jpg",
+            music: "Offset & Metro Boomin  - Ric Flair Drip.mp3"
+        },
+        {
+            id: 139,
+            name: "Straightenin",
+            artist: "Migos",
+            img: "MigosCulturPic.jpg",
+            music: "Migos - Straightenin (Audio).mp3"
+        },
+        {
+            id: 140,
+            name: "Back On",
+            artist: "Quality Control x Lil Baby",
+            img: "LilBabyPic.jpg",
+            music: "Quality Control, Lil Baby - Back On.mp3"
+        },
+        {
+            id: 141,
+            name: "PESO",
+            artist: "A$AP Rocky",
+            img: "ASAPPIC222.jpg",
+            music: "A$AP Rocky - Peso.mp3"
+        },
+        {
+            id: 142,
+            name: "OOOUUU",
+            artist: "Young MA",
+            img: "YounOUUUPIC.jpg",
+            music: "Young MA-OOOUUU.mp3"
+        },
+        {
+            id: 143,
+            name: "Praise The Lord",
+            artist: "A$AP Rocky Ft. Skepta",
+            image: "ASAPPIC1.jpg",
+            music: "A$AP Rocky Ft. Skepta- Praise The Lord.mp3"
+        },
+        {
+            id: 144,
+            name: "Active",
+            artist: "BigXthaPlug",
+            img: "BigXactivePic.jpg",
+            music: "BigXthaPlug - Active (Official Music Video).mp3"
+        },
+        {
+            id: 145,
+            name: "OFFICER RICKY",
+            artist: "50 Cent",
+            img: "50centPic.jpg",
+            music: "50 Cent - Officer Ricky.mp3"
+        },
+        {
+            id: 146,
+            name: "Get Buck",
+            artist: "Young Buck",
+            img: "YoungBuckPic.jpg",
+            music: "Young Buck-Get Buck.mp3"
+        },
+        {
+            id: 147,
+            name: "Close Friends",
+            artist: "Lil Baby x Gunna",
+            img: "LilCloseFPic.jpg",
+            music: "Lil Baby, Gunna - Close Friends.mp3"
+        },
+        {
+            id: 148,
+            name: "Still Tippin",
+            artist: "Miike Jones ft. Slim Thug and Paul Wall",
+            img: "MikeJonesPic.jpg",
+            music: "Still Tippin' (feat. Slim Thug and Paul Wall).mp3"
+        },
+        {
+            id: 149,
+            name: "Sippin On Some Syrup",
+            artist: "3Six Mafia",
+            img: "3SixMafia-Sippin.jpg",
+            music: "3SixMafia-Sippin On Some Syrup.mp3"
+        },
+        {
+            id: 150,
+            name: "A CUALTA MI GATA",
+            artist: "Omega El Fuerte",
+            img: "omegapic.jpg",
+            music: "Omega-A Cualta Mi Gata.mp3"
+        },
+        {
+            id: 151,
+            name: "Con Quién Te Olvido",
+            artist: "Ala Jaza",
+            img: "ALAJAPICCCC.jpg",
+            music: "Ala Jaza - Con Quién Te Olvido.mp3"
+        },
+        {
+            id: 152,
+            name: "LA NOTA",
+            artist: "GABRIEL PAGAN x OMEGA",
+            img: "GABRIELOMEGAPIC.jpg",
+            music: "GABRIEL PAGAN  OMEGA - LA NOTA.mp3"
+        },
+        {
+            id: 153,
+            name: "Si antes te hubiera conocido",
+            artist: "Karol G",
+            img: "MECUROPIC.jpg",
+            music: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+        },
+        {
+            id: 154,
+            name: "EL MERENGUE",
+            artist: "Marshmello x Manuel Turizo",
+            img: "ManuelTurizoMerenguwPic.jpg",
+            music: "Marshmello, Manuel Turizo - El Merengue.mp3"
+        },
+        {
+            id: 155,
+            name: "Tu Mayimbe",
+            artist: "Sujeto Oro 24",
+            img: "SUJETOPIC3333.jpg",
+            music: "sujeto Oro 24 - Tu Mayimbe.mp3"
+        },
+        {
+            id: 156,
+            name: "Vieja Dale Dale",
+            artist: "Toño Rosario",
+            img: "TonoRosariPic.jpg",
+            music: "Toño Rosario - Vieja Dale Dale.mp3"
+        },
+        {
+            id: 157,
+            name: "PEPAS",
+            artist: "Ala Jaza",
+            img: "ALAJAZApIC3333.jpg",
+            music: "ALAJAZA-PEPAS.mp3"
+        },
+        {
+            id: 158,
+            name: "To' la Mujeres Rapan",
+            artist: "Amarfis Y la banda de Atakke",
+            img: "AmarfisPic1.jpg",
+            music: "Amarfis Y la banda de Atakke-To' la Mujeres Rapan.mp3"
+        },
+        {
+            id: 159,
+            name: "Mi Forma De Ser",
+            artist: "Ala Jaza",
+            img: "ALAJAPICCCC.jpg",
+            music: "Ala Jaza - Mi Forma De Ser.mp3"
+        },
+        {
+            id: 160,
+            name: "No me hable de Gente",
+            artist: "Sujeto Oro 24",
+            img: "SUJETOPIC3333.jpg",
+            music: "Sujeto Oro 24 - No me hable de Gente.mp3"
+        },
+        {
+            id: 161,
+            name: "Simplemente Gracias",
+            artist: "Ala Jaza",
+            img: "ALAJAPICCCC.jpg",
+            music: "Ala Jaza - Simplemente Gracias.mp3"
+        },
+        {
+            id: 162,
+            name: "HEAVY",
+            artist: "Sujeto Oro 24",
+            img: "SUJETOPICCCC222222.jpg",
+            music: "Sujeto oro 24 - Heavy.mp3"
+        },
+        {
+            id: 163,
+            name: "Yo Quiero Un Vacilon",
+            artist: "Toño Rosario",
+            img: "TonoRosariPic.jpg",
+            music: "Yo Quiero Un Vacilon.mp3"
+        },
+        {
+            id: 164,
+            name: "El Guayo",
+            artist: "Amarfis y la banda de Atakke",
+            img: "amarfispic222.jpg",
+            music: "Amarfis y la banda de Atakke-El Guayo.mp3"
+        },
+        {
+            id: 165,
+            name: "Mi Mundo Lo Controlo Yo",
+            artist: "Sujeto Oro 24",
+            img: "SujetoMimundoPic.jpg",
+            music: "Sujeto Oro 24  -  Mi Mundo Lo Controlo Yo.mp3"
+        },
+        {
+            id: 166,
+            name: "Ando En La Versace",
+            artist: "Omega El Fuerte",
+            img: "omegapic.jpg",
+            music: "Omega El  Fuerte-Ando En La Versace.mp3"
+        },
+        {
+            id: 167,
+            name: "BOBO",
+            artist: "Sujeto",
+            img: "sujetoPic.jpg",
+            music: "SUJETO ORO 24 - BOBO.mp3"
+        },
+        {
+            id: 168,
+            name: "Nadie Se Meta",
+            artist: "Ala Jaza",
+            img: "ALAJAPICCCC.jpg",
+            music: "Ala Jaza - Nadie Se Meta.mp3"
+        },
+        {
+            id: 169,
+            name: "Toma Lo Que Te Mandé",
+            artist: "Toño Rosario",
+            img: "TonoRosariPic.jpg",
+            music: "Toño Rosario - Toma Lo Que Te Mandé.mp3"
+        },
+        {
+            id: 170,
+            name: "El Vecino",
+            artist: "Sujeto oro 24",
+            img: "SUJETOPICCCC222222.jpg",
+            music: "Sujeto oro 24-El Vecino.mp3"
+        },
+        {
+            id: 171,
+            name: "Fariseo",
+            artist: "Omega El Fuerte",
+            img: "omegapic2.jpg",
+            music: "Omaga El Fuerte-Fariseo.mp3"
+        },
+        {
+            id: 172,
+            name: "SUJETO ORO 24",
+            artist: "CUIDATE",
+            img: "sujetocuidatepiiccc.jpg",
+            music: "SUJETO ORO 24 - CUIDATE.mp3"
+        },
+        {
+            id: 173,
+            name: "El Pollo",
+            artist: "Amarfis y la banda de Atakke",
+            img: "AmarfisPic1.jpg",
+            music: "Amarfis y la banda de Atakee-El Pollo.mp3"
+        },
+        {
+            id: 174,
+            name: "NO ME HABLEN DE ELLA",
+            artist: "SUJETO 0R0 24",
+            img: "SUJETOPIC3333.jpg",
+            music: "SUJETO 0R0 24 - NO ME HABLEN DE ELLA.mp3"
+        },
+        {
+            id: 175,
+            name: "Yemaya",
+            artist: "Amarfis Y la banda de Atakke",
+            img: "amarfispic333.jpg",
+            music: "Amarfis Y la banda de Atakke-Yemaya.mp3"
+        },
+        {
+            id: 176,
+            name: "TU NO CORRE",
+            artist: "SUJETO ORO 24",
+            img: "SUJETOPICCCC222222.jpg",
+            music: "TU NO CORRE - SUJETO ORO 24.mp3"
+        },
+        {
+            id: 177,
+            name: "ME VOY PAL PUEBLO",
+            artist: "Toño Rosario",
+            img: "TONOPIC2222.jpg",
+            music: "Toño Rosario - ME VOY PAL PUEBLO.mp3"
+        },
+        {
+            id: 178,
+            name: "Misericordia",
+            artist: "Ala Jaza",
+            img: "alajazapic222.jpg",
+            music: "Ala Jaza - Misericordia.mp3"
+        },
+        {
+            id: 179,
+            name: "Weje Weje",
+            artist: "Sujeto Oro 24",
+            img: "sujetoPic.jpg",
+            music: "Sujeto Oro 24 - Weje Weje.mp3"
+        },
+        {
+            id: 180,
+            name: "Tattoo",
+            artist: "Ala Jaza",
+            img: "alajazapic44444.jpg",
+            music: "Ala Jaza - Tattoo.mp3"
+        },
+        {
+            id: 181,
+            name: "FUEGO",
+            artist: "Tito Swing",
+            img: "TitoPic.jpg",
+            music: "Tito Swing - Fuego.mp3"
+        },
+        {
+            id: 182,
+            name: "Tabaco y Ron",
+            artist: "Ala Jaza",
+            img: "ALAJAZApIC3333.jpg",
+            music: "Ala Jaza - Tabaco y Ron.mp3"
+        },
+        {
+            id: 183,
+            name: "Beso A Beso",
+            artist: "Toño Rosario",
+            img: "TONOPIC2222.jpg",
+            music: "Toño Rosario - Beso A Beso.mp3"
+        },
+        {
+            id: 184,
+            name: "Quiero Volver A Empezar",
+            artist: "Toño Rosario",
+            img: "TonoRosariPic.jpg",
+            music: "Toño Rosario - Quiero Volver A Empezar.mp3"
+        },
+        {
+            id: 185,
+            name: "Alegria",
+            artist: "Toño Rosario",
+            img: "TONOPIC2222.jpg",
+            music: "Toño Rosario - Alegria.mp3"
+        },
+        {
+            id: 186,
+            name: "MI Mamá Me Apunto En la Escuela",
+            artist: "Sujeto Oro 24",
+            img: "SUJETOPIC3333.jpg",
+            music: "Sujeto Oro 24  -  MI Mamá Me Apunto En la Escuela.mp3"
+        }
+
+     
   ];
   
   const searchInput = document.getElementById("search-input");
