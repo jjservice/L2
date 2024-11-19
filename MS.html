@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <!-- Add Ionicons CDN for play/pause icons -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@6.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@6.0.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .player-container {
+            width: 80%;
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #search-input {
+            width: 60%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #song-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .song-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .song-item:hover {
+            background-color: #e0e0e0;
+        }
+
+        .song-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .song-item span {
+            flex-grow: 1;
+        }
+
+        .play-button {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        #audio-controls {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        #audio-controls button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+        }
+
+        #audio-controls button:hover {
+            background-color: #0056b3;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-container">
+        <!-- Search Bar -->
+        <div id="search-bar">
+            <input type="text" id="search-input" placeholder="Search for a song or artist...">
+        </div>
+
+        <!-- Song List -->
+        <div id="song-list"></div>
+
+        <!-- Audio Controls -->
+        <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mp3">
+        </audio>
+
+        <div id="audio-controls">
+            <button id="prev-button">Prev</button>
+            <button id="next-button">Next</button>
+            <button id="random-button">Random</button>
+        </div>
+    </div>
+
+    <script src="MS.js"></script>
+</body>
+</html>
