@@ -22,6 +22,7 @@ body {
     border: 6px solid rgba(139, 0, 46, 0.336);
     padding-left: 10px;
     padding-right: 10px;
+    border: 6px solid rgba(255, 0, 34, 0.342);
     border-radius: 40px;
     box-shadow: 0px 2px 15px lightskyblue;
     height: auto;
@@ -33,7 +34,7 @@ body {
     background-position: bottom;
     background-size: 50%;
     background-repeat: no-repeat;
-    transition: 4s;
+    transition: 3s;
   }
   #audio-player{
     margin: 0% auto;
@@ -114,7 +115,7 @@ body {
 
   
   .song-list {
-    height: 40vh;
+    height: 45vh;
     list-style: none;
     overflow-y: scroll;
     margin-bottom: 10px;
