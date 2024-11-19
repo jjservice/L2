@@ -1,4 +1,4 @@
-const songs = [
+const songs = [ 
     {   id: 1,
         name: "Na Conmigo",
         artist: "Lapiz Conciente",
@@ -1257,84 +1257,151 @@ const songs = [
  const prevButton = document.getElementById("prev-button");
  const nextButton = document.getElementById("next-button");
  const randomButton = document.getElementById("random-button");
+ const playPauseButton = document.getElementById("play-pause-button");
+ const progressBar = document.getElementById("progress-bar");
+ const volumeSlider = document.getElementById("volume-slider");
+ const muteButton = document.getElementById("mute-button");
  
  let isPlaying = false;
  let currentSongId = null;
+ let isMuted = false;
  
  function renderSongs(filteredSongs = songs) {
-    songList.innerHTML = "";
+     songList.innerHTML = "";
  
-    filteredSongs.forEach(song => {
-       const songItem = document.createElement("div");
-       songItem.classList.add("song-item");
-       songItem.dataset.songId = song.id;
-       songItem.innerHTML = `
-          <img src="${song.img}" alt="${song.name}">
-          <span>${song.name} - ${song.artist}</span>
-          <button class="play-button"><i><ion-icon name="play"></ion-icon></i></button>
-       `;
+     filteredSongs.forEach(song => {
+         const songItem = document.createElement("div");
+         songItem.classList.add("song-item");
+         songItem.dataset.songId = song.id;
+         songItem.innerHTML = `
+             <img src="${song.img}" alt="${song.name}">
+             <span>${song.name} - ${song.artist}</span>
+             <button class="play-button"><i class="fas fa-play"></i></button>
+         `;
  
-       songItem.querySelector(".play-button").addEventListener("click", () => {
-          playOrPauseSong(song, songItem.querySelector(".play-button"));
-       });
+         const playButton = songItem.querySelector(".play-button");
+         playButton.addEventListener("click", () => {
+             playOrPauseSong(song, playButton);
+         });
  
-       songList.appendChild(songItem);
-    });
+         songList.appendChild(songItem);
+     });
  }
  
  function playOrPauseSong(song, button) {
-    if (isPlaying && currentSongId === song.id) {
-       audioPlayer.pause();
-       button.querySelector("ion-icon").setAttribute("name", "play");
-       isPlaying = false;
-    } else {
-       audioSource.src = song.music;
-       audioSource.dataset.songId = song.id;
-       audioPlayer.load();
-       audioPlayer.play();
-       button.querySelector("ion-icon").setAttribute("name", "pause");
-       isPlaying = true;
-       currentSongId = song.id;
-    }
+     if (isPlaying && currentSongId === song.id) {
+         audioPlayer.pause();
+         button.querySelector("i").classList.replace("fa-pause", "fa-play");
+         playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
+         isPlaying = false;
+     } else {
+         audioSource.src = song.music;
+         audioSource.dataset.songId = song.id;
+         audioPlayer.load();
+         audioPlayer.play();
+         button.querySelector("i").classList.replace("fa-play", "fa-pause");
+         playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
+         isPlaying = true;
+         currentSongId = song.id;
+     }
  }
  
  audioPlayer.addEventListener("ended", function() {
-    const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
-    const nextSongIndex = (currentSongIndex + 1) % songs.length;
-    playOrPauseSong(songs[nextSongIndex], document.querySelector(`[data-song-id="${songs[nextSongIndex].id}"] .play-button`));
+     const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
+     const nextSongIndex = (currentSongIndex + 1) % songs.length;
+     playOrPauseSong(songs[nextSongIndex], document.querySelector(`[data-song-id="${songs[nextSongIndex].id}"] .play-button`));
  });
  
  function playNextSong() {
-    const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
-    const nextSongIndex = (currentSongIndex + 1) % songs.length;
-    playOrPauseSong(songs[nextSongIndex], document.querySelector(`[data-song-id="${songs[nextSongIndex].id}"] .play-button`));
+     const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
+     const nextSongIndex = (currentSongIndex + 1) % songs.length;
+     playOrPauseSong(songs[nextSongIndex], document.querySelector(`[data-song-id="${songs[nextSongIndex].id}"] .play-button`));
  }
  
  function playPrevSong() {
-    const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
-    const prevSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
-    playOrPauseSong(songs[prevSongIndex], document.querySelector(`[data-song-id="${songs[prevSongIndex].id}"] .play-button`));
+     const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
+     const prevSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+     playOrPauseSong(songs[prevSongIndex], document.querySelector(`[data-song-id="${songs[prevSongIndex].id}"] .play-button`));
  }
  
  function playRandomSong() {
-    const randomIndex = Math.floor(Math.random() * songs.length);
-    playOrPauseSong(songs[randomIndex], document.querySelector(`[data-song-id="${songs[randomIndex].id}"] .play-button`));
+     const randomIndex = Math.floor(Math.random() * songs.length);
+     playOrPauseSong(songs[randomIndex], document.querySelector(`[data-song-id="${songs[randomIndex].id}"] .play-button`));
  }
  
- // Event listeners for buttons
- nextButton.addEventListener("click", playNextSong);
  prevButton.addEventListener("click", playPrevSong);
+ nextButton.addEventListener("click", playNextSong);
  randomButton.addEventListener("click", playRandomSong);
+ 
+ // Handle play/pause button toggle
+ playPauseButton.addEventListener("click", () => {
+     if (isPlaying) {
+         audioPlayer.pause();
+         playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
+         isPlaying = false;
+     } else {
+         if (currentSongId === null) {
+             // If no song is playing, start the first song
+             playOrPauseSong(songs[0], document.querySelector(`[data-song-id="${songs[0].id}"] .play-button`));
+         } else {
+             audioPlayer.play();
+             playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
+             isPlaying = true;
+         }
+     }
+ });
+ 
+ // Progress Bar update
+ audioPlayer.addEventListener("timeupdate", () => {
+     if (audioPlayer.duration) {
+         const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+         progressBar.value = progress;
+     }
+ });
+ 
+ // Seek functionality
+ progressBar.addEventListener("click", (event) => {
+     const seekTime = (event.offsetX / progressBar.offsetWidth) * audioPlayer.duration;
+     audioPlayer.currentTime = seekTime;
+ });
+ 
+ // Handle volume control slider
+ volumeSlider.addEventListener("input", (event) => {
+     audioPlayer.volume = event.target.value;
+ });
+ 
+ // Handle mute/unmute button
+ muteButton.addEventListener("click", () => {
+     if (isMuted) {
+         audioPlayer.muted = false;
+         volumeSlider.value = audioPlayer.volume;
+         muteButton.querySelector("i").classList.replace("fa-volume-mute", "fa-volume-up");
+     } else {
+         audioPlayer.muted = true;
+         muteButton.querySelector("i").classList.replace("fa-volume-up", "fa-volume-mute");
+     }
+     isMuted = !isMuted;
+ });
+ 
+ audioPlayer.addEventListener("play", () => {
+     playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
+     isPlaying = true;
+ });
+ 
+ audioPlayer.addEventListener("pause", () => {
+     playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
+     isPlaying = false;
+ });
  
  renderSongs();
  
  searchInput.addEventListener("input", function() {
-    const searchQuery = searchInput.value.toLowerCase();
+     const searchQuery = searchInput.value.toLowerCase();
  
-    const filteredSongs = songs.filter(song =>
-       song.name.toLowerCase().includes(searchQuery) ||
-       song.artist.toLowerCase().includes(searchQuery)
-    );
+     const filteredSongs = songs.filter(song =>
+         song.name.toLowerCase().includes(searchQuery) ||
+         song.artist.toLowerCase().includes(searchQuery)
+     );
  
-    renderSongs(filteredSongs);
+     renderSongs(filteredSongs);
  });
