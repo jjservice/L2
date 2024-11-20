@@ -12,8 +12,20 @@
 <div class="music-player">
     <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
     
-    <input type="text" id="search-input" placeholder=".;.LOLLITA.;." />
+    <input type="text" id="search-input" placeholder=".;.LOLLITA MUSIC.;." />
+    
+    <button id="voice-search-button"><i class="fas fa-microphone"></i>
+      <audio id="notification-sound" src="notification.mp3" preload="auto"></audio>
+    </button>
+ 
+  <select id="language-selector">
+    <option value="en-US">English</option>
+    <option value="es-ES">Spanish</option>
+    <option value="fr-FR">French</option>
+    <!-- Add more languages as needed -->
+    </select>
    
+
 
     <div class="song-list" id="song-list"></div>
 
@@ -32,8 +44,7 @@
         <button id="play-pause-button" class="control-btn"><i class="fas fa-play"></i></button>
         <button id="next-button" class="control-btn"><i class="fas fa-step-forward"></i></button>
         <button id="random-button" class="control-btn"><i class="fas fa-random"></i></button>
-        <button id="repeat-button" class="control-button"><ion-icon name="repeat-outline"></ion-icon></button>
-      
+       
       </div>
      
       <div class="player">
@@ -55,4 +66,3 @@
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
-
