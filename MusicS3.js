@@ -1510,3 +1510,10 @@ recognition.addEventListener("result", (event) => {
         notificationSound.play(); // Play sound if matches are found
     }
 });
+
+function toggleClassPlayer(){
+
+    const body = document.querySelector('body');
+    body.classList.toggle('lightPlayer');
+    
+    }
