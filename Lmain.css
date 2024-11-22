@@ -709,6 +709,20 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+      .L-KidsDrop a{
+        text-align: center;
+        background-image: url(MovieGifff.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .L-KidsDrop a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      } 
       .Ftg-Cal a{
         text-align: center;
         background-image: url(SqfeetFotoLogoGif.gif);
@@ -725,6 +739,20 @@
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
       }
+      .L-DocumsDrop a{
+        text-align: center;
+        background-image: url(DocumentariesGif.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .L-DocumsDrop a:hover{
+        background-color: gold;
+        color: beige;
+        text-shadow: 2px 2px 10px goldenrod;
+        transition: 1s;
+      } 
       .Exp-Tracker-Drop a{
         text-align: center;
         background-image: url(ExpenseTrackerGif.gif);
@@ -738,7 +766,7 @@
         color: beige;
         text-shadow: 2px 2px 10px goldenrod;
         transition: 1s;
-      }
+      } 
       .li14 a{
         font-size: 30px;
         text-align: center;
@@ -2007,6 +2035,26 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #L-DocumSearch-bar{
+      background-image: url(MovieGifff.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: black;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #L-DocumSearch-bar a{
+    color: transparent;
+    }
+    #L-DocumSearch-bar:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #Cal-S{
       background-image: url(CalculatorGif11.gif);
       background-position: center;   
@@ -2042,6 +2090,25 @@
     color: transparent;
     }
     #L-KidsSearch-bar:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #L-DocumSearch-bar{
+      background-image: url(DocumentariesGif.gif);
+      background-position: center;     
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #L-DocumSearch-bar a{
+    color: transparent;
+    }
+    #L-DocumSearch-bar:hover{
       transform: scale(1.05);
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
