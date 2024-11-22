@@ -741,6 +741,7 @@
       }
       .L-DocumsDrop a{
         text-align: center;
+        font-size: 18px;
         background-image: url(DocumentariesGif.gif);
         background-position: center;
         background-repeat: no-repeat;
