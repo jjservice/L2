@@ -38,6 +38,7 @@
           letter-spacing: 2px;
           box-shadow: 5px 15px 15px maroon;
           border-radius: 100%;
+          cursor: pointer;
           transition: 1s;
           
          }
