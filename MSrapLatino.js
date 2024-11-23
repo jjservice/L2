@@ -1,9 +1,9 @@
 const songs = [ 
     {   id: 1,
-        name: "Na Conmigo",
-        artist: "Lapiz Conciente",
-        img: "LapizNaConmigoPic.jpg",
-        music: "Lapiz Conciente - Na Conmigo.mp3"
+        name: "Por Mi Lau",
+        artist: "Miky Woodz",
+        img: "MIKYWOODSPIC111.jpg",
+        music: "Miky Woodz - Por Mi Lau.mp3"
     },
     {   id: 2,
         name: "TOUCHDOWN",
@@ -96,10 +96,10 @@ const songs = [
         music: "Lapiz Conciente ft. Shadow Blow - Mujeres Como Tu.mp3"
     },
     {   id: 17,
-        name: "Por Mi Lau",
-        artist: "Miky Woodz",
-        img: "MIKYWOODSPIC111.jpg",
-        music: "Miky Woodz - Por Mi Lau.mp3"
+        name: "Na Conmigo",
+        artist: "Lapiz Conciente",
+        img: "LapizNaConmigoPic.jpg",
+        music: "Lapiz Conciente - Na Conmigo.mp3"
     },
     {   id: 18,
         name: "27 Mensajes",
