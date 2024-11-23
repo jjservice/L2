@@ -180,7 +180,7 @@
   
   
   .song-list {
-    height: 40vh;
+    height: 26vh;
     list-style: none;
     overflow-y: scroll;
     justify-content: center;
@@ -347,20 +347,21 @@
       transition: 1s;
     }
     .song-list{
+      height: 28vh;
       margin: 0% auto;
       font-size: 25px;
       justify-content: center;
       align-items: center;
       text-align: center;
-      min-height: 300px;
+     
     }
     .song-list img {
       margin: 0% auto;
-      min-width: 250px;
-      min-height: 250px;
+      min-width: 150px;
+      min-height: 150px;
     }
     .song-item{
-      margin-bottom: 50px;
+      margin-bottom: 10px;
     }
     #search-input {
       width: 100%;
