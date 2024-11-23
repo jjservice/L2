@@ -180,7 +180,7 @@
   
   
   .song-list {
-    height: 26vh;
+    height: 32vh;
     list-style: none;
     overflow-y: scroll;
     justify-content: center;
@@ -347,7 +347,7 @@
       transition: 1s;
     }
     .song-list{
-      height: 28vh;
+      height: 32vh;
       margin: 0% auto;
       font-size: 25px;
       justify-content: center;
