@@ -30,70 +30,70 @@ const songs = [
         music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
     },
     {   id: 6,
+        name: "Las Pistas Son De Yecko",
+        artist: "Yecko ft Pressure 9x19",
+        img: "LasPistasSonDeYeckoPic.jpg",
+        music: "Yecko ft Pressure 9x19 - Las Pistas Son De Yecko.mp3"
+    },
+    {   id: 7,
         name: "Astronauto",
         artist: "Almighty",
         img: "AlmightyPicx.jpg",
         music: "Almighty- Astronauto.mp3"
     },
-    {   id: 7,
+    {   id: 8,
         name: "Que Loquera",
         artist: "Nino Freestyle x Yomel El Meloso",
         img: "ninoyomelPic.jpg",
         music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
-    {   id: 8,
+    {   id: 9,
         name: "SEDA",
         artist: "Bad Bunny x Bryant Myers",
         img: "BadBunnyBryinSedaPic.jpg",
         music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
-    {   id: 9,
+    {   id: 10,
         name: "SASA O DINERO",
         artist: "BRAULIO FOGON",
         img: "BraulioFogonPic.jpg",
         music: "BRAULIO FOGON - SASA O DINERO.mp3"
     },
-    {   id: 10,
+    {   id: 11,
         name: "No Soy Mujeriego",
         artist: "Nino Freestyle",
         img: "NinoFreestylePic.avif",
         music: "Nino Freestyle - No Soy Mujeriego.mp3"
     },
-    {   id: 11,
+    {   id: 12,
         name: "ORGANICO",
         artist: "Jamby El Favo",
         img: "JambyOrganicoPic.jpg",
         music: "Jamby El Favo - Orgánico.mp3"
     },
-    {   id: 12,
+    {   id: 13,
         name: "Pana Mío",
         artist: "Polakan Ft. Melymel",
         img: "panamiopic.jpg",
         music: "Polakan Ft. Melymel - Pana Mío.mp3"
     },
-    {   id: 13,
+    {   id: 14,
         name: "EL MEJOR",
         artist: "Nino Freestyle",
         img: "NinoFreeElMejorPic.jpg",
         music: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
     },
-    {   id: 14,
+    {   id: 15,
         name: "PASSOA",
         artist: "Jhayco x Kapo",
         img: "JhayKapoPassoaPic.jpg",
         music: "JHAYCO, Kapo - Passoa.mp3"
     },
-    {   id: 15,
+    {   id: 16,
         name: "CRYPTO",
         artist: "Miky Woodz",
         img: "mikypicc44444.jpg",
         music: "Miky Woodz - CRYPTO.mp3"
-    },
-    {   id: 16,
-        name: "Mujeres Como Tu",
-        artist: "Lapiz Conciente X Shadow Blow",
-        img: "LAPIZSHADOWPIC.jpg",
-        music: "Lapiz Conciente ft. Shadow Blow - Mujeres Como Tu.mp3"
     },
     {   id: 17,
         name: "Na Conmigo",
@@ -352,12 +352,6 @@ const songs = [
         artist: "C-Dobleta",
         img: "quieneson.jpg",
         music: "QUIENES SON- CDOBLETA.mp3"
-    },
-    {   id: 60,
-        name: "KIANA",
-        artist: "Tali Goya",
-        img: "TALIPIC.jpg",
-        music: "Tali Goya - Kianna (Tiradera a Lito Kirino).mp3"
     },
  ];
  const searchInput = document.getElementById("search-input");
