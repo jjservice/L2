@@ -1911,9 +1911,8 @@
     }
   #search {
       display: flex;
-      padding: 20px;
+      padding: 25px;
       background: radial-gradient(circle,darkblue,maroon,black);
-    
       border-radius:40px;
       box-shadow: 2px 4px 10px lightblue;
       border: 2px solid lightblue;
@@ -1923,7 +1922,7 @@
     transition: 1s;
   }
   #search label {
-      font-size: 20px;
+      font-size: 18px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       color: rgba(117, 117, 2, 0.719);
       text-shadow: 1px 2px 1px gold;
@@ -1932,19 +1931,52 @@
       cursor: pointer;
   }
   #searchInput {
+      color: whitesmoke;
+      text-shadow: 1px 1px 1px gold;
       text-align: center;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 15px;
+      font-size: 20px;
       display: inherit;
       width: 100%;
-      border-radius: 50px;
+      border-radius: 30px;
       box-shadow: 2px 3px 3px black;
       border: 2px solid gold;
   }
   
   #searchInput:focus {
-      background-color: lightblue;
+      background-image: url(bonfiregifff.gif);
+      background-position: center;
+      background-size: 65%;
       transition: 0.5s;
+  }
+  #voiceSearchBtn{
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+  }
+  #voiceSearchBtn ion-icon{
+    color: lightskyblue;
+    font-size: 25px;
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 217, 0, 0.664);
+    box-shadow: 0px 1px 1px lightskyblue;
+    cursor: pointer;
+  }
+  #voiceSearchBtn ion-icon:hover{
+    transform: scale(1.10);
+    transition: 0.5s;
+    box-shadow: 0px 2px 10px lightskyblue;
+  }
+  body.light #voiceSearchBtn ion-icon{
+    color: crimson;
+    box-shadow: 0px 1px 1px pink;
+  }
+  body.light #voiceSearchBtn ion-icon:hover{
+    transform: scale(1.10);
+    transition: 0.5s;
+    box-shadow: 0px 2px 10px gold;
   }
   label ion-icon{
       font-size: 40px;
