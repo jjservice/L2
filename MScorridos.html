@@ -13,7 +13,6 @@
     <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
     
     <input type="text" id="search-input" placeholder=".;.CORRIDOS.;." />
-    
     <button id="voice-search-button"><i class="fas fa-microphone"></i>
       <audio id="notification-sound" src="notification.mp3" preload="auto"></audio>
     </button>
@@ -24,19 +23,23 @@
     <option value="fr-FR">French</option>
     <!-- Add more languages as needed -->
     </select>
-   
 
+     <!-- Song Details -->
+     <ul class="current-song-details">
+      <div id="current-id"></div>
+     <div id="current-song-name"></div>
+     <div id="current-artist-name"></div>
+    </ul>
 
     <div class="song-list" id="song-list"></div>
 
     <audio id="audio-player">
         <source id="audio-source" />
     </audio>
-     
+
      <!-- Progress Bar -->
      <progress id="progress-bar" value="0" max="100" style="width: 100%; margin-top: 20px;"></progress>
      
-
     <div id="audio-controls">
 
       <button id="mute-button" class="control-btn"><i class="fas fa-volume-up"></i></button>
@@ -46,7 +49,11 @@
         <button id="random-button" class="control-btn"><i class="fas fa-random"></i></button>
        
       </div>
-     
+      
+      
+      
+   
+
       <div class="player">
        <!-- Volume Control -->
      <ul class="volume-controls">

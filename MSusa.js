@@ -4,7 +4,7 @@ const songs = [
         "name": "It Is What It Is",
         "artist": "Big Sean x Gunna",
         "img": "BigSeanGunnaItisWhatItIsPic.jpg",
-        "music": "Big Sean x Gunna - It Is What It Is.mp3"
+        "music": "Big Sean  x Gunna - It Is What It Is.mp3"
     },
     {
         "id": 2,
@@ -288,7 +288,18 @@ const songs = [
          isPlaying = true;
          currentSongId = song.id;
      }
- }
+     // Update the current song name display
+     const songNameDisplay = document.getElementById("current-song-name");
+     songNameDisplay.textContent = song.name;
+     
+     const artistNameDisplay = document.getElementById("current-artist-name");
+     artistNameDisplay.textContent = song.artist;// Display the song name
+      
+     const idNumberDisplay = document.getElementById("current-id");
+     idNumberDisplay.textContent = song.id;// Display the artist name
+    }
+ 
+
  
  audioPlayer.addEventListener("ended", function() {
      const currentSongIndex = songs.findIndex(song => song.id === parseInt(audioSource.dataset.songId));
