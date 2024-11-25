@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="MSLatCorUSAMam.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+      .current-song-details{
+    margin: 0% auto;
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    background-blend-mode: color-burn;
+    transition: 1s;
+  }
+  body.lightPlayer .current-song-details{
+    background-image: none;
+    transition: 1s;
+  }
+  
+    </style>
     <title>LOLLIPOP</title>
 </head>
 <body class="lightPlayer">
@@ -13,6 +30,7 @@
     <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
     
     <input type="text" id="search-input" placeholder=".;.HIP HOP USA.;." />
+    
     <button id="voice-search-button"><i class="fas fa-microphone"></i>
       <audio id="notification-sound" src="notification.mp3" preload="auto"></audio>
     </button>
@@ -23,23 +41,24 @@
     <option value="fr-FR">French</option>
     <!-- Add more languages as needed -->
     </select>
-
-     <!-- Song Details -->
-     <ul class="current-song-details">
-      <div id="current-id"></div>
-     <div id="current-song-name"></div>
-     <div id="current-artist-name"></div>
-    </ul>
+   
+      <!-- Song Details -->
+      <ul class="current-song-details">
+        <div id="current-id"></div>
+       <div id="current-song-name"></div>
+       <div id="current-artist-name"></div>
+      </ul>  
 
     <div class="song-list" id="song-list"></div>
 
     <audio id="audio-player">
         <source id="audio-source" />
     </audio>
-
+     
      <!-- Progress Bar -->
      <progress id="progress-bar" value="0" max="100" style="width: 100%; margin-top: 20px;"></progress>
      
+
     <div id="audio-controls">
 
       <button id="mute-button" class="control-btn"><i class="fas fa-volume-up"></i></button>
@@ -49,11 +68,7 @@
         <button id="random-button" class="control-btn"><i class="fas fa-random"></i></button>
        
       </div>
-      
-      
-      
-   
-
+     
       <div class="player">
        <!-- Volume Control -->
      <ul class="volume-controls">
