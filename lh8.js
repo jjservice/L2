@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Na Conmigo",
-        artist: "Lapiz Conciente",
-        image: "LapizNaConmigoPic.jpg",
-        path: "Lapiz Conciente - Na Conmigo.mp3"
+        name: "TOUCHDOWN",
+        artist: "Messiah x Myke Towers",
+        image: "MessiahMikeTouchDownPic.jpg",
+        path: "Messiah, Myke Towers - TOUCHDOWN.mp3"
     },
 ];
 

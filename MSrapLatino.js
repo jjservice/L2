@@ -66,10 +66,10 @@ const songs = [
         music: "Nino Freestyle - No Soy Mujeriego.mp3"
     },
     {   id: 12,
-        name: "ORGANICO",
-        artist: "Jamby El Favo",
-        img: "JambyOrganicoPic.jpg",
-        music: "Jamby El Favo - Orgánico.mp3"
+        name: "OBVIO",
+        artist: "Myke Towers",
+        img: "MykeObvioPIC.jpg",
+        music: "Myke Towers - OBVIO (Visualizer).mp3"
     },
     {   id: 13,
         name: "Pana Mío",
@@ -96,16 +96,16 @@ const songs = [
         music: "Miky Woodz - CRYPTO.mp3"
     },
     {   id: 17,
-        name: "Na Conmigo",
-        artist: "Lapiz Conciente",
-        img: "LapizNaConmigoPic.jpg",
-        music: "Lapiz Conciente - Na Conmigo.mp3"
+        name: "Fast Money",
+        artist: "Ñengo Flow ft Myke Towers",
+        img: "FASTMONEYPC.jpg",
+        music: "Ñengo Flow x Myke Towers - Fast Money [Official Video].mp3"
     },
     {   id: 18,
-        name: "27 Mensajes",
-        artist: "Shadow Blow X Lapiz Conciente",
-        img: "LAPIZSHADOWPIC.jpg",
-        music: "Shadow Blow  Lapiz Conciente  27 Mensajes.mp3"
+        name: "Mi Progreso",
+        artist: "Maiky el antivirus musical",
+        img: "miprogresopic.jpg",
+        music: "Mi progreso-Maiky el antivirus musical .mp3"
     },
     {   id: 19,
         name: "Otra Vez",
@@ -150,10 +150,10 @@ const songs = [
         music: "BRAULIO FOGON X LUIS BROWN - BACK TO BACK.mp3"
     },
     {   id: 26,
-        name: "ASEGURAO",
-        artist: "Shadow Blow X Lapiz Conciente",
-        img: "LapizShadowAseguraoPic.jpg",
-        music: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
+        name: "Respeten o Respeten",
+        artist: "Maiky el antivirus musical",
+        img: "maikyima3.jpg",
+        music: "Maiky El Antivirus Musical-Respeten o Respeten(H M-2018).mp3"
     },
     {   id: 27,
         name: "Solo $exo",
@@ -264,16 +264,16 @@ const songs = [
         music: "Myke Towers - PFA (Lyric Video).mp3"
     },
     {   id: 45,
-        name: "Tú No Ta'",
-        artist: "Lapiz Conciente",
-        img: "LAPIZPIC222222.jpg",
-        music: "Lapiz Conciente - Tú No Ta'.mp3"
+        name: "Megvtron",
+        artist: "YoungChimi",
+        img: "YoungChimiMegatronPic.jpg",
+        music: "YOVNGCHIMI - Megvtron (Official Visualizer).mp3"
     },
     {   id: 46,
-        name: "9 Dias",
-        artist: "Lapiz Conciente",
-        img: "lapizPi.jpg",
-        music: "Lapiz Conciente - 9 Dias.mp3"
+        name: "Quienes son",
+        artist: "C-Dobleta",
+        img: "quieneson.jpg",
+        music: "QUIENES SON- CDOBLETA.mp3"
     },
     {   id: 47,
         name: "Que Esta Pasando",
@@ -312,46 +312,10 @@ const songs = [
         music: "Eladio Carrión, Myke Towers - Jóvenes Millonarios (Video Oficial).mp3"
     },
     {   id: 53,
-        name: "Fast Money",
-        artist: "Ñengo Flow ft Myke Towers",
-        img: "FASTMONEYPC.jpg",
-        music: "Ñengo Flow x Myke Towers - Fast Money [Official Video].mp3"
-    },
-    {   id: 54,
-        name: "OBVIO",
-        artist: "Myke Towers",
-        img: "MykeObvioPIC.jpg",
-        music: "Myke Towers - OBVIO (Visualizer).mp3"
-    },
-    {   id: 55,
-        name: "La Música No Miente",
-        artist: "Lapiz Conciente",
-        img: "lapizPi.jpg",
-        music: "Lapiz Conciente - La Música No Miente.mp3"
-    },
-    {   id: 56,
-        name: "Respeten o Respeten",
-        artist: "Maiky el antivirus musical",
-        img: "maikyima3.jpg",
-        music: "Maiky El Antivirus Musical-Respeten o Respeten(H M-2018).mp3"
-    },
-    {   id: 57,
-        name: "Mi Progreso",
-        artist: "Maiky el antivirus musical",
-        img: "miprogresopic.jpg",
-        music: "Mi progreso-Maiky el antivirus musical .mp3"
-    },
-    {   id: 58,
-        name: "Megvtron",
-        artist: "YoungChimi",
-        img: "YoungChimiMegatronPic.jpg",
-        music: "YOVNGCHIMI - Megvtron (Official Visualizer).mp3"
-    },
-    {   id: 59,
-        name: "Quienes son",
-        artist: "C-Dobleta",
-        img: "quieneson.jpg",
-        music: "QUIENES SON- CDOBLETA.mp3"
+        name: "ORGANICO",
+        artist: "Jamby El Favo",
+        img: "JambyOrganicoPic.jpg",
+        music: "Jamby El Favo - Orgánico.mp3"
     },
  ];
  const searchInput = document.getElementById("search-input");
