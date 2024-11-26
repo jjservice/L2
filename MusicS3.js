@@ -1288,31 +1288,41 @@ const songs = [
  }
  
  function playOrPauseSong(song, button) {
-     if (isPlaying && currentSongId === song.id) {
-         audioPlayer.pause();
-         button.querySelector("i").classList.replace("fa-pause", "fa-play");
-         playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
-         isPlaying = false;
-     } else {
-         audioSource.src = song.music;
-         audioSource.dataset.songId = song.id;
-         audioPlayer.load();
-         audioPlayer.play();
-         button.querySelector("i").classList.replace("fa-play", "fa-pause");
-         playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
-         isPlaying = true;
-         currentSongId = song.id;
-     }
-     // Update the current song name display
-     const songNameDisplay = document.getElementById("current-song-name");
-     songNameDisplay.textContent = song.name;
-     
-     const artistNameDisplay = document.getElementById("current-artist-name");
-     artistNameDisplay.textContent = song.artist;// Display the song name
-      
-     const idNumberDisplay = document.getElementById("current-id");
-     idNumberDisplay.textContent = song.id;// Display the artist name
+    // Get the song image element by ID
+    const songImageDisplay = document.getElementById("current-song-image");
+
+    if (isPlaying && currentSongId === song.id) {
+        audioPlayer.pause();
+        button.querySelector("i").classList.replace("fa-pause", "fa-play");
+        playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
+        isPlaying = false;
+    } else {
+        audioSource.src = song.music;
+        audioSource.dataset.songId = song.id;
+        audioPlayer.load();
+        audioPlayer.play();
+        button.querySelector("i").classList.replace("fa-play", "fa-pause");
+        playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
+        isPlaying = true;
+        currentSongId = song.id;
     }
+
+    // Update the current song name display
+    const songNameDisplay = document.getElementById("current-song-name");
+    songNameDisplay.textContent = song.name;
+    
+    // Update the current artist name display
+    const artistNameDisplay = document.getElementById("current-artist-name");
+    artistNameDisplay.textContent = song.artist; // Display the artist name
+    
+    // Update the current song ID display
+    const idNumberDisplay = document.getElementById("current-id");
+    idNumberDisplay.textContent = song.id; // Display the song ID
+
+    // Update the song image
+    songImageDisplay.src = song.img; // Set the image source to the song's image
+}
+
  
 
  
