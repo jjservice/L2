@@ -353,7 +353,7 @@
   @media (min-width: 768px) {
     .music-player {
       margin: 0% auto;
-      min-width: 650px;
+      min-width: 700px;
       height: auto;
       margin: 20px auto;
       background: rgba(0, 0, 0, 0.363);
@@ -392,13 +392,16 @@
       transition: 1s;
     }
     .song-list{
-      height: 35vh;
       margin: 0% auto;
+      display: grid;
+      gap: 15px;
+      flex-direction: column;
+      grid-template-columns: repeat(2, 1fr);
       font-size: 25px;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-     
+      min-height: 175px;
+    }
+    .song-item{
+      box-shadow: 0px 3px 3px rgba(169, 169, 169, 0.603);
     }
     .song-list img {
       margin: 0% auto;
@@ -406,7 +409,7 @@
       min-height: 150px;
     }
     .song-item{
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
     #search-input {
       width: 100%;
