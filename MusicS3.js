@@ -329,11 +329,12 @@ const songs = [
         img: "MykeObvioPIC.jpg",
         music: "Myke Towers - OBVIO (Visualizer).mp3"
     },
-    {   id: 55,
-        name: "La Música No Miente",
-        artist: "Lapiz Conciente",
-        img: "lapizPi.jpg",
-        music: "Lapiz Conciente - La Música No Miente.mp3"
+    {
+        id: 55,
+        name: "Weje Weje",
+        artist: "Sujeto Oro 24",
+        img: "sujetoPic.jpg",
+        music: "Sujeto Oro 24 - Weje Weje.mp3"
     },
     {   id: 56,
         name: "Respeten o Respeten",
@@ -353,11 +354,12 @@ const songs = [
         img: "YoungChimiMegatronPic.jpg",
         music: "YOVNGCHIMI - Megvtron (Official Visualizer).mp3"
     },
-    {   id: 59,
-        name: "Na Conmigo",
-        artist: "Lapiz Conciente",
-        img: "LapizNaConmigoPic.jpg",
-        music: "Lapiz Conciente - Na Conmigo.mp3"
+    {
+        id: 59,
+        name: "Tattoo",
+        artist: "Ala Jaza",
+        img: "alajazapic44444.jpg",
+        music: "Ala Jaza - Tattoo.mp3"
     },
      { 
         id: 60, 
@@ -1198,21 +1200,6 @@ const songs = [
             img: "alajazapic222.jpg",
             music: "Ala Jaza - Misericordia.mp3"
         },
-        {
-            id: 179,
-            name: "Weje Weje",
-            artist: "Sujeto Oro 24",
-            img: "sujetoPic.jpg",
-            music: "Sujeto Oro 24 - Weje Weje.mp3"
-        },
-        {
-            id: 180,
-            name: "Tattoo",
-            artist: "Ala Jaza",
-            img: "alajazapic44444.jpg",
-            music: "Ala Jaza - Tattoo.mp3"
-        },
-    
  ];
  const searchInput = document.getElementById("search-input");
  const songList = document.getElementById("song-list");
@@ -1453,7 +1440,7 @@ recognition.addEventListener("result", (event) => {
     );
 
     renderSongs(filteredSongs); // Render the filtered song list
-
+    
     // Play the sound notification if songs are found
     if (filteredSongs.length > 0) {
         notificationSound.play(); // Play sound if matches are found

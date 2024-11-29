@@ -168,7 +168,9 @@
     <div id="search">
         <label for="searchInput">LOLLIPOP<ion-icon name="search"></ion-icon></label>
         <input id="searchInput" type="text" placeholder=".:.LOLLITA.:.">
-		<button id="voiceSearchBtn"><ion-icon name="mic-outline"></ion-icon></button> <!-- Voice Search Button -->
+		<button id="voiceSearchBtn"><ion-icon name="mic-outline"></ion-icon>
+			<audio id="notification-sound" src="Cut-Voice-Notification-Sound.mp3" preload="auto"></audio>
+		</button> <!-- Voice Search Button -->
 	</div>
 	<select id="languageSelect">
 		<option value="en-US">English</option>
