@@ -190,10 +190,10 @@ const songs = [
     },
     {
         "id": 28,
-        "name": "Back Then",
-        "artist": "Mike Jones",
-        "img": "MikeJonesPic.jpg",
-        "music": "Mike Jones - Back Then.mp3"
+        "name": "I Get The Bag",
+        "artist": "Gucci Mane ft Migos",
+        "img": "IgetThebagPic.jpg",
+        "music": "Gucci Mane ft Migos - I Get The Bag [Audio].mp3"
     },
     {
         "id": 29,
@@ -216,22 +216,6 @@ const songs = [
         "img": "BigXThatPlug11111.jpg",
         "music": "BigXthaPlug - Rap Niggas.mp3"
     },
-    {
-        "id": 32,
-        "name": "I Get The Bag",
-        "artist": "Gucci Mane ft Migos",
-        "img": "IgetThebagPic.jpg",
-        "music": "Gucci Mane ft Migos - I Get The Bag [Audio].mp3"
-    },
-    {
-        "id": 33,
-        "name": "TOO FAST",
-        "artist": "Future",
-        "img": "futuretoofastpic.jpg",
-        "music": "Future - TOO FAST (Official Audio).mp3"
-    }
-       
-    
     
  ];
  const searchInput = document.getElementById("search-input");

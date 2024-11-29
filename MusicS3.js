@@ -89,11 +89,12 @@ const songs = [
         img: "mikypicc44444.jpg",
         music: "Miky Woodz - CRYPTO.mp3"
     },
-    {   id: 16,
-        name: "Mujeres Como Tu",
-        artist: "Lapiz Conciente X Shadow Blow",
-        img: "LAPIZSHADOWPIC.jpg",
-        music: "Lapiz Conciente ft. Shadow Blow - Mujeres Como Tu.mp3"
+    {
+        id: 16,
+        name: "AFS",
+        artist: "Natanael Cano",
+        img: "NatanaelPic.jpg",
+        music: "Natanael Cano-AFS-MP3.mp3"
     },
     {   id: 17,
         name: "Por Mi Lau",
@@ -101,11 +102,12 @@ const songs = [
         img: "MIKYWOODSPIC111.jpg",
         music: "Miky Woodz - Por Mi Lau.mp3"
     },
-    {   id: 18,
-        name: "27 Mensajes",
-        artist: "Shadow Blow X Lapiz Conciente",
-        img: "LAPIZSHADOWPIC.jpg",
-        music: "Shadow Blow  Lapiz Conciente  27 Mensajes.mp3"
+    {
+        id: 18,
+        name: "TENGO MOTIVOS",
+        artist: "Junior H",
+        img: "JunioHPic33333.png",
+        music: "Junior H - Tengo Motivos.mp3"
     },
     {   id: 19,
         name: "Otra Vez",
@@ -155,11 +157,12 @@ const songs = [
         img: "quieneson.jpg",
         music: "QUIENES SON- CDOBLETA.mp3"
     },
-    {   id: 27,
-        name: "ASEGURAO",
-        artist: "Shadow Blow X Lapiz Conciente",
-        img: "LapizShadowAseguraoPic.jpg",
-        music: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
+    {
+        id: 27,
+        name: "Beso A Beso",
+        artist: "Toño Rosario",
+        img: "TONOPIC2222.jpg",
+        music: "Toño Rosario - Beso A Beso.mp3"
     },
     {   id: 28,
         name: "Pauta y Flow",
@@ -263,24 +266,27 @@ const songs = [
         img: "1MYKEPIC1.jpg",
         music: "Myke Towers - PFA (Lyric Video).mp3"
     },
-    {   id: 45,
-        name: "Tú No Ta'",
-        artist: "Lapiz Conciente",
-        img: "LAPIZPIC222222.jpg",
-        music: "Lapiz Conciente - Tú No Ta'.mp3"
+    {
+        id: 45,
+        name: "Tabaco y Ron",
+        artist: "Ala Jaza",
+        img: "ALAJAZApIC3333.jpg",
+        music: "Ala Jaza - Tabaco y Ron.mp3"
     },
-    {   id: 46,
-        name: "9 Dias",
-        artist: "Lapiz Conciente",
-        img: "lapizPi.jpg",
-        music: "Lapiz Conciente - 9 Dias.mp3"
+    {
+        id: 46,
+        name: "Alegria",
+        artist: "Toño Rosario",
+        img: "TONOPIC2222.jpg",
+        music: "Toño Rosario - Alegria.mp3"
     },
-    {   id: 47,
-        name: "Que Esta Pasando",
-        artist: "El Jincho",
-        img: "JINCHOPIC.jpg",
-        music: "El Jincho - Que Esta Pasando (VIDEOCLIP OFICIAL).mp3"
-    },
+    {
+        id: 47,
+        name: "MI Mamá Me Apunto En la Escuela",
+        artist: "Sujeto Oro 24",
+        img: "SUJETOPIC3333.jpg",
+        music: "Sujeto Oro 24  -  MI Mamá Me Apunto En la Escuela.mp3"
+    }
     {   id: 48,
         name: "EL NUEVO PAPA",
         artist: "QUIMICO ULTRA MEGA",
@@ -508,17 +514,17 @@ const songs = [
         },
         {
             id: 81,
-            name: "TENGO MOTIVOS",
-            artist: "Junior H",
-            img: "JunioHPic33333.png",
-            music: "Junior H - Tengo Motivos.mp3"
+            name: "FUEGO",
+            artist: "Tito Swing",
+            img: "TitoPic.jpg",
+            music: "Tito Swing - Fuego.mp3"
         },
         {
             id: 82,
-            name: "AFS",
-            artist: "Natanael Cano",
-            img: "NatanaelPic.jpg",
-            music: "Natanael Cano-AFS-MP3.mp3"
+            name: "Quiero Volver A Empezar",
+            artist: "Toño Rosario",
+            img: "TonoRosariPic.jpg",
+            music: "Toño Rosario - Quiero Volver A Empezar.mp3"
         },
         {
             id: 83,
@@ -1206,48 +1212,7 @@ const songs = [
             img: "alajazapic44444.jpg",
             music: "Ala Jaza - Tattoo.mp3"
         },
-        {
-            id: 181,
-            name: "FUEGO",
-            artist: "Tito Swing",
-            img: "TitoPic.jpg",
-            music: "Tito Swing - Fuego.mp3"
-        },
-        {
-            id: 182,
-            name: "Tabaco y Ron",
-            artist: "Ala Jaza",
-            img: "ALAJAZApIC3333.jpg",
-            music: "Ala Jaza - Tabaco y Ron.mp3"
-        },
-        {
-            id: 183,
-            name: "Beso A Beso",
-            artist: "Toño Rosario",
-            img: "TONOPIC2222.jpg",
-            music: "Toño Rosario - Beso A Beso.mp3"
-        },
-        {
-            id: 184,
-            name: "Quiero Volver A Empezar",
-            artist: "Toño Rosario",
-            img: "TonoRosariPic.jpg",
-            music: "Toño Rosario - Quiero Volver A Empezar.mp3"
-        },
-        {
-            id: 185,
-            name: "Alegria",
-            artist: "Toño Rosario",
-            img: "TONOPIC2222.jpg",
-            music: "Toño Rosario - Alegria.mp3"
-        },
-        {
-            id: 186,
-            name: "MI Mamá Me Apunto En la Escuela",
-            artist: "Sujeto Oro 24",
-            img: "SUJETOPIC3333.jpg",
-            music: "Sujeto Oro 24  -  MI Mamá Me Apunto En la Escuela.mp3"
-        }
+    
  ];
  const searchInput = document.getElementById("search-input");
  const songList = document.getElementById("song-list");
