@@ -286,7 +286,7 @@ const songs = [
         artist: "Sujeto Oro 24",
         img: "SUJETOPIC3333.jpg",
         music: "Sujeto Oro 24  -  MI Mamá Me Apunto En la Escuela.mp3"
-    }
+    },
     {   id: 48,
         name: "EL NUEVO PAPA",
         artist: "QUIMICO ULTRA MEGA",
