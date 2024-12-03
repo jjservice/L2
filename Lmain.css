@@ -1746,7 +1746,12 @@
           background-repeat: no-repeat;
           background-size: cover;
           }
-    
+      .lit-Ncaa-Drop{
+          background-image: url(NcaaSporstLogoPic.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+            }
     
       .li30{
         background-image: url(SALSAPIC2.jpg);
@@ -2923,6 +2928,27 @@
       transition: 0.5s;
       box-shadow: 0px 6px 10px blue;
       border-radius: 20px;
+    }
+
+    #Ncaa-Sports{
+      background-image: url(NcaaSporstLogoPic.jpg);
+      background-position: center;   
+      background-size: cover;
+      background-color: black;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Ncaa-Sports a{
+    color: transparent;
+    }
+    #Ncaa-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
     }
 
   
