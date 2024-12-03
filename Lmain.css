@@ -3073,7 +3073,7 @@
     #Ufc-Sports{
       background-image: url(UFCLOGOGIF.gif);
       background-position: center;   
-      background-size: 100%;
+      background-size: cover;
       background-color: transparent;
       border: 3px solid gold;
       border-radius: 20px;
