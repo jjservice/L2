@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "LA NOTA",
-        artist: "GABRIEL PAGAN x OMEGA",
-        image: "GABRIELOMEGAPIC.jpg",
-        path: "GABRIEL PAGAN  OMEGA - LA NOTA.mp3"
+        name: "Hijuela",
+        artist: "Chencho Corleone",
+        image: "ChenchoHijuelaPic.jpg",
+        path: "Chencho Corleone - Hijuela.mp3"
     },
 ];
 
