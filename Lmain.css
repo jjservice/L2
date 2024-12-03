@@ -2934,7 +2934,7 @@
       background-image: url(NcaaSporstLogoPic.jpg);
       background-position: center;   
       background-size: cover;
-      background-color: black;
+      background-color: transparent;
       border: 3px solid gold;
       border-radius: 20px;
       box-shadow: 2px 3px 2px darkblue;
@@ -2950,5 +2950,265 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
-
+    #Nba-Sports{
+      background-image: url(NBAGIFF.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Nba-Sports a{
+    color: transparent;
+    }
+    #Nba-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Mlb-Sports{
+      background-image: url(MLB\ GIF.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Mlb-Sports a{
+    color: transparent;
+    }
+    #Mlb-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Fifa-Sports{
+      background-image: url(FIFA.jpg);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Fifa-Sports a{
+    color: transparent;
+    }
+    #Fifa-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Ufc-Sports{
+      background-image: url(UFCLOGOGIF.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Ufc-Sports a{
+    color: transparent;
+    }
+    #Ufc-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Nfl-Sports{
+      background-image: url(NFLPIC.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Nfl-Sports a{
+    color: transparent;
+    }
+    #Nfl-Sport:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Formula1-Sports{
+      background-image: url(formula1pic.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Formula1-Sports a{
+    color: transparent;
+    }
+    #Formula1-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Ufc-Sports{
+      background-image: url(UFCLOGOGIF.gif);
+      background-position: center;   
+      background-size: 100%;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Ufc-Sports a{
+    color: transparent;
+    }
+    #Ufc-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Us-Open-Sports{
+      background-image: url(USOPENGIF.webp);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+      color: transparent;
+    }
+    #Us-Open-Sports a{
+    color: transparent;
+    }
+    #Us-Open-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Uefa-Sports{
+      background-image: url(EUROCUPGIF.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Uefa-Sports a{
+    color: transparent;
+    }
+    #Uefa-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Motogp-Sports{
+      background-image: url(motogpicccc.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Motogp-Sports a{
+    color: transparent;
+    }
+    #Motogp-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Nascar-Sports{
+      background-image: url(nascarpic1.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Nascar-Sports a{
+    color: transparent;
+    }
+    #Nascar-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Pga-Tour-Sports{
+      background-image: url(pgalogo.png);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Pga-Tour-Sports a{
+    color: transparent;
+    }
+    #Pga-Tour-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
+    #Nhl-Sports{
+      background-image: url(nhlpic.gif);
+      background-position: center;   
+      background-size: cover;
+      background-color: transparent;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Nhl-Sports a{
+    color: transparent;
+    }
+    #Nhl-Sports:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
   
