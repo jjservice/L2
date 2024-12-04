@@ -1,9 +1,9 @@
 const songs = [ 
     {   id: 1,
-        name: "Por Mi Lau",
-        artist: "Miky Woodz",
-        img: "MIKYWOODSPIC111.jpg",
-        music: "Miky Woodz - Por Mi Lau.mp3"
+        name: "Pa que tú me ronca",
+        artist: "Químico ultra Mega x Danger",
+        img: "QUIMICOPIC.jpg",
+        music: "Químico ultra Mega x Danger- Pa que tú me ronca.mp3"
     },
     {   id: 2,
         name: "TOUCHDOWN",
@@ -84,10 +84,10 @@ const songs = [
         music: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
     },
     {   id: 15,
-        name: "PASSOA",
-        artist: "Jhayco x Kapo",
-        img: "JhayKapoPassoaPic.jpg",
-        music: "JHAYCO, Kapo - Passoa.mp3"
+        name: "Por Mi Lau",
+        artist: "Miky Woodz",
+        img: "MIKYWOODSPIC111.jpg",
+        music: "Miky Woodz - Por Mi Lau.mp3"
     },
     {   id: 16,
         name: "CRYPTO",
@@ -316,6 +316,12 @@ const songs = [
         artist: "Jamby El Favo",
         img: "JambyOrganicoPic.jpg",
         music: "Jamby El Favo - Orgánico.mp3"
+    },
+    {   id: 54,
+        name: "PASSOA",
+        artist: "Jhayco x Kapo",
+        img: "JhayKapoPassoaPic.jpg",
+        music: "JHAYCO, Kapo - Passoa.mp3"
     },
 ];
 const searchInput = document.getElementById("search-input");

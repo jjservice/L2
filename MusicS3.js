@@ -6,64 +6,64 @@ const songs = [
         music: "Messiah, Myke Towers - TOUCHDOWN.mp3"
     },
     {   id: 2,
+        name: "Pa que tú me ronca",
+        artist: "Químico ultra Mega x Danger",
+        img: "QUIMICOPIC.jpg",
+        music: "Químico ultra Mega x Danger- Pa que tú me ronca.mp3"
+    },
+    {   id: 3,
         name: "SEDA",
         artist: "Bad Bunny x Bryant Myers",
         img: "BadBunnyBryinSedaPic.jpg",
         music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
-    {   id: 3,
+    {   id: 4,
         name: "CURIANA",
         artist: "El Poeta x CarlosCoins",
         img: "PoetaCarlosCurianaPic.jpg",
         music: "El Poeta, @CarlosCoins - Curiana.mp3"
     },
-    {   id: 4,
+    {   id: 5,
         name: "Pila De Cotorra",
         artist: "El Fother x Darlyn Nay",
         img: "FotherDarlinPilaDeCotorraPic.jpg",
         music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
     },
-    {   id: 5,
+    {   id: 6,
         name: "Astronauto",
         artist: "Almighty",
         img: "AlmightyPicx.jpg",
         music: "Almighty- Astronauto.mp3"
     },
-    {   id: 6,
+    {   id: 7,
         name: "Solo $exo",
         artist: "Myke Towers",
         img: "MYKEPIC3333.jpg",
         music: "Myke Towers - Solo $exo.mp3"
     },
-    {   id: 7,
+    {   id: 8,
         name: "Que Loquera",
         artist: "Nino Freestyle x Yomel El Meloso",
         img: "ninoyomelPic.jpg",
         music: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
-    {   id: 8,
+    {   id: 9,
         name: "SASA O DINERO",
         artist: "BRAULIO FOGON",
         img: "BraulioFogonPic.jpg",
         music: "BRAULIO FOGON - SASA O DINERO.mp3"
     },
-    {   id: 9,
+    {   id: 10,
         name: "No Soy Mujeriego",
         artist: "Nino Freestyle",
         img: "NinoFreestylePic.avif",
         music: "Nino Freestyle - No Soy Mujeriego.mp3"
     },
-    {   id: 10,
+    {   id: 11,
         name: "ORGANICO",
         artist: "Jamby El Favo",
         img: "JambyOrganicoPic.jpg",
         music: "Jamby El Favo - Orgánico.mp3"
-    },
-    {   id: 11,
-        name: "KIANA",
-        artist: "Tali Goya",
-        img: "TALIPIC.jpg",
-        music: "Tali Goya - Kianna (Tiradera a Lito Kirino).mp3"
     },
     {   id: 12,
         name: "Pana Mío",
@@ -1199,6 +1199,12 @@ const songs = [
             artist: "Ala Jaza",
             img: "alajazapic222.jpg",
             music: "Ala Jaza - Misericordia.mp3"
+        },
+        {   id: 179,
+            name: "KIANA",
+            artist: "Tali Goya",
+            img: "TALIPIC.jpg",
+            music: "Tali Goya - Kianna (Tiradera a Lito Kirino).mp3"
         },
  ];
  const searchInput = document.getElementById("search-input");
