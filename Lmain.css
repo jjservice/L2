@@ -1396,7 +1396,7 @@
         background-image:url(SquidsGame2pic.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 85%;
         border: 2px solid gold;
         box-shadow: 2px 2px 10px lightgreen;
         border-radius: 10px;
