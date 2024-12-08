@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "CURIANA",
-        artist: "El Poeta x CarlosCoins",
-        image: "PoetaCarlosCurianaPic.jpg",
-        path: "El Poeta, @CarlosCoins - Curiana.mp3"
+        name: "Mi progreso",
+        artist: "Maiky el antivirus musical",
+        image: "MaikyElantivirusPic.jpg",
+        path: "Mi progreso-Maiky el antivirus musical .mp3"
     },
 ];
 
