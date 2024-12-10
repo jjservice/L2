@@ -2390,6 +2390,25 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #Store-Club-searchBar{
+      background-image: url(AstronautHeadLogoGif.gif);
+      background-position: center;
+      background-size: cover;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Store-Club-searchBar a{
+    color: transparent;
+    }
+    #Store-Club-searchBar:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #L-videos{
       background-image: url(videocampicc2222.jpg);
       background-position: center;
