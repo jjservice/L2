@@ -1430,9 +1430,8 @@
         font-weight: bold;
         text-align: center;
         align-content: center;
-        background-image:url(ImaginaMPic.jpg);
-        background-position: bottom;
-        background-repeat: no-repeat;
+        background-image: url(mrbeanHolidayPic.jpg);
+        background-position: center;
         background-size: cover;
         border: 2px solid gold;
         box-shadow: 2px 2px 10px lightgreen;
