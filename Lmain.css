@@ -3242,35 +3242,6 @@
       box-shadow: 1px 6px 1px lightgreen;
     }
 
-    @media (max-width: 500px){
-     
-      .post-section .image-post img{
-        margin: 0% auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        visibility: visible;
-      }
-     
-     
-     
-    }
-   
-    .image-post img{
-      margin: 0% auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   
-     
-     
-    }
-    .post-section .image-post img{
-      margin: 0% auto;
-      justify-content: center;
-      align-items: center;
-      display: none;
-    }
     #Center-image-Post a img{
       height: 250px;
       width: 250px;
@@ -3278,7 +3249,7 @@
       border-top: 2px solid blue;
       box-shadow: 0px 2px 15px lightskyblue;
       padding: 3px;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       border-radius: 40px;
       
     }
@@ -3290,6 +3261,7 @@
       transition: 0.5s;
       box-shadow: 0px 2px 15px gold;
     }
+   
       
 
 
