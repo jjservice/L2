@@ -56,7 +56,7 @@
         }
 
         h1 ion-icon{
-          color: rgba(255, 217, 0, 0.486);
+          color: rgba(245, 222, 179, 0.89);
           border-bottom: 2px solid gold;
           box-shadow: 2px 4px 6px maroon;
           border-radius: 20px;
@@ -73,8 +73,8 @@
      
      
       body.light .toggleClass ion-icon{
-          color: rgba(255, 217, 0, 0.815);
-          background-image: url(AstronautHeadLogoGif.gif);
+          color: rgba(255, 217, 0, 0.637);
+          background-image: url(lollipop_3GIF.gif);
           background-position: center;
           background-size: cover;
           border-top: 4px solid blue;
@@ -85,7 +85,7 @@
     
     }
       .toggleClass ion-icon{
-          color: rgba(255, 217, 0, 0.747);
+          color: rgba(255, 217, 0, 0.452);
           font-size: 70px;
           cursor: pointer;
           transition: background-color 0.5s ease, color 0.5s ease;
@@ -1855,23 +1855,7 @@
         padding: auto;
         cursor: pointer;
       }
-     
-      .image-post img{
-        margin: 0 auto;
-        margin-bottom: 2px;
-        width: 250px;
-        height: 250px;
-        border-top: 2px solid rgba(220, 20, 60, 0.856);
-        border-bottom: 2px solid blue;
-        box-shadow: 0px 2px 20px lightskyblue;
-        background-color: rgba(139, 0, 53, 0.233);
-        border-radius: 40px;
-        transition: 1s;
-      }
-      body.light .image-post img{
-        transition: 1s;
-         box-shadow: 0px 2px 20px lightgreen;
-      }
+   
       .image2{
         justify-content: center;
         align-items: center;
@@ -1890,6 +1874,21 @@
         transform: scale(1.05);
         transition: 0.5s;
         box-shadow: 0px 2px 15px gold;
+      }
+      .post-section {
+        margin: 0% auto;
+        display: flex;
+        justify-content: center;
+       
+      }
+      .post-section img {
+        margin: 0% auto;
+        display: flex;
+        text-align: center;
+        margin: 5px;
+        height: 135px;
+        width: 135px;
+        border-radius: 20px;
       }
      .dropdown{
       margin-right: 5px;
@@ -3242,4 +3241,59 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+
+    @media (max-width: 500px){
+     
+      .post-section .image-post img{
+        margin: 0% auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+      }
+     
+     
+     
+    }
+   
+    .image-post img{
+      margin: 0% auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+     
+     
+    }
+    .post-section .image-post img{
+      margin: 0% auto;
+      justify-content: center;
+      align-items: center;
+      display: none;
+    }
+    #Center-image-Post a img{
+      height: 250px;
+      width: 250px;
+      border-bottom: 2px solid red;
+      border-top: 2px solid blue;
+      box-shadow: 0px 2px 15px lightskyblue;
+      padding: 3px;
+      margin-bottom: 5px;
+      border-radius: 40px;
+      
+    }
+    body.light #Center-image-Post a img{
+      box-shadow: 0px 2px 15px black;
+    }
+    #Center-image-Post a img:hover{
+      transform: scale(1.10);
+      transition: 0.5s;
+      box-shadow: 0px 2px 15px gold;
+    }
+      
+
+
+    
+    
+
   
