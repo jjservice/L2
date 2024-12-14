@@ -42,6 +42,15 @@
     <!-- Add more languages as needed -->
     </select>
 
+     <!-- ADDSSS ADDDSSS -->
+     <details>
+      <summary><p></p></summary>
+    <div class="product">
+      <img src="NikeAirForce1'07-mainPic.png" onclick="openModal(1)">
+    </div>
+    <a href="https://buy.stripe.com/bIY2aX6Xr4qde884gn"><input type="button" value="Learn more..."></a>
+       
+  </details>
 
    
       <!-- Song Details -->
@@ -85,6 +94,58 @@
    
       </div>
  </div>
+    <!-- Modal for displaying images -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+        <span class="next" onclick="changeSlide(1)">&#10095;</span>
+        <img id="modal-image" src="" alt="Product Image">
+      </div>
+    </div>
+  
+    <script>
+       const productImages = [
+        ["#", "#", "#", "#","#" ], // Product 1 images
+        ["NikeAirForce1'07-mainPic.png", "AirforceWhitePi1.png", "AirforceWhitePi2.png", "AirforceWhitePi3.png", "AirforceWhitePi4.png"], // Product 1 images
+      ];
+  
+      let currentProductIndex = -1;
+      let currentImageIndex = 0;
+  
+      function openModal(productIndex) {
+        currentProductIndex = productIndex;
+        currentImageIndex = 0;
+        showImage();
+        document.getElementById("myModal").style.display = "block";
+      }
+  
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+  
+      function showImage() {
+        const images = productImages[currentProductIndex];
+        const imageElement = document.getElementById("modal-image");
+        imageElement.src = images[currentImageIndex];
+      }
+  
+      function changeSlide(direction) {
+        currentImageIndex += direction;
+        if (currentImageIndex < 0) {
+          currentImageIndex = productImages[currentProductIndex].length - 1;
+        } else if (currentImageIndex >= productImages[currentProductIndex].length) {
+          currentImageIndex = 0;
+        }
+        showImage();
+      }
+  
+      // Close the modal when clicked outside
+      window.onclick = function(event) {
+        if (event.target == document.getElementById("myModal")) {
+          closeModal();
+        }
+      }
+    </script>
 </body>
 <script src="MusicS3.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
