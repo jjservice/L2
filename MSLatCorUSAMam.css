@@ -729,9 +729,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     padding: 5px 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
-    background-color: darkblue;
-    border-radius: 25px;
+    background-color: darkgreen;
+    border-radius: 8px;
     color: wheat;
     text-shadow: 0px 0px 2px gold;
     border-bottom: 1px solid wheat;
@@ -746,4 +747,59 @@
     transition: 0.5s ease-in;
     background-color: green;
     box-shadow: 0px 2px 10px gold;
+  }
+  .Go-to-Store-Btn{
+    margin: 0% auto;
+    position: relative;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 139, 0.329);
+    border-radius: 10px;
+    color: wheat;
+    text-shadow: 0px 0px 2px gold;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid red;
+    border-left: 1px solid gold;
+    border-right: 1px solid gold;
+    box-shadow: 0px 2px 6px darkgray;
+    cursor: pointer;
+  }
+  body.lightPlayer details a input{
+    border-bottom: 1px solid gold;
+   
+  }
+  details a input:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease-in;
+    background-color: green;
+    box-shadow: 0px 2px 10px gold;
+  }
+  
+  details  .Shop-Visit-Pic{
+    margin: 0% auto;
+    background-image: url(MonkeyDesignGif.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid lightskyblue;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 2px 8px black;
+    margin-bottom: 10px;
+  }
+  body.lightPlayer details .Shop-Visit-Pic{
+    border: 1px solid rgba(153, 205, 50, 0.774);
+  } 
+  details  .Shop-Visit-Pic:hover{
+    transform: scale(1.05);
+    transition: 1s;
+     box-shadow: 0px 2px 8px gold;
   }
