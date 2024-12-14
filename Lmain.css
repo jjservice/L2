@@ -1922,6 +1922,7 @@
       text-shadow: 2px 2px 4px maroon;
       background: radial-gradient(circle,maroon,black);
       transition: 1s;
+      
      }
      body.light #ClockDisplay{
       text-shadow: 2px 2px 4px gold;
@@ -3261,6 +3262,49 @@
       transition: 0.5s;
       box-shadow: 0px 2px 15px gold;
     }
+
+    .Only-What-u-Want-Section{
+      margin: 0% auto;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding: 10px;
+      background: linear-gradient(to right, black, darkblue, maroon, black);
+      width: 80%;
+      margin-bottom: 10px;
+      border-radius: 50px;
+    }
+    .Only-What-u-Want-Section nav{
+      margin: 0% auto;
+      display: flex;
+      justify-content: space-between;
+      color: white; 
+    }
+    .Only-What-u-Want-Section li{
+      margin: 0% auto;
+      list-style-type: none;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+      background-color:  rgba(220, 220, 220, 0.123);
+      padding: 5px 15px;
+      border-radius: 100%;
+     
+    }
+    .Only-What-u-Want-Section .li-1One{
+      border-bottom: 2px solid gold;
+    }
+    .Only-What-u-Want-Section .li-2Two{
+      border-top: 2px solid blue;
+    }
+    .Only-What-u-Want-Section .li-3Three{
+      border-bottom: 2px solid gold;
+    }
+    .Only-What-u-Want-Section .li-4Four{
+      border-top: 2px solid red;
+    }
+
    
       
 
