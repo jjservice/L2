@@ -1861,9 +1861,17 @@
         text-shadow: 2px 2px 4px maroon;
         border-radius: 100%;
         border: 2px solid darkblue;
-        box-shadow: 2px 6px 10px lightgreen;
+        box-shadow: 0px 2px 6px black;
+        background-color: rgba(0, 0, 0, 0.589);
         box-sizing: border-box;
+        margin-top: 5px; 
+      }
+      .details-body{
         
+        color: transparent;    
+        margin-bottom: 5px;
+        padding: auto;
+        cursor: pointer;
       }
       .artist-name{
         font-size: 25px;
@@ -1876,14 +1884,7 @@
         text-shadow: 2px 2px 4px gold;
         font-family: Georgia, 'Times New Roman', Times, serif;
       }
-      .details-body{
-        background-color: rgba(0, 0, 0, 0.418);
-        color: transparent;    
-        margin-bottom: 5px;
-        padding: auto;
-        cursor: pointer;
-      }
-   
+      
       .image2{
         justify-content: center;
         align-items: center;
@@ -3432,7 +3433,7 @@
         color: wheat;
         text-shadow: 2px 2px 4px gold;
         font-size: 30px;
-        background-color: rgba(0, 0, 0, 0.493);
+        background-color:rgba(0, 0, 0, 0.575);
         border-radius: 50px;
         border: 1px solid lightskyblue;
        }
