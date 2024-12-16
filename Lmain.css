@@ -3403,6 +3403,16 @@
         background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,darkblue,lightskyblue,maroon,whitesmoke,whitesmoke,whitesmoke);
         border: 2px solid lightskyblue;
       }
+      .Comment-Section{
+        margin: 0% auto;
+        width: 350px;
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+        font-size: 30px;
+        padding: 10px;
+        background: linear-gradient(to bottom,gold,black,black,gold);
+        border-radius: 20px;
+      }
       
    
       
