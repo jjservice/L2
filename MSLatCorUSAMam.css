@@ -1043,10 +1043,7 @@ body.lightPlayer #disqus_thread{
 } 
 body.lightPlayer .Comment-Section{
 border: 1px solid yellowgreen;
-box-shadow: 0px 2px 2px black;  
-background-image: url(SaySomethingNiceGif.gif);
-background-position: center;
-background-size: 35%;
+box-shadow: 0px 2px 2px black; 
 opacity: 100%;
 }
  
