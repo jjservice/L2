@@ -3394,7 +3394,7 @@
         width: 90%;
         padding: 10px;
         border-radius: 20px;
-        background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,darkblue,lightgreen,maroon,whitesmoke,whitesmoke,whitesmoke);
+        background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,lightblue,lightgreen,pink,whitesmoke,whitesmoke,whitesmoke);
         border: 2px solid yellowgreen;
         box-shadow: 0px 2px 10px black;
         margin-bottom: 5px;
@@ -3406,14 +3406,17 @@
       .Comment-Section{
         margin: 0% auto;
         width: 350px;
-        color: white;
-        text-shadow: 2px 2px 4px gold;
-        font-size: 30px;
+        color: gold;
+        text-shadow: 2px 2px 2px darkblue;
+        font-size: 25px;
+       
         padding: 10px;
         background: linear-gradient(to bottom,gold,black,black,gold);
-        border-radius: 20px;
+        border-radius: 100%;
         margin-bottom: 5px;
-      }
+        box-shadow: 0px 2px 6px black;  
+        cursor: pointer;   
+ }
       
    
       
