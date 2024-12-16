@@ -397,9 +397,10 @@
     #disqus_thread{
       margin: 0% auto;
       flex-direction: column;
-      box-sizing: border-box;
-      display: flex;
-      min-width: 580px;
+  
+    
+      min-width: 640px;
+     
      
      
     }
