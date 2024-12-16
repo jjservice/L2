@@ -302,10 +302,12 @@
       }
       .navigation3 li{
         list-style-type: none;
+        min-height: 60px;
+        min-width: 60px;
       }
       .dropdown li{
         list-style-type: none;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       .dropdown .content{
         padding: 10px;
