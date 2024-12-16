@@ -975,3 +975,62 @@ body.lightPlayer .Nav-Section2 a{
   opacity: 90%;
 }
 
+
+
+
+#disqus_thread{
+  margin: 0% auto;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,lightblue,lightgreen,pink,whitesmoke,whitesmoke,whitesmoke);
+  border: 2px solid lightskyblue;
+  box-shadow: 0px 2px 10px black;
+  margin-bottom: 5px;
+}
+body.lightPlayer #disqus_thread{
+  border: 2px solid yellowgreen;
+ 
+}
+.Comment-Section{
+  margin: 0% auto;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  border-radius: 100%;
+  margin-bottom: -15px;
+  box-shadow: 0px 2px 5px lightskyblue;  
+  cursor: pointer;   
+  border: 1px solid lightskyblue;
+  transition: 1s ease-in-out;
+  background-image: url(SaySomethingNiceGif.gif);
+  background-position: center;
+  background-size: 35%;
+  opacity: 90%;
+} 
+body.lightPlayer .Comment-Section{
+border: 1px solid yellowgreen;
+box-shadow: 0px 2px 2px black;  
+background-image: url(SaySomethingNiceGif.gif);
+background-position: center;
+background-size: 35%;
+opacity: 100%;
+}
+ 
+ .Comment-Section summary{
+  color: white;
+  text-shadow: 2px 2px 4px darkblue;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 50px;
+  border: 1px solid lightskyblue;
+ }
+ body.lightPlayer .Comment-Section summary{
+  color: white;
+  text-shadow: 2px 2px 4px gold;
+  border: 1px solid yellowgreen;
+ }
