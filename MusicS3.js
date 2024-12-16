@@ -1206,6 +1206,12 @@ const songs = [
             img: "TALIPIC.jpg",
             music: "Tali Goya - Kianna (Tiradera a Lito Kirino).mp3"
         },
+        {   id: 180,
+            name: "Tiempos de Plan B",
+            artist: "Maldy",
+            img: "MaldyTiemplosDeplanBPic.jpg",
+            music: "Maldy - Tiempos de Plan B.mp3"
+        },
  ];
  const searchInput = document.getElementById("search-input");
  const songList = document.getElementById("song-list");
