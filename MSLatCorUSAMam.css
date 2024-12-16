@@ -979,6 +979,21 @@ body.lightPlayer .Nav-Section2 a:hover{
   background-size: cover;
   
 }
+.Home-nav a{
+  background-image: url(MusicGig.gif);
+  background-position: center;
+  background-size: 10%;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 2px darkblue;
+ 
+  
+}
+body.lightPlayer .Home-nav a{
+  background-size: 100%;
+  color: gold;
+}
+
 body.lightPlayer .Nav-Section2 a{
   padding: 5px 30px;
   background-color: rgba(4, 4, 95, 0.342);
