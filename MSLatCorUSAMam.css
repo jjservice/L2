@@ -397,10 +397,19 @@
     #disqus_thread{
       margin: 0% auto;
       flex-direction: column;
-      min-width: 640px;
-     
-     
-     
+      position: relative;
+      min-width: 650px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,lightblue,lightgreen,pink,whitesmoke,whitesmoke,whitesmoke);
+      border: 2px solid lightskyblue;
+      box-shadow: 0px 2px 10px black;
+      margin-bottom: 5px;
+      overflow: scroll;
+      min-height: 530px;
     }
   }
   .homebtn{
@@ -1002,21 +1011,44 @@ body.lightPlayer .Nav-Section2 a{
 
 
 
+
 #disqus_thread{
   margin: 0% auto;
   flex-direction: column;
   position: relative;
   width: 340px;
-  height: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 10px;
-  border-radius: 40px;
+  border-radius: 10px;
   background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,lightblue,lightgreen,pink,whitesmoke,whitesmoke,whitesmoke);
   border: 2px solid lightskyblue;
   box-shadow: 0px 2px 10px black;
   margin-bottom: 5px;
+  overflow: scroll;
+  height: 58vh;
+}
+#disqus_thread::-webkit-scrollbar{
+  width: 15px;
+  height: 0px;
+  background-color: rgba(27, 10, 71, 0.342);
+  border-radius: 50%;
+  border: 1px solid yellowgreen;
+}
+#disqus_thread::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+#disqus_thread::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, 0.596);
+  border: 2px solid yellowgreen;
+  border-radius: 50%;
+}
+
+#disqus_thread::-webkit-scrollbar-thumb:hover{
+  background-color: rgba(220, 20, 60, 0.781);
+  border: 3px solid  yellowgreen;
 }
 body.lightPlayer #disqus_thread{
   border: 2px solid yellowgreen;
@@ -1025,11 +1057,10 @@ body.lightPlayer #disqus_thread{
 .Comment-Section{
   margin: 0% auto;
   flex-direction: column;
-  width: 90%;
   padding: 10px;
-  border-radius: 100%;
   margin-bottom: -15px;
   box-shadow: 0px 2px 5px lightskyblue;  
+  border-radius: 100%;
   cursor: pointer;   
   border: 1px solid lightskyblue;
   transition: 1s ease-in-out;
@@ -1037,13 +1068,16 @@ body.lightPlayer #disqus_thread{
   background-position: center;
   background-size: 35%;
   opacity: 90%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+ 
+ 
 } 
+
 body.lightPlayer .Comment-Section{
 border: 1px solid yellowgreen;
-box-shadow: 0px 2px 2px black; 
+box-shadow: 0px 2px 2px black;  
+background-image: url(SaySomethingNiceGif.gif);
+background-position: center;
+background-size: 35%;
 opacity: 100%;
 }
  
@@ -1062,4 +1096,6 @@ opacity: 100%;
   text-shadow: 2px 2px 4px gold;
   border: 1px solid yellowgreen;
  }
+
+
 
