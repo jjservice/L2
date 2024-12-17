@@ -1026,7 +1026,7 @@ body.lightPlayer .Nav-Section2 a{
   box-shadow: 0px 2px 10px black;
   margin-bottom: 5px;
   overflow: scroll;
-  height: 58vh;
+  height: 55vh;
 }
 #disqus_thread::-webkit-scrollbar{
   width: 15px;
