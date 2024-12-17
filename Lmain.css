@@ -3439,8 +3439,8 @@
       .Comment-Section{
         margin: 0% auto;
         flex-direction: column;
-        padding: 10px;
-        margin-bottom: -15px;
+        padding: 5px;
+        width: 90%;
         box-shadow: 0px 2px 5px lightskyblue;  
         border-radius: 100%;
         cursor: pointer;   

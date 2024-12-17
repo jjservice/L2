@@ -1015,7 +1015,6 @@ body.lightPlayer .Nav-Section2 a{
 #disqus_thread{
   margin: 0% auto;
   flex-direction: column;
-  position: relative;
   width: 340px;
   justify-content: center;
   align-items: center;
