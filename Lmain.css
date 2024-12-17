@@ -3494,6 +3494,42 @@
         border: 1px solid yellowgreen;
        }
       
+
+
+
+       #logoutButton{
+        border: none;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        border-bottom: 1px solid wheat;
+        box-shadow: 0px 2px 8px darkgray;
+        color: wheat;
+        background-color: rgba(139, 0, 109, 0.527);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 5px;
+        left: -185px;
+        cursor: pointer;
+        opacity: 90%;
+       
+        
+     }
+     #logoutButton:hover{
+       background-color: blue;
+       transform: scale(1.10);
+       transition: 0.5s ease-in-out;
+       opacity: 100%;
+       box-shadow: 0px 2px 10px gold;
+     }
+     body.light #logoutButton{
+       color: white;
+       box-shadow: 0px 3px 6px black;
+       transition: 0.5s ease-in-out;
+       background-color: darkblue;
+       text-shadow: 1px 1px 2px gold;
+       opacity: 85%;
+       
+     }
       
       
       
