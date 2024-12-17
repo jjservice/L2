@@ -1,9 +1,18 @@
 
+#body2 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   margin: 0% auto;
+   height: auto;
+   background-position: center; 
+   box-sizing: border-box;
+   flex-direction: column;
+   }
 
-span{
+  #body2 span{
     color: rgba(245, 222, 179, 0.795);
  }
- body.light span{
+  #body2.light span{
     color: darkgoldenrod;
  }
  
@@ -419,12 +428,36 @@ span{
  
  #logoutButton{
     border: none;
-    padding: 5px;
+    margin: 0% auto;
+    display: flex;
+    position: relative;
+    padding: 5px 10px;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 10px;
     border-bottom: 1px solid wheat;
     box-shadow: 0px 2px 8px darkgray;
-    color: white;
-    background-color: darkblue;
+    color: wheat;
+    background-color: rgba(139, 0, 109, 0.527);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    left: -185px;
+    cursor: pointer;
+    opacity: 90%;
     
+ }
+ #logoutButton:hover{
+   background-color: blue;
+   transform: scale(1.10);
+   transition: 0.5s ease-in-out;
+   opacity: 100%;
+   box-shadow: 0px 2px 10px gold;
+ }
+ body.light #logoutButton{
+   color: white;
+   box-shadow: 0px 3px 6px black;
+   transition: 0.5s ease-in-out;
+   background-color: darkblue;
+   text-shadow: 1px 1px 2px gold;
+   opacity: 85%;
+   
  }
