@@ -18,16 +18,16 @@ const songs = [
         music: "Bad Bunny, Bryant Myers - Seda.mp3"
     },
     {   id: 4,
+        name: "Sauce Boy",
+        artist: "Eladio Carrion",
+        img: "EladioCarrionSauceBoyPic.jpg",
+        music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3"
+    },
+    {   id: 5,
         name: "CURIANA",
         artist: "El Poeta x CarlosCoins",
         img: "PoetaCarlosCurianaPic.jpg",
         music: "El Poeta, @CarlosCoins - Curiana.mp3"
-    },
-    {   id: 5,
-        name: "Pila De Cotorra",
-        artist: "El Fother x Darlyn Nay",
-        img: "FotherDarlinPilaDeCotorraPic.jpg",
-        music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
     },
     {   id: 6,
         name: "Astronauto",
@@ -1212,6 +1212,13 @@ const songs = [
             img: "MaldyTiemplosDeplanBPic.jpg",
             music: "Maldy - Tiempos de Plan B.mp3"
         },
+        {   id: 181,
+            name: "Pila De Cotorra",
+            artist: "El Fother x Darlyn Nay",
+            img: "FotherDarlinPilaDeCotorraPic.jpg",
+            music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
+        },
+       
  ];
  const searchInput = document.getElementById("search-input");
  const songList = document.getElementById("song-list");

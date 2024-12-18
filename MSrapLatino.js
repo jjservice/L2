@@ -1,39 +1,39 @@
 const songs = [ 
     {   id: 1,
+        name: "Sauce Boy",
+        artist: "Eladio Carrion",
+        img: "EladioCarrionSauceBoyPic.jpg",
+        music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3"
+    },
+    {   id: 2,
         name: "Pa que tú me ronca",
         artist: "Químico ultra Mega x Danger",
         img: "QUIMICOPIC.jpg",
         music: "Químico ultra Mega x Danger- Pa que tú me ronca.mp3"
     },
-    {   id: 2,
+    {   id: 3,
         name: "TOUCHDOWN",
         artist: "Messiah x Myke Towers",
         img: "MessiahMikeTouchDownPic.jpg",
         music: "Messiah, Myke Towers - TOUCHDOWN.mp3"
     },
-    {   id: 3,
+    {   id: 4,
         name: "CURIANA",
         artist: "El Poeta x CarlosCoins",
         img: "PoetaCarlosCurianaPic.jpg",
         music: "El Poeta, @CarlosCoins - Curiana.mp3"
     },
-    {   id: 4,
+    {   id: 5,
         name: "El Rey De Las Rapida",
         artist: "Pressure9x19",
         img: "Pressure9RapidasPic.jpg",
         music: "Pressure9x19 - El Rey De Las Rapida.mp3"
     },
-    {   id: 5,
+    {   id: 6,
         name: "Pila De Cotorra",
         artist: "El Fother x Darlyn Nay",
         img: "FotherDarlinPilaDeCotorraPic.jpg",
         music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
-    },
-    {   id: 6,
-        name: "Las Pistas Son De Yecko",
-        artist: "Yecko ft Pressure 9x19",
-        img: "LasPistasSonDeYeckoPic.jpg",
-        music: "Yecko ft Pressure 9x19 - Las Pistas Son De Yecko.mp3"
     },
     {   id: 7,
         name: "Astronauto",
@@ -318,6 +318,12 @@ const songs = [
         music: "Jamby El Favo - Orgánico.mp3"
     },
     {   id: 54,
+        name: "Las Pistas Son De Yecko",
+        artist: "Yecko ft Pressure 9x19",
+        img: "LasPistasSonDeYeckoPic.jpg",
+        music: "Yecko ft Pressure 9x19 - Las Pistas Son De Yecko.mp3"
+    },
+    {   id: 55,
         name: "PASSOA",
         artist: "Jhayco x Kapo",
         img: "JhayKapoPassoaPic.jpg",
