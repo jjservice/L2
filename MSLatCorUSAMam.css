@@ -1089,11 +1089,18 @@ opacity: 100%;
   background-color: rgba(0, 0, 0, 0.575);
   border-radius: 50px;
   border: 1px solid lightskyblue;
+  list-style-type: none;
  }
  body.lightPlayer .Comment-Section summary{
   color: white;
   text-shadow: 2px 2px 4px gold;
   border: 1px solid yellowgreen;
+ }
+ summary ion-icon{
+  color: rgba(245, 222, 179, 0.89);
+ }
+ body.lightPlayer summary ion-icon{
+  color: rgba(255, 217, 0, 0.856);
  }
 
 
