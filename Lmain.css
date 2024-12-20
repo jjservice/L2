@@ -3478,7 +3478,6 @@
        .Comment-Section summary{
         margin: 0% auto;
         color: white;
-       
         text-shadow: 2px 2px 4px darkblue;
         font-size: 30px;
         padding: 5px;
@@ -3487,6 +3486,7 @@
         border-radius: 50px;
         border: 1px solid lightskyblue;
         width: 90%;
+        list-style-type: none;
        }
        body.light .Comment-Section summary{
         color: white;
