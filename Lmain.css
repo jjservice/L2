@@ -2395,9 +2395,10 @@
       background-color: black;
       border: 3px solid gold;
       border-radius: 20px;
+      font-size: 14px;
       box-shadow: 2px 3px 2px darkblue;
       height: 100px;
-      width: 100px;
+      width: 150px;
       margin-right: 20px;
     }
     #Top10-Bar a{
