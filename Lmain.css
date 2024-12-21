@@ -2388,6 +2388,27 @@
       transition: 0.5s;
       box-shadow: 1px 6px 1px lightgreen;
     }
+    #Top10-Bar{
+      background-image: url(videocampicc.jpg);
+      background-position: center;   
+      background-size: cover;
+      background-color: black;
+      border: 3px solid gold;
+      border-radius: 20px;
+      box-shadow: 2px 3px 2px darkblue;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px;
+    }
+    #Top10-Bar a{
+    color: transparent;
+    }
+    #Top10-Bar:hover{
+      color: transparent;
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 1px 6px 1px lightgreen;
+    }
     #Puzzle-cal{
       background-image: url(CalculatorGreenGif.gif);
       background-position: center;
