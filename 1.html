@@ -501,6 +501,68 @@
 		  
 	  </div>
 
+	  <h6 class="hits-title3">SPECIAL<span><ion-icon name="eye"></ion-icon></span>MOVIES</h6>
+        
+	  <div class="container1">
+
+	
+
+			<div class="product">
+				<img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+				<p id="Video-tag">Sigo guerreando</p>
+				<h3>Lolo en el microfono</h3>
+				<p class="Click-tag">Click on the Screen</p>
+				<p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+				<a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+			</div>
+
+			<div class="product">
+				<img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+				<p id="Video-tag">Sigo guerreando</p>
+				<h3>Lolo en el microfono</h3>
+				<p class="Click-tag">Click on the Screen</p>
+				<p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+				<a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+			</div>
+
+			<div class="product">
+				<img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+				<p id="Video-tag">Sigo guerreando</p>
+				<h3>Lolo en el microfono</h3>
+				<p class="Click-tag">Click on the Screen</p>
+				<p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+				<a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+			</div>
+
+			<div class="product">
+				<img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+				<p id="Video-tag">Sigo guerreando</p>
+				<h3>Lolo en el microfono</h3>
+				<p class="Click-tag">Click on the Screen</p>
+				<p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+				<a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+			</div>
+
+			<div class="product">
+				<img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+				<p id="Video-tag">Sigo guerreando</p>
+				<h3>Lolo en el microfono</h3>
+				<p class="Click-tag">Click on the Screen</p>
+				<p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+				<a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+			</div>
+
+			<div class="product">
+				<img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+				<p id="Video-tag">Sigo guerreando</p>
+				<h3>Lolo en el microfono</h3>
+				<p class="Click-tag">Click on the Screen</p>
+				<p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+				<a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+			</div>
+				 
+	  </div>
+
    <h6 class="hits-title4">SPORTS<ion-icon name="trophy-sharp"></ion-icon>SECTION</h6>
     
    <div class="navigation3">
@@ -521,8 +583,128 @@
 	
 	
    </div>
-    <h6 class="hits-title0">&copysr;JJPoweredIT<i><ion-icon name="bonfire" class="icon" id="icon"></ion-icon></i></h6>
+    <h6 class="hits-title0">&copy;JJPoweredIT<i><ion-icon name="bonfire" class="icon" id="icon"></ion-icon></i></h6>
 </div>
+
+
+   <!-- Modal for displaying video -->
+   <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+        <span class="next" onclick="changeSlide(1)">&#10095;</span>
+        <video id="modal-video" controls autoplay>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<script>
+    // Replace images with video sources
+    const productVideos = [
+        [
+        [
+            "Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4"
+        ],
+        [
+            "Suchard 2023 I La vida es.mp4"
+        ],  ////Add////
+    
+        [
+            "Maldy - Tiempos de Plan B (Official Video).mp4"
+        ], // Product 1 videos
+
+        [
+            "Lolo En Él Micrófono - Sigo Guerreando.mp4"
+        ], // Product 2 videos
+        
+        [
+            "The Holiday Magic is coming(Video Official).mp4"
+        ], ////Add////
+
+        [
+            "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"
+        ], // Product 3 videos
+
+        [
+            "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4"
+        ], // Product 4 videos
+
+        [
+            "Chencho Corleone - Hora de Salir (Official Video).mp4"
+        ] // Product 5 videos
+        ], // Product 0 videos
+
+        [
+            "Maldy - Tiempos de Plan B (Official Video).mp4",
+        ], // Product 1 videos
+
+        [
+            "Lolo En Él Micrófono - Sigo Guerreando.mp4",
+        ], // Product 2 videos
+
+        [
+            "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4",
+        ], // Product 3 videos
+
+        [
+            "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4",
+        ], // Product 4 videos
+
+        [
+            "Chencho Corleone - Hora de Salir (Official Video).mp4",
+        ], // Product 5 videos
+    ];
+
+    let currentProductIndex = -1;
+    let currentVideoIndex = 0;
+
+    function openModal(productIndex) {
+        currentProductIndex = productIndex;
+        currentVideoIndex = 0;  // Start from the first video
+        showVideo();
+        document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        const videoElement = document.getElementById("modal-video");
+        videoElement.pause();  // Pause the video when closing the modal
+        videoElement.currentTime = 0;  // Reset video time to start
+    }
+
+    function showVideo() {
+        const videos = productVideos[currentProductIndex];
+        const videoElement = document.getElementById("modal-video");
+        videoElement.src = videos[currentVideoIndex];
+        videoElement.load();  // Reload the video source
+        videoElement.play();  // Start playing the video immediately
+
+        // Automatically play next video when current one ends
+        videoElement.onended = function() {
+            changeSlide(1); // Play next video when the current video ends
+        };
+    }
+
+    function changeSlide(direction) {
+        const videos = productVideos[currentProductIndex];
+        currentVideoIndex += direction;
+        if (currentVideoIndex < 0) {
+            currentVideoIndex = videos.length - 1; // Loop to the last video
+        } else if (currentVideoIndex >= videos.length) {
+            currentVideoIndex = 0; // Loop to the first video
+        }
+        showVideo();
+    }
+
+    // Close the modal when clicked outside
+    window.onclick = function(event) {
+        if (event.target == document.getElementById("myModal")) {
+            closeModal();
+        }
+    }
+</script>
+
  <script id="dsq-count-scr" src="//lollipop-5.disqus.com/count.js" async></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
