@@ -3576,7 +3576,6 @@
   .container1 .product{
       margin: 0% auto;
       margin: 10px;
-      gap: 20px;
   }
 
 
@@ -3585,14 +3584,13 @@
       margin: 0% auto;
       display: inline-block;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       border: 1px solid lightskyblue;
       border-radius: 20px;
       box-shadow: 0px 4px 6px rgba(135, 206, 250, 0.842);
       transition: all 0.3s ease;
       width: auto;
       height: auto;
-      
       transition: 1s ease-in-out;
     
   }
@@ -3605,8 +3603,8 @@
   }
   
   .product img {
-      max-width: 100%;
-      height: auto;
+      width: 150px;
+      height: 150px;
       cursor: pointer;
       border-radius: 15px;
       transition: transform 0.3s ease;
@@ -3688,31 +3686,29 @@
   
   
   #Video-tag{
-      color: white;
-      text-shadow: 1px 1px 2px gold;
-      margin-bottom: 10px;
-      font-size: 20px;
+      color: yellow;
+      text-shadow: 1px 1px 2px darkblue;
+      margin-bottom: 5px;
+      font-size: 16px;
       letter-spacing: 1px;
   }
-  body.light #Video-tag{
-      color: rgba(255, 255, 0, 0.89);
-      text-shadow: 2px 2px 2px darkblue;
-  }
-  h3{
+  .product h3{
       font-size: 14px;
-      margin-bottom: 10px;
-      color: darkgray;
-      text-shadow: 2px 2px 2px darkblue;
+      margin-bottom: 5px;
+      color: white;
+      text-shadow: 0px 0px 2px gold;
+      border-bottom: 1px solid darkgray;
+      border-radius: 20px;
    
   }
   .Click-tag{
       margin: 0% auto;
-      width: 200px;
-      margin-bottom: 10px; 
+      width: 150px;
+      margin-bottom: 5px; 
       color: white;
       text-shadow: 0px 0px 2px lightskyblue; 
       background-color: rgba(255, 255, 255, 0.308);
-      padding: 10px;
+      padding: 5px;
       border: none;
       border-radius: 10px;
       font-family: Georgia, 'Times New Roman', Times, serif;
