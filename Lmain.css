@@ -3565,7 +3565,7 @@
 
 
     .container1{
-      height: 195px;
+      height: 190px;
       display: flex;
       overflow: scroll;
       background: linear-gradient(to right,black,darkblue,maroon,black);
@@ -3597,10 +3597,10 @@
   }
   body.light .product{
       box-shadow: 0px 4px 8px black;
-      border-left: 1px solid crimson;
-      border-right: 1px solid blue;
-      border-top: 1px solid yellowgreen;
-      border-bottom: 1px solid yellowgreen;
+      border-left: 2px solid crimson;
+      border-right: 2px solid blue;
+      border-top: 2px solid yellowgreen;
+      border-bottom: 2px solid yellowgreen;
   }
   
   .product img {
