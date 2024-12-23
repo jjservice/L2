@@ -3766,6 +3766,7 @@
     box-shadow: 0px 2px 10px black;
     background-color: rgba(173, 10, 43, 0.842);
     padding: 10px;
+    letter-spacing: 0.5px;
     border-radius: 100%;
     opacity: 80%;
   }
@@ -3773,7 +3774,7 @@
     color: rgba(300, 217, 0, 0.637);
     border-bottom: 1px solid wheat;
     box-shadow: 0px 2px 2px darkblue;
-    border-radius: 5px;
+    border-radius: 50px;
     background-image: url(lollipop_3GIF.gif);
     background-position: center;
     background-size: cover;
