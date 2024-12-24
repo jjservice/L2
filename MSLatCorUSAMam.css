@@ -26,6 +26,7 @@
     border-radius: 40px;
     box-shadow: 0px 2px 15px lightskyblue;
     height: auto;
+    margin-bottom: 55px;
     
   }
   body.lightPlayer .music-player{
@@ -338,6 +339,7 @@
       border-radius: 40px;
       box-shadow: 0px 2px 15px lightblue;
       transition: 0.5s; 
+      margin-bottom: 45px;
     }
     body.lightPlayer .music-player{
       box-shadow: 0px 2px 15px yellowgreen;
@@ -1028,7 +1030,7 @@ body.lightPlayer .Nav-Section2 a{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 5px;
+  padding: 2px;
   border-radius: 10px;
   background: linear-gradient(to right,whitesmoke,whitesmoke,whitesmoke,lightblue,lightgreen,pink,whitesmoke,whitesmoke,whitesmoke);
   border: 2px solid lightskyblue;

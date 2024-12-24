@@ -21,6 +21,18 @@
     background-image: none;
     transition: 1s;
   }
+
+  footer{
+  bottom: 0%;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 10px;
+  color: rgb(48, 47, 47);
+
+}
   
     </style>
     <title>LOLLIPOP</title>
@@ -135,7 +147,20 @@
      
      <div class="jj-title">&copy;JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></div>
       </div>
- </div>
+   </div>
+
+   <footer>
+    <p>&copy;<span id="currentYear"></span>Lollipop</p>
+  </footer>
+
+  <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+    
+    // Find the element with id "currentYear" and set its content to the current year
+    document.getElementById("currentYear").textContent = currentYear;
+  </script>
+
     <!-- Modal for displaying images -->
     <div id="myModal" class="modal">
       <div class="modal-content">
