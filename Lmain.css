@@ -3541,7 +3541,6 @@
         background-color: rgba(139, 0, 109, 0.527);
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-bottom: 5px;
-        left: -185px;
         cursor: pointer;
         opacity: 90%;
        
@@ -3793,6 +3792,7 @@
     margin: 0% auto;
     display: flex;
     gap: 15px;
+    margin-inline-start: 5px;
   }
   .Main-Nav .Contact-Nav{
     color: transparent;
