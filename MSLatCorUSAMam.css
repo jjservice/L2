@@ -323,9 +323,12 @@
     justify-content: center;
   }
   @media (min-width: 768px) {
+    body{
+      padding: 10px
+    }
     .music-player {
       margin: 0% auto;
-      max-width: 800px;
+      width: 750px;
       height: auto;
       margin: 20px auto;
       background: rgba(0, 0, 0, 0.363);
@@ -987,6 +990,12 @@ body.lightPlayer .Nav-Section2 a:hover{
   background-size: cover;
   
 }
+.Contact-nav a{
+  background-image: url(ContactImgPic.gif);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  }
 .Home-nav a{
   background-image: url(MusicGig.gif);
   background-position: center;
