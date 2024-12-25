@@ -532,9 +532,9 @@
     </div>
 
 
-   <h6 class="hits-title4" style="margin-bottom: 2px;">SPORTS<ion-icon name="trophy-sharp"></ion-icon>SECTION</h6>
+   <h6 class="hits-title4">SPORTS<ion-icon name="trophy-sharp"></ion-icon>SECTION</h6>
     
-   <div class="navigation3">
+   <div class="navigation3"  style="margin-bottom: 45px;">
 
 	<li class="lit15"><a href="https://www.usopen.org/index.html"><ion-icon name="finger-print"></ion-icon></a></li>
 	<li class="lit16"><a href="https://www.mlb.com/"><ion-icon name="finger-print"></ion-icon></a></li>
@@ -552,8 +552,20 @@
 	
 	
    </div>
-    <h6 class="hits-title0">&copy;JJPoweredIT<i><ion-icon name="bonfire" class="icon" id="icon"></ion-icon></i></h6>
 </div>
+     
+
+ <footer>
+	<p>&copy;<span id="currentYear"></span>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></p>
+  </footer>
+
+  <script>
+	// Get the current year
+	const currentYear = new Date().getFullYear();
+	
+	// Find the element with id "currentYear" and set its content to the current year
+	document.getElementById("currentYear").textContent = currentYear;
+  </script>
 
 
    <!-- Modal for displaying video -->
