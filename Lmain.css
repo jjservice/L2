@@ -3837,16 +3837,12 @@ footer{
    footer p{
     width: 300px;
     border: 1px solid rgba(255, 217, 0, 0.507);
-  
     text-align: center;
     background-color: rgba(245, 245, 245, 0.24);
-    
     padding: 5px;
     border-radius: 20px;
    }
-   footer ion-icon{
-    color: rgba(255, 217, 0, 0.411);
-   }
+  
   
   /* Responsive Design for Smaller Screens */
   @media screen and (max-width: 768px) {
