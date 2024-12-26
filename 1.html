@@ -41,41 +41,42 @@
         
 	<div class="container1">
 
-		  <div class="product">
-			  <img src="Quimico69AAPic.jpg" onclick="openModal(8)">
-		  </div>
+		<div class="product">
+            <img src="Quimico69AAPic.jpg" onclick="openModal(0)">
+        </div>
 
-		  <div class="product">
-			  <img src="LoloenelmicrofonoPic.jpg" onclick="openModal(0)">
-		  </div>
+        <div class="product">
+            <img src="MaldyTiemplosDeplanBPic.jpg" onclick="openModal(1)">
+        </div>
 
-		  <div class="product">
-			  <img src="TylorSwiftBlankSpace.jpg" onclick="openModal(1)">
-		  </div>
+        <div class="product">
+            <img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+        </div>
 
-		  <div class="product">
-			  <img src="UnaDiablaQuilesPressurePic.jpg" onclick="openModal(2)">
-		  </div>
+		<div class="product">
+            <img src="TylorSwiftBlankSpace.jpg" onclick="openModal(3)">
+        </div>
 
-		  <div class="product">
-			  <img src="QuimicoDequeRoncaPic.jpg" onclick="openModal(3)">
-		  </div>
+        <div class="product">
+            <img src="MessiahMikeTouchDownPic.jpg" onclick="openModal(4)">
+        </div>
 
-		  <div class="product">
-			  <img src="MaldyTiemposDePlanBPic.jpg" onclick="openModal(4)">
-		  </div>
+        <div class="product">
+            <img src="ChenchoHoraDeSalirPic.jpg" onclick="openModal(5)">
+        </div>
 
-		  <div class="product">
-			  <img src="RickRossChampagnemomentsPic.jpg" onclick="openModal(5)">
-		  </div>
-			   
-		  <div class="product">
-			  <img src="ChenchoHoraDeSalirPic.jpg" onclick="openModal(6)">
-		  </div>
+		<div class="product">
+            <img src="UnaDiablaQuilesPressurePic.jpg" onclick="openModal(6)">
+        </div>
 
-		  <div class="product">
-			  <img src="MessiahMikeTouchDownPic.jpg" onclick="openModal(7)">
-		  </div>
+        <div class="product">
+            <img src="RickRossChampagnemomentsPic.jpg" onclick="openModal(7)">
+        </div>
+
+        <div class="product">
+            <img src="QuimicoDequeRoncaPic.jpg" onclick="openModal(8)">
+        </div>
+
 	</div>
 
 
@@ -567,108 +568,138 @@
 	document.getElementById("currentYear").textContent = currentYear;
   </script>
 
-
-   <!-- Modal for displaying video -->
-   <div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="prev" onclick="changeSlide(-1)" style="display: none;">&#10094;</span>
-        <span class="next" onclick="changeSlide(1)" style="display: none;">&#10095;</span>
-        <video id="modal-video" controls autoplay>
-            <source src="" type="video/mp4">
-            Your browser does not support the video tag.
-		</video>
-		<a href="https://jjservice.github.io/L-videos/VideoS2.html" class="Watch-Modal">.;.LOLLIP<ion-icon name="headset-sharp"></ion-icon>P VIDEOS.;.</a>
+    <!-- Ad Section -->
+    <div id="adSection" class="ad-section" style="display: none;">
+        <p class="add-title">LOLLIPOP CLUB!</p>
+        <img src="MonkeyDesignGif.gif" class="modal-content">
+        <a href="https://jjservice.github.io/L-Club-Store/Shopping.html" class="Visit-Store">Click Now!</a>
+        <button id="skipAd" style="display: none;">Skip Ad</button>
     </div>
-</div>
 
-<script>
-    // Replace images with video sources
-    const productVideos = [
-        [
-            "Lolo En Él Micrófono - Sigo Guerreando.mp4"
-        ], // Product 0 videos
-        
-        [
-            "Taylor Swift - Blank Space.mp4"
-        ],   // Product 1 videos
-        
-		[
-            "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"
-        ],  // Product 2 videos
+    <!-- Modal for displaying video -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+            <span class="next" onclick="changeSlide(1)">&#10095;</span>
+            <video id="modal-video" controls autoplay>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
 
-		[
-            "Químico ultra Mega - Pa que tú me ronca  danger (video oficial).mp4"
-        ],  // Product 3 videos
+    <script>
+        // Ads data for each product
+        const ads = [
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            
+        ];
 
-		[
-            "Maldy - Tiempos de Plan B (Official Video).mp4"
-        ],  // Product 4 videos
+        const productVideos = [
+            ["Químico ultra Mega - 69 RIP AA(video oficial) Prod by Nayo.mp4"],
+            ["Maldy - Tiempos de Plan B (Official Video).mp4"],
+			["Lolo En Él Micrófono - Sigo Guerreando.mp4"],
+			["Taylor Swift - Blank Space.mp4"],
+			["Messiah, Myke Towers - TOUCHDOWN (Video Oficial).mp4"],
+			["Chencho Corleone - Hora de Salir (Official Video).mp4"],
+			["Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"],
+			["Rick Ross - Champagne Moments (Official Music Video).mp4"],	
+			["Químico ultra Mega - Pa que tú me ronca  danger (video oficial).mp4"]
+        ];
 
-		[
-            "Rick Ross - Champagne Moments (Official Music Video).mp4"
-        ],  // Product 5 videos
+        let currentProductIndex = -1;
+        let currentVideoIndex = 0;
+        let adTimeout;
 
-		[
-            "Chencho Corleone - Hora de Salir (Official Video).mp4"
-        ],  // Product 6 videos
+        function openModal(productIndex) {
+            // Show the ad for the specific product
+            const ad = ads[productIndex]; // Get the corresponding ad
 
-		[
-            "Messiah, Myke Towers - TOUCHDOWN (Video Oficial).mp4"
-        ],  // Product 7 videos
+            // Set the ad content dynamically
+            document.getElementById('adSection').style.display = 'block';
+            document.getElementById('skipAd').style.display = 'block';
+            document.querySelector('#adSection .add-title').innerText = ad.title;
+            document.querySelector('#adSection .modal-content').src = ad.image;
+            document.querySelector('#adSection .Visit-Store').href = ad.link;
 
-		[
-            "Químico ultra Mega - 69 RIP AA(video oficial) Prod by Nayo.mp4"
-        ],  // Product 8 videos
-    ];
+            // Hide the modal and video elements initially
+            document.getElementById("myModal").style.display = "none";
 
-    let currentProductIndex = -1;
-    let currentVideoIndex = 0;
+            // Show the ad for 5 seconds, then show the video
+            adTimeout = setTimeout(() => {
+                document.getElementById('adSection').style.display = 'none'; // Hide the ad
+                document.getElementById('skipAd').style.display = 'none'; // Hide the skip button
+                openVideoModal(productIndex); // Show the video after ad ends
+            }, 5000); // 5 seconds
 
-    function openModal(productIndex) {
-        currentProductIndex = productIndex;
-        currentVideoIndex = 0;  // Start from the first video
-        showVideo();
-        document.getElementById("myModal").style.display = "block";
-    }
-
-    function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-        const videoElement = document.getElementById("modal-video");
-        videoElement.pause();  // Pause the video when closing the modal
-        videoElement.currentTime = 0;  // Reset video time to start
-    }
-
-    function showVideo() {
-        const videos = productVideos[currentProductIndex];
-        const videoElement = document.getElementById("modal-video");
-        videoElement.src = videos[currentVideoIndex];
-        videoElement.load();  // Reload the video source
-        videoElement.play();  // Start playing the video immediately
-
-        // Automatically play next video when current one ends
-        videoElement.onended = function() {
-            changeSlide(1); // Play next video when the current video ends
-        };
-    }
-
-    function changeSlide(direction) {
-        const videos = productVideos[currentProductIndex];
-        currentVideoIndex += direction;
-        if (currentVideoIndex < 0) {
-            currentVideoIndex = videos.length - 1; // Loop to the last video
-        } else if (currentVideoIndex >= videos.length) {
-            currentVideoIndex = 0; // Loop to the first video
+            // If the user skips the ad
+            document.getElementById('skipAd').onclick = function() {
+                clearTimeout(adTimeout); // Stop the ad timeout
+                document.getElementById('adSection').style.display = 'none'; // Hide the ad
+                document.getElementById('skipAd').style.display = 'none'; // Hide the skip button
+                openVideoModal(productIndex); // Show the video
+            };
         }
-        showVideo();
-    }
 
-    // Close the modal when clicked outside
-    window.onclick = function(event) {
-        if (event.target == document.getElementById("myModal")) {
-            closeModal();
+        function openVideoModal(productIndex) {
+            currentProductIndex = productIndex;
+            currentVideoIndex = 0;  // Start from the first video
+            showVideo();
+            document.getElementById("myModal").style.display = "block"; // Show the video modal
         }
-    }
-</script>
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+            const videoElement = document.getElementById("modal-video");
+            videoElement.pause();  // Pause the video when closing the modal
+            videoElement.currentTime = 0;  // Reset video time to start
+        }
+
+        function showVideo() {
+            const videos = productVideos[currentProductIndex];
+            const videoElement = document.getElementById("modal-video");
+            videoElement.src = videos[currentVideoIndex];
+            videoElement.load();  // Reload the video source
+            videoElement.play();  // Start playing the video immediately
+
+            // Automatically play next video when current one ends
+            videoElement.onended = function() {
+                changeSlide(1); // Play next video when the current video ends
+            };
+        }
+
+        function changeSlide(direction) {
+            const videos = productVideos[currentProductIndex];
+            currentVideoIndex += direction;
+            if (currentVideoIndex < 0) {
+                currentVideoIndex = videos.length - 1; // Loop to the last video
+            } else if (currentVideoIndex >= videos.length) {
+                currentVideoIndex = 0; // Loop to the first video
+            }
+            showVideo();
+        }
+
+        // Close the modal when clicked outside
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("myModal")) {
+                closeModal();
+            }
+        }
+
+        // Light Section
+        function toggleLight(){
+            const body = document.querySelector('body');
+            body.classList.toggle('Video-Light');
+        }
+    </script>
 
  <script id="dsq-count-scr" src="//lollipop-5.disqus.com/count.js" async></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
