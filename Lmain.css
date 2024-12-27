@@ -3907,7 +3907,7 @@ footer{
 
 
 
-@media (min-width: 768px){
+@media screen and (max-width: 768px){
     footer{
         padding: 10px;
     }
@@ -3931,7 +3931,7 @@ footer{
     .ad-section img{
         margin: 0% auto;
         width: 60%;
-        height: 75%;
+        height: 60%;
     }
 
     .Visit-Store{
