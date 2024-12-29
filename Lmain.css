@@ -2502,10 +2502,12 @@
       height: 100px;
       width: 100px;
       margin-right: 20px;
+      font-size: 14px;
       
     }
     #Msg-App-Bar a{
     color: transparent;
+   
     }
     #Msg-App-Bar:hover{
       transform: scale(1.05);
