@@ -1871,7 +1871,9 @@
         background-size: cover;
       }
       .details-body{
+        margin: 0% auto;
         text-decoration: none;    
+        list-style-type: none;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         color: yellow;
@@ -1881,7 +1883,8 @@
         box-shadow: 0px 2px 6px black;
         background-color: rgba(0, 0, 0, 0.589);
         box-sizing: border-box;
-        margin-top: 5px; 
+        margin-top: 10px; 
+        width: 90%;
       }
       .details-body{
         
@@ -1893,9 +1896,11 @@
       .artist-name{
         font-size: 25px;
         color: gold;
+        list-style-type: none;
       }
       .summary-title{
         box-sizing: content-box;
+        
         font-size: 20px;
         color: maroon;
         text-shadow: 2px 2px 4px gold;
