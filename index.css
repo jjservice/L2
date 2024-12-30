@@ -267,7 +267,7 @@ li span {
 #message-input {
     margin: 0% auto;
     position: relative;
-    width: 50%;
+    width: 62%;
     padding: 10px 0px;
     border-radius: 15px;
     border: none;
@@ -276,6 +276,7 @@ li span {
     box-shadow: 0px 2px 4px black;
     margin-left: 5px;
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -283,7 +284,7 @@ li span {
     margin: 0% auto;
     position: relative;
     bottom: -1px;
-    width: 50px;
+   
     border-radius: 15px;
     background-color: #1e22e0;
     color: white;
@@ -307,18 +308,15 @@ li span {
 #voice-input-btn {
     margin: 0% auto;
     position: relative;
-    right: 0px;
+    right: 20px;
     bottom: -2px;
-    width: 40px;
-    height: 36px;
     border-radius: 12px;
-    background-color: rgba(5, 1, 29, 0.733);
+    background-color: transparent;
     color: white;
     text-shadow: 0px 0px 3px gold;
-    font-size: 20px;
+    font-size: 22px;
     border: none;
-    border: 1px solid rgba(255, 217, 0, 0.507);
-    box-shadow: 0px 2px 6px rgba(255, 217, 0, 0.267);
+    
     cursor: pointer;
     color: rgba(255, 217, 0, 0.856);
 }
@@ -424,10 +422,7 @@ li span {
        padding: 10px 10px;
     }
     
-    #voice-input-btn{
-        width: 60px;
-        height: 42px;
-    }
+   
 
 
     li {

@@ -186,6 +186,7 @@
 
 
     <script>
+ 
         const audioPlayer = document.getElementById("audioPlayer");
         const playPauseBtn = document.getElementById("playPauseBtn");
         const prevBtn = document.getElementById("prevBtn");
@@ -193,53 +194,57 @@
         const randomBtn = document.getElementById("randomBtn");
 
         const tracks = [
-            "Jasielcorazonfriomp3.mp3",
             "Jamby El Favo - Orgánico.mp3",
-            "Junior H - Tengo Motivos.mp3",
-            "Junior H-Se Amerita.mp3",
-            "Jim Jones, Migos - We Set The Trends.mp3"
-           
+            "Kany Garcia x Carin Leon - Te Lo Agradezco.mp3",
+            "Kany García - Confieso.mp3"
         ];
         let currentTrackIndex = 0;
-        
-        function updateTrack() {
-        audioPlayer.src = tracks[currentTrackIndex];
-        audioPlayer.load();
-         // Do not call audioPlayer.play() here, so music doesn't start automatically
-         playPauseBtn.innerHTML = '<i class="fas fa-play"></i>'; // Set play icon
-}
 
+        // Function to update and play the track
+        function updateTrack() {
+            audioPlayer.src = tracks[currentTrackIndex];
+            audioPlayer.load();  // Ensures that the audio is loaded
+            audioPlayer.play();  // Starts playing immediately
+            playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; // Change to Pause icon
+        }
+
+        // Play/Pause button event listener
         playPauseBtn.addEventListener("click", () => {
             if (audioPlayer.paused) {
                 audioPlayer.play();
-                playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; // Play -> Pause icon
+                playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
             } else {
                 audioPlayer.pause();
-                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>'; // Pause -> Play icon
+                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
             }
         });
 
+        // Next button event listener
         nextBtn.addEventListener("click", () => {
             currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
             updateTrack();
         });
 
+        // Previous button event listener
         prevBtn.addEventListener("click", () => {
             currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
             updateTrack();
         });
 
+        // Random button event listener
         randomBtn.addEventListener("click", () => {
             currentTrackIndex = Math.floor(Math.random() * tracks.length);
             updateTrack();
         });
 
+        // When the audio ends, automatically play the next track
         audioPlayer.addEventListener("ended", () => {
             nextBtn.click();
         });
 
-        // Initialize the player
+        // Initialize the player with the first track
         updateTrack();
+   
 
     </script>
 
