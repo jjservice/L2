@@ -503,8 +503,10 @@ li span {
         #HideShow-Btn{
             margin: 0% auto;
             position: absolute;
-            top: 206px;
-            left: 5px;
+            top: 205px;
+            left: 10px;
+            border: none;
+            border: 2px solid rgba(255, 255, 0, 0.589);
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -512,11 +514,10 @@ li span {
             border-radius: 20px;
             color: gold;
             text-shadow: 0px 0px 3px gold;
-            box-shadow: 0px 2px 6px rgba(255, 217, 0, 0.822);
+            box-shadow: 0px 2px 6px rgba(255, 217, 0, 0.685);
             font-size: 15px;
-            border: none;
             cursor: pointer;
-            background-color: rgba(0, 0, 0, 0.527);
+            background-color: rgba(4, 10, 46, 0.315);
             z-index: 999;
            
         }
@@ -840,8 +841,7 @@ li span {
       color: white;
       text-align: center;
       justify-content: center;
-      align-items: center;
-      padding-top: 20%;
+      align-items: center; 
       font-size: 24px;
   }
   .ad-section img{
@@ -853,7 +853,7 @@ li span {
       text-shadow: 2px 2px 4px gold;
       text-align: center;
       align-items: center;
-      width: 200px;
+      width: 300px;
       background-color: rgba(0, 0, 0, 0.541);
       padding: 10px;
       border-radius: 10px;
