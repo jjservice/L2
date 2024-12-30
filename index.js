@@ -20,20 +20,32 @@ const firebaseConfig = {
   // Flag to check if the message was sent by the user
   let isMessageSent = false;
   
-  // Listen for the "Submit" button to set the user's name
-  document.getElementById('set-name-btn').addEventListener('click', function() {
-    const nameInput = document.getElementById('username').value;
-    if (nameInput) {
-        username = nameInput;
-        document.getElementById('greeting').textContent = `Hi, ${username}!`;
-        document.getElementById('username-container').style.display = 'none';
-    } else {
-        alert("Please enter a name!");
-    }
-  });
-  
-  // Submit form
-  document.getElementById("message-form").addEventListener("submit", sendMessage);
+
+// Listen for the "Submit" button to set the user's name
+document.getElementById('set-name-btn').addEventListener('click', function() {
+  const nameInput = document.getElementById('username').value;
+  if (nameInput) {
+      username = nameInput;
+      document.getElementById('greeting').textContent = `Hi, ${username}!`;
+      document.getElementById('username-container').style.display = 'none';
+      
+      // Play a notification sound
+      const notificationSound = new Audio('NBA-Sound-MP3.mp3');  // Replace with your sound file
+      notificationSound.play();
+      
+  } else {
+      alert("Please enter a name!");
+  }
+});
+
+// Submit form
+document.getElementById("message-form").addEventListener("submit", sendMessage);
+
+
+
+
+
+
   
   // Send message to db
   function sendMessage(e) {
