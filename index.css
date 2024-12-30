@@ -602,8 +602,8 @@ li span {
         box-shadow: 0px 2px 8px black;
         margin-bottom: 5px;
     }
-  
-       
+
+    
       
     body.light .product{
         box-shadow: 0px 4px 8px black;
@@ -617,7 +617,7 @@ li span {
         width: 75px;
         height: 75px;
         cursor: pointer;
-        border-radius: 15px;
+        border-radius: 10px;
         transition: transform 0.3s ease;
         border: 1px solid lightskyblue;
         padding: 2px;
@@ -903,6 +903,9 @@ li span {
           display: flex;
           
       
+      }
+      .hits-title{
+        width: 20%;
       }
   
   
