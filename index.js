@@ -147,4 +147,34 @@ const firebaseConfig = {
   } else {
     console.log('Speech recognition is not supported in this browser.');
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+//////Hide And Show Section //////////
+
+const myButton = document.getElementById("HideShow-Btn");
+const myImg = document.getElementById("song-details");
+
+myButton.addEventListener("click", event => {
+
+   if
+   (myImg.style.display === "none"){
+    myImg.style.display = "block";
+    myButton.textContent ="Hide Music";
+     }
+   else{
+        myImg.style.display = "none";
+        myButton.textContent = "Music";
+}   
+});
   
