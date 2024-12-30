@@ -572,6 +572,361 @@ li span {
 
 
 
+
+          
+    .container1{
+        height: 100px;
+        display: flex;
+        overflow: scroll;
+        margin-bottom: 10px;
+    }
+    body.light .container1{
+      background: linear-gradient(to right,darkblue,lightgreen,maroon);
+    }
+    .container1 .product{
+        margin: 0% auto;
+        margin: 5px;
+    }
+    .hits-title{
+        margin: 0% auto;
+        text-align: center;
+        color: rgba(255, 255, 0, 0.747);
+        text-shadow: 2px 2px 2px darkblue;
+        background-color: rgba(245, 245, 245, 0.103);
+        font-size: 15px;
+        padding: 5px;
+        width: 30%;
+        border-radius: 12px;
+        border-top: 2px solid rgba(255, 255, 0, 0.603);
+        opacity: 90%;
+        box-shadow: 0px 2px 8px black;
+        margin-bottom: 5px;
+    }
+  
+       
+      
+    body.light .product{
+        box-shadow: 0px 4px 8px black;
+        border-left: 2px solid crimson;
+        border-right: 2px solid blue;
+        border-top: 2px solid yellowgreen;
+        border-bottom: 2px solid yellowgreen;
+    }
+    
+    .product img {
+        width: 75px;
+        height: 75px;
+        cursor: pointer;
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+        border: 1px solid lightskyblue;
+        padding: 2px;
+        box-shadow: 0px 3px 6px rgba(135, 206, 250, 0.651);
+    }
+    body.light .product img{
+        border: 1px solid rgba(153, 205, 50, 0.781);
+    }
+    
+    .product img:hover {
+        transform: scale(1.05);
+    }
+    
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed;
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.7); /* Black with opacity */
+        padding-top: 60px;
+        box-sizing: border-box;
+    }
+    
+    .modal-content {
+        position: relative;
+        margin: auto;
+        background-color: rgba(135, 206, 250, 0.452);
+        padding: 20px;
+        width: 80%;
+        max-width: 800px; /* Limit width */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    body.light .modal-content{
+        background-color: rgba(220, 20, 60, 0.5);
+    }
+    
+    video {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    /* Navigation Buttons */
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    /* Close Modal on Click Outside */
+    .modal:hover {
+        cursor: pointer;
+    }
+    
+    
+    #Video-tag{
+        color: yellow;
+        text-shadow: 1px 1px 2px darkblue;
+        margin-bottom: 5px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .product h3{
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: white;
+        text-shadow: 0px 0px 2px gold;
+        border-bottom: 1px solid darkgray;
+        border-radius: 20px;
+     
+    }
+
+    
+    .Class-Note{
+        color: darkgray;
+    }
+  
+    .container1::-webkit-scrollbar{
+        background-color: transparent;
+        height: 10px;
+        width: 0;
+    }
+    .container1::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+    
+    .container1::-webkit-scrollbar-thumb{
+        background-color: transparent;
+        border-radius: 8px;
+        height: 10px;
+        width: 0px;
+        border: 1px solid lightskyblue;
+        cursor: pointer;
+    }
+    body.light .container1::-webkit-scrollbar-thumb{
+        border: 1px solid yellowgreen;
+    }
+    .container1::-webkit-scrollbar-thumb:hover{
+        border: 2px solid lightskyblue;
+        background-color: rgba(0, 0, 0, 0.342);
+    }
+    body.light .container1::-webkit-scrollbar-thumb:hover{
+        border: 2px solid yellowgreen;
+        background-color: rgba(0, 0, 0, 0.342);
+    }
+  
+    .Watch-Modal{
+      margin: 0% auto;
+      text-decoration: none;
+      color: white;
+      text-shadow: 0px 0px 2px gold;
+      border-bottom: 2px solid wheat;
+      border-left: 2px solid maroon;
+      border-right: 2px solid blue;
+      box-shadow: 0px 2px 10px black;
+      background-color: rgba(173, 10, 43, 0.842);
+      padding: 10px;
+      letter-spacing: 0.5px;
+      border-radius: 100%;
+      opacity: 80%;
+    }
+    .Watch-Modal ion-icon{
+      color: rgba(300, 217, 0, 0.637);
+      border-bottom: 1px solid wheat;
+      box-shadow: 0px 2px 2px darkblue;
+      border-radius: 50px;
+      background-image: url(lollipop_3GIF.gif);
+      background-position: center;
+      background-size: cover;
+    }
+    .Watch-Modal:hover{
+      opacity: 100%;
+      text-shadow: 0px 0px 4px gold;
+      transform: scale(1.10);
+      transition: 0.5s;
+    }
+    body.light .Watch-Modal{
+      background-color: rgba(0, 00, 30, 200.548);
+      border-left: 2px solid red;
+    }
+    .Main-Nav{
+      margin: 0% auto;
+      display: flex;
+      gap: 15px;
+      margin-inline-start: 5px;
+    }
+    .Main-Nav .Contact-Nav{
+      color: transparent;
+      text-decoration: none;
+      background-color: black;
+      padding: 6px 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid wheat;
+      box-shadow: 0px 2px 8px darkgray;
+          background-image: url(ContactImgPic.gif);
+          background-position: center;
+          background-size: 45%;
+          background-repeat: no-repeat;
+      opacity: 90%;
+          }
+      body.light .Main-Nav .Contact-Nav{
+        box-shadow: 0px 2px 8px black;
+        
+      }
+  
+  
+  
+  
+     #skipAd {
+      position: fixed;
+      right: 5px;
+      bottom: 2px;
+      padding: 10px 20px;
+      background-color: darkblue;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border: 1px solid yellowgreen;
+      cursor: pointer;
+      border-radius: 20px;
+  }
+  
+   /* Ad Section Styles */
+   .ad-section {
+      margin: 0% auto;
+      position: fixed;
+      display: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20%;
+      font-size: 24px;
+  }
+  .ad-section img{
+      border-radius: 10px;
+  }
+  .add-title{
+      margin: 0% auto;
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+      text-align: center;
+      align-items: center;
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.541);
+      padding: 10px;
+      border-radius: 10px;
+  }
+  .Visit-Store{
+      margin: 0% auto;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      color: white;
+      text-shadow: 2px 2px 4px gold;
+      display: inline-block;
+  
+  }
+  .Visit-Store:hover{
+      transform: scale(1.10);
+      transition: 1s ease-in-out;
+  }
+  
+  
+  
+  @media screen and (min-width: 768px){
+      .ad-section {
+          margin: 0% auto;
+          display: inline-block;
+          position: fixed;
+          bottom: 0;
+          justify-content: center;
+          align-items: center;
+          min-width: 550px;
+          min-height: 400px;
+          background-color: rgba(0, 0, 0, 0.7);
+          color: white;
+          text-align: center;
+          font-size: 24px;
+      }
+      .ad-section img{
+          margin: 0% auto;
+          max-width: 550px;
+          max-height: 400px;
+      }
+  
+      .Visit-Store{
+          margin: 0% auto;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          
+      
+      }
+  
+  
+  }
+  
+    
+    
+    /* Responsive Design for Smaller Screens */
+    @media screen and (max-width: 768px) {
+        .modal-content {
+            width: 90%;
+        }
+    
+        .prev, .next {
+            font-size: 24px;
+            padding: 8px;
+        }
+       
+    }
+   
+
+
+
+
           
 @media (min-width: 768px){
     .Chat-Display{
