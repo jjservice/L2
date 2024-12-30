@@ -521,3 +521,50 @@ li span {
             margin: 0% auto;
             padding: 10px -6px;
         }
+
+
+        .Music-player-Btns{
+            margin: 0% auto;
+            position: relative;
+            
+        }
+
+
+
+        #audio-controls{
+            margin: 0% auto;
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: rgba(245, 245, 245, 0.096);
+            box-shadow: 0px 2px 10px rgba(135, 206, 250, 0.322);
+            padding: 10px;
+            border-radius: 50px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+          }
+          #audio-controls button{
+            margin: 0 auto;
+            font-size: 25px;
+            padding: 10px 10px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgba(255, 218, 6, 0.733);
+            background: rgba(20, 91, 172, 0.397);
+            border: 1px solid yellowgreen;
+            box-shadow: 0px 1px 4px lightsalmon;
+            border-radius: 30px;
+            cursor: pointer;
+          }
+          #playPauseBtn i{
+            margin: 0% auto;
+            font-size: 35px; 
+          }
+          #playPauseBtn{
+            font-size: 45px;
+          }

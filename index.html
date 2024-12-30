@@ -3,15 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <title>LOLLIPOP CHAT</title>
     <link rel="stylesheet" href="index.css">
+
+    
+    <style>
+     
+        .player {
+            margin-top: 0px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+
+
+
   </head>
   <body>
 
     <h1>LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</h1>
     <h2>Secret<ion-icon name="chatbubbles-outline"></ion-icon>Chat</h2>
     <p id="greeting"></p>
-   
+    
+     
+    <div id="audio-controls">
+        <audio id="audioPlayer" src="#"></audio>
+        <button id="prevBtn"><i class="fas fa-step-backward"></i></button>
+        <button id="playPauseBtn"><i class="fas fa-play"></i></button>
+        <button id="nextBtn"><i class="fas fa-step-forward"></i></button>
+        <button id="randomBtn"><i class="fas fa-random"></i></button>
+    </div>
+
+
+
     <!-- AUDIO NOTIFICATIONS -->
     <audio id="received-sound" src="ReceiveMsg-Sound-Mp3.mp3"></audio>
     <audio id="sent-sound" src="Sent-Msg-Sound(mp3).mp3"></audio>
@@ -150,7 +182,66 @@
     
     </div>
 
-<a href="javascript:history.back()" class="Home-btn"><ion-icon name="arrow-back-sharp"></ion-icon></a>
+
+
+
+    <script>
+        const audioPlayer = document.getElementById("audioPlayer");
+        const playPauseBtn = document.getElementById("playPauseBtn");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+        const randomBtn = document.getElementById("randomBtn");
+
+        const tracks = [
+            "Jasielcorazonfriomp3.mp3",
+            "Jamby El Favo - Orgánico.mp3",
+            "Junior H - Tengo Motivos.mp3",
+            "Junior H-Se Amerita.mp3",
+            "Jim Jones, Migos - We Set The Trends.mp3"
+           
+        ];
+        let currentTrackIndex = 0;
+
+        function updateTrack() {
+            audioPlayer.src = tracks[currentTrackIndex];
+            audioPlayer.load();
+            audioPlayer.play();
+            playPauseBtn.textContent = "Pause";
+        }
+
+        playPauseBtn.addEventListener("click", () => {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+                playPauseBtn.textContent = "Pause";
+            } else {
+                audioPlayer.pause();
+                playPauseBtn.textContent = "Play";
+            }
+        });
+
+        nextBtn.addEventListener("click", () => {
+            currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+            updateTrack();
+        });
+
+        prevBtn.addEventListener("click", () => {
+            currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+            updateTrack();
+        });
+
+        randomBtn.addEventListener("click", () => {
+            currentTrackIndex = Math.floor(Math.random() * tracks.length);
+            updateTrack();
+        });
+
+        audioPlayer.addEventListener("ended", () => {
+            nextBtn.click();
+        });
+
+        // Initialize the player
+        updateTrack();
+    </script>
+
 
   <script>
       const emojiButton = document.getElementById("emojiButton");
@@ -181,7 +272,7 @@
       });
   </script>
 
-
+<a href="javascript:history.back()" class="Home-btn"><ion-icon name="arrow-back-sharp"></ion-icon></a>
     <!-- scripts -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -190,3 +281,34 @@
     <script src="index.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
