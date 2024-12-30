@@ -1,0 +1,523 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,black,darkblue,maroon,black);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+hr{
+    margin:  auto;
+    border: 1px solid rgba(255, 217, 0, 0.486);
+    width: 90%;
+    box-shadow: 0px 2px 6px black;
+}
+h1{
+    margin: 0% auto;
+    color: wheat;
+    text-shadow: 2px 2px 2px darkblue;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.158);
+    padding: 5px;
+    width: 90%;
+    border: 6px solid rgba(255, 255, 255, 0.13);
+    border-radius: 100%;
+    box-shadow: 0px 3px 6px black;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-image: url(MusicGig.gif);
+    background-position: top;
+    background-size: 100%;
+}
+h1 ion-icon{
+    color: rgba(255, 217, 0, 0.61);
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 2px solid wheat;
+    box-shadow: 0px 2px 6px lightskyblue;
+    border-radius: 50%;
+}
+h2{
+    margin: 0% auto;
+    font-size: 25px;
+    color: darkgray;
+    text-shadow: 2px 2px 4px darkblue;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.144);
+    box-shadow: 0px 3px 6px black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border-bottom: 2px solid rgba(245, 222, 179, 0.589);
+    width: 60%;
+}
+h2 ion-icon {
+    color: rgba(255, 217, 0, 0.582);
+}
+h3{
+    margin: 0% auto;
+    font-size: 12px;
+    position: relative;
+    color: darkgray;
+    text-shadow: 2px 2px 4px darkblue;
+    text-align: center;
+    opacity: 70%;
+    background-color: rgba(245, 245, 245, 0.096);
+    box-shadow: 0px 3px 6px black;
+    padding: 5px;
+    width: 120px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+    top: 10px;
+}
+h3 ion-icon {
+    color: rgba(255, 217, 0, 0.582);
+}
+
+header {
+    margin: 0% auto;
+    text-align: center;
+}
+
+#messages{
+    margin: 0% auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+   
+}
+
+#messages{
+    margin: 0% auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+   
+}
+
+li {
+    margin: 0% auto;
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #1013be;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 65%;
+    margin-left: 35%;
+    box-shadow: 0px 3px 6px black;
+    border-bottom: 1px solid wheat;
+   
+
+   
+}
+.sent {
+    margin: 0% auto;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.603);
+    box-shadow: 0px 3px 6px black;
+    margin-right: 35%;
+    text-shadow: 2px 2px 2px darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(13, 182, 13);
+    width: 65%;
+   
+}
+
+.sent span {
+    margin: 5px;
+    color: white;
+    text-shadow: 0px 0px 3px gold;
+   
+    
+}
+
+li span {
+  margin: 0% auto;
+  font-style: italic;
+  font-weight: bolder;
+  color: yellow;
+  text-shadow: 2px 2px 2px darkblue;
+  text-decoration: underline;
+  padding: 5px 2px;
+  margin: 3px;
+  border-radius: 10px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.Chat-Display{
+    margin: 0% auto;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    overflow: auto;
+    height: 450px;
+    box-shadow: 0px 2px 6px lightskyblue;
+    margin-bottom: 65px;
+}
+.Chat-Display::-webkit-scrollbar{
+    width: 12px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.Chat-Display::-webkit-scrollbar-thumb{
+    height: 0px;
+    background-color: transparent;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid lightskyblue;
+}
+.Chat-Display::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.Chat-Display::-webkit-scrollbar-thumb:hover{
+    border: 1px solid gold;
+    background-color: green;
+}
+
+
+#chat {
+    margin: 0% auto;
+    width: 90%;
+   
+}
+
+#message-form {
+    margin: 0% auto;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right,black,darkblue,maroon,black);
+    border: 1px solid rgba(255, 217, 0, 0.589);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#username {
+    margin: 0% auto;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    border: none;
+    border: 2px solid lightskyblue;
+    background-color: rgba(245, 245, 245, 0.842);
+    box-shadow: 0px 2px 4px black;
+    margin-right: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+#set-name-btn {
+    margin: 0% auto;
+    position: relative;
+    width: 100px;
+    right: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    text-shadow: 0px 0px 3px gold;
+    font-size: 18px;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid gold;
+    box-shadow: 0px 2px 6px black;
+    cursor: pointer;
+}
+#set-name-btn:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease;
+    box-shadow: 0px 2px 8px gold;
+    border: none;
+}
+#message-input {
+    margin: 0% auto;
+    position: relative;
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 15px;
+    border: none;
+    border: 2px solid lightskyblue;
+    background-color: rgba(245, 245, 245, 0.842);
+    box-shadow: 0px 2px 4px black;
+    margin-left: 5px;
+    text-align: center;
+    
+}
+
+#message-btn {
+    margin: 0% auto;
+    position: relative;
+    bottom: -1px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: #1e22e0;
+    color: white;
+    text-shadow: 0px 0px 3px gold;
+    font-size: 18px;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid gold;
+    box-shadow: 0px 2px 6px black;
+    cursor: pointer;
+    color: rgba(255, 217, 0, 0.856);
+}
+#message-btn:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease;
+    color: rgb(68, 238, 68);
+    box-shadow: 0px 2px 8px gold;
+    border: none;
+}
+
+#voice-input-btn {
+    margin: 0% auto;
+    position: relative;
+    right: 0px;
+    bottom: -2px;
+    width: 40px;
+    height: 36px;
+    border-radius: 12px;
+    background-color: rgba(5, 1, 29, 0.733);
+    color: white;
+    text-shadow: 0px 0px 3px gold;
+    font-size: 20px;
+    border: none;
+    border: 1px solid rgba(255, 217, 0, 0.507);
+    box-shadow: 0px 2px 6px rgba(255, 217, 0, 0.267);
+    cursor: pointer;
+    color: rgba(255, 217, 0, 0.856);
+}
+#voice-input-btn:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease;
+    color: rgb(68, 238, 68);
+    box-shadow: 0px 2px 8px gold;
+    border: none;
+}
+
+.Home-btn{
+    margin:  0% auto;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: rgba(2, 5, 39, 0.219);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10%;
+    height: 20px;
+    border-radius: 6px;
+    border-bottom: 1px solid wheat;
+    opacity: 70%;
+    z-index: 999;
+}
+.Home-btn ion-icon{
+    color: rgba(202, 173, 10, 0.616);
+    font-size: 20px;
+}
+.Home-btn:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease;
+    color: gold;
+    box-shadow: 0px 2px 8px gold;
+    opacity: 100%;
+}
+
+#greeting{
+    margin: 0% auto;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 3px gold;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 5px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+@media (min-width: 768px){
+    .Chat-Display{
+        margin: 0% auto;
+        border: none;
+        box-shadow: none;
+        height: 330px;
+        margin-bottom: 7%;
+    } 
+    #message-input{
+        width: 50%;
+        font-size: 18px;
+    }
+   
+    #set-name-btn{
+        position: relative;
+        top: 0px;
+        padding: 8px 0px;
+        width: 10%;
+       
+    }
+    #username{
+        width: 30%;
+        margin-right: 20px;
+    }
+    h1{
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    h2{
+        width: 450px;
+    }
+    .Home-btn{
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        bottom: 0;
+    }
+    #greeting{
+        margin-bottom: 10px;
+    }
+
+    #message-btn{
+       width: 8%;
+       margin-left: 5px;
+       padding: 10px 10px;
+    }
+    
+    #voice-input-btn{
+        width: 60px;
+        height: 42px;
+    }
+
+
+    li {
+      
+        width: 40%;
+        margin-left: 40%;
+    
+       
+    }
+    .sent {        
+        width: 40%;
+        margin-right: 40%;
+       
+    }
+
+}
+
+        /* Emoji picker box styles */
+        .emoji-box {
+            margin:  0% auto;
+            display: none;
+            position: fixed;
+            bottom: 60px;
+            left: 40px;
+            background-color: rgba(58, 45, 45, 0.349);
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-y: scroll;
+            width: 265px;
+            height: 40vh;
+            z-index: 10;
+        }
+        .emoji-box::-webkit-scrollbar{
+            width: 10px;
+            height: 0px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+           
+        }
+        .emoji-box::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.3);
+            border: 1px solid gold;
+            border-radius: 50px;
+        }
+        .emoji-box::-webkit-scrollbar-thumb:hover{
+            border: 2px solid gold;
+            background-color: black;
+            width: 10px;
+            height: 10px;
+        }
+        .Chat-Display::-webkit-scrollbar-track{
+            background: transparent;
+        }
+
+        /* Style for each emoji in the box */
+        .emoji-item {
+            margin:  auto;
+            text-align: center;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .emoji-item:hover {
+            background-color: #f1f1f1a9;
+            border-radius: 10px;
+        }
+
+        /* Style for selected emoji */
+        .selected-emoji {
+            margin-left: 10px;
+        }
+        #emojiButton{
+            position: relative;
+            bottom: -4px;
+            left: 0px;
+            font-size: 25px;
+            border-bottom: 1px solid wheat;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 6px black;
+        }
+
+        .Emoji-Grid{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            margin: 0% auto;
+            padding: 10px -6px;
+        }
