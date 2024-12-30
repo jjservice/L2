@@ -32,8 +32,21 @@
     <h1>LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</h1>
     <h2>Secret<ion-icon name="chatbubbles-outline"></ion-icon>Chat</h2>
     <p id="greeting"></p>
+
+     <!-- Search Bar -->
+
+     <ul class="song-details">
+     <!-- Song Image -->
+     <img id="songImage" src="" alt="Song Image">
     
-     
+     <!-- Song Name and Artist Name -->
+     <div id="songInfo">
+         <h4 id="songName">Song Name</h4>
+         <h5 id="artistName">Artist Name</h5>
+     </div>
+
+    </ul>
+      
     <div id="audio-controls">
         <audio id="audioPlayer" src="#"></audio>
         <button id="prevBtn"><i class="fas fa-step-backward"></i></button>
@@ -187,74 +200,101 @@
 
     <script>
  
-        const audioPlayer = document.getElementById("audioPlayer");
-        const playPauseBtn = document.getElementById("playPauseBtn");
-        const prevBtn = document.getElementById("prevBtn");
-        const nextBtn = document.getElementById("nextBtn");
-        const randomBtn = document.getElementById("randomBtn");
+ const audioPlayer = document.getElementById("audioPlayer");
+const playPauseBtn = document.getElementById("playPauseBtn");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const randomBtn = document.getElementById("randomBtn");
 
-        const tracks = [
-            "Kany Garcia x Carin Leon - Te Lo Agradezco.mp3",
-            "Kany García - Confieso.mp3",
-            "Eladio Carrión - SAUCEBOY (Freestyle).mp3",
-            "Myke Towers - Cuando Me Ven (Lyric Video).mp3",
-             "Myke Towers - Alto Riesgo.mp3",
-             "Myke Towers - Ajedréz (Lyric Video) (1).mp3",
-             "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3",
-             "cielo-eterno-jasiel-nunez-dannyluxMP33.mp3",
-             "Junior H-Se Amerita.mp3",
-             "Messiah, Myke Towers - TOUCHDOWN.mp3",
-             "Jamby El Favo - Orgánico.mp3"
-   
-        ];
-        let currentTrackIndex = 0;
+const tracks = [
+    {
+        file: "Eladio Carrión - SAUCEBOY (Freestyle).mp3",
+        songName: "SAUCEBOY (Freestyle)",
+        artistName: "Eladio Carrión",
+        imageUrl: "./EladioCarrionSauceBoyPic.jpg"
+    },
+    {
+        file: "Myke Towers - Cuando Me Ven (Lyric Video).mp3",
+        songName: "Cuando Me Ven",
+        artistName: "Myke Towers",
+        imageUrl: "./1MYKEPIC1.jpg"
+    },
+    {
+        file: "Myke Towers - Alto Riesgo.mp3",
+        songName: "Alto Riesgo",
+        artistName: "Myke Towers",
+        imageUrl: "./MYKEPIC3333.jpg"
+    },
+    {
+        file: "Myke Towers - Ajedréz (Lyric Video) (1).mp3",
+        songName: "Ajedréz",
+        artistName: "Myke Towers",
+        imageUrl: "./mykepic4.jpg"
+    },
+    {
+        file: "Messiah, Myke Towers - TOUCHDOWN.mp3",
+        songName: "TOUCHDOWN",
+        artistName: "Messiah, Myke Towers",
+        imageUrl: "./MessiahMikeTouchDownPic.jpg"
+    },
+    
+];
 
-        // Function to update and play the track
+let currentTrackIndex = 0;
 
-        function updateTrack() {
-            audioPlayer.src = tracks[currentTrackIndex];
-            audioPlayer.load();  // Ensures that the audio is loaded
-            audioPlayer.play();  // Starts playing immediately
-            playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; // Change to Pause icon
-        }
+// Function to update and play the track
+function updateTrack() {
+    const track = tracks[currentTrackIndex];
+    audioPlayer.src = track.file;
+    audioPlayer.load(); // Ensures that the audio is loaded
+    audioPlayer.play(); // Start playing immediately
 
-        // Play/Pause button event listener
-        playPauseBtn.addEventListener("click", () => {
-            if (audioPlayer.paused) {
-                audioPlayer.play();
-                playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
-            } else {
-                audioPlayer.pause();
-                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
-            }
-        });
+    // Update UI with song info
+    document.getElementById("songName").innerText = track.songName;
+    document.getElementById("artistName").innerText = track.artistName;
+    document.getElementById("songImage").src = track.imageUrl;
 
-        // Next button event listener
-        nextBtn.addEventListener("click", () => {
-            currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
-            updateTrack();
-        });
+    // Change play/pause button icon
+    playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+}
 
-        // Previous button event listener
-        prevBtn.addEventListener("click", () => {
-            currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
-            updateTrack();
-        });
+// Play/Pause button event listener
+playPauseBtn.addEventListener("click", () => {
+    if (audioPlayer.paused) {
+        audioPlayer.play();
+        playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+    } else {
+        audioPlayer.pause();
+        playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+    }
+});
 
-        // Random button event listener
-        randomBtn.addEventListener("click", () => {
-            currentTrackIndex = Math.floor(Math.random() * tracks.length);
-            updateTrack();
-        });
+// Next button event listener
+nextBtn.addEventListener("click", () => {
+    currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+    updateTrack();
+});
 
-        // When the audio ends, automatically play the next track
-        audioPlayer.addEventListener("ended", () => {
-            nextBtn.click();
-        });
+// Previous button event listener
+prevBtn.addEventListener("click", () => {
+    currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+    updateTrack();
+});
 
-        // Initialize the player with the first track
-        updateTrack();
-   
+// Random button event listener
+randomBtn.addEventListener("click", () => {
+    currentTrackIndex = Math.floor(Math.random() * tracks.length);
+    updateTrack();
+});
+
+// When the audio ends, automatically play the next track
+audioPlayer.addEventListener("ended", () => {
+    nextBtn.click();
+});
+
+// Initialize the player with the first track
+updateTrack();
+
 
     </script>
 

@@ -90,6 +90,37 @@ header {
     text-align: center;
 }
 
+.song-details{
+    margin: 0% auto;
+    color: white;
+    width: 40%;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.425); 
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-bottom: 2px solid silver;
+    border-top: 2px solid silver;
+    box-shadow: 0px 2px 6px black;
+}
+#songImage{
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px lightskyblue;
+    margin-bottom: 5px;
+}
+ 
+#songName{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#artistName{
+    font-size: 12px;
+}
 #messages{
     margin: 0% auto;
     flex-direction: column;
