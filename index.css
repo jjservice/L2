@@ -502,11 +502,10 @@ li span {
 
         #HideShow-Btn{
             margin: 0% auto;
-            position: absolute;
+            position: relative;
             display: flex;
             justify-content: center;
-            top: 155px;
-            right: 10px;
+            align-items: center;
             text-align: center;
             align-items: center;
             border-radius: 20px;
