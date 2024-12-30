@@ -240,6 +240,7 @@ li span {
     margin-right: 15px;
     width: 50%;
     margin-bottom: 10px;
+    z-index: 999;
     
 }
 #set-name-btn {
@@ -257,6 +258,7 @@ li span {
     border: 1px solid gold;
     box-shadow: 0px 2px 6px black;
     cursor: pointer;
+    z-index: 999;
 }
 #set-name-btn:hover{
     transform: scale(1.10);
@@ -267,7 +269,7 @@ li span {
 #message-input {
     margin: 0% auto;
     position: relative;
-    width: 62%;
+    width: 55%;
     padding: 10px 0px;
     border-radius: 15px;
     border: none;
@@ -375,84 +377,6 @@ li span {
 
 
 
-@media (min-width: 768px){
-    .Chat-Display{
-        margin: 0% auto;
-        border: none;
-        box-shadow: none;
-        height: 330px;
-        margin-bottom: 7%;
-    } 
-    #message-input{
-        width: 50%;
-        font-size: 18px;
-    }
-   
-    #set-name-btn{
-        position: relative;
-        top: 60px;
-        right: 15px;
-        padding: 8px 0px;
-        width: 8%;
-       
-    }
-    #username{
-        top: 60px;
-        width: 30%;
-        margin-right: 20px;
-    }
-    h1{
-        width: 600px;
-        margin-bottom: 20px;
-    }
-    h2{
-        width: 450px;
-    }
-    .Home-btn{
-        position: absolute;
-        width: 50px;
-        height: 30px;
-        bottom: 0;
-    }
-    #greeting{
-        margin-bottom: 10px;
-    }
-
-    #message-btn{
-       width: 8%;
-       margin-left: 5px;
-       padding: 10px 10px;
-    }
-    
-   
-
-
-    li {
-      
-        width: 40%;
-        margin-left: 40%;
-    
-       
-    }
-    .sent {        
-        width: 40%;
-        margin-right: 40%;
-       
-    }
-
-    #audio-controls{
-        margin: 0% auto;
-        position: absolute;
-        top: 180px;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        cursor: pointer;
-        z-index: 999;
-        
-    }
-
-}
 
         /* Emoji picker box styles */
         .emoji-box {
@@ -553,6 +477,7 @@ li span {
             border-radius: 50px;
             margin-bottom: 10px;
             box-sizing: border-box;
+            width: 80%;
           }
           #audio-controls button{
             margin: 0 auto;
@@ -577,3 +502,86 @@ li span {
           #playPauseBtn{
             font-size: 20px;
           }
+
+
+
+
+
+          
+@media (min-width: 768px){
+    .Chat-Display{
+        margin: 0% auto;
+        border: none;
+        box-shadow: none;
+        height: 330px;
+        margin-bottom: 7%;
+    } 
+    #message-input{
+        width: 50%;
+        font-size: 18px;
+    }
+   
+    #set-name-btn{
+        position: relative;
+        right: 15px;
+        padding: 8px 0px;
+        width: 8%;
+       
+    }
+    #username{
+        
+        width: 30%;
+        margin-right: 20px;
+    }
+    h1{
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    h2{
+        width: 450px;
+    }
+    .Home-btn{
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        bottom: 0;
+    }
+    #greeting{
+        margin-bottom: 10px;
+    }
+
+    #message-btn{
+       width: 8%;
+       margin-left: 5px;
+       padding: 10px 10px;
+    }
+    
+   
+
+
+    li {
+      
+        width: 40%;
+        margin-left: 40%;
+    
+       
+    }
+    .sent {        
+        width: 40%;
+        margin-right: 40%;
+       
+    }
+
+    #audio-controls{
+        margin: 0% auto;
+        position: relative;
+        width: 30%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        cursor: pointer;
+        z-index: 999;
+        
+    }
+
+}
