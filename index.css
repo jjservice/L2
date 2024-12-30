@@ -390,12 +390,14 @@ li span {
    
     #set-name-btn{
         position: relative;
-        top: 0px;
+        top: 60px;
+        right: 15px;
         padding: 8px 0px;
-        width: 10%;
+        width: 8%;
        
     }
     #username{
+        top: 60px;
         width: 30%;
         margin-right: 20px;
     }
@@ -441,7 +443,7 @@ li span {
     #audio-controls{
         margin: 0% auto;
         position: absolute;
-        display: flex;
+        top: 180px;
         justify-content: center;
         align-content: center;
         text-align: center;
