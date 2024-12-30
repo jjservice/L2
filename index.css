@@ -443,6 +443,18 @@ li span {
        
     }
 
+    #audio-controls{
+        margin: 0% auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        cursor: pointer;
+        z-index: 999;
+        
+    }
+
 }
 
         /* Emoji picker box styles */
@@ -547,7 +559,7 @@ li span {
           }
           #audio-controls button{
             margin: 0 auto;
-            font-size: 25px;
+            font-size: 16px;
             padding: 10px 10px;
             width: 100px;
             display: flex;
@@ -563,8 +575,8 @@ li span {
           }
           #playPauseBtn i{
             margin: 0% auto;
-            font-size: 35px; 
+            font-size: 20px; 
           }
           #playPauseBtn{
-            font-size: 45px;
+            font-size: 20px;
           }

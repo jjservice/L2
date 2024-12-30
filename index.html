@@ -201,21 +201,21 @@
            
         ];
         let currentTrackIndex = 0;
-
+        
         function updateTrack() {
-            audioPlayer.src = tracks[currentTrackIndex];
-            audioPlayer.load();
-            audioPlayer.play();
-            playPauseBtn.textContent = "Pause";
-        }
+        audioPlayer.src = tracks[currentTrackIndex];
+        audioPlayer.load();
+         // Do not call audioPlayer.play() here, so music doesn't start automatically
+         playPauseBtn.innerHTML = '<i class="fas fa-play"></i>'; // Set play icon
+}
 
         playPauseBtn.addEventListener("click", () => {
             if (audioPlayer.paused) {
                 audioPlayer.play();
-                playPauseBtn.textContent = "Pause";
+                playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; // Play -> Pause icon
             } else {
                 audioPlayer.pause();
-                playPauseBtn.textContent = "Play";
+                playPauseBtn.innerHTML = '<i class="fas fa-play"></i>'; // Pause -> Play icon
             }
         });
 
@@ -240,6 +240,7 @@
 
         // Initialize the player
         updateTrack();
+
     </script>
 
 
@@ -281,34 +282,3 @@
     <script src="index.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
