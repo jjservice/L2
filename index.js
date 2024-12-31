@@ -34,7 +34,7 @@ document.getElementById('set-name-btn').addEventListener('click', function() {
       notificationSound.play();
       
   } else {
-      alert("Please enter a name!");
+      alert("Please enter your name!");
   }
 });
 
@@ -161,17 +161,6 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
   }
 
 
-
-
-
-
-
-
-
-
-
-
-  
 //////Hide And Show Section //////////
 
 const myButton = document.getElementById("HideShow-Btn");
