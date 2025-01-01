@@ -17,28 +17,36 @@ const firebaseConfig = {
   const db = firebase.database();
   
   // Get user's data
-  let username = '';
-  
-  // Flag to check if the message was sent by the user
-  let isMessageSent = false;
-  
+let username = '';
+let email = '';
+let phone = '';
+
+// Flag to check if the message was sent by the user
+let isMessageSent = false;
 
 // Listen for the "Submit" button to set the user's name
 document.getElementById('set-name-btn').addEventListener('click', function() {
   const nameInput = document.getElementById('username').value;
-  if (nameInput) {
+  const emailInput = document.getElementById('email').value;
+  const phoneInput = document.getElementById('phone').value;
+
+  // Check if all fields are filled
+  if (nameInput && emailInput && phoneInput) {
       username = nameInput;
+      email = emailInput;
+      phone = phoneInput;
+      
       document.getElementById('greeting').textContent = `Hi, ${username}!`;
       document.getElementById('username-container').style.display = 'none';
       
       // Play a notification sound
       const notificationSound = new Audio('NBA-Sound-MP3.mp3');  // Replace with your sound file
       notificationSound.play();
-      
   } else {
-      alert("Please enter your name!");
+      alert("Please enter your name, email, and phone number!");
   }
 });
+
 
 // Submit form
 document.getElementById("message-form").addEventListener("submit", sendMessage);
@@ -83,6 +91,8 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
   
     // Create db collection and send in the data
     db.ref("messages/" + timestamp).set({
+        phone,
+        email,
         username,
         message,
     });
