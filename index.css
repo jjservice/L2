@@ -556,8 +556,8 @@ li span {
             position: absolute;
             padding: 5px 10px;
             top: 200px;
-            width: 10%;
-            left: 15px;
+            width: 60px;
+            left: 20px;
             font-size: 15px;
             border: none;
             border-top: 2px solid rgba(255, 255, 0, 0.589);
@@ -989,7 +989,8 @@ li span {
           
 @media (min-width: 768px){
     #HideShow-Btn{
-        width: 5%;
+        width: 100px;
+        left: 40px;
     
     }
     .Chat-Display{
