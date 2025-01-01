@@ -19,6 +19,7 @@
             cursor: pointer;
             font-size: 16px;
         }
+        
         audio {
             display: none;
         }
@@ -332,6 +333,13 @@ const tracks = [
         imageUrl: "./bigxpicccccc.png"
     },
     {
+        
+        file: "./Miky Woodz - CRYPTO.mp3",
+        songName: "Crypto",
+        artistName: "Miky Woodz",
+        imageUrl: "./mikypic5555.jpg"
+    },
+    {
         file: "./BigXthaPlug - Law & Order.mp3",
         songName: "Law & Order",
         artistName: "BigXthaPlug",
@@ -358,7 +366,7 @@ const tracks = [
     {
         
         file: "./cielo-eterno-jasiel-nunez-dannyluxMP33.mp3",
-        songName: "Cielo Eterno-",
+        songName: "Cielo Eterno",
         artistName: "Jasiel Nuñez",
         imageUrl: "./JASIELNUPICCC.jpg"
     },
@@ -379,7 +387,7 @@ function updateTrack() {
     const track = tracks[currentTrackIndex];
     audioPlayer.src = track.file;
     audioPlayer.load(); // Ensures that the audio is loaded
-    audioPlayer.play(); // Start playing immediately
+    
 
     // Update UI with song info
     document.getElementById("songName").innerText = track.songName;
@@ -405,18 +413,21 @@ playPauseBtn.addEventListener("click", () => {
 nextBtn.addEventListener("click", () => {
     currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
     updateTrack();
+    audioPlayer.play(); // Start playing immediately
 });
 
 // Previous button event listener
 prevBtn.addEventListener("click", () => {
     currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
     updateTrack();
+    audioPlayer.play(); // Start playing immediately
 });
 
 // Random button event listener
 randomBtn.addEventListener("click", () => {
     currentTrackIndex = Math.floor(Math.random() * tracks.length);
     updateTrack();
+    audioPlayer.play(); // Start playing immediately
 });
 
 // When the audio ends, automatically play the next track

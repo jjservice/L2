@@ -1,12 +1,14 @@
 // Your web app's Firebase configuration (already provided)
 const firebaseConfig = {
-    apiKey: "AIzaSyDCG0j5LN8sE1vE7viRCkH5r84-Yf8f6uo",
-    authDomain: "message-app-29ab4.firebaseapp.com",
-    projectId: "message-app-29ab4",
-    storageBucket: "message-app-29ab4.firebasestorage.app",
-    messagingSenderId: "490264790429",
-    appId: "1:490264790429:web:41f1d58f0bd48d064e5b74"
-  };
+  apiKey: "AIzaSyDCG0j5LN8sE1vE7viRCkH5r84-Yf8f6uo",
+  authDomain: "message-app-29ab4.firebaseapp.com",
+  databaseURL: "https://message-app-29ab4-default-rtdb.firebaseio.com",
+  projectId: "message-app-29ab4",
+  storageBucket: "message-app-29ab4.firebasestorage.app",
+  messagingSenderId: "490264790429",
+  appId: "1:490264790429:web:41f1d58f0bd48d064e5b74",
+  measurementId: "G-3D9Q1JZ1VL"
+};
   
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
