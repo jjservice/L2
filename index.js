@@ -63,7 +63,7 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
   
     // Check if the username is empty
     if (!username) {
-        alert("Please enter a username before sending a message!");
+        alert("Please enter your information before sending a message!");
         return; // Prevent message from being sent
     }
   
@@ -176,18 +176,14 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
 //////Hide And Show Section //////////
 
 const myButton = document.getElementById("HideShow-Btn");
-const myImg = document.getElementById("song-details");
+        const myImg = document.getElementById("song-details");
 
-myButton.addEventListener("click", event => {
-
-   if
-   (myImg.style.display === "none"){
-    myImg.style.display = "block";
-    myButton.textContent ="Hide Music";
-     }
-   else{
-        myImg.style.display = "none";
-        myButton.textContent = "Music";
-}   
-});
-  
+        myButton.addEventListener("click", event => {
+            if (myImg.style.display === "none") {
+                myImg.style.display = "block";
+                myButton.innerHTML = 'Hide<i class="fas fa-music"></i>'; // Show music note
+            } else {
+                myImg.style.display = "none";
+                myButton.innerHTML = '<i class="fas fa-music"></i>'; // Show "X" icon
+            }
+        });
