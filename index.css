@@ -963,7 +963,9 @@ li span {
       .hits-title{
         width: 20%;
       }
-  
+      .modal {
+        padding-top: 30px;
+    }
   
   }
   
@@ -971,6 +973,9 @@ li span {
     
     /* Responsive Design for Smaller Screens */
     @media screen and (max-width: 768px) {
+        .modal {
+            padding-top: 60px;
+        }
         .modal-content {
             width: 100%;
         }
