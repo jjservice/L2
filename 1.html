@@ -24,13 +24,6 @@
 		<li class="li-4Four" id="blink-image">LIKE!</li>
 	  </nav>
 	</div>
- 
-	<div class="User-Google-Info" style="display: none;">
-		<h4>Welcome!</h4>
-		<img id="userProfilePicture" width="100" height="100">
-		<h2 id="userName" style="margin-bottom: 10px;"></h2>
-        <h2 id="userEmail" style="display: none;"></h2>
-	</div>
 
 	<div class="Main-Nav">
     
@@ -719,49 +712,6 @@
             body.classList.toggle('Video-Light');
         }
     </script>
-
-
-<script defer type="module">
-	// Firebase configuration
-	const firebaseConfig = {
-  apiKey: "AIzaSyAoYFWAmoJJCDcfcnOncKgimEv3ynVF_ak",
-  authDomain: "log-reg-3335e.firebaseapp.com",
-  projectId: "log-reg-3335e",
-  storageBucket: "log-reg-3335e.firebasestorage.app",
-  messagingSenderId: "449562064667",
-  appId: "1:449562064667:web:52db498443a55ebcf145be",
-  measurementId: "G-1V39TEVDM6"
-};
-
-	// Initialize Firebase
-	import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js';
-	import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js';
-
-	const app = initializeApp(firebaseConfig);
-	const auth = getAuth(app);
-
-	// Function to update the DOM with user data
-	function updateUserInfo(user) {
-		document.getElementById('userName').textContent = user.displayName || 'No Name';
-		document.getElementById('userEmail').textContent = user.email || 'No Email';
-		document.getElementById('userProfilePicture').src = user.photoURL || 'https://www.example.com/default-profile.jpg';
-	}
-
-	// Listen for auth state changes
-	onAuthStateChanged(auth, (user) => {
-		if (user) {
-			// User is logged in, update the page with their info
-			updateUserInfo(user);
-		} else {
-			// User is logged out, redirect or show a message
-			console.log('User is logged out');
-		}
-	});
-
-	// Simulating a successful login (replace with actual login mechanism)
-	// For testing, you can simulate a user login like this:
-	// auth.signInWithEmailAndPassword(email, password); 
-</script>
 
  <script id="dsq-count-scr" src="//lollipop-5.disqus.com/count.js" async></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
