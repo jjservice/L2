@@ -3932,6 +3932,27 @@ footer{
     transition: 1s ease-in-out;
 }
 
+#userName{
+  color: yellow;
+  text-shadow: 2px 2px 2px darkblue;
+}
+#userEmail{
+  color: darkgray;
+  text-shadow: 2px 2px 2px darkblue;
+}
+#userProfilePicture{
+  border-radius: 8px;
+  padding: 2px;
+  border: 1px solid gold;
+  box-shadow: 0pc 3px 6px darkgray;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#userProfilePicture:hover{
+  transform: scale(1.10);
+  transition: 0.8s;
+}
+
 
 
 @media screen and (min-width: 768px){
