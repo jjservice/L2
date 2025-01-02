@@ -3945,12 +3945,18 @@ footer{
   padding: 2px;
   border: 1px solid gold;
   box-shadow: 0pc 3px 6px darkgray;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 #userProfilePicture:hover{
   transform: scale(1.10);
   transition: 0.8s;
+}
+h4{
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px gold;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 
