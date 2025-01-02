@@ -530,12 +530,16 @@ li span {
             margin-left: 10px;
         }
         #emojiButton{
+            margin: 0% auto;
+            border-bottom: 1px solid gold;
+
             position: relative;
             left: 0px;
             font-size: 18px;
             padding: 5px;
             border-radius: 10px;
-            box-shadow: 0px 3px 6px gold;
+            box-shadow: 0px 1px 2px gold;
+
         }
 
         .Emoji-Grid{
