@@ -1079,9 +1079,6 @@ body.lightPlayer #disqus_thread{
   cursor: pointer;   
   border: 1px solid lightskyblue;
   transition: 1s ease-in-out;
-  background-image: url(SaySomethingNiceGif.gif);
-  background-position: center;
-  background-size: 35%;
   opacity: 90%;
  
  
