@@ -372,7 +372,7 @@ audio {
     padding: 5px;
     width: 95%;
     overflow: scroll;
-    height: 25vh;
+    height: 20vh;
 }
 #trackList::-webkit-scrollbar{
     background-color: transparent;
@@ -1161,6 +1161,9 @@ audio {
         width: 150px;
         height: 150px;
   
+    }
+    #trackList{
+        height: 30vh;
     }
     #trackList li{
        width: 300px;
