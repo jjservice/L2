@@ -102,6 +102,7 @@ function renderTrackList(filteredTracks = tracks) {
         const trackItem = document.createElement('li');
         trackItem.classList.add('track-item');
         trackItem.innerHTML = `
+            <img src="${track.img}" alt="${track.name}">
             <h5>${track.name}</h5>
             <p>${track.artist}</p>
         `;
