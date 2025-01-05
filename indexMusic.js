@@ -8,109 +8,109 @@ const tracks = [
    {
        name: "SAUCEBOY (Freestyle)",
        artist: "Eladio Carrión",
-       image: "./EladioCarrionSauceBoyPic.jpg",
+       img: "./EladioCarrionSauceBoyPic.jpg",
        music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3"
    },
    {
        name: "Cuando Me Ven",
        artist: "Myke Towers",
-       image: "./1MYKEPIC1.jpg",
+       img: "./1MYKEPIC1.jpg",
        music: "Myke Towers - Cuando Me Ven (Lyric Video).mp3"
    },
    {
        name: "Alto Riesgo",
        artist: "Myke Towers",
-       image: "./MYKEPIC3333.jpg",
+       img: "./MYKEPIC3333.jpg",
        music: "Myke Towers - Alto Riesgo.mp3"
    },
    {
        name: "Ajedréz",
        artist: "Myke Towers",
-       image: "./mykepic4.jpg",
+       img: "./mykepic4.jpg",
        music: "Myke Towers - Ajedréz (Lyric Video) (1).mp3"
    },
    {
        name: "TOUCHDOWN",
        artist: "Messiah, Myke Towers",
-       image: "./MessiahMikeTouchDownPic.jpg",
+       img: "./MessiahMikeTouchDownPic.jpg",
        music: "Messiah, Myke Towers - TOUCHDOWN.mp3"
    },
    {
        name: "Hablame",
        artist: "Frankie Ruiz",
-       image: "./frankiepic2.jpg",
+       img: "./frankiepic2.jpg",
        music: "./Frankie Ruiz-Hablame.mp3"
    },
    {
        name: "Deseandote",
        artist: "Frankie Ruiz",
-       image: "./frankiepic3.jpg",
+       img: "./frankiepic3.jpg",
        music: "./Frankie Ruiz-Deseandote.mp3"
    },
    {
        name: "El Camionero",
        artist: "Frankie Ruiz",
-       image: "./frankiepic2.jpg",
+       img: "./frankiepic2.jpg",
        music: "./Frankie Ruiz-El Camionero.mp3",
    },
    {
        name: "Mirandote",
        artist: "Frankie Ruiz",
-       image: "./frankiepic3.jpg",
+       img: "./frankiepic3.jpg",
        music: "./Frankie Ruiz-Mirándote.mp3"
    },
    {
        name: "Seda",
        artist: "Bad Bunny x Bryant Myers",
-       image: "./BadBunnyBryinSedaPic.jpg",
+       img: "./BadBunnyBryinSedaPic.jpg",
        music: "./Bad Bunny, Bryant Myers - Seda.mp3",
    },
    { 
        name: "Lost The Love",
        artist: "BigXthaPlug",
-       image: "./bigxpicccccc.png",
+       img: "./bigxpicccccc.png",
        music: "./BigXthaPlug - Lost The Love.mp3"
    },
    {
        name: "Crypto",
        artist: "Miky Woodz",
-       image: "./mikypic5555.jpg",
+       img: "./mikypic5555.jpg",
        music: "./Miky Woodz - CRYPTO.mp3",
    },
    {
        name: "Law & Order",
        artist: "BigXthaPlug",
-       image: "./BigXLawOrderPic.jpg",
+       img: "./BigXLawOrderPic.jpg",
        music: "./BigXthaPlug - Law & Order.mp3",
    },
    {
        name: "Good Drank",
        artist: "2 Chainz ft Quavo x Gucci Mane",
-       image: "./2chainGodDrunkPic.jpg",
+       img: "./2chainGodDrunkPic.jpg",
        music: "./2 Chainz - Good Drank ft. Quavo, Gucci Mane.mp3",
    },
    {
        name: "Bala",
        artist: "Ceky Viciny x Yaisel LM",
-       image: "./CekyYasielBalaPic.jpg",
+       img: "./CekyYasielBalaPic.jpg",
        music: "./Ceky Viciny x Yaisel LM - Bala.mp3",
    },
    {
        name: "Diet Coke",
        artist: "Pusha T",
-       image: "./PushaTPic.jpg",
+       img: "./PushaTPic.jpg",
        music: "./Pusha T - Diet Coke.mp3",
    },
    {
        name: "Cielo Eterno",
        artist: "Jasiel Nuñez",
-       image: "./JASIELNUPICCC.jpg",
+       img: "./JASIELNUPICCC.jpg",
        music: "./cielo-eterno-jasiel-nunez-dannyluxMP33.mp3",
    },
    {
        name: "Por Mi Lau",
        artist: "Miky Woodz",
-       image: "./mikypicc44444.jpg",
+       img: "./mikypicc44444.jpg",
        music: "./Miky Woodz - Por Mi Lau.mp3",
    },
 
@@ -128,7 +128,7 @@ function updateTrack() {
    // Update UI with song info
    document.getElementById("songName").innerText = track.name;
    document.getElementById("artistName").innerText = track.artist;
-   document.getElementById("songImage").src = track.image;
+   document.getElementById("songImage").src = track.img;
 
    // Change play/pause button icon
    playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
@@ -173,4 +173,7 @@ audioPlayer.addEventListener("ended", () => {
 
 // Initialize the player with the first track
 updateTrack();
+
+
+
 
