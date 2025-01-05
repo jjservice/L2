@@ -1,15 +1,15 @@
 const songs = [ 
+    {   id: 1,
+        name: "No me quiero Casar",
+        artist: "Bad Bunny",
+        img: "./BadBunnyBryinSedaPic.jpg",
+        music: "./BAD BUNNY - NO ME QUIERO CASAR (MP3).mp3"
+    },
     {   id: 2,
         name: "Sauce Boy",
         artist: "Eladio Carrion",
         img: "EladioCarrionSauceBoyPic.jpg",
         music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3"
-    },
-    {   id: 2,
-        name: "Ele Uve (Remix)",
-        artist: "Eladio Carrion x Natanael Cano  x Ovi",
-        img: "./eleuveremixPic.jpg",
-        music: "./Eladio Carrion x Natanael Cano  x Ovi - Ele Uve (Remix) ft. Noriel.mp3"
     },
     {   id: 3,
         name: "Pa que tú me ronca",
@@ -330,6 +330,12 @@ const songs = [
         music: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
     },
     {   id: 56,
+        name: "Ele Uve (Remix)",
+        artist: "Eladio Carrion x Natanael Cano  x Ovi",
+        img: "./eleuveremixPic.jpg",
+        music: "./Eladio Carrion x Natanael Cano  x Ovi - Ele Uve (Remix) ft. Noriel.mp3"
+    },
+    {   id: 57,
         name: "PASSOA",
         artist: "Jhayco x Kapo",
         img: "JhayKapoPassoaPic.jpg",
