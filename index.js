@@ -173,6 +173,37 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
   }
 
 
+  //////Emojis Section/////////////////////////////////
+
+  const emojiButton = document.getElementById("emojiButton");
+  const emojiBox = document.getElementById("emojiBox");
+  const selectedEmoji = document.querySelector(".selected-emoji");
+  const emojiInput = document.getElementById("message-input");
+
+  // Toggle the emoji box visibility
+  emojiButton.addEventListener("click", function() {
+      emojiBox.style.display = (emojiBox.style.display === "block") ? "none" : "block";
+  });
+
+  // Add event listeners for each emoji item
+  const emojiItems = document.querySelectorAll(".emoji-item");
+  emojiItems.forEach(item => {
+      item.addEventListener("click", function() {
+          // Add selected emoji to the input field
+          emojiInput.value += item.textContent;
+          emojiBox.style.display = "none";  // Close the emoji box after selection
+      });
+  });
+
+  // Close the emoji box if clicked outside
+  document.addEventListener("click", function(event) {
+      if (!emojiButton.contains(event.target) && !emojiInput.contains(event.target)) {
+          emojiBox.style.display = "none";
+      }
+  });
+
+
+
 //////Hide And Show Section //////////
 
 const myButton = document.getElementById("HideShow-Btn");

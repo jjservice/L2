@@ -346,12 +346,9 @@ li span {
 
 }
 
-
-
-
-
-
-
+audio {
+    display: none;
+}
 
 
 #set-name-btn:hover{
