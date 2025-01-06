@@ -1237,27 +1237,25 @@ const songs = [
  let isMuted = false;
  
  function renderSongs(filteredSongs = songs) {
-     songList.innerHTML = "";
- 
-     filteredSongs.forEach(song => {
-         const songItem = document.createElement("div");
-         songItem.classList.add("song-item");
-         songItem.dataset.songId = song.id;
-         songItem.innerHTML = `
-             <img src="${song.img}" alt="${song.name}">
-             <span>${song.name} - ${song.artist}</span>
-             <button class="play-button"><i class="fas fa-play"></i></button>
-         `;
- 
-         const playButton = songItem.querySelector(".play-button");
-         playButton.addEventListener("click", () => {
-             playOrPauseSong(song, playButton);
-             
-         });
- 
-         songList.appendChild(songItem);
-     });
- }
+    songList.innerHTML = "";
+
+    filteredSongs.forEach(song => {
+        const songItem = document.createElement("div");
+        songItem.classList.add("song-item");
+        songItem.dataset.songId = song.id;
+        songItem.innerHTML = `
+            <img src="${song.img}" alt="${song.name}">
+            <span>${song.name} - ${song.artist}</span>
+        `;
+
+        const songImage = songItem.querySelector("img"); // Get the image element
+        songImage.addEventListener("click", () => {
+            playOrPauseSong(song);
+        });
+
+        songList.appendChild(songItem);
+    });
+}
  
  function playOrPauseSong(song, button) {
     // Get the song image element by ID
