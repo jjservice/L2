@@ -1257,22 +1257,18 @@ const songs = [
     });
 }
  
- function playOrPauseSong(song, button) {
+ function playOrPauseSong(song, img) {
     // Get the song image element by ID
     const songImageDisplay = document.getElementById("current-song-image");
 
     if (isPlaying && currentSongId === song.id) {
         audioPlayer.pause();
-        button.querySelector("i").classList.replace("fa-pause", "fa-play");
-        playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
         isPlaying = false;
     } else {
         audioSource.src = song.music;
         audioSource.dataset.songId = song.id;
         audioPlayer.load();
         audioPlayer.play();
-        button.querySelector("i").classList.replace("fa-play", "fa-pause");
-        playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
         isPlaying = true;
         currentSongId = song.id;
     }

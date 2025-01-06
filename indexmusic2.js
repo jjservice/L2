@@ -8,7 +8,13 @@ const trackList = document.getElementById('trackList');
 
 // Tracks array (as before)
 const tracks = [
-    { name: "SAUCEBOY (Freestyle)", artist: "Eladio Carrión", img: "./EladioCarrionSauceBoyPic.jpg", music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3" },
+    {   id: 0,
+        name: "SAUCEBOY (Freestyle)", 
+        artist: "Eladio Carrión", 
+        img: "./EladioCarrionSauceBoyPic.jpg", 
+        music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3" 
+    },
+
     {   id: 1,
         name: "TOUCHDOWN",
         artist: "Messiah x Myke Towers",

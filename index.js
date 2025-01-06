@@ -51,11 +51,6 @@ document.getElementById('set-name-btn').addEventListener('click', function() {
 // Submit form
 document.getElementById("message-form").addEventListener("submit", sendMessage);
 
-
-
-
-
-
   
   // Send message to db
   function sendMessage(e) {
@@ -136,6 +131,15 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
       receivedSound.play(); // Play the sound when a new message is received
     }
   });
+  
+
+
+
+
+
+
+
+
   
   
   
