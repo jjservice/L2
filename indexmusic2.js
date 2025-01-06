@@ -9,12 +9,11 @@ const trackList = document.getElementById('trackList');
 // Tracks array (as before)
 const tracks = [
     {   id: 0,
-        name: "SAUCEBOY (Freestyle)", 
-        artist: "Eladio Carrión", 
-        img: "./EladioCarrionSauceBoyPic.jpg", 
-        music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3" 
+        name: "No me quiero Casar",
+        artist: "Bad Bunny",
+        img: "./BadBunnyBryinSedaPic.jpg",
+        music: "./BAD BUNNY - NO ME QUIERO CASAR (MP3).mp3"
     },
-
     {   id: 1,
         name: "TOUCHDOWN",
         artist: "Messiah x Myke Towers",
@@ -76,28 +75,28 @@ const tracks = [
         music: "Nino Freestyle - No Soy Mujeriego.mp3"
     },
     {   id: 11,
+        name: "SAUCEBOY (Freestyle)", 
+        artist: "Eladio Carrión", 
+        img: "./EladioCarrionSauceBoyPic.jpg", 
+        music: "Eladio Carrión - SAUCEBOY (Freestyle).mp3" 
+    },
+    {   id: 12,
         name: "ORGANICO",
         artist: "Jamby El Favo",
         img: "JambyOrganicoPic.jpg",
         music: "Jamby El Favo - Orgánico.mp3"
     },
-    {   id: 12,
+    {   id: 13,
         name: "Pana Mío",
         artist: "Polakan Ft. Melymel",
         img: "panamiopic.jpg",
         music: "Polakan Ft. Melymel - Pana Mío.mp3"
     },
-    {   id: 13,
+    {   id: 14,
         name: "EL MEJOR",
         artist: "Nino Freestyle",
         img: "NinoFreeElMejorPic.jpg",
         music: "Nino Freestyle - El Mejor  2 Millones De Seguidores.mp3"
-    },
-    {   id: 14,
-        name: "PASSOA",
-        artist: "Jhayco x Kapo",
-        img: "JhayKapoPassoaPic.jpg",
-        music: "JHAYCO, Kapo - Passoa.mp3"
     },
     {   id: 15,
         name: "CRYPTO",
@@ -1233,6 +1232,12 @@ const tracks = [
             artist: "El Fother x Darlyn Nay",
             img: "FotherDarlinPilaDeCotorraPic.jpg",
             music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
+        },
+        {   id: 182,
+            name: "PASSOA",
+            artist: "Jhayco x Kapo",
+            img: "JhayKapoPassoaPic.jpg",
+            music: "JHAYCO, Kapo - Passoa.mp3"
         },
 ];
 
