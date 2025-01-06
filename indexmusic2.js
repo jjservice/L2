@@ -107,7 +107,7 @@ function renderTrackList(filteredTracks = tracks) {
             <p>${track.artist}</p>
         `;
         trackItem.addEventListener('click', () => {
-            currentTrackIndex = index;
+            currentTrackIndex = tracks.indexOf(track);
             updateTrack();
             audioPlayer.play(); // Start playing the clicked track
         });

@@ -1252,6 +1252,7 @@ const songs = [
          const playButton = songItem.querySelector(".play-button");
          playButton.addEventListener("click", () => {
              playOrPauseSong(song, playButton);
+             
          });
  
          songList.appendChild(songItem);
