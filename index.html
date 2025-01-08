@@ -13,7 +13,7 @@
     top: 100px;         /* Starting position from top */
     left: 50%;          /* Centered horizontally */
     transform: translateX(-50%); /* To center the container */
-    width: 300px;       /* Width of the draggable container */
+    width: 60%;       /* Width of the draggable container */
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.856); /* Dark background */
     border-radius: 15px;
@@ -28,17 +28,11 @@
 .song-details:active {
     cursor: grabbing;
 }
-
-
-
-
-/* Styling for the search input */
-
-
-
-
-/* Track list styling */
-
+@media (min-width: 768px){
+    .song-details {
+    width: 500px;
+}
+}
 
     </style>
 
@@ -121,7 +115,7 @@
     
 
    
-        <ul class="song-details" id="song-details" style="display: none;" draggable="false">
+        <ul class="song-details" id="song-details" style="display: none;" draggable="true">
             <!-- Song Image -->
             <img id="songImage" src="" alt="Song Image">
             
