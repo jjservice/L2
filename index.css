@@ -127,12 +127,12 @@ header {
     text-shadow: 2px 2px 2px darkblue;
     background-color: rgba(245, 245, 245, 0.082);
     padding: 5px;
-    width: 50%;
+    width: 60%;
     border-radius: 20px;
     letter-spacing: 0.5px;
 }
 #creatorName{
-    font-size: 11px;
+    font-size: 12px;
     color: white;
     text-shadow: 0px 0px 2px gold;
     letter-spacing: 0.5px;
@@ -510,7 +510,7 @@ audio {
 #searchInputV{
     margin: 0% auto;
     position: relative;
-    width: 70%;
+    width: 80%;
     padding: 3px;
     border-radius: 10px;
     font-size: 16px;
@@ -813,7 +813,7 @@ audio {
             align-items: center;
             margin-top: 10px;
             border-radius: 10px;
-            color: yellow;          
+            color: rgba(255, 255, 0, 0.541);          
             text-shadow: 2px 2px 4px darkblue;
             box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
@@ -827,41 +827,46 @@ audio {
             transition: 0.5s;
             opacity: 100%;
         }
-        #HideShow-Btn2{
-            margin: 0% auto;
-            position: absolute;
-            padding: 5px 5px;
-            top: 181px;
-            right: 15px;
+
+
+        #HideShow-Btn2 {
+            position: absolute; /* Keeps the button positioned relative to the nearest positioned ancestor */
+            top: -56px; /* Keeps it positioned 203px from the top */
+            right: 5px; /* Aligns it 15px from the right side of the container */
             width: 50px;
             height: 50px;
+            padding: 5px;
             background-image: url(videocampicc2222.jpg);
             background-position: center;
             background-size: cover;
             background-blend-mode: color-burn;
             font-size: 25px;
             border: none;
-            border-top: 2px solid  yellow;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            align-items: center;
-            margin-top: 10px;
+            border-top: 2px solid yellow;
             border-radius: 10px;
-            color: yellow;          
+            color: rgba(255, 255, 0, 0.651);
             text-shadow: 2px 2px 4px darkblue;
             box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
             background-color: rgba(4, 10, 46, 0.315);
             z-index: 999;
             opacity: 80%;
-           
         }
+        
+        /* Optional: Apply relative positioning to the parent container */
+        #parent-container { 
+            position: relative;
+          /* Ensures the button is within the full screen area */
+        }
+       
         #HideShow-Btn2:hover{
             transform: scale(1.10);
             transition: 0.5s;
             opacity: 100%;
         }
+
+        
+        
 
 
         .Music-player-Btns{
@@ -1336,12 +1341,6 @@ audio {
         width: 100px;
         left: 30px;
     
-    }
-    #HideShow-Btn2{
-        position: absolute;
-        width: 100px;
-        right: 30px;
-        top: 185px;
     }
     .song-details {
         width: 500px;
