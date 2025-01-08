@@ -227,3 +227,24 @@ const myButton = document.getElementById("HideShow-Btn");
                 myButton.innerHTML = '<i class="fas fa-music"></i>'; // Show "X" icon
             }
         });
+
+  //////Hide And Show Section2222 //////////
+
+const myButton2 = document.getElementById("HideShow-Btn2");
+const myImg2 = document.getElementById("video-details2");
+
+myButton2.addEventListener("click", event => {
+    if (myImg2.style.display === "none") {
+        myImg2.style.display = "block";
+        myButton2.style.color = "red";
+        myButton2.style.border = "1px solid red";
+        myButton2.innerHTML = ' <i class="fas fa-times"></i> '; // Show music note
+    } else {
+        myImg2.style.display = "none";
+        myButton2.style.color = "yellow";
+        myButton2.style.border = "none";
+        myButton2.style.borderTop = "2px solid yellow";
+        myButton2.innerHTML = '<i class="fas fa-video"></i>'; // Show "X" icon
+    }
+});
+

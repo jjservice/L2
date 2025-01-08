@@ -90,8 +90,64 @@ header {
     text-align: center;
 }
 
+.video-details {
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;  /* Use fixed positioning to keep the modal on the screen */
+    top: 50%;         /* Center vertically */
+    left: 50%;        /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering adjustment */
+    width: 70%;       /* Width of the draggable container */
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.856); /* Dark background */
+    border-radius: 15px;
+    border: 2px solid rgba(169, 169, 169, 0.596);
+    box-shadow: 0px 5px 15px black; /* Soft shadow */
+    z-index: 9999; /* Ensure the modal appears in front */
+    text-align: center;
+}
+
 
   
+
+#videoThumbnail{
+    padding: 2px;
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px lightskyblue;
+    margin-bottom: 5px;
+}
+ 
+#videoTitle{
+    margin: 0% auto;
+    font-size: 15px;
+    color: rgb(197, 191, 191);
+    text-shadow: 2px 2px 2px darkblue;
+    background-color: rgba(245, 245, 245, 0.082);
+    padding: 5px;
+    width: 50%;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+#creatorName{
+    font-size: 11px;
+    color: white;
+    text-shadow: 0px 0px 2px gold;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .song-details {
     margin: 0% auto;
@@ -676,6 +732,41 @@ audio {
             transition: 0.5s;
             opacity: 100%;
         }
+        #HideShow-Btn2{
+            margin: 0% auto;
+            position: absolute;
+            padding: 5px 5px;
+            top: 181px;
+            right: 15px;
+            width: 50px;
+            height: 50px;
+            background-image: url(videocampicc2222.jpg);
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: color-burn;
+            font-size: 25px;
+            border: none;
+            border-top: 2px solid  yellow;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 10px;
+            border-radius: 10px;
+            color: yellow;          
+            text-shadow: 2px 2px 4px darkblue;
+            box-shadow: 0px 2px 6px lightskyblue;
+            cursor: pointer;
+            background-color: rgba(4, 10, 46, 0.315);
+            z-index: 999;
+            opacity: 80%;
+           
+        }
+        #HideShow-Btn2:hover{
+            transform: scale(1.10);
+            transition: 0.5s;
+            opacity: 100%;
+        }
 
 
         .Music-player-Btns{
@@ -724,6 +815,59 @@ audio {
           #playPauseBtn{
             font-size: 20px;
           }
+
+
+
+
+
+          .Music-player-Btns{
+            margin: 0% auto;
+            position: relative;
+            
+        }
+
+
+
+        #video-controls{
+            margin: 0% auto;
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: rgba(245, 245, 245, 0.096);
+            box-shadow: 0px 2px 10px rgba(135, 206, 250, 0.322);
+            padding: 10px;
+            border-radius: 50px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            width: 90%;
+          }
+          #video-controls button{
+            margin: 0 auto;
+            font-size: 16px;
+            padding: 10px 10px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgba(255, 218, 6, 0.733);
+            background: rgba(20, 91, 172, 0.397);
+            border: 1px solid yellowgreen;
+            box-shadow: 0px 1px 4px lightsalmon;
+            border-radius: 30px;
+            cursor: pointer;
+          }
+          #playPauseBtn i{
+            margin: 0% auto;
+            font-size: 20px; 
+          }
+          #playPauseBtn{
+            font-size: 20px;
+          }
+
+
 
 
 
@@ -1097,6 +1241,12 @@ audio {
         width: 100px;
         left: 30px;
     
+    }
+    #HideShow-Btn2{
+        position: absolute;
+        width: 100px;
+        right: 30px;
+        top: 185px;
     }
     .song-details {
         width: 500px;

@@ -22,6 +22,8 @@
             <h6 class="hits-title">VIDEO<ion-icon name="eye"></ion-icon>HITS</h6>
 
             <button id="HideShow-Btn"><i class="fas fa-music"></i></button>
+
+            <button id="HideShow-Btn2"><i class="fas fa-video"></i></button>
                 
         </nav>
       </ul>
@@ -109,7 +111,89 @@
             <!-- Track List Container -->
             <ul id="trackList">list</ul>
         </ul>
+
+
+
+
+
+
+        <style>
+       
+            #videoPlayer {
+                 width: 80%;
+                 max-width: 800px;
+                 margin: 20px auto;
+             }
+             #videoControls {
+                 margin-top: 10px;
+             }
+             #videoControls button {
+                 background-color: #333;
+                 color: white;
+                 border: none;
+                 padding: 10px;
+                 font-size: 20px;
+                 margin: 0 5px;
+                 cursor: pointer;
+             }
+             #videoList {
+                 list-style-type: none;
+                 padding: 0;
+                 margin-top: 20px;
+             }
+             #videoList .video-item {
+                 background-color: #333;
+                 margin: 10px 0;
+                 padding: 10px;
+                 cursor: pointer;
+                 display: flex;
+                 align-items: center;
+                 justify-content: start;
+             }
+             #videoList .video-item.active {
+                 background-color: #555;
+             }
+             #videoList img {
+                 width: 50px;
+                 height: 50px;
+                 margin-right: 10px;
+             }
+         </style>
+
+      
+
+
+        <ul class="video-details" id="video-details2" style="display: none;">
+            <!-- Video Thumbnail -->
+            <img id="videoThumbnail" src="" alt="Video Thumbnail">
         
+            <!-- Video Title and Creator Name -->
+            <div id="videoInfo">
+                <h5 id="creatorName"></h5>
+                <h4 id="videoTitle"></h4>
+                <!-- Search Input -->
+            </div>
+
+            <input type="text" id="searchInputV" placeholder=".;.Search Video.;.">
+           
+              <!-- Video Player -->
+              <video id="videoPlayerV" controls>
+                <source src="#" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div id="video-controls">
+                <!-- Control Buttons -->
+                <button id="prevBtnV"><i class="fas fa-step-backward"></i></button>
+                <button id="playPauseBtnV"><i class="fas fa-play"></i></button>
+                <button id="nextBtnV"><i class="fas fa-step-forward"></i></button>
+                <button id="randomBtnV"><i class="fas fa-random"></i></button>
+            </div>
+        
+            <!-- Video List Container -->
+            <ul id="videoListV">list</ul>
+        </ul>
+   
+     
 
 
     <!-- AUDIO NOTIFICATIONS -->
@@ -385,6 +469,13 @@
 
 
 
+
+
+
+
+
+
+
     <!-- scripts -->
     <script type="module" src="index.js" defer></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
@@ -393,5 +484,6 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="indexmusic2.js"></script>
+    <script src="indexVideo.js"></script>
   </body>
 </html>
