@@ -6,6 +6,42 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <title>LOLLIPOP CHAT</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        /* Basic container styles */
+.song-details {
+    position: absolute; /* This is necessary for the drag functionality */
+    top: 100px;         /* Starting position from top */
+    left: 50%;          /* Centered horizontally */
+    transform: translateX(-50%); /* To center the container */
+    width: 300px;       /* Width of the draggable container */
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.952); /* Dark background */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.582); /* Soft shadow */
+    color: white; /* White text for contrast */
+    cursor: grab; /* Indicate that the item is draggable */
+    opacity: 1; /* Make sure opacity is normal at first */
+    transition: opacity 0.2s ease-in-out; /* Smooth opacity transition when dragging */
+}
+
+/* When dragging, change the cursor to grabbing */
+.song-details:active {
+    cursor: grabbing;
+}
+
+
+
+
+/* Styling for the search input */
+
+
+
+
+/* Track list styling */
+
+
+    </style>
+
   </head>
   <body>
 
@@ -83,36 +119,72 @@
         <button id="set-name-btn">Submit</button>
       </div>
     
-    
-     <ul class="song-details" id="song-details" style="display: none;">
 
    
-     <!-- Song Image -->
-     <img id="songImage" src="" alt="Song Image">
-    
-     <!-- Song Name and Artist Name -->
-     <div id="songInfo">
-        <h5 id="artistName">Artist Name</h5>
-         <h4 id="songName">Song Name</h4>
-              <!-- Search Input -->
-     <input type="text" id="searchInput" placeholder=".;.LOLLITA MUSIC.;.">
-         
-     </div>
-
-    
-      
-    <div id="audio-controls">
-        <audio id="audioPlayer" src="#"></audio>
-        <button id="prevBtn"><i class="fas fa-step-backward"></i></button>
-        <button id="playPauseBtn"><i class="fas fa-play"></i></button>
-        <button id="nextBtn"><i class="fas fa-step-forward"></i></button>
-        <button id="randomBtn"><i class="fas fa-random"></i></button>
-    </div>
-
-       <!-- Track List Container -->
-       <ul id="trackList">list</ul>
-
-   </ul>
+        <ul class="song-details" id="song-details" style="display: none;" draggable="true">
+            <!-- Song Image -->
+            <img id="songImage" src="" alt="Song Image">
+            
+            <!-- Song Name and Artist Name -->
+            <div id="songInfo">
+                <h5 id="artistName">Artist Name</h5>
+                <h4 id="songName">Song Name</h4>
+                <!-- Search Input -->
+                <input type="text" id="searchInput" placeholder=".;.LOLLITA MUSIC.;.">
+            </div>
+        
+            <div id="audio-controls">
+                <audio id="audioPlayer" src="#"></audio>
+                <button id="prevBtn"><i class="fas fa-step-backward"></i></button>
+                <button id="playPauseBtn"><i class="fas fa-play"></i></button>
+                <button id="nextBtn"><i class="fas fa-step-forward"></i></button>
+                <button id="randomBtn"><i class="fas fa-random"></i></button>
+            </div>
+        
+            <!-- Track List Container -->
+            <ul id="trackList">list</ul>
+        
+            <script>
+                // Get the song-details element
+                const songDetails = document.getElementById('song-details');
+                
+                // Variables to track drag position
+                let isDragging = false;
+                let offsetX = 0;
+                let offsetY = 0;
+        
+                // Handle the start of dragging
+                songDetails.addEventListener('dragstart', function (e) {
+                    isDragging = true;
+        
+                    // Store the initial position of the mouse when the drag starts
+                    offsetX = e.clientX - songDetails.getBoundingClientRect().left;
+                    offsetY = e.clientY - songDetails.getBoundingClientRect().top;
+        
+                    // Optional: Change the opacity to give a visual cue that it's being dragged
+                    songDetails.style.opacity = '0.5';
+                });
+        
+                // Handle dragging while the mouse is moving
+                songDetails.addEventListener('drag', function (e) {
+                    if (!isDragging) return;
+        
+                    // Update the position of the element based on the mouse position
+                    songDetails.style.position = 'absolute';
+                    songDetails.style.left = `${e.clientX - offsetX}px`;
+                    songDetails.style.top = `${e.clientY - offsetY}px`;
+                });
+        
+                // Handle when the drag ends
+                songDetails.addEventListener('dragend', function () {
+                    isDragging = false;
+        
+                    // Restore the opacity after drag ends
+                    songDetails.style.opacity = '1';
+                });
+            </script>
+        </ul>
+        
 
 
     <!-- AUDIO NOTIFICATIONS -->
@@ -384,6 +456,8 @@
 
       
     </script>
+
+
 
 
     <!-- scripts -->
