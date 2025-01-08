@@ -1001,7 +1001,8 @@ audio {
         border-top: 2px solid rgba(255, 255, 0, 0.603);
         opacity: 90%;
         box-shadow: 0px 2px 8px black;
-        margin-bottom: -35px;
+        margin-top: 15px;
+        margin-bottom: -55px;
     }
 
     
@@ -1341,6 +1342,14 @@ audio {
         width: 100px;
         left: 30px;
     
+    }
+    #HideShow-Btn2{
+        width: 100px;
+    
+    }
+
+    .video-details {
+        width: 500px;
     }
     .song-details {
         width: 500px;
