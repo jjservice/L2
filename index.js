@@ -216,7 +216,7 @@ const myButton = document.getElementById("HideShow-Btn");
         myButton.addEventListener("click", event => {
             if (myImg.style.display === "none") {
                 myImg.style.display = "block";
-                myButton.innerHTML = 'Hide<i class="fas fa-music"></i>'; // Show music note
+                myButton.innerHTML = ' <i class="fas fa-times"></i> '; // Show music note
             } else {
                 myImg.style.display = "none";
                 myButton.innerHTML = '<i class="fas fa-music"></i>'; // Show "X" icon

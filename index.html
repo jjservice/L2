@@ -7,10 +7,10 @@
     <title>LOLLIPOP CHAT</title>
     <link rel="stylesheet" href="index.css">
     <style>
-        .song-details {
+    .song-details {
     display: flex;
     flex-direction: column;
-    position: fixed;  /* Use fixed positioning to keep the modal on the screen */
+    position: absolute;  /* Use fixed positioning to keep the modal on the screen */
     top: 50%;         /* Center vertically */
     left: 50%;        /* Center horizontally */
     transform: translate(-50%, -50%); /* Centering adjustment */
@@ -118,7 +118,7 @@
     
 
    
-        <ul class="song-details" id="song-details" style="display: none;" draggable="true">
+        <ul class="song-details" id="song-details" style="display: none;">
             <!-- Song Image -->
             <img id="songImage" src="" alt="Song Image">
             
@@ -140,46 +140,6 @@
         
             <!-- Track List Container -->
             <ul id="trackList">list</ul>
-        
-            <script>
-                // Get the song-details element
-                const songDetails = document.getElementById('song-details');
-                
-                // Variables to track drag position
-                let isDragging = false;
-                let offsetX = 0;
-                let offsetY = 0;
-        
-                // Handle the start of dragging
-                songDetails.addEventListener('dragstart', function (e) {
-                    isDragging = true;
-        
-                    // Store the initial position of the mouse when the drag starts
-                    offsetX = e.clientX - songDetails.getBoundingClientRect().left;
-                    offsetY = e.clientY - songDetails.getBoundingClientRect().top;
-        
-                    // Optional: Change the opacity to give a visual cue that it's being dragged
-                    songDetails.style.opacity = '0.5';
-                });
-        
-                // Handle dragging while the mouse is moving
-                songDetails.addEventListener('drag', function (e) {
-                    if (!isDragging) return;
-        
-                    // Update the position of the element based on the mouse position
-                    songDetails.style.position = 'absolute';
-                    songDetails.style.left = `${e.clientX - offsetX}px`;
-                    songDetails.style.top = `${e.clientY - offsetY}px`;
-                });
-        
-                // Handle when the drag ends
-                songDetails.addEventListener('dragend', function () {
-                    isDragging = false;
-        
-                    // Restore the opacity after drag ends
-                    songDetails.style.opacity = '1';
-                });
-            </script>
         </ul>
         
 
