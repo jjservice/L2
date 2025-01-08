@@ -25,14 +25,14 @@ const videos = [
     {
         id: 2,
         title: "69 RIP AA",
-        creator: "Químico ultra Mega",
+        creator: "Quimico ultra Mega",
         thumbnail: "./Quimico69AAPic.jpg",
         video: "./Químico ultra Mega - 69 RIP AA(video oficial) Prod by Nayo.mp4"
     },
     {
         id: 3,
         title: "Pa Que Tu Me Ronca",
-        creator: "Químico ultra Mega x Danger",
+        creator: "Quimico ultra Mega x Danger",
         thumbnail: "./QuimicoDequeRoncaPic.jpg",
         video: "./Químico ultra Mega - Pa que tú me ronca  danger (video oficial).mp4"
     },
