@@ -216,9 +216,14 @@ const myButton = document.getElementById("HideShow-Btn");
         myButton.addEventListener("click", event => {
             if (myImg.style.display === "none") {
                 myImg.style.display = "block";
+                myButton.style.color = "red";
+                myButton.style.border = "1px solid red";
                 myButton.innerHTML = ' <i class="fas fa-times"></i> '; // Show music note
             } else {
                 myImg.style.display = "none";
+                myButton.style.color = "yellow";
+                myButton.style.border = "none";
+                myButton.style.borderTop = "2px solid yellow";
                 myButton.innerHTML = '<i class="fas fa-music"></i>'; // Show "X" icon
             }
         });

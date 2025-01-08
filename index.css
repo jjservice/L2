@@ -90,21 +90,30 @@ header {
     text-align: center;
 }
 
-.song-details{
+
+  
+
+.song-details {
     margin: 0% auto;
-    color: white;
-    width: 80%;
+    display: flex;
     flex-direction: column;
-    position: relative;
-    text-align: center;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.425); 
-    margin-bottom: 10px;
+    position: absolute;  /* Use fixed positioning to keep the modal on the screen */
+    top: 50%;         /* Center vertically */
+    left: 50%;        /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering adjustment */
+    width: 70%;       /* Width of the draggable container */
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.856); /* Dark background */
     border-radius: 15px;
-    border-bottom: 2px solid rgba(192, 192, 192, 0.842);
-    border-top: 2px solid rgba(192, 192, 192, 0.849);
-    box-shadow: 0px 2px 6px black;
+    border: 2px solid rgba(169, 169, 169, 0.596);
+    box-shadow: 0px 5px 15px black; /* Soft shadow */
+    z-index: 9999; /* Ensure the modal appears in front */
+    text-align: center;
 }
+
+
+  
+
 #songImage{
     padding: 2px;
     width: 75px;
@@ -635,27 +644,37 @@ audio {
         #HideShow-Btn{
             margin: 0% auto;
             position: relative;
-            padding: 5px 10px;
+            padding: 5px 5px;
             bottom: 6px;
-            width: 70px;
-            left: 7px;
-            font-size: 15px;
+            width: 50px;
+            height: 50px;
+            background-image: url(MusicSearchBarGif.gif);
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: color-burn;
+            left: 5px;
+            font-size: 25px;
             border: none;
-            border-top: 2px solid rgba(255, 255, 0, 0.589);
+            border-top: 2px solid  yellow;
             justify-content: center;
             align-items: center;
             text-align: center;
             align-items: center;
             margin-top: 10px;
             border-radius: 10px;
-            color: rgba(223, 223, 17, 0.87);
+            color: yellow;          
             text-shadow: 2px 2px 4px darkblue;
-            box-shadow: 0px 2px 6px rgba(255, 217, 0, 0.685);
+            box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
             background-color: rgba(4, 10, 46, 0.315);
             z-index: 999;
             opacity: 80%;
            
+        }
+        #HideShow-Btn:hover{
+            transform: scale(1.10);
+            transition: 0.5s;
+            opacity: 100%;
         }
 
 
@@ -1078,6 +1097,9 @@ audio {
         width: 100px;
         left: 30px;
     
+    }
+    .song-details {
+        width: 500px;
     }
     .Chat-Display{
         margin: 0% auto;
