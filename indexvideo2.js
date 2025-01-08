@@ -21,7 +21,56 @@ const videos = [
         creator: "Pressure9x19 X @justinquiles",
         thumbnail: "./UnaDiablaQuilesPressurePic.jpg",
         video: "./Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"
-    }
+    },
+    {
+        id: 2,
+        title: "69 RIP AA",
+        creator: "Químico ultra Mega",
+        thumbnail: "./Quimico69AAPic.jpg",
+        video: "./Químico ultra Mega - 69 RIP AA(video oficial) Prod by Nayo.mp4"
+    },
+    {
+        id: 3,
+        title: "Pa Que Tu Me Ronca",
+        creator: "Químico ultra Mega x Danger",
+        thumbnail: "./QuimicoDequeRoncaPic.jpg",
+        video: "./Químico ultra Mega - Pa que tú me ronca  danger (video oficial).mp4"
+    },
+    {
+        id: 4,
+        title: "Blank Space",
+        creator: "Taylor Swift",
+        thumbnail: "./TylorSwiftBlankSpace.jpg",
+        video: "./Taylor Swift - Blank Space.mp4"
+    },
+    {
+        id: 5,
+        title: "Champagne Moments",
+        creator: "Rick Ross",
+        thumbnail: "./RickRossChampagnemomentsPic.jpg",
+        video: "./Rick Ross - Champagne Moments (Official Music Video).mp4"
+    },
+    {
+        id: 6,
+        title: "Sigo Querreando",
+        creator: "Lolo En El Microfono",
+        thumbnail: "./LoloenelmicrofonoPic.jpg",
+        video: "./Lolo En Él Micrófono - Sigo Guerreando.mp4"
+    },
+    {
+        id: 7,
+        title: "TouchDown",
+        creator: "Messiah x Myke Towers",
+        thumbnail: "./MessiahMikeTouchDownPic.jpg",
+        video: "./Messiah, Myke Towers - TOUCHDOWN (Video Oficial).mp4"
+    },
+    {
+        id: 8,
+        title: "Hora De Salir",
+        creator: "Chencho Corleone",
+        thumbnail: "./ChenchoHoraDeSalirPic.jpg",
+        video: "./Chencho Corleone - Hora de Salir (Official Video).mp4"
+    },
 ];
 
 let currentVideoIndexV = 0;
