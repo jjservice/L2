@@ -71,6 +71,13 @@ const videos = [
         thumbnail: "./ChenchoHoraDeSalirPic.jpg",
         video: "./Chencho Corleone - Hora de Salir (Official Video).mp4"
     },
+    {
+        id: 9,
+        title: "Remember The Time",
+        creator: "Michael Jackson",
+        thumbnail: "./MichalJacksonRememberThattimePic.jpg",
+        video: "./Michael Jackson_ Remember The Time(Official Video).mp4"
+    }
 ];
 
 let currentVideoIndexV = 0;
@@ -158,6 +165,7 @@ function renderVideoList(filteredVideos = videos) {
         videoItem.addEventListener('click', () => {
             currentVideoIndexV = videos.indexOf(video);
             updateVideo();
+            videoPlayerV.play(); // Start playing the clicked video
         });
         videoListV.appendChild(videoItem);
     });
