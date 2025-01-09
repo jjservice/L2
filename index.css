@@ -663,13 +663,13 @@ audio {
     margin:  0% auto;
     position: absolute;
     left: 5px;
-    top: 5px;
+    top: 3px;
     background-color: rgba(2, 5, 39, 0.219);
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 10%;
-    height: 20px;
+    height: 25px;
     border-radius: 6px;
     border-bottom: 1px solid wheat;
     opacity: 70%;
@@ -818,7 +818,6 @@ audio {
             box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
             background-color: rgba(4, 10, 46, 0.315);
-            z-index: 999;
             opacity: 80%;
            
         }
@@ -849,7 +848,6 @@ audio {
             box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
             background-color: rgba(4, 10, 46, 0.315);
-            z-index: 999;
             opacity: 80%;
         }
         
