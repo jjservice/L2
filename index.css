@@ -824,8 +824,7 @@ audio {
             align-items: center;
             margin-top: 10px;
             border-radius: 10px;
-            color: rgba(255, 255, 0, 0.541);          
-            text-shadow: 2px 2px 4px darkblue;
+            color: transparent;
             box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
             background-color: rgba(4, 10, 46, 0.315);
@@ -854,8 +853,7 @@ audio {
             border: none;
             border-top: 2px solid yellow;
             border-radius: 10px;
-            color: rgba(255, 255, 0, 0.651);
-            text-shadow: 2px 2px 4px darkblue;
+            color: transparent;
             box-shadow: 0px 2px 6px lightskyblue;
             cursor: pointer;
             background-color: rgba(4, 10, 46, 0.315);
