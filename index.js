@@ -106,31 +106,30 @@ document.getElementById("message-form").addEventListener("submit", sendMessage);
     isMessageSent = false;
   }
   
-  // Display the messages
-  const fetchChat = db.ref("messages/");
-  
-  // Check for new messages using the onChildAdded event listener
-  fetchChat.on("child_added", function (snapshot) {
-    const messages = snapshot.val();
-    const message = `<li class=${
-        username === messages.username ? "sent" : "receive"
-    }><span>${messages.username}: </span>${messages.message}</li>`;
-  
-    // Append the message on the page
-    document.getElementById("messages").innerHTML += message;
-  
-    // Play received message sound only if the message is not sent by the current user
-    if (username !== messages.username && !isMessageSent) {
-      const receivedSound = document.getElementById("received-sound");
-  
-      // Stop any playing sound first, then play the received sound
-      if (!receivedSound.paused) {
-        receivedSound.pause(); // Pause if already playing
-        receivedSound.currentTime = 0; // Reset the playback position
-      }
-      receivedSound.play(); // Play the sound when a new message is received
+// Display the messages
+const fetchChat = db.ref("messages/");
+
+// Check for new messages using the onChildAdded event listener
+fetchChat.on("child_added", function (snapshot) {
+  const messages = snapshot.val();
+  const message = `<li class=${username === messages.username ? "sent" : "receive"}>
+      <span>${messages.username} <i class="fas fa-check-circle"></i>: </span>${messages.message}</li>`;
+
+  // Append the message on the page
+  document.getElementById("messages").innerHTML += message;
+
+  // Play received message sound only if the message is not sent by the current user
+  if (username !== messages.username && !isMessageSent) {
+    const receivedSound = document.getElementById("received-sound");
+
+    // Stop any playing sound first, then play the received sound
+    if (!receivedSound.paused) {
+      receivedSound.pause(); // Pause if already playing
+      receivedSound.currentTime = 0; // Reset the playback position
     }
-  });
+    receivedSound.play(); // Play the sound when a new message is received
+  }
+});
   
 
 
