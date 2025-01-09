@@ -99,13 +99,14 @@ header {
     left: 50%;        /* Center horizontally */
     transform: translate(-50%, -50%); /* Centering adjustment */
     width: 70%;       /* Width of the draggable container */
-    padding: 15px;
+    padding: 10px;
     background: linear-gradient(to right,black,darkblue,maroon,black);
     border-radius: 15px;
-    border: 2px solid rgba(169, 169, 169, 0.596);
+    border: 2px solid rgba(135, 206, 250, 0.767);
     box-shadow: 0px 5px 15px black; /* Soft shadow */
     z-index: 9999; /* Ensure the modal appears in front */
     text-align: center;
+    
 }
 
 
@@ -145,7 +146,12 @@ header {
 }
 
 
-
+#videoPlayerV{
+    margin: 0% auto;
+    justify-content: center;
+    border: 1px solid rgba(135, 206, 250, 0.795);
+    padding: 2px;
+}
 
 
 
