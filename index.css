@@ -100,7 +100,7 @@ header {
     transform: translate(-50%, -50%); /* Centering adjustment */
     width: 70%;       /* Width of the draggable container */
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.856); /* Dark background */
+    background: linear-gradient(to right,black,darkblue,maroon,black);
     border-radius: 15px;
     border: 2px solid rgba(169, 169, 169, 0.596);
     box-shadow: 0px 5px 15px black; /* Soft shadow */
@@ -121,24 +121,28 @@ header {
 }
  
 #videoTitle{
-    margin: 0% auto;
     font-size: 15px;
     color: rgb(197, 191, 191);
     text-shadow: 2px 2px 2px darkblue;
-    background-color: rgba(245, 245, 245, 0.082);
-    padding: 5px;
-    width: 60%;
-    border-radius: 20px;
     letter-spacing: 0.5px;
+   
 }
 #creatorName{
     font-size: 12px;
     color: white;
     text-shadow: 0px 0px 2px gold;
     letter-spacing: 0.5px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
-
+#videoInfo{
+    margin: 0% auto;
+    background-color: rgba(245, 245, 245, 0.082);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 10px;
+}
 
 
 
@@ -189,6 +193,7 @@ header {
     width: 50%;
     border-radius: 20px;
     letter-spacing: 0.5px;
+    margin-bottom: 3px;
 }
 #artistName{
     font-size: 11px;
