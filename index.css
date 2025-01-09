@@ -230,7 +230,7 @@ li {
     margin: 0% auto;
     list-style-type: none;
     margin-bottom: 10px;
-    background-color: #1013be;
+    background-color: rgba(245, 245, 245, 0.24);
     padding: 10px;
     border-radius: 10px;
     color: white;
@@ -246,7 +246,7 @@ li {
 .sent {
     margin: 0% auto;
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.548);
     box-shadow: 0px 3px 6px black;
     margin-right: 35%;
     text-shadow: 2px 2px 2px darkblue;
@@ -1456,5 +1456,11 @@ audio {
         width: 75px;
         height: 75px;
     }
+
+  
+    #videoListV li{
+        width: 300px;
+     }
+     
 
 }
