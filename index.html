@@ -117,6 +117,10 @@
             <input type="text" id="searchInput" placeholder=".;.LOLLITA MUSIC.;.">
         </ul>
 
+        <!-- AUDIO NOTIFICATIONS -->
+    <audio id="received-sound" src="ReceiveMsg-Sound-Mp3.mp3"></audio>
+    <audio id="sent-sound" src="Sent-Msg-Sound(mp3).mp3"></audio>
+
 
 
         <ul class="video-details" id="video-details2" style="display: none;">
@@ -151,64 +155,11 @@
             <ul id="videoListV">list</ul>
             <input type="text" id="searchInputV" placeholder=".;.LOLLITA VIDEOS.;.">
         </ul>
-   
 
-
-
-
-        <style>
-       
-            #videoPlayer {
-                 width: 80%;
-                 max-width: 800px;
-                 margin: 20px auto;
-             }
-             #videoControls {
-                 margin-top: 10px;
-             }
-             #videoControls button {
-                 background-color: #333;
-                 color: white;
-                 border: none;
-                 padding: 10px;
-                 font-size: 20px;
-                 margin: 0 5px;
-                 cursor: pointer;
-             }
-             #videoList {
-                 list-style-type: none;
-                 padding: 0;
-                 margin-top: 20px;
-             }
-             #videoList .video-item {
-                 background-color: #333;
-                 margin: 10px 0;
-                 padding: 10px;
-                 cursor: pointer;
-                 display: flex;
-                 align-items: center;
-                 justify-content: start;
-             }
-             #videoList .video-item.active {
-                 background-color: #555;
-             }
-             #videoList img {
-                 width: 50px;
-                 height: 50px;
-                 margin-right: 10px;
-             }
-         </style>
-
-      
-
-
-       
      
 
 
-    <!-- AUDIO NOTIFICATIONS -->
-    <audio id="received-sound" src="ReceiveMsg-Sound-Mp3.mp3"></audio>
-    <audio id="sent-sound" src="Sent-Msg-Sound(mp3).mp3"></audio>
+    
 
 
    
@@ -220,6 +171,7 @@
       <!-- messages will display here -->
       <ul id="messages"></ul>
 
+
     </div>
     <hr>
     <h3>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
@@ -230,7 +182,7 @@
   
         <span id="emojiButton" style="cursor: pointer;">😊</span>
 
-        <input id="message-input" type="text" placeholder="Lollipop Chat..." required />
+        <input id="message-input" type="text" placeholder="Secret Chat..." required />
         
         <button id="message-btn" type="submit"><ion-icon name="send"></ion-icon></button>
 
