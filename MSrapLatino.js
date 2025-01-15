@@ -336,6 +336,18 @@ const songs = [
         music: "./Eladio Carrion x Natanael Cano  x Ovi - Ele Uve (Remix) ft. Noriel.mp3"
     },
     {   id: 57,
+        name: "Me Llueven",
+        artist: "Bad Bunny x Poeta Callejero x Mark B",
+        img: "./BadBunnyPoetaMarkBmelluevenPic.jpg",
+        music: "./Me Llueven Ft Bad Bunny & Mark B.mp3"
+    },
+    {   id: 58,
+        name: "Tu vas a querer una foto conmigo",
+        artist: "Monkey Black",
+        img: "./MonkeyBlackPic.jpg",
+        music: "./Monkey black Tu vas a querer una foto conmigo.mp3"
+    },
+    {   id: 59,
         name: "PASSOA",
         artist: "Jhayco x Kapo",
         img: "JhayKapoPassoaPic.jpg",
