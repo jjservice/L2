@@ -1218,6 +1218,30 @@ const songs = [
             img: "FotherDarlinPilaDeCotorraPic.jpg",
             music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
         },
+        {   id: 182,
+            name: "BALA",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - BALA.mp3"
+        },
+        {   id: 183,
+            name: "BUSCA ESO",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - BUSCA ESO.mp3"
+        },
+        {   id: 184,
+            name: "ESO DA PENA",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - ESO DA PENA.mp3"
+        },
+        {   id: 185,
+            name: "FUEGO A LA LATA",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - FUEGO A LA LATA.mp3"
+        },
        
  ];
  const searchInput = document.getElementById("search-input");
