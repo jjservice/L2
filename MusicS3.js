@@ -1242,6 +1242,12 @@ const songs = [
             img: "./DowelKingPic.webp",
             music: "./DOWEL KING - FUEGO A LA LATA.mp3"
         },
+        {   id: 186,
+            name: "C473",
+            artist: "Chucky73 x YOVNGCHIMI",
+            img: "./Chucky73xYOVNGCHIMI-C4-73.jpg",
+            music: "./Chucky73 x YOVNGCHIMI - C473.mp3"
+        },
        
  ];
  const searchInput = document.getElementById("search-input");
