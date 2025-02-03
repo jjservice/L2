@@ -1219,36 +1219,47 @@ const songs = [
             music: "El Fother x Darlyn Nay - Pila De Cotorra.mp3"
         },
         {   id: 182,
-            name: "BALA",
-            artist: "Dowel King",
-            img: "./DowelKingPic.webp",
-            music: "./DOWEL KING - BALA.mp3"
-        },
-        {   id: 183,
-            name: "BUSCA ESO",
-            artist: "Dowel King",
-            img: "./DowelKingPic.webp",
-            music: "./DOWEL KING - BUSCA ESO.mp3"
-        },
-        {   id: 184,
-            name: "ESO DA PENA",
-            artist: "Dowel King",
-            img: "./DowelKingPic.webp",
-            music: "./DOWEL KING - ESO DA PENA.mp3"
-        },
-        {   id: 185,
-            name: "FUEGO A LA LATA",
-            artist: "Dowel King",
-            img: "./DowelKingPic.webp",
-            music: "./DOWEL KING - FUEGO A LA LATA.mp3"
-        },
-        {   id: 186,
             name: "C473",
             artist: "Chucky73 x YOVNGCHIMI",
             img: "./Chucky73xYOVNGCHIMI-C4-73.jpg",
             music: "./Chucky73 x YOVNGCHIMI - C473.mp3"
         },
-       
+        {   id: 183,
+            name: "BALA POR TI",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - BALA POR TI.mp3"
+        },
+        {   id: 184,
+            name: "CORAZONES",
+            artist: "@420luisbrown X @johanDza",
+            img: "./LuisBrownCorazonezPic.jpg",
+            music: "./@420luisbrown  X @johanDza  - Corazones.mp3"
+        },
+        {   id: 185,
+            name: "BALA",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - BALA.mp3"
+        },
+        {   id: 186,
+            name: "BUSCA ESO",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - BUSCA ESO.mp3"
+        },
+        {   id: 187,
+            name: "ESO DA PENA",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - ESO DA PENA.mp3"
+        },
+        {   id: 188,
+            name: "FUEGO A LA LATA",
+            artist: "Dowel King",
+            img: "./DowelKingPic.webp",
+            music: "./DOWEL KING - FUEGO A LA LATA.mp3"
+        }            
  ];
  const searchInput = document.getElementById("search-input");
  const songList = document.getElementById("song-list");
