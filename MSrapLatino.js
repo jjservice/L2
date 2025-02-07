@@ -365,12 +365,6 @@ const songs = [
         img: "./MonkeyBlackPic.jpg",
         music: "./Monkey black Tu vas a querer una foto conmigo.mp3"
     },
-    {   id: 62,
-        name: "PASSOA",
-        artist: "Jhayco x Kapo",
-        img: "JhayKapoPassoaPic.jpg",
-        music: "JHAYCO, Kapo - Passoa.mp3"
-    },
 ];
 const searchInput = document.getElementById("search-input");
 const songList = document.getElementById("song-list");
