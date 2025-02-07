@@ -1,10 +1,10 @@
 const songs = [ 
     {
         "id": 1,
-        "name": "It Is What It Is",
-        "artist": "Big Sean x Gunna",
-        "img": "BigSeanGunnaItisWhatItIsPic.jpg",
-        "music": "Big Sean  x Gunna - It Is What It Is.mp3"
+        "name": "Back On the road",
+        "artist": "Cordae ft Lil Wayne",
+        "img": "./cordaeBackOnTheRoadPic.jpg",
+        "music": "./Cordae - Back On The Road.mp3"
     },
     {
         "id": 2,
@@ -215,6 +215,13 @@ const songs = [
         "artist": "BigXthaPlug",
         "img": "BigXThatPlug11111.jpg",
         "music": "BigXthaPlug - Rap Niggas.mp3"
+    },
+    {
+        "id": 32,
+        "name": "It Is What It Is",
+        "artist": "Big Sean x Gunna",
+        "img": "BigSeanGunnaItisWhatItIsPic.jpg",
+        "music": "Big Sean  x Gunna - It Is What It Is.mp3"
     },
     
  ];
